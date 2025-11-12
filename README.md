@@ -34,7 +34,7 @@ From the computer at start of chapter 4.
 
 ## Installation
 Download the `vitality.zip` file from the latest [release](https://github.com/Kyuuhachi/Azure-Vitality/releases)
-and extract `data/` directory into the game's directory (you can open it like a .zip file).
+and extract `data/` directory into the game's directory.
 This is normally at
 `C:\Program Files (x86)\Steam\steamapps\common\The Legend of Heroes Trails to Azure`,
 or it can be found by right-clicking the game in Steam and choosing Manage » Browse local files.

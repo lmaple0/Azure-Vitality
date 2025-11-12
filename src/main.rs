@@ -1,4 +1,4 @@
-#![feature(decl_macro, let_chains, backtrace_frames)]
+#![feature(decl_macro, backtrace_frames)]
 
 use std::path::PathBuf;
 use std::fs;
