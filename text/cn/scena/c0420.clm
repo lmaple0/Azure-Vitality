@@ -1,0 +1,7031 @@
+calmare ao_k scena
+scena:
+	name "c0420" "c0420" "c0420"
+	town town[35]
+	bgm bgm[113]
+	flags 8192
+	item_use fn[0,255]
+	unk 255 0
+
+entry:
+	pos (0, 0, -1000)
+	unk1 0
+	cam_from (0, 0, 24000)
+	cam_pers 500
+	unk2 30
+	cam_deg 45deg
+	cam_limit 0deg 360deg
+	cam_at (0, 0, 0)
+	unk3 0
+	unk4 0
+	flags 0x0001
+	town town[35]
+	init fn[0,4]
+	reinit fn[0,5]
+
+chip[0] "chr/ch05100.itc"
+chip[1] "chr/ch05200.itc"
+chip[2] "chr/ch10000.itc"
+chip[3] "chr/ch25800.itc"
+chip[4] "chr/ch27500.itc"
+chip[5] "chr/ch24200.itc"
+chip[6] "chr/ch28700.itc"
+chip[7] "chr/ch28800.itc"
+chip[8] "chr/ch28900.itc"
+chip[9] "chr/ch29000.itc"
+chip[10] "chr/ch29100.itc"
+chip[11] "chr/ch36600.itc"
+chip[12] "chr/ch36700.itc"
+chip[13] "chr/ch36800.itc"
+chip[14] "chr/ch09800.itc"
+chip[15] "chr/ch36900.itc"
+chip[16] "chr/ch14100.itc"
+chip[17] "chr/ch37000.itc"
+chip[18] "chr/ch09700.itc"
+chip[19] "chr/ch21900.itc"
+chip[20] "chr/ch10100.itc"
+
+npc char[0]:
+	name "壥壥壥"
+	pos (0, 0, 15550)
+	angle 180deg
+	flags 0x0105
+	unk2 0
+	chip chip[0]
+	init fn[0,0]
+	talk fn[0,9]
+	unk4 255
+
+npc char[1]:
+	name "壥壥"
+	pos (1000, 0, 13820)
+	angle 0deg
+	flags 0x0105
+	unk2 0
+	chip chip[1]
+	init fn[0,0]
+	talk fn[0,11]
+	unk4 255
+
+npc char[2]:
+	name "壥壥"
+	pos (-1000, 0, 13820)
+	angle 0deg
+	flags 0x0105
+	unk2 0
+	chip chip[2]
+	init fn[0,0]
+	talk fn[0,12]
+	unk4 255
+
+npc char[3]:
+	name "壥壥壥壥壥"
+	pos (-1880, 10, 15240)
+	angle 135deg
+	flags 0x0105
+	unk2 0
+	chip chip[4]
+	init fn[0,0]
+	talk fn[0,6]
+	unk4 255
+
+npc char[4]:
+	name "壥壥"
+	pos (-66490, 0, 7330)
+	angle 0deg
+	flags 0x0105
+	unk2 0
+	chip chip[5]
+	init fn[0,0]
+	talk fn[0,17]
+	unk4 255
+
+npc char[5]:
+	name "壥壥"
+	pos (64750, 0, 3480)
+	angle 135deg
+	flags 0x0185
+	unk2 0
+	chip chip[6]
+	init fn[0,0]
+	talk fn[0,18]
+	unk4 255
+
+npc char[6]:
+	name "壥壥壥壥"
+	pos (-2550, 1250, 19700)
+	angle 0deg
+	flags 0x0185
+	unk2 0
+	chip chip[7]
+	init fn[0,0]
+	talk fn[0,21]
+	unk4 255
+
+npc char[7]:
+	name "壥壥"
+	pos (64750, 0, 3480)
+	angle 135deg
+	flags 0x0105
+	unk2 0
+	chip chip[8]
+	init fn[0,0]
+	talk fn[0,16]
+	unk4 255
+
+npc char[8]:
+	name "壥壥壥"
+	pos (2250, 0, 14750)
+	angle 270deg
+	flags 0x0185
+	unk2 0
+	chip chip[9]
+	init fn[0,0]
+	talk fn[0,22]
+	unk4 255
+
+npc char[9]:
+	name "壥壥壥"
+	pos (-68130, 0, 2140)
+	angle 270deg
+	flags 0x0185
+	unk2 0
+	chip chip[10]
+	init fn[0,0]
+	talk fn[0,23]
+	unk4 255
+
+npc char[10]:
+	name "壥壥壥壥"
+	pos (-123800, 0, -2290)
+	angle 180deg
+	flags 0x0105
+	unk2 0
+	chip chip[19]
+	init fn[0,0]
+	talk fn[0,25]
+	unk4 255
+
+npc char[11]:
+	name "壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[12]:
+	name "壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[13]:
+	name "壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[14]:
+	name "壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x00C4
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[15]:
+	name "克萝蒂雅公主"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C1
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[16]:
+	name "尤莉亚准校"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C1
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+trigger[0]:
+	pos (0.0, 7080.0, 0.0)
+	radius 14062.5
+	transform
+		0.33333334 -0.0 0.0 -0.0
+		-0.0 0.4 -0.0 -2.832
+		0.0 -0.0 0.2 -0.0
+		0.0 0.0 0.0 1.0
+		// translate (-0.0, 7.0799994, -0.0)
+		// rotate (1.0, 0.0, 0.0) 0.0deg
+		// scale (3.0, 2.4999998, 4.9999995)
+	unk1 0
+	unk2 0
+	function fn[0,27]
+	unk3 0
+	unk4 0
+	unk5 0
+	unk6 0
+
+trigger[1]:
+	pos (-60390.0, 3000.0, -1000.0)
+	radius 12250.0
+	transform
+		0.5 -0.0 0.0 30.195
+		-0.0 0.2857143 -0.0 -0.8571429
+		0.0 -0.0 0.2 0.2
+		0.0 0.0 0.0 1.0
+		// translate (-60.39, 3.0, -0.99999994)
+		// rotate (1.0, 0.0, 0.0) 0.0deg
+		// scale (1.9999999, 3.4999998, 4.9999995)
+	unk1 0
+	unk2 0
+	function fn[0,28]
+	unk3 0
+	unk4 0
+	unk5 0
+	unk6 0
+
+trigger[2]:
+	pos (0.0, 7080.0, 0.0)
+	radius 14062.5
+	transform
+		0.33333334 -0.0 0.0 -0.0
+		-0.0 0.4 -0.0 -2.832
+		0.0 -0.0 0.2 -0.0
+		0.0 0.0 0.0 1.0
+		// translate (-0.0, 7.0799994, -0.0)
+		// rotate (1.0, 0.0, 0.0) 0.0deg
+		// scale (3.0, 2.4999998, 4.9999995)
+	unk1 0
+	unk2 0
+	function fn[0,31]
+	unk3 0
+	unk4 0
+	unk5 0
+	unk6 0
+
+fn[0]:
+	switch random % 8:
+		case 0:
+			ED7_A0 self 1450ms 0 251
+			break
+		case 1:
+			ED7_A0 self 1550ms 0 251
+			break
+		case 2:
+			ED7_A0 self 1600ms 0 251
+			break
+		case 3:
+			ED7_A0 self 1400ms 0 251
+			break
+		case 4:
+			ED7_A0 self 1650ms 0 251
+			break
+		case 5:
+			ED7_A0 self 1350ms 0 251
+			break
+		case 6:
+			ED7_A0 self 1500ms 0 251
+			break
+		default:
+			ED7_A0 self 1500ms 0 251
+			break
+	while 1:
+		ED7_A0 self 1500ms 0 251
+	Return
+
+fn[1]:
+	while 1:
+		CharIdle self (62680, null, 1330) (66890, null, 5550) 1000mm/s
+		Sleep 300ms
+	Return
+
+fn[2]:
+	while 1:
+		CharWalkToPos self (61750, 0, 3480) 2000mm/s 0
+		Sleep 300ms
+		CharTurnTo self 90deg 750deg/s
+		Sleep 300ms
+		CharWalkToPos self (66750, 0, 3480) 2000mm/s 0
+		Sleep 300ms
+		CharTurnTo self 270deg 750deg/s
+		Sleep 300ms
+	Return
+
+fn[3]:
+	while 1:
+		CharIdle self (-25550, null, 7180) (-28790, null, 4360) 1000mm/s
+		Sleep 300ms
+	Return
+
+fn[4]:
+	if flag[3385]:
+		CharFlagsUnset char[5] 0x0080
+		CharFlagsUnset char[6] 0x0080
+		CharSetPos char[5] (3520, 1250, 22730) 90deg
+		CharSetPos char[6] (4800, 1250, 22730) 270deg
+		CharSetPos char[2] (0, 1250, 27230) 0deg
+		CharSetChipBase char[2] chip[20]
+		if !flag[3824]:
+			CharFlagsSet char[2] 0x0010
+		if flag[3825]:
+			CharSetChipBase char[2] chip[2]
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[7] 0x0080
+	elif flag[3371]:
+		CharFlagsUnset char[9] 0x0080
+		CharFlagsUnset char[5] 0x0080
+		CharSetPos char[3] (0, 0, 15300) 0deg
+		CharSetPos char[5] (0, 1250, 27300) 180deg
+		CharSetPos char[7] (-1390, 1250, 26170) 90deg
+		CharSetPos char[9] (1390, 1250, 26170) 270deg
+		CharSetChipBase char[5] chip[11]
+		CharSetChipBase char[7] chip[13]
+		CharSetChipBase char[9] chip[17]
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+	elif flag[3089]:
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharSetPos char[3] (0, 0, 15300) 0deg
+		CharFlagsUnset char[9] 0x0080
+		CharSetPos char[2] (0, 1250, 27300) 180deg
+		CharSetPos char[7] (-1390, 1250, 26170) 90deg
+		CharSetPos char[9] (1390, 1250, 26170) 270deg
+		CharFlagsSet char[2] 0x0010
+		CharFlagsSet char[7] 0x0010
+		CharFlagsSet char[9] 0x0010
+		CharSetChipBase char[2] chip[16]
+		CharSetChipBase char[7] chip[13]
+		CharSetChipBase char[9] chip[17]
+		CharFlagsUnset char[5] 0x0080
+		CharFlagsUnset char[6] 0x0080
+		CharFlagsUnset char[8] 0x0080
+		CharSetPos char[5] (65610, 0, 4550) 225deg
+		CharSetPos char[6] (65000, 0, 3000) 270deg
+		CharSetPos char[8] (63670, 0, 3590) 90deg
+		CharFlagsSet char[5] 0x0010
+		CharFlagsSet char[6] 0x0010
+		CharFlagsSet char[8] 0x0010
+		CharSetChipBase char[5] chip[11]
+		CharSetChipBase char[6] chip[12]
+		CharSetChipBase char[8] chip[15]
+	elif flag[3074]:
+		CharSetPos char[3] (-62780, 0, 3150) 90deg
+		if !flag[3176]:
+			CharFlagsSet char[3] 0x0010
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharSetPos char[4] (-66490, 0, 7330) 0deg
+	elif flag[2861]:
+		CharFlagsSet char[0] 0x0010
+		CharFlagsSet char[1] 0x0010
+		CharFlagsSet char[2] 0x0010
+		CharFlagsUnset char[5] 0x0080
+		CharFlagsUnset char[6] 0x0080
+		CharSetPos char[5] (-1390, 1250, 25170) 90deg
+		CharSetPos char[6] (1390, 1250, 25170) 270deg
+		if !flag[5]:
+			CharFlagsSet char[5] 0x0010
+		if !flag[6]:
+			CharFlagsSet char[6] 0x0010
+		CharFlagsUnset char[9] 0x0080
+		CharSetPos char[9] (64000, 0, 3000) 90deg
+		CharSetPos char[7] (65000, 0, 3000) 270deg
+		if !flag[9]:
+			CharFlagsSet char[9] 0x0010
+		if !flag[10]:
+			CharFlagsSet char[7] 0x0010
+	elif flag[2848]:
+		CharSetChipBase char[2] chip[16]
+		if !QuestFlagsGet quest[141] 0x10:
+			CharSetPos char[2] (-50, 0, 15980) 180deg
+			CharFlagsSet char[0] 0x0080
+		else:
+			CharSetChipBase char[0] chip[18]
+			CharSetPos char[0] (-1390, 1250, 25170) 90deg
+			CharSetPos char[2] (1390, 1250, 25170) 270deg
+			CharFlagsSet char[0] 0x0010
+			CharFlagsSet char[2] 0x0010
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[3] 0x0080
+	elif flag[2837]:
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[7] 0x0080
+	elif flag[2832]:
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[7] 0x0080
+	elif flag[2816]:
+		CharFlagsSet char[7] 0x0080
+		CharSetPos char[2] (1390, 1250, 26170) 270deg
+		CharSetPos char[1] (-1390, 1250, 26170) 90deg
+		CharSetPos char[3] (80, 1250, 24110) 0deg
+		CharSetPos char[0] (-6130, 15200, -2810) 45deg
+		CharSetChipBase char[2] chip[16]
+		CharSetChipBase char[1] chip[14]
+	elif flag[2573]:
+		CharFlagsSet char[3] 0x0080
+		CharFlagsUnset char[5] 0x0080
+		CharFlagsUnset char[6] 0x0080
+		CharSetPos char[5] (-1390, 1250, 25170) 90deg
+		CharSetPos char[6] (1390, 1250, 25170) 270deg
+		CharFlagsSet char[5] 0x0010
+		CharFlagsSet char[6] 0x0010
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharSetPos char[2] (64000, 0, 3000) 90deg
+		CharSetPos char[7] (65000, 0, 3000) 270deg
+		if !flag[4]:
+			CharFlagsSet char[2] 0x0010
+		if !flag[10]:
+			CharFlagsSet char[7] 0x0010
+	elif flag[2564]:
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[3] 0x0080
+	elif flag[2560]:
+		CharSetChipBase char[0] chip[18]
+		CharSetChipBase char[1] chip[14]
+		CharSetChipBase char[7] chip[13]
+		CharSetPos char[2] (7570, 0, 17850) 315deg
+		CharSetPos char[7] (67000, 0, 3000) 90deg
+		CharSetPos char[3] (0, 1250, 30300) 180deg
+		CharSetPos char[0] (-1390, 1250, 29170) 90deg
+		CharSetPos char[1] (1390, 1250, 29170) 270deg
+	elif flag[2369]:
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[2] 0x0080
+	elif flag[2353]:
+		CharSetPos char[3] (-64489, 0, 7330) 270deg
+		CharTurnTo char[4] 90deg 0deg/s
+		CharFlagsSet char[3] 0x0010
+		CharFlagsSet char[4] 0x0010
+		CharSetPos char[7] (65000, 0, 3000) 180deg
+		ForkFunc char[7] fork[0] fn[0,1]
+	if flag[272]:
+		FlagUnset flag[272]
+		Event fn[0,43]
+	elif flag[273]:
+		FlagUnset flag[273]
+		Event fn[0,59]
+	if system[0] == 100:
+		if flag[3371]:
+			if PartyPosition name[5] > -1:
+				if !flag[3709]:
+					Event fn[0,34]
+			elif !flag[3708] && !flag[3709]:
+				Event fn[0,32]
+			elif flag[3708] && !flag[3709]:
+				Event fn[0,33]
+		elif flag[2848] && !flag[2861] && !QuestFlagsGet quest[141] 0x10 && !QuestFlagsGet quest[141] 0x40 && !flag[3012]:
+			Event fn[0,56]
+	elif system[0] == 101 && QuestFlagsGet quest[116] 0x02 && !QuestFlagsGet quest[116] 0x10 && !QuestFlagsGet quest[116] 0x40 && flag[2733] && !flag[2734]:
+		Event fn[0,37]
+	Return
+
+fn[5]:
+	if flag[3074] && !flag[3082]:
+		system[1] = 563
+	elif flag[3082] && !flag[3093]:
+		system[1] = 151
+	TriggerFlagsSet trigger[0] 0x0080
+	TriggerFlagsSet trigger[1] 0x0080
+	TriggerFlagsSet trigger[2] 0x0080
+	if flag[3089]:
+	elif flag[3074]:
+	elif flag[2861]:
+		if !flag[2927]:
+			TriggerFlagsUnset trigger[2] 0x0080
+	elif flag[2848]:
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+		TriggerFlagsUnset trigger[1] 0x0080
+	elif flag[2573]:
+	elif flag[2564]:
+	elif flag[2560]:
+	elif flag[2369]:
+	elif flag[2353]:
+		if !flag[2490]:
+			TriggerFlagsUnset trigger[0] 0x0080
+	if flag[2734] && !QuestFlagsGet quest[116] 0x10:
+		TriggerFlagsUnset trigger[2] 0x0080
+		EntranceSetFunc entrance[2] fn[0,42]
+	if !flag[3089] && flag[3074]:
+		ObjFlagsUnset object[26] 0x0004
+	if flag[3371]:
+		ObjFlagsUnset object[28] 0x0004
+		ObjFlagsSet object[28] 0x1000
+		ObjFlagsUnset object[27] 0x0004
+		ObjFlagsSet object[27] 0x1000
+		ED7_76_0 object[255] "curtain" 1
+		ED7_76_0 object[27] "kesu" 1
+	Return
+
+fn[6]:
+	TextStart self
+	if flag[3371]:
+		if !flag[3709]:
+			TextTalk self {
+				如何？大家都很拼命吧？{wait}
+			}
+			TextWait
+			TextTalk self {
+				大家现在为了
+				尽早让公演继续举办下去，
+				正全心全力努力着。{wait}
+			}
+			TextWait
+			TextTalk self {
+				听说伊莉雅也
+				已经醒过来了……
+				我们可不能辜负她的期望。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00000F（……看来剧团的成员们
+				　连莉夏目前人在哪里
+				　都不知道吧。）{wait}
+			} {
+				（虽然很想让他们
+				　见上一面，不过……）{wait}
+			}
+			TextWait
+		else:
+			TextTalk self {
+				我们就跟往常一样，
+				在这里努力钻研表演，
+				并继续等候她。{wait}
+			}
+			TextWait
+			TextTalk self {
+				罗伊德、还有各位，
+				莉夏的事情
+				就拜托你们了。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00000F好，我明白了。{wait}
+			}
+			TextWait
+			if PartyPosition name[5] > -1:
+				TextTalk name[5] {
+					#10700F团长……
+					谢谢您。{wait}
+				}
+				TextWait
+	elif flag[3089]:
+		TextTalk self {
+			大家真的
+			都做得很好。{wait}
+		}
+		TextWait
+		TextTalk self {
+			伊莉雅、莉夏……
+			我们一定会等你们回来的。{wait}
+		}
+		TextWait
+	elif flag[3074]:
+		if !flag[3176]:
+			Emote char[3] 0mm 2000mm 38 38 250ms 1
+			Sleep 1000ms
+			CharTurnToChar self name[0] 0deg/s
+			TextTalk char[3] {
+				喔，是罗伊德啊……{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				…………{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00003F团长……{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				啊……抱歉。{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				我左思右想之，
+				还是觉得很不安。{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				伊莉雅是个坚强的人。
+				我相信她一定能清醒过来，
+				不过……{wait}
+			}
+			TextWait
+			TextTalk name[1] {
+				#00108F团长先生……{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				呼，不过，我再怎么担心
+				也改变不了什么。{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				我……我也得
+				再坚强一点才行。{wait}
+			}
+			TextWait
+			CharFlagsUnset char[3] 0x0010
+			FlagSet flag[3176]
+		else:
+			TextTalk self {
+				呼，我也差不多
+				该振作起来了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				老是这样沮丧的话，
+				伊莉雅一定会骂我吧。{wait}
+			}
+			TextWait
+	elif flag[2861]:
+		TextTalk self {
+			罗伊德，还有各位，不好意思啊。{wait}
+		}
+		TextWait
+		TextTalk self {
+			正式表演就快开始了。
+			大家都想好好利用时间，
+			准备到最后一刻。{wait}
+		}
+		TextWait
+	elif flag[2848]:
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+	elif flag[2573]:
+	elif flag[2564]:
+	elif flag[2560]:
+		if !flag[2654]:
+			Call fn[0,8]
+		else:
+			TextTalk self {
+				伊莉雅真是
+				太可靠啦。{wait}
+			}
+			TextWait
+			TextTalk self {
+				看这情况，她一定可以让
+				明天的表演进行得很顺利。{wait}
+			}
+			TextWait
+	elif flag[2369]:
+	elif flag[2353]:
+		if !flag[0]:
+			Call fn[0,7]
+		else:
+			TextTalk self {
+				这要求或许有点勉强，
+				不过还是拜托你们。{wait}
+			}
+			TextWait
+			TextTalk self {
+				这也是为了实现
+				伊莉雅的构想。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[7]:
+	_Char4A char[3] 255
+	_Char4A char[4] 255
+	if !flag[2484]:
+		TextTalk char[3] {
+			那么，汉斯。
+			技术上可行吗？{wait}
+		}
+		TextWait
+		TextTalk char[4] {
+			这个嘛，
+			我当然会试试看，不过……{wait}
+		}
+		TextWait
+		Emote char[3] 0mm 2000mm 38 38 250ms 1
+		Sleep 1000ms
+		CharTurnToChar char[3] field_party[0] 0deg/s
+		if system[10] == 0 | system[10] == 1:
+			TextTalk char[3] {
+				喔喔，是特务支援课的各位啊。{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				该不会是
+				发生了什么事件吧？{wait}
+			}
+			TextWait
+		else:
+			TextTalk char[3] {
+				哎呀，你们是……{wait}
+			}
+			TextWait
+			Emote char[3] 0mm 2000mm 38 38 250ms 1
+			Sleep 1000ms
+			CharTurnToChar char[3] name[0] 0deg/s
+			TextTalk char[3] {
+				喔喔，这不是
+				特务支援课的罗伊德吗？{wait}
+			}
+			TextWait
+			TextTalk char[3] {
+				该不会是
+				发生了什么事件吧？{wait}
+			}
+			TextWait
+		TextTalk name[0] {
+			#00000F不是的，我们只是在市内
+			四处看看而已。{wait}
+		} {
+			为了预防万一，所以才会
+			才来您这里拜访。{wait}
+		}
+		TextWait
+		TextTalk char[3] {
+			嗯，原来是这样啊。
+			你们肯来这里巡逻，
+			对我们也是件好事。{wait}
+		}
+		TextWait
+		TextTalk char[3] {
+			嗯，要是还有什么事的话，
+			千万别客气，随时都可以找我。{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00100F好的，谢谢。{wait}
+		}
+		TextWait
+		CharTurnTo char[3] 270deg 0deg/s
+		CharTurnTo char[4] 90deg 0deg/s
+		FlagSet flag[2484]
+	else:
+		TextTalk char[4] {
+			不过，这样好吗？{wait}
+		}
+		TextWait
+		TextTalk char[4] {
+			速度越快，
+			要配合的时机也
+			越难掌握……{wait}
+		}
+		TextWait
+		TextTalk char[3] {
+			嗯，这点
+			伊莉雅也很清楚。{wait}
+		}
+		TextWait
+		TextTalk char[3] {
+			据她所说，就这次表演的
+			架构来看，这一幕非得
+			把整体的节奏加快不可。{wait}
+		}
+		TextWait
+		TextTalk char[3] {
+			她想把节奏加到
+			最快的极限试试看。{wait}
+		}
+		TextWait
+		TextTalk char[4] {
+			这样啊……
+			那我再试试看。{wait}
+		}
+		TextWait
+		FlagSet flag[0]
+		FlagSet flag[11]
+	_Char4B char[3] 255
+	_Char4B char[4] 255
+	Return
+
+fn[8]:
+	EventBegin 0
+	CrossFade 500ms
+	_Char4A char[3] 255
+	_Char4A char[0] 255
+	_Char4A char[1] 255
+	CharSetPos name[0] (-900, 1250, 26340) 0deg
+	CharSetPos name[1] (800, 1250, 26340) 0deg
+	CharSetPos name[8] (-1500, 1250, 25200) 0deg
+	CharSetPos name[4] (0, 1250, 25400) 0deg
+	CharSetPos name[3] (1500, 1250, 25200) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharTurnTo char[3] 180deg 0deg/s
+	CharTurnTo char[0] 180deg 0deg/s
+	CharTurnTo char[1] 180deg 0deg/s
+	CamSetDistance -610 2600 26940 0ms
+	ED7CamRotate 27deg 16deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 15740 0ms
+	FadeWait
+	TextTalk char[3] {
+		哎呀……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#06105F哎呀呀，这不是弟弟和伙伴们吗？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F您好，打扰您了。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#06202F大家好。{wait}
+	} {
+		#06209F呵呵，看来兰迪先生
+		终于也复出啰。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#12P#00300F喔，莉夏就是贴心。
+		你这么关心我，我好开心啊。{wait}
+	} {
+		#00309F哎呀～不过话说回来，
+		伊莉雅小姐和莉夏这身打扮……{wait}
+	} {
+		真是百看不厌啊㈱{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#06102F呵呵，多谢夸奖。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#06204F啊，听你这么一说，
+		还真的有点不好意思…{wait}
+	}
+	TextWait
+	CharTurnToChar name[4] name[3] 500deg/s
+	TextTalk name[4] {
+		#6P#10304F呵呵，兰迪你的眼神
+		的确很下流耶。{wait}
+	}
+	TextWait
+	CharTurnToChar name[3] name[4] 500deg/s
+	Sleep 300ms
+	TextTalk name[3] {
+		#11P#00301F瓦奇你说啥？
+		我一直都是用纯粹欣赏的眼光──{wait}
+	}
+	TextWait
+	CharTurnToChar name[1] name[3] 500deg/s
+	TextTalk name[1] {
+		#11P#00106F好啦好啦，我知道啦，
+		反正你别太过火可以吗？{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote char[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote char[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote char[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	Fork name[1] fork[0]:
+		CharTurnTo name[1] 0deg 500deg/s
+	Sleep 50ms
+	Fork name[4] fork[0]:
+		CharTurnTo name[4] 0deg 500deg/s
+	Sleep 50ms
+	Fork name[3] fork[0]:
+		CharTurnTo name[3] 0deg 500deg/s
+	Sleep 50ms
+	ForkWait name[1] fork[0]
+	ForkWait name[4] fork[0]
+	ForkWait name[3] fork[0]
+	TextTalk name[8] {
+		#12P#10109F啊、啊哈哈……{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00006F抱歉喔，他们这么吵。{wait}
+	} {
+		#00000F对了，两位现在
+		正在练习是吗？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#06100F是啊。
+		现在正在针对
+		明晚的表演进行调整。{wait}
+	}
+	TextWait
+	CharTurnToChar char[1] name[0] 500deg/s
+	TextTalk char[1] {
+		#06202F呵呵，不过因为
+		明天的观众都是大人物，
+		我们还是会紧张。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		对啊，没想到各国领导人
+		会来我们这边看表演。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[0] {
+		#12P#00005F领导人……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00105F对了，今天早上的对策会议中，
+		好像有讨论过了吧？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10302F呵呵，毕竟是要让大家
+		来克洛斯贝尔作客。{wait}
+	} {
+		#10304F彩虹剧团的表演
+		可说是最高级的招待嘛。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#12P#00300F嗯，这样思考的话，
+		这个安排也是理所当然的。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10100F不过，真的会令人很紧张耶。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#06203F嗯，其他团员好像
+		也静不太下心来……{wait}
+	} {
+		#06209F话虽如此，伊莉雅小姐
+		倒是和平时一样就是了。{wait}
+	}
+	TextWait
+	CharTurnToChar char[0] char[1] 500deg/s
+	TextTalk char[0] {
+		#06103F嗯，这种事情要是计较起来，
+		肯定会没完没了吧。{wait}
+	} {
+		#06100F不管观众席上的是谁，反正
+		我们尽全力表演就对了嘛。{wait}
+	}
+	TextWait
+	CharTurnToChar char[3] char[0] 500deg/s
+	TextTalk char[3] {
+		#11P你也真是的……
+		总是可靠到令人不敢置信啊。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#11P这次改版公演的提案也是，
+		你的正能量总是让我佩服得五体投地。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[0] {
+		#12P#00005F改版公演……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00100F这么说来……
+		这次各位要改版的是
+		『金之太阳、银之月』对吧？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10300F是啊，外界已经
+		传得沸沸扬扬的了。{wait}
+	} {
+		据说会加入一些
+		大胆的改编是吗？{wait}
+	}
+	TextWait
+	Fork char[0] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	CharTurnTo char[3] 180deg 500deg/s
+	TextTalk char[0] {
+		#06109F对，就是这样。{wait}
+	} {
+		#06104F更改已经完成的作品，
+		对我们算是一种挑战，不过……{wait}
+	} {
+		#06100F我们总算找到着力点，能让
+		本作完成度更高，从剧本和
+		导演的观点来说也是如此。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#06202F没错，这次的一般公演结束后，
+		我们预计将会
+		花上一个月实施特训。{wait}
+	}
+	TextWait
+	if flag[2490]:
+		TextTalk name[0] {
+			#12P#00000F原来如此，
+			难怪上次见面时，您会说
+			『接下来应该会很忙』。{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#06100F呵呵，就是这么一回事。{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#12P#12P#10100F不过，竟然要花一个月特训啊……
+			虽然只是改编，不过
+			看来各位真的是尽心尽力呢。{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[8] {
+			#12P#10100F原来如此……
+			虽然只是改编，不过
+			看来各位真的是尽心尽力呢。{wait}
+		}
+		TextWait
+	TextTalk name[3] {
+		#12P#00300F『金之太阳、银之月』在
+		彩虹剧团的舞台剧当中也是
+		公认完成度很高的一部戏，可是……{wait}
+	} {
+		#00304F竟然还要好上加好，我实在
+		很难想像究竟还能变得多好啊。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F嗯，就是说啊。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#06100F呵呵，既然已经决定要活在舞台上了，
+		当然得时时刻刻追求完美才行。{wait}
+	} {
+		#06104F为了演出最精彩的舞台表演，
+		让来捧场的观众留下
+		最美好的回忆……{wait}
+	} {
+		#06100F这正是彩虹剧团，
+		以及我们这些演员
+		最重要的使命。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00102F在表演方面，
+		真的没人能赢过伊莉雅小姐呢……
+		真的好厉害喔。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10109F嗯，我现在对改版公演
+		真的是超级期待的！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#06100F呵呵，相关消息会在近期内
+		正式公布，敬请期待啰。{wait}
+	} {
+		即使是看过旧版的观众，
+		也能好好享受这次的公演喔。{wait}
+	} {
+		#06104F再加上在选角方面
+		也会安排一些惊喜……
+		一定会让大家很意外。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F有惊喜啊……
+		哈哈，既然如此，那我可要
+		拭目以待啰。{wait}
+	}
+	TextWait
+	_59
+	CharTurnTo char[0] 90deg 0deg/s
+	CharTurnTo char[1] 270deg 0deg/s
+	_Char4B char[3] 255
+	_Char4B char[0] 255
+	_Char4B char[1] 255
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharSetPos field_party[0] (0, 1250, 27240) 180deg
+	FlagSet flag[2654]
+	system[108] += 2
+	EventEnd 5
+	Return
+
+fn[9]:
+	TextStart self
+	if flag[3089]:
+	elif flag[3074]:
+	elif flag[2861]:
+		_Char4A char[1] 255
+		_Char4A char[2] 255
+		TextTalk char[0] {
+			#01700F那么，我们现在先确认一遍
+			《月之姬》跟在两位公主后面
+			登场的场景喔。{wait}
+		} {
+			莉夏、修莉，准备好了吗？{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#01800F嗯……麻烦你了！{wait}
+		}
+		TextWait
+		TextTalk char[2] {
+			#04200F我也没问题！{wait}
+		}
+		TextWait
+		_Char4B char[2] 255
+		_Char4B char[1] 255
+	elif flag[2848]:
+		Call fn[0,10]
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+		if !flag[3043]:
+			Call fn[0,30]
+		elif !flag[2]:
+			TextTalk char[0] {
+				#01709F呵呵，好久没有像这样
+				想起以前的往事了。{wait}
+			} {
+				#01700F嗯，若不嫌弃的话，
+				请大家一定要来欣赏
+				这次的改版公演喔。{wait}
+			} {
+				莉夏和修莉也在那里
+				努力准备着，有她们在，
+				这出舞台剧保证精彩可期。{wait}
+			}
+			TextWait
+			FlagSet flag[2]
+		else:
+			TextTalk char[0] {
+				#01700F请大家一定要来欣赏
+				这次的改版公演喔。{wait}
+			} {
+				莉夏和修莉也在那里
+				努力准备着，有她们在，
+				这出舞台剧保证精彩可期。{wait}
+			}
+			TextWait
+	elif flag[2573]:
+	elif flag[2564]:
+	elif flag[2560]:
+		if !flag[2654]:
+			Call fn[0,8]
+		elif !flag[2]:
+			TextTalk char[0] {
+				#06100F既然已经决定要活在舞台上了，
+				当然得时时刻刻追求完美才行。{wait}
+			} {
+				#06104F为了演出最精彩的舞台表演，
+				让来捧场的观众留下
+				最美好的回忆……{wait}
+			} {
+				#06102F这正是彩虹剧团，
+				以及我们这些演员
+				最重要的使命。{wait}
+			}
+			TextWait
+			FlagSet flag[2]
+		else:
+			TextTalk char[0] {
+				#06100F呵呵，改版公演的相关消息
+				将会在近期内正式公布，
+				敬请期待啰。{wait}
+			} {
+				#06104F即使是看过旧版的观众，
+				也能好好享受这次的公演喔。{wait}
+			}
+			TextWait
+	elif flag[2369]:
+	elif flag[2353]:
+		if !flag[2]:
+			TextTalk char[0] {
+				#01700F呵呵，在新人加入后，感觉上
+				弟弟你们也总算重新出发了呢。{wait}
+			} {
+				#01700F赛西儿好像也很期待
+				和弟弟你们见面喔。{wait}
+			} {
+				#01709F哎呀～真令人嫉妒啊！你这家伙㈱{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00012F哈、哈哈……
+				请别再取笑我了啦。{wait}
+			} {
+				#00004F（不过，我的确得在近期内
+				　去好好问候赛西儿姐姐一声才行。）{wait}
+			}
+			TextWait
+			FlagSet flag[2]
+		else:
+			TextTalk char[0] {
+				#01700F呵呵，关于我们未来的动向，
+				就请各位拭目以待啰。{wait}
+			} {
+				#01709F现在还不能告诉你们，
+				不过我保证一定会很有趣！{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[10]:
+	_Char4A char[0] 255
+	_Char4A char[2] 255
+	TextTalk char[0] {
+		#06100F来吧，修莉。
+		剩下的时间也不多了，
+		我会要求得很严格喔。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12201F好、好的……！{wait}
+	}
+	TextWait
+	_Char4B char[0] 255
+	_Char4B char[2] 255
+	Return
+
+fn[11]:
+	TextStart self
+	if flag[3089]:
+	elif flag[3074]:
+	elif flag[2861]:
+		if !flag[3]:
+			TextTalk char[1] {
+				#01808F──抱歉，因为就快要正式演出了。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00008F（莉夏……）{wait}
+			}
+			TextWait
+			FlagSet flag[3]
+		else:
+			TextTalk char[1] {
+				#01801F伊莉雅小姐……拜托你了！{wait}
+			}
+			TextWait
+	elif flag[2848]:
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+	elif flag[2573]:
+	elif flag[2564]:
+	elif flag[2560]:
+		if !flag[2654]:
+			Call fn[0,8]
+		elif !flag[2656]:
+			TextTalk char[1] {
+				#06203F通商会议……看来各式各样的人
+				都会来到克洛斯贝尔市呢。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00000F莉夏，
+				你也紧张起来了是吗？{wait}
+			}
+			TextWait
+			TextTalk char[1] {
+				#06208F嗯，紧张是紧张，可是……{wait}
+			}
+			TextWait
+			TextTalk name[1] {
+				#00105F还有其他事情让你担心吗？{wait}
+			}
+			TextWait
+			TextTalk char[1] {
+				#06202F啊、不是的，其实也不是
+				什么大不了的事情，
+				请别在意。{wait}
+			} {
+				#06204F说的也是，
+				总之我们现在得专心
+				准备舞台演出才行。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00005F嗯、好……{wait}
+			} {
+				#00003F（通商会议是不是
+				　有什么事情让莉夏特别在意呢？）{wait}
+			}
+			TextWait
+			FlagSet flag[2656]
+		else:
+			TextTalk char[1] {
+				#06206F我这个人啊，就是很容易
+				就会想太多的类型，对吧？{wait}
+			} {
+				#06201F总之，我们现在得专心
+				准备舞台演出才行。{wait}
+			}
+			TextWait
+	elif flag[2369]:
+	elif flag[2353]:
+		if !flag[3]:
+			TextTalk char[1] {
+				#01802F新成员加入后，支援课重新出发……
+				从今以后，我也会尽力
+				声援各位的努力喔。{wait}
+			} {
+				只要你们愿意，随时欢迎
+				大家到这边来玩喔。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00000F嗯，你也一样，如果有需要的话，
+				随时都可以来找我们商量。{wait}
+			} {
+				我们一定会帮忙的。{wait}
+			}
+			TextWait
+			TextTalk char[1] {
+				#01809F呵呵，那就拜托各位啰。{wait}
+			}
+			TextWait
+			FlagSet flag[3]
+		else:
+			TextTalk char[1] {
+				#01802F新成员加入后，支援课重新出发……
+				从今以后，我也会尽力
+				声援各位的努力喔。{wait}
+			} {
+				#01809F只要你们愿意，随时欢迎
+				大家到这边来玩喔。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[12]:
+	if flag[2848] && !flag[2861] && !QuestFlagsGet quest[141] 0x10 && !QuestFlagsGet quest[141] 0x40 && flag[3012]:
+		Call fn[0,58]
+		Return
+	TextStart self
+	if flag[3385]:
+		if !flag[3824]:
+			Call fn[0,35]
+		elif PartyPosition name[5] > -1 && flag[3432] && !flag[3711]:
+			if flag[3825]:
+				TextTalk char[2] {
+					#04200F这么说来，你们
+					已经去探望过
+					伊莉雅小姐了，对吧？{wait}
+				}
+				TextWait
+				TextTalk name[0] {
+					#00000F嗯，去探望过几次了，
+					她现在很有精神呢。{wait}
+				}
+				TextWait
+				TextTalk char[2] {
+					#04203F这样啊……{wait}
+				} {
+					#04200F呃，那莉夏姐呢……？{wait}
+				}
+				TextWait
+				TextTalk name[5] {
+					#10708F嗯……还没面对面
+					和她说过话，不过她有隔着
+					病房的门和我打招呼……{wait}
+				} {
+					#10702F怎么说呢……
+					抱歉喔，修莉。
+					让你担心了。{wait}
+				}
+				TextWait
+				TextTalk char[2] {
+					#04205F你怎么这么说？我并没有……{wait}
+				} {
+					#04204F不过……
+					我觉得好像可以放心了。{wait}
+				} {
+					#04202F因为我终于
+					可以确定了，莉夏姐是不会
+					离开我们的。{wait}
+				}
+				TextWait
+				TextTalk name[5] {
+					#10702F修莉……{wait}
+				}
+				TextWait
+				Emote char[2] 0mm 2000mm 40 43 100ms 0
+				Sleep 1000ms
+				EmoteStop char[2]
+				TextTalk char[2] {
+					#04206F抱歉，莉夏姐。
+					我好像说了些很傲慢的话。{wait}
+				} {
+					#04202F总之，我一定会
+					在这里等你回来。{wait}
+				} {
+					#04209F你一定要早点回来喔！{wait}
+				}
+				TextWait
+				TextTalk name[5] {
+					#10702F呵呵……好，我知道了。{wait}
+				}
+				TextWait
+			else:
+				TextTalk char[2] {
+					#14000F这么说来，你们
+					已经去探望过
+					伊莉雅小姐了，对吧？{wait}
+				}
+				TextWait
+				TextTalk name[0] {
+					#00000F嗯，去探望过几次了，
+					她现在很有精神呢。{wait}
+				}
+				TextWait
+				TextTalk char[2] {
+					#14003F这样啊……{wait}
+				} {
+					#14000F呃，那莉夏姐呢……？{wait}
+				}
+				TextWait
+				TextTalk name[5] {
+					#10708F嗯……还没面对面
+					和她说过话，不过她有隔着
+					病房的门和我打招呼……{wait}
+				} {
+					#10702F怎么说呢……
+					抱歉喔，修莉。
+					让你担心了。{wait}
+				}
+				TextWait
+				TextTalk char[2] {
+					#14005F你怎么这么说？我并没有……{wait}
+				} {
+					#14004F不过……
+					我觉得好像可以放心了。{wait}
+				} {
+					#14002F因为我终于
+					可以确定了，莉夏姐是不会
+					离开我们的。{wait}
+				}
+				TextWait
+				TextTalk name[5] {
+					#10702F修莉……{wait}
+				}
+				TextWait
+				Emote char[2] 0mm 2000mm 40 43 100ms 0
+				Sleep 1000ms
+				EmoteStop char[2]
+				TextTalk char[2] {
+					#14006F抱歉，莉夏姐。
+					我好像说了些很傲慢的话。{wait}
+				} {
+					#14002F总之，我一定会
+					在这里等你回来。{wait}
+				} {
+					#14009F你一定要早点回来喔！{wait}
+				}
+				TextWait
+				TextTalk name[5] {
+					#10702F呵呵……好，我知道了。{wait}
+				}
+				TextWait
+			FlagSet flag[3711]
+		elif flag[3825]:
+			TextTalk char[2] {
+				#04200F我不知道你们接下来要去哪里，
+				不过千万要小心喔。{wait}
+			} {
+				#04202F近期之内，我们会再度举办公演。
+				到时你们一定要来看喔。{wait}
+			}
+			TextWait
+		else:
+			TextTalk char[2] {
+				#14000F我不知道你们接下来要去哪里，
+				不过千万要小心喔。{wait}
+			} {
+				#14002F近期之内，我们会再度举办公演。
+				到时你们一定要来看喔。{wait}
+			}
+			TextWait
+	elif flag[3089]:
+		if !flag[4]:
+			Call fn[0,13]
+		else:
+			TextTalk char[2] {
+				#12203F……首先等音效出来，然后就像
+				从舞台侧面飞出来一样
+				踩着轻快的步伐登场……{wait}
+			}
+			TextWait
+	elif flag[3074]:
+	elif flag[2861]:
+		TextTalk char[2] {
+			#04201F伊莉雅小姐，
+			我随时都可以开始喔！{wait}
+		}
+		TextWait
+	elif flag[2848]:
+		Call fn[0,10]
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+	elif flag[2573]:
+		if !flag[4]:
+			Call fn[0,14]
+		else:
+			TextTalk char[2] {
+				#04203F专注于眼前的表演……
+				就是这么一回事吧。{wait}
+			} {
+				#04201F好、好吧……
+				我要屏除杂念，专心练习啰。{wait}
+			}
+			TextWait
+	elif flag[2564]:
+	elif flag[2560]:
+		if !flag[4]:
+			TextTalk char[2] {
+				#04206F哇，伊莉雅小姐和
+				莉夏姐真的好厉害啊。{wait}
+			} {
+				#04200F总有一天，我也要
+				练就那么精湛的演技……{wait}
+			}
+			TextWait
+			FlagSet flag[4]
+		else:
+			TextTalk char[2] {
+				#04205F啊！糟糕。
+				要赶快打扫完才行。{wait}
+			} {
+				#04203F要是再拖拖拉拉的，
+				可就没时间练习啰。{wait}
+			}
+			TextWait
+	elif flag[2369]:
+	elif flag[2353]:
+		TextTalk char[2] {
+			#04200F话说回来……
+			她为什么知道莉夏姐改善了
+			休息的方式呢？{wait}
+		} {
+			#04204F……伊莉雅小姐果然厉害。{wait}
+		}
+		TextWait
+	TextEnd self
+	Return
+
+fn[13]:
+	_Char4A char[2] 255
+	_Char4A char[7] 255
+	_Char4A char[9] 255
+	TextTalk char[9] {
+		那么，尼可、修莉。
+		请开始吧，我会跟在你们后面。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		我明白了。
+		上吧，修莉。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12201F嗯，首先要踩好步伐，
+		然后再跳出去吧。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00000F（修莉还有其他人……
+		　大家好像都很专心地在练习。）{wait}
+	}
+	TextWait
+	_Char4B char[2] 255
+	_Char4B char[7] 255
+	_Char4B char[9] 255
+	FlagSet flag[4]
+	FlagSet flag[10]
+	FlagSet flag[9]
+	Return
+
+fn[14]:
+	_Char4A char[2] 255
+	_Char4A char[7] 255
+	TextTalk char[2] {
+		#04205F我说啊，尼可。{wait}
+	} {
+		伊莉雅小姐他们为什么
+		不肯将改版公演的详细内容
+		告诉大家呢？{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		嗯，老实说我也不知道，
+		不过我们还有最后一场公演吧？{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		要是在这场结束前讲下一场的事情，
+		让大家无法专心练习的话就糟了……{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		应该是这个原因吧？{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#04203F这、这样啊……原来如此。
+		尼可真聪明。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		没有啦，我很普通啊……{wait}
+	}
+	TextWait
+	_Char4B char[2] 255
+	_Char4B char[7] 255
+	CharFlagsUnset char[2] 0x0010
+	CharFlagsUnset char[7] 0x0010
+	FlagSet flag[4]
+	FlagSet flag[10]
+	Return
+
+fn[15]:
+	_Char4A char[2] 255
+	_Char4A char[7] 255
+	TextTalk char[2] {
+		#04200F我说啊，尼可。
+		那一幕的旋转动作，
+		跟前一个动作之间的切换……{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		嗯，那个动作要在
+		一次呼吸间一气呵成。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		时机不好抓，
+		不过这动作样才会流畅。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#04201F这、这样啊，我试试看。{wait}
+	}
+	TextWait
+	if flag[2490] | QuestFlagsGet quest[29] 0x10:
+		TextTalk name[0] {
+			#00000F（修莉……看起来好像
+			　很努力在练习。）{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00100F（嗯，我感觉得到
+			　她的执着。）{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[0] {
+			#00005F（这女孩就是彩虹剧团的
+			　新团员啊……）{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00100F（呵呵，她好像练习得
+			{} 很认真呢。）{wait}
+		}
+		TextWait
+	_Char4B char[2] 255
+	_Char4B char[7] 255
+	CharFlagsUnset char[2] 0x0010
+	CharFlagsUnset char[7] 0x0010
+	FlagSet flag[4]
+	FlagSet flag[10]
+	Return
+
+fn[16]:
+	if QuestFlagsGet quest[112] 0x02 && !QuestFlagsGet quest[112] 0x10 && !QuestFlagsGet quest[112] 0x40 && flag[2706] && !flag[2708]:
+		Call fn[0,36]
+		Return
+	TextStart self
+	if flag[3385]:
+	elif flag[3371]:
+		TextTalk self {
+			话说回来……
+			外出禁止令什么的实在
+			太突然了，大家都乱成一团。{wait}
+		}
+		TextWait
+		TextTalk self {
+			不过，无论如何，
+			我们既然留在这里，
+			就只能专心练习了。{wait}
+		}
+		TextWait
+	elif flag[3089]:
+		if !flag[10]:
+			Call fn[0,13]
+		else:
+			TextTalk self {
+				一开始先和修莉
+				配合好，然后……{wait}
+			}
+			TextWait
+	elif flag[3074]:
+	elif flag[2861]:
+		if !flag[10]:
+			Call fn[0,24]
+		else:
+			TextTalk self {
+				我、我不是很清楚，不过
+				好像踩到什么地雷了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				算了无所谓……
+				反正前辈也讲过了，
+				我得快点练习才行。{wait}
+			}
+			TextWait
+	elif flag[2848]:
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+	elif flag[2573]:
+		if !flag[10]:
+			Call fn[0,14]
+		else:
+			TextTalk self {
+				我觉得修莉还挺坦率的。{wait}
+			}
+			TextWait
+			TextTalk self {
+				不过，正因为如此，
+				她有很多地方值得我学习。
+				我也得更加努力才行！{wait}
+			}
+			TextWait
+	elif flag[2564]:
+	elif flag[2560]:
+		if QuestFlagsGet quest[112] 0x02 && !QuestFlagsGet quest[112] 0x10 && !QuestFlagsGet quest[112] 0x40 && flag[2708]:
+			TextTalk self {
+				嘿咻……
+				接下来还得练习。{wait}
+			}
+			TextWait
+			TextTalk self {
+				问诊表的事情
+				就交给你们啦。{wait}
+			}
+			TextWait
+		else:
+			TextTalk self {
+				明天的公演虽然也令人担心，
+				不过我实在没办法不去想
+				改版公演的具体内容。{wait}
+			}
+			TextWait
+			TextTalk self {
+				可是，想这些有的没的
+				也没有帮助吧。
+				反正现在只要努力练习就对了。{wait}
+			}
+			TextWait
+	elif flag[2369]:
+	elif flag[2353]:
+		if !flag[10]:
+			TextTalk self {
+				修莉虽然还在打杂，不过……
+				她来参加练习的时候，
+				那动作可真是俐落啊。{wait}
+			}
+			TextWait
+			TextTalk self {
+				那种人就是所谓的天才吧，
+				虽然我们大部分的团员也都是。{wait}
+			}
+			TextWait
+			TextTalk self {
+				话虽如此，即使是很有天赋的人，
+				大家都还是付出了非比寻常的努力。
+				虽然这也没什么好比较的。{wait}
+			}
+			TextWait
+			TextTalk self {
+				反正，我只要尽力而为就好了。{wait}
+			}
+			TextWait
+			FlagSet flag[10]
+		else:
+			TextTalk self {
+				虽说我的天分可能
+				不如大家，不过我最近
+				慢慢能够接受这点了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				我对此曾经相当迷惘，不过……
+				反正我只要尽力而为就行了。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[17]:
+	TextStart self
+	if flag[3385]:
+		if !flag[3710]:
+			TextTalk char[4] {
+				啊，各位。{wait}
+			}
+			TextWait
+			TextTalk char[4] {
+				事情是这样的，
+				刚刚工匠直接跟我们
+				这边联系过了。{wait}
+			}
+			TextWait
+			TextTalk char[4] {
+				他已经答应了，
+				马上就会开始进行
+				自动傀儡的制作喔。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00000F哦……
+				那真是太好了。{wait}
+			}
+			TextWait
+			TextTalk char[4] {
+				是啊，没错。{wait}
+			}
+			TextWait
+			TextTalk char[4] {
+				说起来，工匠竟然
+				特地主动联系我们，
+				这种事可不多见啊。{wait}
+			}
+			TextWait
+			TextTalk char[4] {
+				没有比这更令人开心的事情了。{wait}
+			}
+			TextWait
+			TextTalk name[1] {
+				#00100F（其实工匠还是
+				　很担心这边的情况嘛。）{wait}
+			}
+			TextWait
+			TextTalk name[2] {
+				#00200F（呵呵，希望他能早日完成。）{wait}
+			}
+			TextWait
+			FlagSet flag[3710]
+		else:
+			TextTalk char[4] {
+				没想到工匠竟然会
+				如此积极地协助我们，
+				没有比这更令人开心的事情了。{wait}
+			}
+			TextWait
+			TextTalk char[4] {
+				看来我也得努力
+				把舞台的基座搭建好才行啊。{wait}
+			}
+			TextWait
+	elif flag[3371]:
+		TextTalk self {
+			委托工匠负责的舞台装置和
+			自动傀儡的修复，并不是
+			我处理得来的事情，不过……{wait}
+		}
+		TextWait
+		TextTalk self {
+			即便如此，至少舞台的外观
+			大致上还是设法弄好了。{wait}
+		}
+		TextWait
+		TextTalk self {
+			而且工匠其实
+			也是很担心我们的……
+			我得继续努力搭建舞台啰。{wait}
+		}
+		TextWait
+	elif flag[3089]:
+		if !flag[11]:
+			TextTalk self {
+				舞台上的瓦砾都清掉了，
+				这样一来，大家总算可以
+				好好练习了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				我的工作是负责舞台装置，
+				但目前进度落后，甚至
+				连起点都还算不上。{wait}
+			}
+			TextWait
+			TextTalk self {
+				不过，目前能做的事情，
+				都正在一步步进行中。{wait}
+			}
+			TextWait
+			FlagSet flag[11]
+		else:
+			TextTalk self {
+				我的工作是负责舞台装置，
+				但目前进度落后，甚至
+				连起点都还算不上。{wait}
+			}
+			TextWait
+			TextTalk self {
+				不过，目前能做的事情，
+				都正在一步步进行中。{wait}
+			}
+			TextWait
+	elif flag[3074]:
+		if !flag[11]:
+			TextTalk self {
+				以前请工匠帮我们制作的
+				舞台装置和自动傀儡，
+				全都被破坏了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				这些独一无二的作品是工匠的
+				心血结晶，我们剧团团员
+				也对它们投注了许多情感……{wait}
+			}
+			TextWait
+			TextTalk self {
+				糟蹋这些作品的行为，
+				确实是难以原谅……{wait}
+			}
+			TextWait
+			TextTalk self {
+				不过，既然是作品……
+				那就可以重新做出来。{wait}
+			}
+			TextWait
+			TextTalk self {
+				可是，伊莉雅小姐她…………！{wait}
+			}
+			TextWait
+			FlagSet flag[11]
+		else:
+			TextTalk self {
+				……就算彩虹剧团的舞台
+				再次被毁，不管多少次，
+				我都一定会把它修理好。{wait}
+			}
+			TextWait
+			TextTalk self {
+				要是为了这点小事受挫，
+				那就太对不起
+				伊莉雅小姐了。{wait}
+			}
+			TextWait
+	elif flag[2861]:
+		if !flag[11]:
+			TextTalk self {
+				很好！这样一来，舞台
+				装置的设定就万无一失了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				运作方面也已经
+				在昨天的彩排中确认完毕……{wait}
+			}
+			TextWait
+			TextTalk self {
+				接下来该做的就是
+				好好期待正式演出啰。{wait}
+			}
+			TextWait
+			FlagSet flag[11]
+		else:
+			TextTalk self {
+				很好！这样一来，舞台
+				装置的设定就万无一失了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				接下来该做的就是
+				好好期待正式演出啰。{wait}
+			}
+			TextWait
+	elif flag[2848]:
+	elif flag[2837]:
+	elif flag[2832]:
+	elif flag[2816]:
+		if !flag[11]:
+			TextTalk self {
+				改版公演用的舞台装置已经
+				拜托认识的工房处理了，
+				看来明天就能制作完成。{wait}
+			}
+			TextWait
+			TextTalk self {
+				这次的要求比较严苛，
+				想必让工匠很为难，不过……{wait}
+			}
+			TextWait
+			TextTalk self {
+				工匠每次都会在最后关头
+				帮我们解决难题。{wait}
+			}
+			TextWait
+			TextTalk self {
+				我已经等不及去取货了。{wait}
+			}
+			TextWait
+			FlagSet flag[11]
+		else:
+			TextTalk self {
+				这次的要求比较严苛，
+				想必让工匠很为难，不过……{wait}
+			}
+			TextWait
+			TextTalk self {
+				工匠每次都会在最后关头
+				帮我们解决难题。
+				我已经等不及去取货了。{wait}
+			}
+			TextWait
+	elif flag[2573]:
+		if !flag[11]:
+			TextTalk self {
+				新的舞台装置大致已经
+				构想得差不多，接下来就得
+				把它化为实物了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				不过，一些细节部分还是得
+				随着改版公演的排练进度
+				逐一补齐才行，但是……{wait}
+			}
+			TextWait
+			TextTalk self {
+				距离正式演出，实际上
+				只剩一个月多一点点而已了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				再不加把劲的话，看来恐怕
+				根本不可能赶上进度喔。{wait}
+			}
+			TextWait
+			FlagSet flag[11]
+		else:
+			TextTalk self {
+				距离改版公演的正式公开日，
+				实际上只剩一个月
+				多一点点而已了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				再不加把劲的话，看来恐怕
+				根本不可能赶上进度喔。{wait}
+			}
+			TextWait
+	elif flag[2564]:
+	elif flag[2560]:
+		TextTalk self {
+			为了因应明天晚场的公演，
+			剧团决定下午３点之前
+			自由活动，让大家各自休息。{wait}
+		}
+		TextWait
+		TextTalk self {
+			难得有时间自由活动。
+			我看去看一下揭幕仪式好了。{wait}
+		}
+		TextWait
+	elif flag[2369]:
+	elif flag[2353]:
+		if !flag[11]:
+			Call fn[0,7]
+		else:
+			TextTalk self {
+				不过，多了五成啊……{wait}
+			}
+			TextWait
+			TextTalk self {
+				我们当然会尽力而为，
+				不过这要求还真严苛啊。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[18]:
+	TextStart self
+	if flag[3385]:
+		TextTalk self {
+			在如此艰难的情况下，
+			好像还是有粉丝来到剧团前
+			为我们声援啊。{wait}
+		}
+		TextWait
+		TextTalk self {
+			就像伊莉雅小姐一样，
+			总是支持鼓励着我们……
+			对她们真是感激不尽啊。{wait}
+		}
+		TextWait
+	elif flag[3371]:
+		TextTalk self {
+			我们能做的只有表演──
+			而且幸运的是，有许多人
+			愿意支持我们。{wait}
+		}
+		TextWait
+		TextTalk self {
+			既然如此，我们该做的当然只有一件事。
+			无论这座城市如何改变，
+			我们只需要继续磨练自己就好。{wait}
+		}
+		TextWait
+	elif flag[3089]:
+		if !flag[5]:
+			Call fn[0,19]
+		else:
+			TextTalk self {
+				要上啰，缇奥多尔。
+				给我提起干劲来啊……！{wait}
+			}
+			TextWait
+	elif flag[3074]:
+	elif flag[2861]:
+		if !flag[5]:
+			Call fn[0,20]
+		else:
+			TextTalk self {
+				嗯，话是这么说，
+				不过凭本大爷的本事，
+				什么样的角色都难不倒我。{wait}
+			}
+			TextWait
+			TextTalk self {
+				我肯定是有求必应的啦。{wait}
+			}
+			TextWait
+	elif flag[2573]:
+		if !flag[5]:
+			TextTalk self {
+				话说回来，该说利贝尔
+				真不愧是女王统治的国家吧……{wait}
+			}
+			TextWait
+			TextTalk self {
+				克萝蒂雅公主当然也很可爱，
+				但尤莉亚准校投身军旅
+				就未免太可惜了吧。{wait}
+			}
+			TextWait
+			TextTalk self {
+				她的剑术好像也是一流的，
+				要是肯加入我们的话，
+				一定会大受欢迎吧。{wait}
+			}
+			TextWait
+			FlagSet flag[5]
+		else:
+			TextTalk self {
+				尤莉亚准校……
+				那般花容月貌却投身军旅，
+				真是太可惜了。{wait}
+			}
+			TextWait
+			TextTalk self {
+				她的剑术好像也是一流的，
+				要是肯加入我们的话，
+				一定会大受欢迎吧。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[19]:
+	_Char4A char[5] 255
+	_Char4A char[8] 255
+	_Char4A char[6] 255
+	TextTalk char[5] {
+		那么，普莉耶小姐。
+		可以请你来段独唱吗？{wait}
+	}
+	TextWait
+	TextTalk char[8] {
+		收到，我会扯开嗓子大声唱，
+		你们两位气氛也要带起来喔。{wait}
+	}
+	TextWait
+	TextTalk char[6] {
+		……我明白了。{wait}
+	}
+	TextWait
+	_Char4B char[5] 255
+	_Char4B char[8] 255
+	_Char4B char[6] 255
+	FlagSet flag[5]
+	FlagSet flag[6]
+	FlagSet flag[8]
+	Return
+
+fn[20]:
+	_Char4A char[5] 255
+	_Char4A char[6] 255
+	TextTalk char[5] {
+		来吧，缇奥多尔。
+		接下来是我们负责的高潮场面。{wait}
+	}
+	TextWait
+	TextTalk char[5] {
+		身为祭坛守护骑士的你，
+		对我这放浪王子举起剑……{wait}
+	}
+	TextWait
+	TextTalk char[5] {
+		唉，越说越觉得不甘心啊。{wait}
+	}
+	TextWait
+	TextTalk char[5] {
+		既然都要改版了，这段剧情
+		应该也可以更新一下吧。{wait}
+	}
+	TextWait
+	Emote char[6] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk char[6] {
+		唉……
+		你现在才抱怨又有什么用？{wait}
+	}
+	TextWait
+	TextTalk char[6] {
+		闭上嘴巴乖乖配合啦，
+		笨蛋金。{wait}
+	}
+	TextWait
+	Emote char[5] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[5] {
+		啊，你这浑蛋。
+		你刚刚叫我笨蛋金是吧！？{wait}
+	}
+	TextWait
+	TextTalk char[5] {
+		那你就是笨蛋多尔！
+		哈哈！你这个笨蛋多尔！{wait}
+	}
+	TextWait
+	TextTalk char[6] {
+		……我认错，拜托你
+		快点继续对台词吧。{wait}
+	}
+	TextWait
+	Emote field_party[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote field_party[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote field_party[2] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote field_party[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#00005F（真、真没想到
+		　开演前会是这样的气氛啊。）{wait}
+	}
+	TextWait
+	CharFlagsUnset char[5] 0x0010
+	CharFlagsUnset char[6] 0x0010
+	_Char4B char[5] 255
+	_Char4B char[6] 255
+	FlagSet flag[5]
+	FlagSet flag[6]
+	Return
+
+fn[21]:
+	TextStart self
+	if flag[3385]:
+		TextTalk self {
+			嗯……
+			我越来越觉得，以舞台为生
+			是一件很幸福的事。{wait}
+		}
+		TextWait
+		TextTalk self {
+			许多人有恩于我……
+			我得日益努力精进，总有一天
+			要加倍报答他们的恩情。{wait}
+		}
+		TextWait
+	elif flag[3371]:
+	elif flag[3089]:
+		if !flag[6]:
+			Call fn[0,19]
+		else:
+			TextTalk self {
+				好啊，尤金。
+				你才要小心别被我抛在脑后。{wait}
+			}
+			TextWait
+	elif flag[3074]:
+	elif flag[2861]:
+		if !flag[6]:
+			Call fn[0,20]
+		elif !flag[7]:
+			TextTalk char[6] {
+				……尤金一直有个坏习惯，只要
+				一感到不安，就会开始口没遮拦。{wait}
+			}
+			TextWait
+			TextTalk char[6] {
+				虽然很丢脸，不过
+				还是希望大家能体谅他。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00005F是、是这样吗……？{wait}
+			}
+			TextWait
+			Emote char[5] 0mm 2000mm 40 43 100ms 0
+			Sleep 1000ms
+			EmoteStop char[5]
+			TextTalk char[5] {
+				喂！特奥！
+				别对他们灌输那些有的没的啦！{wait}
+			}
+			TextWait
+			FlagSet flag[7]
+		else:
+			TextTalk self {
+				反正……不管是哪种表演，
+				首演都是特别重要的。{wait}
+			}
+			TextWait
+			TextTalk self {
+				只要有时间，
+				还是继续修正自己的演技吧。{wait}
+			}
+			TextWait
+	elif flag[2573]:
+		if !flag[6]:
+			TextTalk self {
+				……没错。{wait}
+			}
+			TextWait
+			TextTalk self {
+				听说克萝蒂雅公主
+				学生时代曾经
+				参与过戏剧表演……{wait}
+			}
+			TextWait
+			TextTalk self {
+				她们两位要是
+				站上舞台，一定也能展现出
+				四平八稳的台风。{wait}
+			}
+			TextWait
+			FlagSet flag[6]
+		else:
+			TextTalk self {
+				没错……
+				真想亲眼见识两位
+				站上舞台表演的风采。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[22]:
+	TextStart self
+	if flag[3089]:
+		if !flag[8]:
+			Call fn[0,19]
+		else:
+			TextTalk self {
+				你们两个看起来气势不错嘛。
+				我也不会认输喔。{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[23]:
+	TextStart self
+	if flag[3385]:
+	elif flag[3371]:
+		TextTalk self {
+			虽然有人认为在这个时候
+			举办舞台剧不太恰当，不过……{wait}
+		}
+		TextWait
+		TextTalk self {
+			我倒是认为，
+			越是在这种时候，
+			人们越是需要娱乐活动的抚慰。{wait}
+		}
+		TextWait
+		TextTalk self {
+			因为对人们来说，世界上最不幸的事，
+			是连享受娱乐的心情都没有了，不是吗？{wait}
+		}
+		TextWait
+	elif flag[3089]:
+		if !flag[9]:
+			Call fn[0,13]
+		else:
+			TextTalk self {
+				我要磨练我的演技，
+				要做到更敏捷、更优美……{wait}
+			}
+			TextWait
+	elif flag[3074]:
+	elif flag[2861]:
+		if !flag[9]:
+			Call fn[0,24]
+		else:
+			TextTalk self {
+				真是的，在尼可面前
+				真是一刻也大意不得！{wait}
+			}
+			TextWait
+			TextTalk self {
+				这就是草食系男子的手法吗？
+				太、太可恶了！{wait}
+			}
+			TextWait
+	TextEnd self
+	Return
+
+fn[24]:
+	_Char4A char[9] 255
+	_Char4A char[7] 255
+	TextTalk char[9] {
+		接下来……
+		我这个陪衬角色
+		就继续默默努力吧。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		说什么陪衬，
+		才不是那么一回事呢。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		而且，我很欣赏
+		瑟蕾奴学姐的演技喔！{wait}
+	}
+	TextWait
+	Emote char[9] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	Emote char[9] 0mm 2000mm 40 43 100ms 0
+	Sleep 1000ms
+	EmoteStop char[9]
+	TextTalk char[9] {
+		什么？我本来想听你好好说话，
+		你突然讲这个干嘛？{wait}
+	}
+	TextWait
+	TextTalk char[9] {
+		废、废话少说，
+		赶快开始练习了，
+		你这个臭呆瓜！{wait}
+	}
+	TextWait
+	Emote char[7] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk char[7] {
+		……呃，
+		为什么她要骂我呢？{wait}
+	}
+	TextWait
+	_Char4B char[9] 255
+	_Char4B char[7] 255
+	CharFlagsUnset char[9] 0x0010
+	CharFlagsUnset char[7] 0x0010
+	FlagSet flag[9]
+	FlagSet flag[10]
+	Return
+
+fn[25]:
+	TextStart self
+	TextEnd self
+	Return
+
+fn[26]:
+	while 1:
+		Emote self 0mm 2000mm 38 39 250ms 2
+		Sleep 1500ms
+	Return
+
+fn[27]:
+	EventBegin 0
+	CrossFade 500ms
+	_Char4A char[0] 255
+	_Char4A char[1] 255
+	_Char4A char[2] 255
+	VisShow vis[0] 234 0 490 256 0 0 512 512 0 0 512 512 0x00FFFFFF 0 "bu01700.itp"
+	VisShow vis[1] 234 0 490 256 0 0 512 512 0 0 512 512 0x00FFFFFF 0 "bu01800.itp"
+	VisShow vis[2] 234 0 490 256 0 0 512 512 0 0 512 512 0x00FFFFFF 0 "bu04200.itp"
+	CharSetPos name[0] (700, 1350, 7760) 0deg
+	CharSetPos name[1] (-700, 1350, 7760) 0deg
+	CharSetPos name[8] (700, 1520, 6680) 0deg
+	CharSetPos name[4] (-700, 1520, 6680) 0deg
+	CamSetDistance -640 1320 14170 0ms
+	ED7CamRotate 45deg 22deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 13720 0ms
+	FadeWait
+	TextTalk char[0] {
+		#01702F然后，修莉她啊──{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 2000mm 40 43 100ms 0
+	Sleep 1000ms
+	EmoteStop char[2]
+	TextTalk char[2] {
+		#12P#04211F别、别说了啦……
+		怎么偏偏在莉夏姐面前说这个！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#12P#01802F呵呵，伊莉雅小姐。
+		这让修莉困扰得很呢，不是吗？{wait}
+	}
+	TextWait
+	ForkFunc char[0] fork[0] fn[0,26]
+	ForkFunc char[1] fork[0] fn[0,26]
+	ForkFunc char[2] fork[0] fn[0,26]
+	CamSetDistance 450 1620 11150 3000ms
+	ED7CamRotate 46deg 24deg 0deg 3000ms
+	CamPers 650 3000ms
+	CamZoom 15050 3000ms
+	CamWait 121
+	TextTalk name[0] {
+		#12P#00000F哈哈，大家聊得真开心啊。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00100F呵呵，现在大家好像
+		刚好正在休息。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10105F是、是伊莉雅丄普拉提耶本尊……！{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10300F还有，在她身旁的两位是……{wait}
+	}
+	TextWait
+	ForkQuit char[0] fork[0]
+	EmoteStop char[0]
+	Sleep 300ms
+	Emote char[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnToChar char[0] name[0] 500deg/s
+	TextTalk char[0] {
+		#01700F嗯……？{wait}
+	}
+	TextWait
+	Emote char[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk char[0] {
+		#01705F……啊，这不是弟弟吗！？{wait}
+	}
+	TextWait
+	ForkQuit char[1] fork[0]
+	ForkQuit char[2] fork[0]
+	EmoteStop char[1]
+	EmoteStop char[2]
+	Emote char[1] 0mm 2000mm 38 38 250ms 1
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	Fork char[1] fork[1]:
+		CharTurnToChar char[1] name[0] 500deg/s
+	CharTurnToChar char[2] name[0] 500deg/s
+	TextTalk char[1] {
+		#5P#01802F啊……各位都来啦！{wait}
+	}
+	TextWait
+	if !flag[258]:
+		FadeOut 300ms 0x00000000 100
+		FadeWait
+		TextSetPos -1 30 -1 -1
+		TextSetName ""
+		TextMessage null {
+			{color 5}{0x06}{0x18}#1K◆前篇委托「跟踪狂的搜查委托」？（测试用）{color 0}{wait}
+		}
+		Menu menu[0] -1 -1 0
+			"【不变更】" // 0
+			"【达成了】" // 1
+			"【没有达成】" // 2
+		MenuWait var[0]
+		MenuClose menu[0]
+		TextClose 0
+		TextSetPos -1 280 60 3
+		FadeIn 300ms 0x00000000
+		FadeWait
+		switch var[0]:
+			case 0:
+				break
+			case 1:
+				QuestFlagsSet quest[29] 0x10
+				break
+			case 2:
+				QuestFlagsUnset quest[29] 0x10
+				break
+	if !QuestFlagsGet quest[29] 0x10:
+		TextTalk char[2] {
+			#04200F……大家好。{wait}
+		}
+		TextWait
+	else:
+		TextTalk char[2] {
+			#04200F……嗨。{wait}
+		}
+		TextWait
+	Fork name[0] fork[1]:
+		CharWalkToPos self (700, 1450, 12200) 2000mm/s 0
+	Fork name[1] fork[1]:
+		CharWalkToPos self (-700, 1450, 11760) 2000mm/s 0
+	Fork name[8] fork[1]:
+		CharWalkToPos self (700, 1450, 10980) 2000mm/s 0
+	Fork name[4] fork[1]:
+		CharWalkToPos self (-700, 1450, 10680) 2000mm/s 0
+	CamSetDistance -820 1620 12730 3000ms
+	ED7CamRotate 39deg 26deg 0deg 3000ms
+	CamPers 650 3000ms
+	CamZoom 13510 3000ms
+	CamWait 121
+	ForkWait name[0] fork[1]
+	TextTalk name[0] {
+		#12P#00000F哈哈，好久不见。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00100F不好意思，好像打扰到
+		各位的休息时间了……{wait}
+	}
+	TextWait
+	VisSet vis[0] 3 0xFFFFFFFF 500ms 0 0
+	VisSet vis[0] 0 -10000 0 500ms 0
+	VisWait vis[0] 3
+	VisWait vis[0] 0
+	TextSetPos -1 280 35 3
+	Sleep 500ms
+	TextMessage char[0] {
+		呵呵，才没这回事呢㈱{wait}
+	} {
+		你们好久没来了，
+		拜托别太拘谨喔。{wait}
+	} {
+		啊，机会难得嘛，弟弟要不要
+		跟我来个重逢的拥抱呢？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextSetPos -1 280 60 3
+	VisSet vis[0] 3 0x00FFFFFF 500ms 0 0
+	VisSet vis[0] 0 0 0 500ms 0
+	VisWait vis[0] 3
+	VisWait vis[0] 0
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#12P#00012F不、不用了，谢谢。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01702F咦？这样吗？
+		不用这么客气啊。{wait}
+	} {
+		#01709F呵呵，还是说……
+		你觉得莉夏抱起来更舒服，
+		所以想找她呢？{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 40 43 100ms 0
+	Emote char[1] 0mm 2000mm 40 43 100ms 0
+	Sleep 1000ms
+	EmoteStop name[0]
+	EmoteStop char[1]
+	Fork char[1] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 50ms
+	Fork char[2] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	TextTalk name[0] {
+		#12P#00011F呃、呃……{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#12P#01806F伊、伊莉雅小姐……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12P#04200F真是的，大叔式的骚扰就适可而止吧。{wait}
+	}
+	TextWait
+	CharTurnToChar char[2] name[1] 500deg/s
+	TextTalk name[1] {
+		#12P#00109F呵呵……
+		莉夏小姐也还是老样子，
+		陪伴她一定很辛苦吧。{wait}
+	}
+	TextWait
+	CharTurnToChar char[1] name[0] 500deg/s
+	VisSet vis[1] 3 0xFFFFFFFF 500ms 0 0
+	VisSet vis[1] 0 -10000 0 500ms 0
+	VisWait vis[1] 3
+	VisWait vis[1] 0
+	TextSetPos -1 280 35 3
+	Sleep 500ms
+	TextMessage char[1] {
+		啊、啊哈哈……
+		或许这就是
+		宿命之类的东西吧。{wait}
+	} {
+		不过，时隔许久能再次见到大家，
+		我真的很开心。{wait}
+	} {
+		呵呵，今后还请
+		继续多多关照喔。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextSetPos -1 280 60 3
+	VisSet vis[1] 3 0x00FFFFFF 500ms 0 0
+	VisSet vis[1] 0 0 0 500ms 0
+	VisWait vis[1] 3
+	VisWait vis[1] 0
+	TextTalk name[4] {
+		#12P#10304F呵呵，莉夏小姐
+		是在纪念庆典公演的时候
+		出道的吧？{wait}
+	} {
+		#10302F我没记错的话，你那时是住在
+		旧市街的公寓是吗？{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#5P#01802F是、是的……{wait}
+	} {
+		#01805F呃，那你该不会就是旧市街的
+		不良分子集团的那位……？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10302F我是瓦奇丄赫密士菲亚。
+		呵呵，能认识你是我的荣幸。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01705F哎呀呀？莉夏，你认识人家呀？{wait}
+	} {
+		这么说来，这几位我好像
+		以前没见过……{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F嗯，他们两位是
+		支援课的新成员。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10100F我、我是从警备队
+		调来支援课支援的
+		诺艾儿丄希卡！{wait}
+	} {
+		#10109F呃……伊莉雅小姐，
+		我和妹妹芙兰，
+		一直都是您的粉丝！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01709F呵呵！谢谢☆{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00103F虽然缇欧和兰迪
+		还没回来，不过……{wait}
+	} {
+		#00100F支援队会暂时由我们
+		四个成员展开活动。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01700F原来如此～{wait}
+	} {
+		#01709F呵呵，你们这些成员
+		一个个都满有个性的嘛。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00012F没、没有啦……
+		我们远远比不上
+		伊莉雅小姐就是了。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10106F该怎么说呢？真正的演员
+		好像比我原本想像中的
+		随和多了耶。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10302F是啊。
+		而且本人比杂志上的
+		照片漂亮多了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01702F呵呵，谢谢夸奖。
+		不过，你再怎么夸我
+		也拿不到什么好处喔！{wait}
+	} {
+		#01703F嗯，先别说这个……{wait}
+	} {
+		#01709F你呀，不要一直闷不吭声的，
+		快来打个招呼。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#5P#04205F……我、我知道了啦。{wait}
+	}
+	TextWait
+	VisSet vis[2] 3 0xFFFFFFFF 500ms 0 0
+	VisSet vis[2] 0 -10000 0 500ms 0
+	VisWait vis[2] 3
+	VisWait vis[2] 0
+	TextSetPos -1 280 35 3
+	Sleep 500ms
+	TextMessage char[2] {
+		我是在剧团里打杂的
+		修莉丄亚特雷德。{wait}
+	} {
+		呃……请多指教。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextSetPos -1 280 60 3
+	VisSet vis[2] 3 0x00FFFFFF 500ms 0 0
+	VisSet vis[2] 0 0 0 500ms 0
+	VisWait vis[2] 3
+	VisWait vis[2] 0
+	TextTalk name[8] {
+		#12P#10100F呵呵！请多指教啰，修莉。{wait}
+	}
+	TextWait
+	CharTurnToChar name[0] char[2] 500deg/s
+	if QuestFlagsGet quest[29] 0x10:
+		TextTalk name[0] {
+			#12P#00000F哈哈，修莉最近过得好吗？{wait}
+		}
+		TextWait
+		CharTurnToChar char[2] name[0] 500deg/s
+		TextTalk char[2] {
+			#5P#04203F哼！你少在那边嘻皮笑脸的。{wait}
+		} {
+			#04201F……我告诉你，
+			那#2R丄#件#2R丄#事#2R丄#情#2R丄#我可还没忘记喔。{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Sleep 1000ms
+		TextTalk name[0] {
+			#12P#00006F（竟、竟然还在记恨啊……）{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#12P#10105F呃，「那件事情」是指……？{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#5P#01709F嗯，我记得你从修莉
+			背后狠狠地──{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 40 43 100ms 0
+		Sleep 1000ms
+		EmoteStop name[0]
+		TextTalk name[0] {
+			#12P#00011F不、不对，不是那样……{wait}
+		} {
+			#00006F严格说起来，那件事的起因
+			根本就是修莉自己吧！？{wait}
+		}
+		TextWait
+		Emote char[2] 0mm 2000mm 40 43 100ms 0
+		Sleep 1000ms
+		EmoteStop char[2]
+		TextTalk char[2] {
+			#5P#04205F你、你说什么！？{wait}
+		} {
+			#04208F……对、对啦，我确实也有
+			不对的地方，可是……{wait}
+		} {
+			#04201F你抱我抱得那么紧，现在
+			竟然还好意思讲这种话……！{wait}
+		}
+		TextWait
+		Fork name[1] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		Fork name[8] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		CharTurnToChar name[4] name[0] 500deg/s
+		TextTalk name[8] {
+			#12P#10105F抱、抱紧……！？{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#12P#10302F呵呵，看来你们之间似乎
+			发生过很愉快的趣事呢。{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 40 43 100ms 0
+		Sleep 1000ms
+		EmoteStop name[0]
+		CharTurnToChar name[0] name[1] 500deg/s
+		TextTalk name[0] {
+			#12P#00011F不、不是啦，我的意思是……！{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#5P#01709F喔喔！这么快就开始争风吃醋啦！？
+			机会难得，我也赶紧参一脚──{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#5P#01806F伊莉雅小姐……
+			别把事情弄得更复杂了。{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Sleep 1000ms
+		TextTalk name[0] {
+			#12P#00006F（唔，关于这件事，
+			　不管我怎么辩解，
+			　都只会越描越黑吧……）{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[0] {
+			#12P#00005F咦？修莉……{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 24 27 250ms 0
+		Sleep 2000ms
+		EmoteStop name[0]
+		TextTalk name[0] {
+			#12P#00011F#4S原、原来是女生吗！？#3S{wait}
+		} {
+			#00003F原、原来如此……
+			之前来的时候虽然有见过几次面，
+			可是我完全没发现啊。{wait}
+		} {
+			#00000F嗯，仔细一看，确实长得挺可爱……{wait}
+		}
+		TextWait
+		Emote name[1] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote name[8] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote name[4] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote char[0] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote char[1] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote char[2] 0mm 2000mm 12 13 250ms 2
+		SoundPlay sound[23] 0 100 0
+		Sleep 1000ms
+		Fork name[1] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		Fork name[8] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		Fork name[4] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		Fork char[0] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		Fork char[1] fork[1]:
+			CharTurnToChar self name[0] 500deg/s
+		Sleep 50ms
+		CharTurnToChar char[2] name[0] 500deg/s
+		TextTalk char[2] {
+			#5P#04201F你、你这混帐……{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#5P#01806F罗、罗伊德先生……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#6P#00111F……这对人家也太失礼了吧。{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 40 43 100ms 0
+		Sleep 1000ms
+		EmoteStop name[0]
+		TextTalk name[0] {
+			#11P#00011F不是、那个，对不起！
+			因为你讲话比较粗鲁……！{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#5P#01709F啊哈哈！弟弟你还真厉害呢。{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#12P#10304F嗯，要演少根筋的小白脸，
+			原来也有这个模式啊。
+			又学到一招了。{wait}
+		}
+		TextWait
+		CharTurnToChar name[0] name[4] 500deg/s
+		TextTalk name[0] {
+			#5P#00011F不、不对，不是那样……{wait}
+		}
+		TextWait
+		TextTalk char[2] {
+			#5P#04203F……哼，我讨厌这家伙。{wait}
+		}
+		TextWait
+	TextTalk char[1] {
+		#5P#01803F呵呵，话说回来……
+		看到大家这么有精神，真开心。{wait}
+	} {
+		#01809F支援课的各位一直
+		都对我十分照顾……
+		欢迎各位随时过来玩喔。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01700F对啊对啊，我也很欢迎大家喔。{wait}
+	} {
+		#01704F而且，莉夏排练的情况
+		又比以前更有看头啰。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 30ms
+	Emote name[1] 0mm 2000mm 38 38 250ms 1
+	Sleep 30ms
+	Emote name[8] 0mm 2000mm 38 38 250ms 1
+	Sleep 30ms
+	Emote name[4] 0mm 2000mm 38 38 250ms 1
+	Sleep 30ms
+	Emote char[1] 0mm 2000mm 38 38 250ms 1
+	Sleep 30ms
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	Fork name[0] fork[1]:
+		CharTurnToChar self char[1] 500deg/s
+	Sleep 50ms
+	Fork name[1] fork[1]:
+		CharTurnToChar self char[2] 500deg/s
+	Sleep 50ms
+	Fork name[8] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	Fork name[4] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	Fork char[1] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 50ms
+	CharTurnToChar char[2] char[0] 500deg/s
+	TextTalk name[0] {
+		#12P#00005F咦？是这样吗？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10302F呵呵，只要有她在舞台上
+		跳起来的画面，那确实是
+		挺有看头#4R丄　丄#的。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10106F喂、喂喂，瓦奇你真是的。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#11P#01802F啊、啊哈哈……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01709F呵呵，那当然也很有看头，不过──{wait}
+	} {
+		#01704F最近她连日常生活中的一些小动作
+		都练出一身洗练的身段了。{wait}
+	} {
+		#01702F好像让人感觉不到她的疲劳……
+		就我看来，她应该是连休息的
+		方式都改善了吧？{wait}
+	}
+	TextWait
+	Emote char[1] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[1] {
+		#11P#01809F……呃，这个嘛，
+		差不多就是这样吧。{wait}
+	}
+	TextWait
+	CharTurnToChar char[2] char[1] 500deg/s
+	TextTalk char[2] {
+		#6P#04205F是吗……
+		我完全没注意到耶。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00100F呵呵，这种程度的差异好像
+		只有伊莉雅小姐才注意得到呢。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#11P#01803F（……我最近都没在『工作』，
+		　的确是有更充裕的休息时间，
+		　不过……）{wait}
+	} {
+		#01808F（伊莉雅小姐竟然察觉得出来，
+		　真是太厉害了……）{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00002F哈哈，因为莉夏一直
+		都很努力嘛……{wait}
+	} {
+		你接下来也要好好休息，
+		可别把身体累坏了喔。{wait}
+	}
+	TextWait
+	Fork char[1] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	CharTurnToChar char[2] name[1] 500deg/s
+	TextTalk char[1] {
+		#5P#01802F好，非常感谢您的关心。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00103F可是，彩虹剧团
+		好像一直都很忙……{wait}
+	} {
+		#00100F为了不要打扰到大家，
+		或许顶多只能来露个脸，
+		这样的程度比较刚好吧。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01702F呵呵，只要跟彩排或公演的
+		时间没有冲突，
+		随时都欢迎你们喔。{wait}
+	} {
+		#01703F不过，我们接下来可能会
+		有点忙就是了。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Sleep 30ms
+	Emote name[1] 0mm 2000mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Sleep 30ms
+	Emote name[8] 0mm 2000mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Sleep 30ms
+	Emote name[4] 0mm 2000mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Sleep 1000ms
+	TextTalk name[8] {
+		#12P#10105F呃……是这样吗？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#12P#10302F你们现在好像有个
+		挺有趣的点子是吧？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01709F呵呵，现在还不能说㈱{wait}
+	} {
+		#01700F总之，关于我们未来的动向，
+		就请各位拭目以待啰。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F哈哈，我明白了。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00100F呵呵，看来得睁大眼睛
+		好好关注才行了。{wait}
+	}
+	TextWait
+	_59
+	_Char4B char[0] 255
+	_Char4B char[1] 255
+	_Char4B char[2] 255
+	ForkFunc char[0] fork[0] fn[0,0]
+	ForkFunc char[1] fork[0] fn[0,0]
+	ForkFunc char[2] fork[0] fn[0,0]
+	CharTurnTo char[1] 0deg 0deg/s
+	CharTurnTo char[2] 0deg 0deg/s
+	VisHide vis[255] 0
+	FlagSet flag[2490]
+	system[106] += 2
+	TriggerFlagsSet trigger[0] 0x0080
+	EventEnd 5
+	Return
+
+fn[28]:
+	if flag[2926]:
+		Call fn[0,29]
+		Return
+	EventBegin 0
+	CrossFade 500ms
+	CharSetPos name[0] (-60420, 0, 3700) 90deg
+	CharSetPos name[1] (-60920, 0, 2700) 90deg
+	CharSetPos name[2] (-61420, 0, 1700) 90deg
+	CharSetPos name[3] (-61390, 0, 3700) 90deg
+	CharSetPos name[4] (-62090, 0, 2700) 90deg
+	CharSetPos name[8] (-62390, 0, 1700) 90deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[1] 255
+	_Char4A char[2] 255
+	_Char4A char[3] 255
+	CamSetDistance -61380 1500 2260 0ms
+	ED7CamRotate 50deg 19deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 17600 0ms
+	FadeWait
+	TextTalk name[0] {
+		#5P#00000F莉夏，还有修莉……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#11P#00100F修莉身上穿的是
+		《星姬》的服装吧。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#12P#00202F……好漂亮。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#6P#00305F不过，修莉莉那家伙……看起来
+		好像不知道在急什么，是吗？{wait}
+	}
+	TextWait
+	_59
+	CrossFade 500ms
+	CamSetDistance 10 2900 24580 0ms
+	ED7CamRotate 0deg 33deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 18500 0ms
+	CharTurnToChar char[2] char[3] 0deg/s
+	FadeWait
+	TextTalk char[2] {
+		#12206F呼、呼、呼……{wait}
+	} {
+		#12201F我说啊，团长，
+		我刚刚演得很完美吧？{wait}
+	} {
+		这样一来，伊莉雅小姐
+		也会认同我吧。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#6P嗯，当然可以
+		算你及格，不过……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12206F啊，怎么又来了……？{wait}
+	} {
+		#12200F我说啊，莉夏姐，
+		莉夏姐你觉得如何？{wait}
+	} {
+		#12202F我应该没有做错
+		任何动作吧？{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#06203F嗯，这个嘛……{wait}
+	}
+	TextWait
+	Emote char[1] 0mm 2000mm 24 27 250ms 0
+	Sleep 2000ms
+	EmoteStop char[1]
+	TextTalk char[1] {
+		#06202F……修莉，我跟你说喔。{wait}
+	} {
+		你下次应该可以试试看
+		再多放一点感情进去吧。{wait}
+	} {
+		#06204F应该说有点像是想像自己
+		『想要这样演』的感觉吧……
+		我不知道该怎么解释，不过……{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 2000mm 14 15 250ms 2
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk char[2] {
+		#12201F想像自己『想要这样演』……
+		呃、具体来说该怎么做才对呢？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CrossFade 500ms
+	CamSetDistance -61380 1500 2260 0ms
+	ED7CamRotate 50deg 19deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 17600 0ms
+	FadeWait
+	TextTalk name[0] {
+		#5P#00005F（修莉……）{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#6P#10300F（嗯，看来我们还是
+		　先离开比较好吧。）{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10103F（嗯……
+		　不能打扰人家嘛。）{wait}
+	}
+	TextWait
+	_59
+	_Char4B char[1] 255
+	_Char4B char[2] 255
+	_Char4B char[3] 255
+	CharSetPos field_party[0] (-62880, 0, 2950) 270deg
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharFlagsSet field_party[5] 0x0080
+	CharFlags2Set field_party[5] 0x8000
+	FlagSet flag[2926]
+	EventEnd 5
+	Return
+
+fn[29]:
+	EventBegin 1
+	TextTalk name[0] {
+		#00000F（莉夏和修莉……
+		　看来她们两人正在
+		　专心练习中。）{wait}
+	} {
+		#00003F（先别打扰人家吧。）{wait}
+	}
+	TextWait
+	Sleep 50ms
+	CharSetPos field_party[0] (-62880, 0, 2950) 270deg
+	EventEnd 4
+	Return
+
+fn[30]:
+	EventBegin 0
+	CrossFade 500ms
+	CamSetDistance -6140 16219 -4030 0ms
+	ED7CamRotate 355deg 24deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 17490 0ms
+	CharSetPos name[0] (-5460, 15200, -4290) 315deg
+	CharSetPos name[1] (-6310, 15200, -5170) 0deg
+	CharSetPos name[2] (-7650, 15200, -4870) 45deg
+	CharSetPos name[3] (-4700, 15200, -5320) 315deg
+	CharSetPos name[4] (-8080, 15200, -6150) 45deg
+	CharSetPos name[8] (-3880, 15200, -6340) 315deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	CharTurnTo char[0] 45deg 0deg/s
+	_Char4A char[0] 255
+	FadeWait
+	TextTalk char[0] {
+		#5P#01703F…………{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F伊莉雅小姐……
+		原来你在这里啊。{wait}
+	}
+	TextWait
+	Emote char[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnToChar char[0] name[1] 500deg/s
+	TextTalk char[0] {
+		#5P#01705F啊，是弟弟你们啊。{wait}
+	} {
+		#01709F呵呵，改版公演就快上演了，
+		大家是来鼓励我们的吗？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#6P#00100F呵呵，算是吧。{wait}
+	} {
+		伊莉雅小姐就是
+		在这里看着莉夏小姐和修莉
+		她们练习的吧？{wait}
+	}
+	TextWait
+	CharTurnTo char[0] 45deg 500deg/s
+	Sleep 300ms
+	TextTalk char[0] {
+		#5P#01704F嗯，二楼的座位可以把
+		整个舞台都看得很清楚。{wait}
+	} {
+		#01702F哎呀，话说回来，
+		年轻女孩们努力的模样，
+		真是令人百看不厌呢～{wait}
+	} {
+		这么看着看着，都让我
+		回忆起自己刚出道的时候了。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00005F伊莉雅小姐刚出道的时候……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#12P#00302F哈哈，好像有点难以想像啊。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#6P#10302F呵呵，有机会的话，我还真想
+		知道当时发生了什么事。{wait}
+	}
+	TextWait
+	CharTurnToChar char[0] name[1] 500deg/s
+	TextTalk char[0] {
+		#5P#01700F呵呵，要我说也行，不过……
+		那并不是什么有趣的事喔！{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10109F哇哇！请务必告诉我们！！{wait}
+	} {
+		#10100F我记得您刚出道时，
+		杂志就以『万众瞩目的重量级新人』
+		为标题大幅报道过吧。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#6P#00205F原来如此，一出道就那么红了。{wait}
+	} {
+		#00202F顺道请教一下……
+		您当初之所以会想当演员，
+		有什么特别的原因吗？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01703F嗯，我想想。{wait}
+	} {
+		#01700F在我小的时候就看过
+		彩虹剧团的表演，
+		这大概就是契机吧。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#12P#00300F原来如此，所以心生憧憬──
+		差不多是这样吧？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01703F嗯，有点不太对。{wait}
+	} {
+		#01700F当时演员们的演技
+		以及舞台装置的效果都已经
+		很棒了，不过……{wait}
+	} {
+		#01706F看完表演后，我还是
+		觉得少了什么东西，所以一直
+		没办法认同他们。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[2] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#12P#00011F没、没办法认同……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01700F当时周围的观众和我父母
+		的确都赞不绝口，所以
+		表演肯定是很精彩的，不过……{wait}
+	} {
+		#01703F该怎么说呢？如果是我的话，
+		我一定能演得更棒！
+		我当时是这么想的吧。{wait}
+	} {
+		#01702F呵呵，不过说来奇怪，
+		我那时只是个没有任何
+		相关知识的外行人罢了。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#12P#10105F哦，您小时候有过那样的经验……{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#6P#10300F嗯，不过，如果你是因此而
+		加入彩虹剧团的话，应该会
+		时常跟他们发生冲突吧？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01706F是啊，我这个菜鸟中的菜鸟
+		开口闭口却都是批评，
+		冲突当然是免不了的。{wait}
+	} {
+		#01700F不过，我那时可是怀着
+		极为明确的信念，我相信
+		自己能表演变得更好……{wait}
+	} {
+		#01709F在我坚持一段时间之后，
+		大家自然而然开始理解，
+		摩擦也渐渐减少了。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#6P#00202F原来如此……
+		是因为这样，然后才有了
+		现在的伊莉雅小姐啊。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01704F呵呵，只不过，目前几乎还没有
+		一场表演是我百分之百满意的。{wait}
+	} {
+		#01702F不过，前途无量的莉夏和修莉
+		都加入我们了……{wait}
+	} {
+		反正接下来就继续
+		以呈现最棒的表演
+		为目标，差不多是这样吧？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00002F哈哈，伊莉雅小姐
+		真是贪心啊……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#6P#00104F呵呵，虽然人家常说努力比天分更重要……{wait}
+	} {
+		#00109F不过伊莉雅小姐可是有天分又努力呀。
+		这样感觉真是天下无敌了。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#12P#00309F嗯，说得没错。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#5P#01709F呵呵，我好像不小心
+		说了些无聊的私事。{wait}
+	} {
+		#01704F嗯，若不嫌弃的话，
+		请大家一定要来欣赏
+		这次的改版公演喔。{wait}
+	} {
+		#01700F莉夏和修莉……
+		肯定也都会
+		献上最精彩的演技。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00004F嗯，那当然。{wait}
+	} {
+		#00000F伊莉雅小姐和大家一起献上的精彩表演……
+		我会好好期待的。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CharTurnTo char[0] 45deg 0deg/s
+	_Char4B char[0] 255
+	FlagSet flag[3043]
+	system[108] += 2
+	ED7_Cam69 255 0
+	CharSetPos field_party[0] (-5420, 15200, -4850) 0deg
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharFlagsSet field_party[5] 0x0080
+	CharFlags2Set field_party[5] 0x8000
+	EventEnd 5
+	Return
+
+fn[31]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	_Char4A char[0] 255
+	_Char4A char[1] 255
+	_Char4A char[2] 255
+	_Char4A char[3] 255
+	_Char4A char[5] 255
+	_Char4A char[6] 255
+	CharSetPos name[0] (700, 1350, 7760) 0deg
+	CharSetPos name[1] (-700, 1350, 7760) 0deg
+	CharSetPos name[8] (700, 1520, 6680) 0deg
+	CharSetPos name[4] (-700, 1520, 6680) 0deg
+	CharSetPos name[2] (700, 1620, 5680) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CamSetDistance 0 1320 13820 0ms
+	ED7CamRotate 45deg 22deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 16000 0ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	Emote char[3] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnToChar char[3] field_party[0] 500deg/s
+	TextTalk char[3] {
+		哎呀，你们是……{wait}
+	}
+	TextWait
+	Emote char[0] 0mm 2000mm 38 38 250ms 1
+	Emote char[1] 0mm 2000mm 38 38 250ms 1
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	Fork char[0] fork[1]:
+		CharTurnToChar char[0] field_party[0] 500deg/s
+	Fork char[1] fork[1]:
+		CharTurnToChar char[1] field_party[0] 500deg/s
+	CharTurnToChar char[2] field_party[0] 500deg/s
+	Fork name[0] fork[1]:
+		CharWalkToPos self (700, 1450, 12200) 2000mm/s 0
+	Fork name[1] fork[1]:
+		CharWalkToPos self (-700, 1450, 11760) 2000mm/s 0
+	Fork name[8] fork[1]:
+		CharWalkToPos self (700, 1450, 10980) 2000mm/s 0
+	Fork name[4] fork[1]:
+		CharWalkToPos self (-700, 1450, 10680) 2000mm/s 0
+	Fork name[2] fork[1]:
+		CharWalkToPos self (700, 1450, 9980) 2000mm/s 0
+	ForkWait name[0] fork[1]
+	TextTalk char[0] {
+		#01705F哎呀呀，这不是弟弟和伙伴们吗？{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#04205F你、你们来干嘛……？{wait}
+	}
+	TextWait
+	CharTurnTo char[1] 0deg 500deg/s
+	TextTalk char[1] {
+		#01808F…………{wait}
+	}
+	TextWait
+	CharTurnToChar name[0] char[1] 500deg/s
+	Sleep 1000ms
+	CharTurnToChar name[1] char[1] 500deg/s
+	TextTalk name[0] {
+		#00003F莉夏……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00108F莉夏小姐……{wait}
+	}
+	TextWait
+	Emote char[0] 0mm 2000mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Sleep 1200ms
+	CharTurnToChar char[0] char[1] 500deg/s
+	TextTalk char[0] {
+		#01705F怎么啦？莉夏。
+		你和他们之间发生什么事了吗？{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#01803F──没什么……{wait}
+	} {
+		#01801F伊莉雅小姐，先别管这个了，
+		我们很快就要正式表演了。{wait}
+	} {
+		衔接双人对戏的那个部分，
+		我想再练习一遍。{wait}
+	}
+	TextWait
+	CharTurnToChar char[2] char[0] 500deg/s
+	TextTalk char[2] {
+		#04200F对啊，伊莉雅小姐！{wait}
+	} {
+		我也想再多练练
+		那个部分。{wait}
+	}
+	TextWait
+	Emote char[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[0] {
+		#01705F啊、嗯，说的也是。{wait}
+	}
+	TextWait
+	CharTurnToChar char[0] name[0] 500deg/s
+	TextTalk char[0] {
+		#01703F我们要练习了，看你们好像也
+		没什么要事找我们，
+		那可不可以先打道回府呢？{wait}
+	} {
+		#01700F我现在想让团员们
+		好好专注在练习上。{wait}
+	}
+	TextWait
+	Fork name[0] fork[1]:
+		CharTurnToChar name[0] char[0] 500deg/s
+	CharTurnToChar name[1] char[0] 500deg/s
+	TextTalk name[0] {
+		#00003F是、是的……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00103F……非常抱歉
+		打扰各位了。{wait}
+	}
+	TextWait
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	_Char4B char[0] 255
+	_Char4B char[1] 255
+	_Char4B char[2] 255
+	_Char4B char[3] 255
+	_Char4B char[5] 255
+	_Char4B char[6] 255
+	CharTurnTo char[0] 180deg 0deg/s
+	CharTurnTo char[1] 0deg 0deg/s
+	CharTurnTo char[2] 0deg 0deg/s
+	CharTurnTo char[3] 135deg 0deg/s
+	FlagSet flag[2927]
+	TriggerFlagsSet trigger[2] 0x0080
+	EventEnd 5
+	Return
+
+fn[32]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance -3290 3950 17840 0ms
+	ED7CamRotate 22deg 17deg 0deg 0ms
+	CamPers 600 0ms
+	CamZoom 15820 0ms
+	ED7LoadChip "chr/ch14150.itc" chip[55]
+	ED7LoadChip "chr/ch14151.itc" chip[56]
+	ED7LoadChip "chr/ch14152.itc" chip[57]
+	ED7LoadChip "chr/ch14153.itc" chip[58]
+	ED7LoadChip "chr/ch14154.itc" chip[59]
+	CharFlagsUnset char[3] 0x0080
+	CharFlagsUnset char[8] 0x0080
+	CharFlagsUnset char[5] 0x0080
+	CharFlagsUnset char[6] 0x0080
+	CharFlagsUnset char[7] 0x0080
+	CharFlagsUnset char[9] 0x0080
+	CharFlagsUnset char[4] 0x0080
+	CharFlagsUnset char[10] 0x0080
+	CharSetChipBase char[5] chip[11]
+	CharSetChipBase char[6] chip[12]
+	CharSetChipBase char[7] chip[13]
+	CharSetChipBase char[8] chip[15]
+	CharSetChipBase char[9] chip[17]
+	CharSetChipPattern char[5] 0
+	CharSetChipPattern char[6] 0
+	CharSetChipPattern char[7] 0
+	CharSetChipPattern char[8] 0
+	CharSetChipPattern char[9] 0
+	CharSetPos char[3] (170, 450, 11640) 0deg
+	CharSetPos char[5] (-390, 1250, 19660) 90deg
+	CharSetPos char[6] (900, 1250, 20710) 180deg
+	CharSetPos char[7] (2040, 1250, 20500) 225deg
+	CharSetPos char[8] (280, 1250, 18560) 45deg
+	CharSetPos char[9] (1940, 1250, 18990) 315deg
+	CharSetPos char[4] (-3110, 1250, 19110) 60deg
+	CharSetPos char[10] (-1810, 1250, 19900) 240deg
+	CharFlagsSet char[3] 0x8000
+	CharFlagsSet char[5] 0x8000
+	CharFlagsSet char[6] 0x8000
+	CharFlagsSet char[7] 0x8000
+	CharFlagsSet char[8] 0x8000
+	CharFlagsSet char[9] 0x8000
+	CharFlagsSet char[10] 0x8000
+	CharFlagsSet char[4] 0x8000
+	CharSetPos name[0] (-600, 2700, -4000) 0deg
+	CharSetPos name[1] (600, 2700, -4100) 0deg
+	CharSetPos name[2] (-600, 2700, -4000) 0deg
+	CharSetPos name[3] (600, 2700, -4100) 0deg
+	CharSetPos custom[0] (-600, 2700, -4000) 0deg
+	CharSetPos custom[1] (600, 2700, -4100) 0deg
+	CharColor name[0] 0x00FFFFFF 0ms
+	CharColor name[1] 0x00FFFFFF 0ms
+	CharColor name[2] 0x00FFFFFF 0ms
+	CharColor name[3] 0x00FFFFFF 0ms
+	CharColor custom[0] 0x00FFFFFF 0ms
+	CharColor custom[1] 0x00FFFFFF 0ms
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[2] 255
+	CharSetChipBase char[2] chip[55]
+	CharSetChipPattern char[2] 0
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (2500, 1250, 25450) 0deg
+	ForkFunc field_party[0] fork[0] fn[0,49]
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	Fork name[0] fork[1]:
+		CharWalkToPos self (-600, 2700, 1000) 2000mm/s 0
+	Fork name[0] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 100ms
+	Fork name[1] fork[1]:
+		CharWalkToPos self (600, 2700, 900) 2000mm/s 0
+	Fork name[1] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 500ms
+	Fork name[2] fork[1]:
+		CharWalkToPos self (-750, 2700, -450) 2000mm/s 0
+	Fork name[2] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 100ms
+	CamSetDistance -1660 3950 2020 4000ms
+	ED7CamRotate 33deg 8deg 0deg 4000ms
+	CamPers 600 4000ms
+	CamZoom 15070 4000ms
+	Fork name[3] fork[1]:
+		CharWalkToPos self (750, 2700, -450) 2000mm/s 0
+	Fork name[3] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 500ms
+	Fork custom[0] fork[1]:
+		CharWalkToPos self (-500, 2700, -1550) 2000mm/s 0
+	Fork custom[0] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 100ms
+	Fork custom[1] fork[1]:
+		CharWalkToPos self (770, 2700, -1550) 2000mm/s 0
+	Fork custom[1] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	ForkWait custom[1] fork[1]
+	CamWait 121
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[0] {
+		#12P#00002F这是……{wait}
+	}
+	TextWait
+	if PartyPosition name[9] > -1:
+		TextTalk name[9] {
+			#12P#00602F这就是『金之太阳、银之月』
+			新增的场景啊……{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[8] {
+			#12P#10102F这就是『金之太阳、银之月』
+			新增的场景啊……{wait}
+		}
+		TextWait
+	TextTalk name[2] {
+		#12P#00202F修莉小姐真厉害……{wait}
+	}
+	TextWait
+	CamSetDistance 150 4650 13120 3000ms
+	ED7CamRotate 0deg 10deg 0deg 3000ms
+	CamPers 650 3000ms
+	CamZoom 10510 3000ms
+	CamWait 121
+	Sleep 1000ms
+	CrossFade 500ms
+	CamSetDistance 660 820 13410 0ms
+	ED7CamRotate 33deg 23deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 17510 0ms
+	CharSetPos name[0] (-530, 1810, 5540) 0deg
+	CharSetPos name[1] (480, 1800, 5350) 0deg
+	CharSetPos name[2] (-790, 2160, 4170) 0deg
+	CharSetPos name[3] (730, 2240, 4050) 0deg
+	CharSetPos custom[0] (-400, 2240, 2900) 0deg
+	CharSetPos custom[1] (680, 2240, 2900) 0deg
+	FadeWait
+	Fork name[0] fork[1]:
+		CharWalkToPos self (-550, 900, 9770) 2000mm/s 0
+	Fork name[1] fork[1]:
+		CharWalkToPos self (620, 900, 9770) 2000mm/s 0
+	Fork name[2] fork[1]:
+		CharWalkToPos self (-720, 1330, 8470) 2000mm/s 0
+	Fork name[3] fork[1]:
+		CharWalkToPos self (650, 1310, 8500) 2000mm/s 0
+	Fork custom[0] fork[1]:
+		CharWalkToPos self (-570, 1350, 7280) 2000mm/s 0
+	Fork custom[1] fork[1]:
+		CharWalkToPos self (590, 1350, 7240) 2000mm/s 0
+	Sleep 1000ms
+	_Char4A char[3] 255
+	Emote char[3] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnTo char[3] 180deg 500deg/s
+	ForkWait name[0] fork[1]
+	TextTalk char[3] {
+		#5P哎呀，你们是……{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F团长，好久不见了。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#12P#00100F大家似乎都全心全意
+		专注在排练上呢。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#5P嗯，因为以修莉为中心
+		重新构思出来的演出走位
+		也开始逐渐成形了。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#5P大家现在为了
+		尽早让公演继续举办下去，
+		正全心全力努力着。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#5P听说伊莉雅也
+		已经醒过来了……
+		我们可不能辜负她的期望。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00000F原来……是这么一回事啊。{wait}
+	} {
+		#00008F（这么说来，剧团的成员们
+		　连莉夏目前
+		　人在哪里都不知道吧。）{wait}
+	} {
+		#00003F（虽然很想让他们
+		　见上一面，不过……）{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	ForkQuit char[2] fork[0]
+	ForkQuit char[2] fork[1]
+	ForkQuit char[2] fork[2]
+	ForkQuit char[2] fork[3]
+	ForkQuit field_party[0] fork[0]
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	ED7_Cam69 255 0
+	CharSetPos field_party[0] (10, 900, 9380) 0deg
+	FlagSet flag[3708]
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharFlagsSet field_party[5] 0x0080
+	CharFlags2Set field_party[5] 0x8000
+	_Char4B char[3] 255
+	if flag[3385]:
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[8] 0x0080
+		CharFlagsSet char[5] 0x0080
+		CharFlagsSet char[6] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[9] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[10] 0x0080
+		CharFlagsUnset char[5] 0x0080
+		CharFlagsUnset char[6] 0x0080
+		CharSetPos char[5] (3520, 1250, 22730) 90deg
+		CharSetPos char[6] (4800, 1250, 22730) 270deg
+		CharSetPos char[2] (0, 1250, 27230) 0deg
+		CharSetChipBase char[2] chip[20]
+		ForkFunc char[2] fork[0] fn[0,0]
+		CharSetChipBase char[5] chip[11]
+		CharSetChipBase char[6] chip[12]
+		CharSetChipBase char[8] chip[15]
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[7] 0x0080
+	elif flag[3371]:
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[8] 0x0080
+		CharFlagsSet char[5] 0x0080
+		CharFlagsSet char[6] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[9] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[10] 0x0080
+		CharFlagsUnset char[9] 0x0080
+		CharFlagsUnset char[5] 0x0080
+		CharSetPos char[3] (0, 0, 15300) 0deg
+		CharSetPos char[5] (0, 1250, 27300) 180deg
+		CharSetPos char[7] (-1390, 1250, 26170) 90deg
+		CharSetPos char[9] (1390, 1250, 26170) 270deg
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+	Sleep 1000ms
+	EventEnd 5
+	FlagSet flag[274]
+	NewScene "scena/c0410.bin" 101 0 0
+	Hcf
+	Return
+
+fn[33]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance 610 1520 13160 0ms
+	ED7CamRotate 43deg 20deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 17510 0ms
+	ED7LoadChip "chr/ch14150.itc" chip[55]
+	ED7LoadChip "chr/ch14151.itc" chip[56]
+	ED7LoadChip "chr/ch14152.itc" chip[57]
+	ED7LoadChip "chr/ch14153.itc" chip[58]
+	ED7LoadChip "chr/ch14154.itc" chip[59]
+	CharFlagsUnset char[3] 0x0080
+	CharFlagsUnset char[8] 0x0080
+	CharFlagsUnset char[5] 0x0080
+	CharFlagsUnset char[6] 0x0080
+	CharFlagsUnset char[7] 0x0080
+	CharFlagsUnset char[9] 0x0080
+	CharFlagsUnset char[4] 0x0080
+	CharFlagsUnset char[10] 0x0080
+	CharSetChipBase char[5] chip[11]
+	CharSetChipBase char[6] chip[12]
+	CharSetChipBase char[7] chip[13]
+	CharSetChipBase char[8] chip[15]
+	CharSetChipBase char[9] chip[17]
+	CharSetChipPattern char[5] 0
+	CharSetChipPattern char[6] 0
+	CharSetChipPattern char[7] 0
+	CharSetChipPattern char[8] 0
+	CharSetChipPattern char[9] 0
+	CharSetPos char[3] (170, 450, 11640) 0deg
+	CharSetPos char[5] (-390, 1250, 19660) 90deg
+	CharSetPos char[6] (900, 1250, 20710) 180deg
+	CharSetPos char[7] (2040, 1250, 20500) 225deg
+	CharSetPos char[8] (280, 1250, 18560) 45deg
+	CharSetPos char[9] (1940, 1250, 18990) 315deg
+	CharSetPos char[4] (-3110, 1250, 19110) 60deg
+	CharSetPos char[10] (-1810, 1250, 19900) 240deg
+	CharFlagsSet char[3] 0x8000
+	CharFlagsSet char[5] 0x8000
+	CharFlagsSet char[6] 0x8000
+	CharFlagsSet char[7] 0x8000
+	CharFlagsSet char[8] 0x8000
+	CharFlagsSet char[9] 0x8000
+	CharFlagsSet char[10] 0x8000
+	CharFlagsSet char[4] 0x8000
+	CharSetPos name[0] (-530, 1810, 5540) 0deg
+	CharSetPos name[1] (480, 1800, 5350) 0deg
+	CharSetPos name[2] (-790, 2160, 4170) 0deg
+	CharSetPos name[3] (730, 2240, 4050) 0deg
+	CharSetPos custom[0] (-400, 2240, 2900) 0deg
+	CharSetPos custom[1] (680, 2240, 2900) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[2] 255
+	CharSetChipBase char[2] chip[55]
+	CharSetChipPattern char[2] 0
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (2500, 1250, 25450) 0deg
+	ForkFunc field_party[0] fork[0] fn[0,49]
+	Fork name[0] fork[1]:
+		CharWalkToPos self (-550, 900, 9770) 2000mm/s 0
+	Fork name[1] fork[1]:
+		CharWalkToPos self (620, 900, 9770) 2000mm/s 0
+	Fork name[2] fork[1]:
+		CharWalkToPos self (-720, 1330, 8470) 2000mm/s 0
+	Fork name[3] fork[1]:
+		CharWalkToPos self (650, 1310, 8500) 2000mm/s 0
+	Fork custom[0] fork[1]:
+		CharWalkToPos self (-570, 1350, 7280) 2000mm/s 0
+	Fork custom[1] fork[1]:
+		CharWalkToPos self (590, 1350, 7240) 2000mm/s 0
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	Sleep 1000ms
+	_Char4A char[3] 255
+	Emote char[3] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnTo char[3] 180deg 500deg/s
+	ForkWait name[0] fork[1]
+	TextTalk char[3] {
+		#5P是你们啊……{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#5P如何？大家都很拼命吧？{wait}
+	}
+	TextWait
+	CharTurnTo char[3] 0deg 500deg/s
+	Sleep 300ms
+	TextTalk char[3] {
+		#11P大家现在为了
+		尽早让公演继续举办下去，
+		正全心全力努力着。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#11P听说伊莉雅也
+		已经醒过来了……
+		我们可不能辜负她的期望。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#12P#00003F（……看来剧团的成员们
+		　连莉夏目前人在哪里
+		　都不知道吧。）{wait}
+	} {
+		#00008F（虽然很想让他们
+		　见上一面，不过……）{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharFlagsSet field_party[5] 0x0080
+	CharFlags2Set field_party[5] 0x8000
+	EventEnd 5
+	FlagSet flag[274]
+	NewScene "scena/c0410.bin" 101 0 0
+	Hcf
+	Return
+
+fn[34]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance -3290 3950 17840 0ms
+	ED7CamRotate 22deg 17deg 0deg 0ms
+	CamPers 600 0ms
+	CamZoom 15820 0ms
+	ED7LoadChip "chr/ch14150.itc" chip[55]
+	ED7LoadChip "chr/ch14151.itc" chip[56]
+	ED7LoadChip "chr/ch14152.itc" chip[57]
+	ED7LoadChip "chr/ch14153.itc" chip[58]
+	ED7LoadChip "chr/ch14154.itc" chip[59]
+	CharFlagsUnset char[3] 0x0080
+	CharFlagsUnset char[8] 0x0080
+	CharFlagsUnset char[5] 0x0080
+	CharFlagsUnset char[6] 0x0080
+	CharFlagsUnset char[7] 0x0080
+	CharFlagsUnset char[9] 0x0080
+	CharFlagsUnset char[4] 0x0080
+	CharFlagsUnset char[10] 0x0080
+	CharSetChipBase char[5] chip[11]
+	CharSetChipBase char[6] chip[12]
+	CharSetChipBase char[7] chip[13]
+	CharSetChipBase char[8] chip[15]
+	CharSetChipBase char[9] chip[17]
+	CharSetChipPattern char[5] 0
+	CharSetChipPattern char[6] 0
+	CharSetChipPattern char[7] 0
+	CharSetChipPattern char[8] 0
+	CharSetChipPattern char[9] 0
+	CharSetPos char[3] (170, 450, 11640) 0deg
+	CharSetPos char[5] (-390, 1250, 19660) 90deg
+	CharSetPos char[6] (900, 1250, 20710) 180deg
+	CharSetPos char[7] (2040, 1250, 20500) 225deg
+	CharSetPos char[8] (280, 1250, 18560) 45deg
+	CharSetPos char[9] (1940, 1250, 18990) 315deg
+	CharSetPos char[4] (-3110, 1250, 19110) 60deg
+	CharSetPos char[10] (-1810, 1250, 19900) 240deg
+	CharFlagsSet char[3] 0x8000
+	CharFlagsSet char[5] 0x8000
+	CharFlagsSet char[6] 0x8000
+	CharFlagsSet char[7] 0x8000
+	CharFlagsSet char[8] 0x8000
+	CharFlagsSet char[9] 0x8000
+	CharFlagsSet char[10] 0x8000
+	CharFlagsSet char[4] 0x8000
+	CharSetPos name[0] (-600, 2700, -4000) 0deg
+	CharSetPos name[1] (600, 2700, -4100) 0deg
+	CharSetPos name[2] (-600, 2700, -4000) 0deg
+	CharSetPos name[3] (600, 2700, -4100) 0deg
+	CharSetPos custom[0] (-600, 2700, -4000) 0deg
+	CharSetPos custom[1] (600, 2700, -4100) 0deg
+	CharColor name[0] 0x00FFFFFF 0ms
+	CharColor name[1] 0x00FFFFFF 0ms
+	CharColor name[2] 0x00FFFFFF 0ms
+	CharColor name[3] 0x00FFFFFF 0ms
+	CharColor custom[0] 0x00FFFFFF 0ms
+	CharColor custom[1] 0x00FFFFFF 0ms
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[2] 255
+	CharSetChipBase char[2] chip[55]
+	CharSetChipPattern char[2] 0
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (2500, 1250, 25450) 0deg
+	ForkFunc field_party[0] fork[0] fn[0,49]
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	Fork name[0] fork[1]:
+		CharWalkToPos self (-600, 2700, 1000) 2000mm/s 0
+	Fork name[0] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 100ms
+	Fork name[1] fork[1]:
+		CharWalkToPos self (600, 2700, 900) 2000mm/s 0
+	Fork name[1] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 500ms
+	Fork name[2] fork[1]:
+		CharWalkToPos self (-750, 2700, -450) 2000mm/s 0
+	Fork name[2] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 100ms
+	CamSetDistance -1660 3950 2020 4000ms
+	ED7CamRotate 33deg 8deg 0deg 4000ms
+	CamPers 600 4000ms
+	CamZoom 15070 4000ms
+	Fork name[3] fork[1]:
+		CharWalkToPos self (750, 2700, -450) 2000mm/s 0
+	Fork name[3] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 500ms
+	Fork custom[0] fork[1]:
+		CharWalkToPos self (-500, 2700, -1550) 2000mm/s 0
+	Fork custom[0] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	Sleep 100ms
+	Fork custom[1] fork[1]:
+		CharWalkToPos self (770, 2700, -1550) 2000mm/s 0
+	Fork custom[1] fork[2]:
+		CharColor self 0xFFFFFFFF 1000ms
+	ForkWait custom[1] fork[1]
+	CamWait 121
+	if !flag[3708]:
+		Emote name[0] 0mm 2000mm 38 38 250ms 1
+		Sleep 1000ms
+		TextTalk name[0] {
+			#12P#00000F这是……{wait}
+		}
+		TextWait
+		if PartyPosition name[9] > -1:
+			TextTalk name[9] {
+				#12P#00602F这就是『金之太阳、银之月』
+				新增的场景啊……{wait}
+			}
+			TextWait
+		elif PartyPosition name[8] > -1:
+			TextTalk name[8] {
+				#12P#10102F这就是『金之太阳、银之月』
+				新增的场景啊……{wait}
+			}
+			TextWait
+		else:
+			TextTalk name[4] {
+				#12P#10402F呵呵，这就是『金之太阳、银之月』
+				新增的场景啊。{wait}
+			}
+			TextWait
+		TextTalk name[2] {
+			#12P#00202F修莉小姐真厉害……{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[0] {
+			#12P#00000F大家似乎仍在
+			埋头苦练。{wait}
+		}
+		TextWait
+		TextTalk name[5] {
+			#12P#10702F……修莉，各位……{wait}
+		}
+		TextWait
+	CamSetDistance 150 4650 13120 3000ms
+	ED7CamRotate 0deg 10deg 0deg 3000ms
+	CamPers 650 3000ms
+	CamZoom 10510 3000ms
+	CamWait 121
+	Sleep 1000ms
+	CrossFade 500ms
+	CamSetDistance 660 820 13410 0ms
+	ED7CamRotate 33deg 23deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 17510 0ms
+	CharSetPos name[0] (-530, 1810, 5540) 0deg
+	CharSetPos name[1] (480, 1800, 5350) 0deg
+	CharSetPos name[2] (-790, 2160, 4170) 0deg
+	CharSetPos name[3] (730, 2240, 4050) 0deg
+	CharSetPos custom[0] (-400, 2240, 2900) 0deg
+	CharSetPos custom[1] (680, 2240, 2900) 0deg
+	FadeWait
+	Fork name[0] fork[1]:
+		CharWalkToPos self (-550, 900, 9770) 2000mm/s 0
+	Fork name[1] fork[1]:
+		CharWalkToPos self (620, 900, 9770) 2000mm/s 0
+	Fork name[2] fork[1]:
+		CharWalkToPos self (-720, 1330, 8470) 2000mm/s 0
+	Fork name[3] fork[1]:
+		CharWalkToPos self (650, 1310, 8500) 2000mm/s 0
+	Fork custom[0] fork[1]:
+		CharWalkToPos self (-570, 1350, 7280) 2000mm/s 0
+	Fork custom[1] fork[1]:
+		CharWalkToPos self (590, 1350, 7240) 2000mm/s 0
+	Sleep 1000ms
+	_Char4A char[3] 255
+	Emote char[3] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnTo char[3] 180deg 500deg/s
+	ForkWait name[0] fork[1]
+	if !flag[3708]:
+		TextTalk char[3] {
+			#5P哎呀，你们是……{wait}
+		}
+		TextWait
+	else:
+		TextTalk char[3] {
+			#5P啊，是你们啊……{wait}
+		}
+		TextWait
+	Emote char[3] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk char[3] {
+		#5P莉夏──
+		这不是莉夏吗！{wait}
+	}
+	TextWait
+	ForkQuit char[2] fork[0]
+	ForkQuit char[2] fork[1]
+	ForkQuit char[2] fork[2]
+	ForkQuit char[2] fork[3]
+	ForkQuit field_party[0] fork[0]
+	CrossFade 500ms
+	CharSetChipBase char[2] chip[16]
+	CharSetChipPattern char[2] 0
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (-50, 1250, 25080) 0deg
+	FadeWait
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[2] {
+		#5P#N#12211F莉夏姐……？{wait}
+	}
+	TextWait
+	_59
+	_Char4A char[7] 255
+	_Char4A char[5] 255
+	_Char4A char[6] 255
+	_Char4A char[8] 255
+	_Char4A char[9] 255
+	_Char4A char[10] 255
+	_Char4A char[4] 255
+	CamSetDistance 400 1520 13900 2000ms
+	ED7CamRotate 34deg 16deg 0deg 2000ms
+	CamPers 650 2000ms
+	CamZoom 17510 2000ms
+	Fork char[2] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[7] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[5] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[6] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[8] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[9] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[10] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 50ms
+	Fork char[4] fork[1]:
+		CharTurnToChar self name[5] 500deg/s
+	Sleep 100ms
+	Emote char[2] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[7] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[5] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[6] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[8] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[9] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[10] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[4] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk char[7] {
+		#5P真的耶，是莉夏！{wait}
+	}
+	TextWait
+	TextTalk char[5] {
+		#5P哈哈，看来没搞错吧？{wait}
+	}
+	TextWait
+	TextTalk char[6] {
+		#5P……没有错，确实是莉夏。{wait}
+	}
+	TextWait
+	TextTalk char[8] {
+		#5P呵呵，这下子
+		终于能放下心中的最后一颗大石了。{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10717F……各位…………{wait}
+	} {
+		#10703F……呃，真的十分抱歉。{wait}
+	}
+	TextWait
+	Sleep 500ms
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	CamSetDistance 10 1670 17720 0ms
+	ED7CamRotate 46deg 9deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 14860 0ms
+	CharSetPos char[3] (650, 0, 15670) 225deg
+	CharSetPos char[2] (-730, 0, 15940) 180deg
+	CharSetPos char[10] (-1810, 1250, 19920) 180deg
+	CharSetPos char[4] (-3020, 1250, 19410) 180deg
+	CharSetPos char[5] (-1000, 1250, 18840) 180deg
+	CharSetPos char[6] (-590, 1250, 20230) 180deg
+	CharSetPos char[7] (1170, 1250, 20400) 180deg
+	CharSetPos name[0] (620, 0, 14370) 315deg
+	CharSetPos name[5] (-630, 0, 14440) 0deg
+	CharSetPos name[1] (-780, 450, 12770) 0deg
+	CharSetPos name[2] (700, 450, 12660) 0deg
+	CharSetPos name[3] (-770, 450, 11500) 0deg
+	if PartyPosition name[9] > -1:
+		CharSetPos name[9] (680, 500, 11260) 0deg
+	elif PartyPosition name[8] > -1:
+		CharSetPos name[8] (680, 500, 11260) 0deg
+	else:
+		CharSetPos name[4] (680, 500, 11260) 0deg
+	Sleep 1000ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	TextTalk char[3] {
+		#5P原来你现在
+		和支援课的成员们待在一起……{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10708F是的，我现在还没办法将
+		实情完整告诉各位，不过……{wait}
+	} {
+		#10710F等我做完了断，
+		到时一定会……{wait}
+	}
+	TextWait
+	TextTalk char[8] {
+		#5P呵呵，你也真是的，
+		干嘛摆出一副
+		这么悲壮的表情呢？{wait}
+	}
+	TextWait
+	Emote name[5] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[5] {
+		#12P#10712F咦……？{wait}
+	}
+	TextWait
+	TextTalk char[9] {
+		#5P对呀，又没有人
+		拜托你摆出
+		这种表情。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#5P对啊，没错。
+		这样就不好看了。{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10718F普莉耶……
+		瑟蕾奴、尼可……{wait}
+	}
+	TextWait
+	TextTalk char[6] {
+		#5P不管怎么样……
+		你办完该办的事之后，
+		就尽快回来吧。{wait}
+	}
+	TextWait
+	TextTalk char[5] {
+		#5P对啊，我还有很多表演方法
+		想和莉夏一起尝试。{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10716F缇奥多尔先生，尤金先生……{wait}
+	}
+	TextWait
+	TextTalk char[10] {
+		#5P呵呵，我也会准备好
+		服装等你回来喔。{wait}
+	}
+	TextWait
+	TextTalk char[4] {
+		#5P我会布置好舞台装置。{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10715F卡蕾莉亚小姐、汉斯先生……{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 1700mm 24 27 250ms 0
+	Sleep 500ms
+	CamSetDistance -630 1070 15110 2000ms
+	ED7CamRotate 56deg 21deg 0deg 2000ms
+	CamPers 650 2000ms
+	CamZoom 11060 2000ms
+	CamWait 121
+	EmoteStop char[2]
+	TextTalk char[2] {
+		#12208F……莉夏姐……{wait}
+	}
+	TextWait
+	Emote name[5] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[5] {
+		#12P#10716F修莉……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12206F这里……彩虹剧团……
+		……就是你的家。{wait}
+	} {
+		#12212F我是不知道莉夏姐
+		肩上背负着什么东西，可是……{wait}
+	} {
+		#12210F这里对你来说……
+		对伊莉雅小姐还有我来说，
+		都是最好的归属……{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10718F……修莉……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12212F我……不管发生什么事，
+		都一定会保护好这里……所以………{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10715F嗯……嗯……{wait}
+	} {
+		#10716F……我明白
+		你的心意了。{wait}
+	} {
+		#10716F我一定会回来的……
+		……我保证，所以别担心我。{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 1700mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[2] {
+		#12210F你保证……不是骗我的吧？莉夏姐。{wait}
+	} {
+		说谎的人是小狗喔！{wait}
+	}
+	TextWait
+	TextTalk name[5] {
+		#12P#10715F嗯……我知道。{wait}
+	}
+	TextWait
+	CharTurnToChar name[0] name[5] 500deg/s
+	TextTalk name[0] {
+		#11P#00002F莉夏……{wait}
+	}
+	TextWait
+	CharTurnToChar name[5] name[0] 500deg/s
+	Sleep 300ms
+	TextTalk name[5] {
+		#6P#10715F……罗伊德先生。
+		我们该走了。{wait}
+	} {
+		#10716F大家该回去练习了……
+		而我们也该加快脚步
+		前往目的地了。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00000F嗯……说的也是。{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	ED7_Cam69 255 0
+	CharSetPos field_party[0] (0, 0, 13940) 0deg
+	FlagSet flag[3709]
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharFlagsSet field_party[5] 0x0080
+	CharFlags2Set field_party[5] 0x8000
+	_Char4B char[3] 255
+	_Char4B char[2] 255
+	_Char4B char[7] 255
+	_Char4B char[5] 255
+	_Char4B char[6] 255
+	_Char4B char[8] 255
+	_Char4B char[9] 255
+	_Char4B char[10] 255
+	_Char4B char[4] 255
+	if flag[3385]:
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[8] 0x0080
+		CharFlagsSet char[5] 0x0080
+		CharFlagsSet char[6] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[9] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[10] 0x0080
+		CharFlagsUnset char[5] 0x0080
+		CharFlagsUnset char[6] 0x0080
+		CharSetPos char[5] (3520, 1250, 22730) 90deg
+		CharSetPos char[6] (4800, 1250, 22730) 270deg
+		CharSetPos char[2] (0, 1250, 27230) 0deg
+		CharSetChipBase char[2] chip[20]
+		ForkFunc char[2] fork[0] fn[0,0]
+		CharSetChipBase char[5] chip[11]
+		CharSetChipBase char[6] chip[12]
+		CharSetChipBase char[8] chip[15]
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[7] 0x0080
+	elif flag[3371]:
+		CharFlagsSet char[2] 0x0080
+		CharFlagsSet char[3] 0x0080
+		CharFlagsSet char[8] 0x0080
+		CharFlagsSet char[5] 0x0080
+		CharFlagsSet char[6] 0x0080
+		CharFlagsSet char[7] 0x0080
+		CharFlagsSet char[9] 0x0080
+		CharFlagsSet char[4] 0x0080
+		CharFlagsSet char[10] 0x0080
+		CharFlagsUnset char[9] 0x0080
+		CharFlagsUnset char[5] 0x0080
+		CharSetPos char[3] (0, 0, 15300) 0deg
+		CharSetPos char[5] (0, 1250, 27300) 180deg
+		CharSetPos char[7] (-1390, 1250, 26170) 90deg
+		CharSetPos char[9] (1390, 1250, 26170) 270deg
+		CharFlagsSet char[0] 0x0080
+		CharFlagsSet char[1] 0x0080
+		CharFlagsSet char[2] 0x0080
+	Sleep 1000ms
+	EventEnd 5
+	FlagSet flag[274]
+	NewScene "scena/c0410.bin" 101 0 0
+	Hcf
+	Return
+
+fn[35]:
+	EventBegin 0
+	FadeOut 500ms 0x00000000 255
+	FadeWait
+	CharFlagsSet char[5] 0x0080
+	CharFlagsSet char[6] 0x0080
+	CamSetDistance -40 3900 28500 0ms
+	ED7CamRotate 0deg 2deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 20350 0ms
+	CharSetPos name[0] (-750, 1250, 25380) 0deg
+	CharSetPos name[1] (690, 1250, 25060) 0deg
+	CharSetPos name[2] (-1940, 1250, 24700) 45deg
+	CharSetPos name[3] (1760, 1250, 24400) 315deg
+	CharSetPos custom[0] (-1200, 1250, 23190) 0deg
+	CharSetPos custom[1] (1000, 1250, 23100) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[2] 255
+	CharTurnTo char[2] 0deg 0deg/s
+	CamSetDistance -40 3200 28500 3000ms
+	FadeIn 500ms 0x00000000
+	FadeWait
+	CamWait 121
+	TextTalk char[2] {
+		#12P#14003F…………{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#6P#00005F怎么了，修莉？{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CrossFade 500ms
+	CamSetDistance 510 2700 24450 0ms
+	ED7CamRotate 331deg 19deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 16329 0ms
+	Sleep 100ms
+	CharTurnTo char[2] 180deg 500deg/s
+	Sleep 1000ms
+	TextTalk char[2] {
+		#11P#14000F啊、喔……
+		我想祈祷一下。{wait}
+	} {
+		#14003F毕竟这个好歹也是祭坛。
+		……虽然只是布景。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#12P#00302F哈哈，原来是这样。
+		不过说不定还满灵验的喔。{wait}
+	} {
+		#00305F所以说，你刚才在祈祷什么呢？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#6P#00106F我说啊，兰迪，
+		这种事不要随便乱问……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#11P#14000F喔，我是无所谓啦。{wait}
+	} {
+		#14003F其一当然是为了伊莉雅小姐祈祷……{wait}
+	} {
+		还有就是为你们祈祷。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[0] {
+		#6P#00005F咦……？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#6P#00205F你说我们吗？{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#11P#14003F…………{wait}
+	} {
+		#14001F……虽然我不清楚详情，
+		但你们现在
+		正在找琪雅吧？{wait}
+	} {
+		因此，你们接下来还
+		打算去很危险的地方。{wait}
+	} {
+		#14003F…………{wait}
+	} {
+		#14002F所以我在祈求你们的平安。
+		而且莉夏姐也会跟你们一起去嘛。{wait}
+	}
+	TextWait
+	if PartyPosition name[5] > -1:
+		TextTalk name[5] {
+			#6P#10702F修莉……
+			呵呵，谢谢你。{wait}
+		}
+		TextWait
+	elif PartyPosition name[8] > -1:
+		TextTalk name[8] {
+			#6P#10102F原来如此……
+			修莉，谢谢你啰。{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[4] {
+			#6P#10302F呵呵，原来如此……
+			你嘴巴还
+			满甜的嘛。{wait}
+		}
+		TextWait
+	TextTalk name[0] {
+		#6P#00002F嗯，谢谢你
+		肯如此为我们着想。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#11P#14012F总、总而言之……
+		琪雅是我一个很重要的朋友。{wait}
+	} {
+		#14001F你们绝对要把她找回来。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#6P#00000F嗯！那当然！{wait}
+	}
+	TextWait
+	if system[111] >= 12:
+		TextTalk char[2] {
+			#11P#14000F话说……
+			我有个东西想
+			交给你们带着。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#6P#00000F给我们……
+			是什么东西？{wait}
+		}
+		TextWait
+		_94 0 char[2] 0deg 500 1500mm/s 0
+		Sleep 500ms
+		CrossFade 500ms
+		CharSetChipBase char[2] chip[2]
+		CharSetChipPattern char[2] 0
+		FadeWait
+		TextSetName ""
+		TextMessage null {
+			{color 5}修莉摘下帽子，交给了罗伊德。{color 0}{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		TextSetPos -1 -1 -1 -1
+		FadeOut 300ms 0x00000000 100
+		SoundPlay sound[17] 0 100 0
+		TextSetName ""
+		TextMessage name[742] {
+			{color 0}已收下{item[925]}{color 0}。{wait}
+		}
+		TextWait
+		TextClose 0
+		FadeIn 300ms 0x00000000
+		ItemAdd item[925] 1
+		TextSetPos -1 280 60 3
+		FlagSet flag[3825]
+		_94 1 char[2] 180deg 500 1500mm/s 0
+		TextTalk name[0] {
+			#6P#00005F这是……{wait}
+		}
+		TextWait
+		TextTalk char[2] {
+			#11P#04203F我其实很想
+			和你们一起
+			去找琪雅，不过……{wait}
+		} {
+			#04208F我很清楚
+			自己是办不到的。{wait}
+		} {
+			所以，我希望你们能带着
+			我平时常戴的帽子。{wait}
+		} {
+			#04201F……不行吗？{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#6P#00002F当然可以啊。{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#6P#00102F我们收下
+			你的心意了。{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			#6P#00202F嗯，我们会负起责任，
+			保管好这顶帽子。{wait}
+		}
+		TextWait
+		if PartyPosition name[5] > -1:
+			TextTalk char[2] {
+				#11P#04212F这、这样啊……
+				那就拜托你们了。{wait}
+			} {
+				#04202F那么，
+				莉夏姐，还有其他人，
+				大家都要保重喔。{wait}
+			}
+			TextWait
+			TextTalk name[5] {
+				#6P#10709F嗯，知道了。{wait}
+			}
+			TextWait
+			_59
+		else:
+			TextTalk char[2] {
+				#11P#04212F这、这样啊……
+				那就拜托你们了。{wait}
+			} {
+				#04202F那么，
+				大家千万要小心喔。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#6P#00000F嗯，我明白了。{wait}
+			}
+			TextWait
+			_59
+	FlagSet flag[3824]
+	_Char4B char[2] 255
+	CharFlagsUnset char[2] 0x0010
+	ED7_Cam69 255 0
+	CharSetPos field_party[0] (0, 1250, 24400) 0deg
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	CharFlagsSet field_party[5] 0x0080
+	CharFlags2Set field_party[5] 0x8000
+	CharFlagsUnset char[5] 0x0080
+	CharFlagsUnset char[6] 0x0080
+	if flag[3433] && flag[3557] && flag[3825] && flag[3788] && flag[3826]:
+		ED7_DE 52
+	EventEnd 5
+	Return
+
+fn[36]:
+	EventBegin 0
+	CrossFade 500ms
+	CamSetDistance 65370 1500 2140 0ms
+	ED7CamRotate 37deg 27deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 15840 0ms
+	CharSetPos char[7] (67000, 0, 3000) 270deg
+	CharSetPos name[0] (65670, 0, 3760) 90deg
+	CharSetPos name[1] (65700, 0, 2440) 90deg
+	CharSetPos name[3] (64000, 0, 3200) 90deg
+	CharSetPos name[8] (64590, 0, 1760) 90deg
+	CharSetPos name[4] (64610, 0, 4350) 135deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	_Char4A char[7] 255
+	FadeWait
+	TextTalk char[7] {
+		#1252590001V哎呀，你们是……{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#6P#00000F#1250000044V你好，尼可先生。{wait}
+	} {
+		#1250000045V有件事情想请教一下……{wait}
+	}
+	TextWait
+	TextSetName ""
+	TextMessage null {
+		{color 5}罗伊德向他说明
+		是教授委托他们来拿回问诊表。{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextTalk char[7] {
+		#1252590002V喔，那张问诊表啊。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#1252590003V最近练习练得
+		太开心了，完全忘记
+		要拿过去了。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#1252590004V稍等我一下。
+		我去拿过来。{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	Sleep 2000ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	TextTalk char[7] {
+		#1252590005V来，你们要的是这个吧？{wait}
+	}
+	TextWait
+	TextSetPos -1 -1 -1 -1
+	FadeOut 300ms 0x00000000 100
+	SoundPlay sound[17] 0 100 0
+	TextSetName ""
+	TextMessage name[742] {
+		{color 0}已收下{item[813]}{color 0}。{wait}
+	}
+	TextWait
+	TextClose 0
+	FadeIn 300ms 0x00000000
+	ItemAdd item[813] 1
+	TextSetPos -1 280 60 3
+	TextTalk name[0] {
+		#6P#00000F#1250000046V对，就是它。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#6P#00102F#1250010013V呵呵，看来
+		那些药物没有
+		留下什么影响呢。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#1252590006V对啊，毕竟我接受了
+		完整的治疗。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#1252590007V……现在回想起来，
+		我当初到底为什么会
+		去使用那种药物呢……？{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#1252590008V我当时的确是
+		十分感叹自己缺乏才能，
+		精神相当萎靡……{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#6P#10303F#1250040014V药物本来就是
+		会在心灵脆弱时
+		趁虚而入的东西。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#6P#00300F#1250030015V既然你能够有所自觉，
+		现在应该也就没什么好担心的了。{wait}
+	}
+	TextWait
+	TextTalk char[7] {
+		#1252590009V嗯……接下来我会
+		为了彩虹剧团
+		更加努力精进自我。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#6P#10100F#1250050012V真期待你们的表演。{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	FlagSet flag[2708]
+	QuestTaskSet quest[112] 3
+	if QuestFlagsGet quest[112] 0x02 && !QuestFlagsGet quest[112] 0x10 && !QuestFlagsGet quest[112] 0x40 && flag[2707] && flag[2708] && flag[2710]:
+		TextMessage name[0] {
+			#00000F#1250000047V这样一来，所有的问诊表
+			都拿回来了。{wait}
+		} {
+			#1250000048V赶快拿回去交给
+			赛兰德教授吧。{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		QuestTaskSet quest[112] 5
+	CharTurnTo char[7] 90deg 0deg/s
+	_Char4B char[7] 255
+	CharFlagsUnset char[7] 0x0010
+	ED7_Cam69 255 0
+	CharSetPos field_party[0] (65000, 0, 3000) 225deg
+	CharFlagsSet field_party[4] 0x0080
+	CharFlags2Set field_party[4] 0x8000
+	EventEnd 5
+	Return
+
+fn[37]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	ED7LoadChip "chr/ch39000.itc" chip[30]
+	ED7LoadChip "chr/ch00100.itc" chip[31]
+	ED7LoadChip "chr/ch03000.itc" chip[32]
+	CharSetChipBase char[11] chip[30]
+	CharSetChipPattern char[11] 0
+	CharFlagsUnset char[11] 0x0080
+	CharFlagsSet char[11] 0x8000
+	CharSetPos char[11] (1850, 15200, -8150) 270deg
+	CamSetDistance 10290 16450 -8390 0ms
+	ED7CamRotate 48deg 12deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 16590 0ms
+	CharSetPos name[0] (13010, 15200, -8000) 270deg
+	CharSetPos name[162] (13010, 15200, -8000) 270deg
+	CharColor name[0] 0x00FFFFFF 0ms
+	CharColor name[162] 0x00FFFFFF 0ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	SoundPlay sound[103] 0 100 0
+	ForkFunc name[0] fork[3] fn[0,38]
+	Sleep 700ms
+	ForkFunc name[162] fork[3] fn[0,39]
+	ForkWait name[162] fork[3]
+	FadeWait
+	TextTalk name[0] {
+		#1220000098V#11P#00000F好，不知道玛莉在不在呢……？{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000099V#11P#00005F啊！{wait}
+	}
+	TextWait
+	CamSetDistance 2530 16850 -8580 3000ms
+	ED7CamRotate 48deg 12deg 0deg 3000ms
+	CamPers 500 3000ms
+	CamZoom 15720 3000ms
+	CamWait 121
+	TextTalk name[162] {
+		#1220460057V#11P#04600F呵呵，一下就找到了。{wait}
+	}
+	TextWait
+	CharTurnToChar name[0] name[162] 500deg/s
+	TextTalk name[0] {
+		#1220000100V#5P#00000F很好，那接下来
+		就交给我吧。{wait}
+	}
+	TextWait
+	CharTurnToChar name[162] name[0] 500deg/s
+	TextTalk name[162] {
+		#1220460058V#11P#04605F咦～是可以啦。{wait}
+	} {
+		#1220460059V#04602F啊哈，那就让我看看你的本事啰。{wait}
+	}
+	TextWait
+	Fork name[0] fork[1]:
+		CharWalkToPos self (8590, 15200, -7600) 2000mm/s 0
+	Sleep 50ms
+	Fork name[162] fork[1]:
+		CharTurnToChar self char[11] 500deg/s
+	ForkWait name[0] fork[1]
+	TextTalk name[0] {
+		#1220000101V#00002F好了，玛莉。
+		别怕，快过来这边。{wait}
+	}
+	TextWait
+	CharTurnToChar char[11] name[0] 500deg/s
+	Emote char[11] 0mm 1200mm 40 43 100ms 0
+	Sleep 1000ms
+	EmoteStop char[11]
+	Emote char[11] 0mm 1200mm 24 27 250ms 0
+	Sleep 2000ms
+	EmoteStop char[11]
+	CamSetDistance 5850 16850 -7440 3000ms
+	_94 0 char[11] 0deg 2000 1000mm/s 0
+	CamWait 1
+	Sleep 500ms
+	CrossFade 500ms
+	CamSetDistance -8010 16850 -9130 0ms
+	ED7CamRotate 326deg 22deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 15880 0ms
+	CharSetChipBase char[12] chip[31]
+	CharSetChipBase char[13] chip[32]
+	CharSetChipPattern char[12] 0
+	CharSetChipPattern char[13] 0
+	CharFlagsUnset char[12] 0x0080
+	CharFlagsUnset char[13] 0x0080
+	CharFlagsSet char[12] 0x8000
+	CharFlagsSet char[13] 0x8000
+	SoundPlay sound[103] 0 100 0
+	CharSetPos char[12] (-13030, 15200, -8029) 90deg
+	CharSetPos char[13] (-13030, 15200, -8029) 90deg
+	CharColor char[12] 0x00FFFFFF 0ms
+	CharColor char[13] 0x00FFFFFF 0ms
+	ForkFunc char[12] fork[3] fn[0,40]
+	Sleep 700ms
+	ForkFunc char[13] fork[3] fn[0,41]
+	ForkWait char[13] fork[3]
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000102V#00005F啊……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CrossFade 500ms
+	CamSetDistance 5850 16850 -7440 0ms
+	ED7CamRotate 48deg 12deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 19500 0ms
+	FadeWait
+	Emote char[11] 0mm 1200mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	CamSetDistance 10750 16850 -7200 1500ms
+	SoundPlay sound[953] 0 100 0
+	Fork char[11] fork[1]:
+		CharWalkToPos self (13800, 15200, -8010) 5000mm/s 0
+	Sleep 1000ms
+	Fork name[0] fork[1]:
+		CharTurnToChar self char[11] 500deg/s
+	Sleep 50ms
+	ForkLoop name[162] fork[1]:
+		CharTurnToChar self char[11] 500deg/s
+	Sleep 1000ms
+	Fork char[11] fork[2]:
+		CharColor self 0x00FFFFFF 500ms
+	ForkWait char[11] fork[1]
+	CharFlagsSet char[11] 0x0080
+	CamWait 1
+	ForkQuit name[162] fork[1]
+	TextTalk name[162] {
+		#1220460060V#04605F哇喔……！？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000103V#00006F太、太大意了……{wait}
+	}
+	TextWait
+	TextTalk name[162] {
+		#1220460061V#04609F啊哈哈！谢莉也是啊。{wait}
+	} {
+		#1220460062V#04606F嗯，是不是
+		修行还不够呢？{wait}
+	}
+	TextWait
+	CharSetPos char[12] (1770, 15200, -7960) 90deg
+	CharSetPos char[13] (1770, 15200, -9370) 90deg
+	CamSetDistance 6830 16850 -8570 4000ms
+	ED7CamRotate 46deg 28deg 0deg 4000ms
+	CamPers 500 4000ms
+	CamZoom 16250 4000ms
+	Fork char[12] fork[1]:
+		CharWalkToPos self (6590, 15200, -7960) 2000mm/s 0
+	Sleep 50ms
+	Fork char[13] fork[1]:
+		CharWalkToPos self (6590, 15200, -9370) 2000mm/s 0
+	ForkWait char[13] fork[1]
+	CamWait 121
+	TextTalk char[13] {
+		#1220040025V#6P#10300F嗨，看来我们
+		妨碍到你们了。{wait}
+	}
+	TextWait
+	TextTalk char[12] {
+		#1220010048V#6P#00106F抱歉，
+		刚才本来时机正好，我们却……{wait}
+	}
+	TextWait
+	Fork name[0] fork[1]:
+		CharTurnToChar self char[12] 500deg/s
+	Sleep 50ms
+	Fork name[162] fork[1]:
+		CharTurnToChar self char[13] 500deg/s
+	Sleep 300ms
+	TextTalk name[0] {
+		#1220000104V#00004F不，是我最后太松懈了。{wait}
+	} {
+		#1220000105V#00000F不管怎样，先追上去再说吧。{wait}
+	} {
+		#1220000106V艾莉，你们从反方向
+		往入口包抄，以防万一。{wait}
+	}
+	TextWait
+	TextTalk char[12] {
+		#1220010049V#6P#00100F嗯，我知道了。{wait}
+	}
+	TextWait
+	TextTalk name[162] {
+		#1220460063V#04609F呵呵！那我们
+		赶快追上去吧！{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	FlagSet flag[2734]
+	QuestTaskSet quest[116] 7
+	TriggerFlagsUnset trigger[2] 0x0080
+	EntranceSetFunc entrance[2] fn[0,42]
+	CharFlagsSet char[12] 0x0080
+	CharFlagsSet char[13] 0x0080
+	NextFrame
+	UnloadChip chip[30]
+	UnloadChip chip[31]
+	UnloadChip chip[32]
+	ED7_Cam69 255 0
+	CharSetPos field_party[0] (9130, 15200, -8100) 0deg
+	EventEnd 5
+	Return
+
+fn[38]:
+	Fork name[0] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork name[0] fork[1]:
+		CharWalkToPos self (11590, 15200, -7990) 2000mm/s 0
+	ForkWait name[0] fork[1]
+	CharWalkToPos name[0] (10260, 15200, -7100) 2000mm/s 0
+	CharTurnTo name[0] 270deg 500deg/s
+	Return
+
+fn[39]:
+	Fork name[162] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork name[162] fork[1]:
+		CharWalkToPos self (11590, 15200, -7990) 2000mm/s 0
+	ForkWait name[162] fork[1]
+	CharWalkToPos name[162] (10260, 15200, -9100) 2000mm/s 0
+	CharTurnTo name[162] 270deg 500deg/s
+	Return
+
+fn[40]:
+	Fork char[12] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork char[12] fork[1]:
+		CharWalkToPos self (-8770, 15200, -8150) 2000mm/s 0
+	ForkWait char[12] fork[1]
+	CharTurnTo char[12] 90deg 500deg/s
+	Return
+
+fn[41]:
+	Fork char[13] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork char[13] fork[1]:
+		CharWalkToPos self (-11190, 15200, -8100) 2000mm/s 0
+	ForkWait char[13] fork[1]
+	CharWalkToPos char[13] (-10100, 15200, -9070) 2000mm/s 0
+	CharTurnTo char[13] 90deg 500deg/s
+	Return
+
+fn[42]:
+	EventBegin 1
+	TextTalk name[0] {
+		#00000F赶紧去追玛莉吧。
+		她现在应该还在附近。{wait}
+	}
+	TextWait
+	TextTalk name[162] {
+		#04609F呵呵，这次得小心
+		不能让她再跑掉了。{wait}
+	}
+	TextWait
+	CharSetPos field_party[0] (-11130, 15200, -7980) 90deg
+	EventEnd 4
+	Return
+
+fn[43]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	ED7LoadChip "chr/ch39000.itc" chip[30]
+	ED7LoadChip "apl/ch50267.itc" chip[31]
+	ED7LoadChip "apl/ch51226.itc" chip[32]
+	ED7LoadChip "apl/ch51228.itc" chip[33]
+	ED7LoadChip "apl/ch51229.itc" chip[34]
+	ED7LoadChip "chr/ch03401.itc" chip[35]
+	SoundLoad sound[148]
+	ED7_76_0 object[255] "chandelier01" 1
+	ED7_76_0 object[255] "chandelier02" 1
+	_Char4B char[1] 1
+	CharSetChipBase char[11] chip[30]
+	CharSetChipPattern char[11] 0
+	CharFlagsUnset char[11] 0x0080
+	CharFlagsSet char[11] 0x0004
+	CharFlagsSet char[11] 0x8000
+	char[11].40 = 13
+	CharSetPos char[11] (-1900, 0, -1900) 0deg
+	ED7_78 object[25] char[14]
+	ObjFlagsUnset object[25] 0x0004
+	ObjFlagsSet object[25] 0x1000
+	ED7_74 object[25] 0 30
+	CharFlagsUnset char[14] 0x0080
+	NextFrame
+	CharSetPos char[14] (0, 1250, 25580) 0deg
+	Sc_D1 char[14] 0 0 0 0ms
+	_Char4A char[1] 255
+	CharSetChipBase char[1] chip[14]
+	CharSetChipPattern char[1] 0
+	CharFlagsSet char[1] 0x8000
+	CharFlagsSet char[1] 0x0040
+	CharFlagsUnset char[1] 0x0020
+	CharFlagsUnset char[1] 0x0080
+	CharFlagsUnset char[1] 0x0004
+	char[1].40 = 13
+	CharSetPos char[1] (0, 0, 900) 180deg
+	CamSetDistance -2680 4650 17690 0ms
+	ED7CamRotate 50deg 37deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 9930 0ms
+	CharSetPos char[11] (350, 1250, 18040) 0deg
+	CharSetPos char[1] (-140, 2700, -5190) 0deg
+	CharSetPos name[162] (-140, 2700, -5190) 0deg
+	CharSetPos name[0] (-140, 2700, -5190) 0deg
+	CharColor char[1] 0x00FFFFFF 0ms
+	CharColor name[162] 0x00FFFFFF 0ms
+	CharColor name[0] 0x00FFFFFF 0ms
+	CharFlagsSet name[1] 0x0080
+	CharFlagsSet name[8] 0x0080
+	CharFlagsSet name[4] 0x0080
+	CharFlagsSet name[3] 0x0080
+	CamZoom 12670 3000ms
+	Fork char[11] fork[1]:
+		CharWalkToPos self (110, 1250, 20620) 1000mm/s 0
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	ForkWait char[11] fork[1]
+	CamWait 16
+	CrossFade 500ms
+	CamSetDistance -2450 4650 -2450 0ms
+	ED7CamRotate 49deg 31deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 11000 0ms
+	FadeWait
+	CamSetDistance -2880 4650 4170 5000ms
+	ED7CamRotate 55deg 31deg 0deg 5000ms
+	ForkFunc char[1] fork[3] fn[0,46]
+	Sleep 700ms
+	ForkFunc name[162] fork[3] fn[0,45]
+	Sleep 700ms
+	ForkFunc name[0] fork[3] fn[0,44]
+	ForkWait name[0] fork[3]
+	CamWait 121
+	Sleep 700ms
+	CrossFade 500ms
+	CamSetDistance -1760 4650 21430 0ms
+	ED7CamRotate 50deg 37deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 11000 0ms
+	FadeWait
+	SoundPlay sound[844] 0 50 0
+	_Char96 char[11] (350, 3500, 23200) 3500 5000
+	Sc_CF char[11] 25 "nullch"
+	CharFlagsUnset char[11] 0x0001
+	char[11].36 = 165
+	Sleep 500ms
+	SoundPlay sound[143] 0 70 0
+	SoundPlay sound[148] 2 100 0
+	Fork char[14] fork[1]:
+		_Char91 self 0 10000 0 150 0
+	Sleep 3000ms
+	CrossFade 500ms
+	CamSetDistance -3750 4650 3390 0ms
+	ED7CamRotate 33deg 16deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 11000 0ms
+	FadeWait
+	Emote char[1] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000119V#00011F#8A什么……！？{wait}
+	}
+	Sleep 1000ms
+	TextClose 0
+	_59
+	TextTalk char[1] {
+		#1220180012V#06205F#18A糟了，舞台装置！{wait}
+	} {
+		#1220180013V#18A可是，到底是谁……！？{wait}
+	}
+	Sleep 1500ms
+	Sleep 1500ms
+	TextClose 0
+	_59
+	CamSetDistance -1560 4350 2450 2000ms
+	ED7CamRotate 30deg 20deg 0deg 2000ms
+	CamPers 650 2000ms
+	CamZoom 11000 2000ms
+	CamWait 121
+	TextTalk name[162] {
+		#1220460075V#11P#04611F#12A哼哼！太轻松了！{wait}
+	}
+	Sleep 1200ms
+	TextClose 0
+	_59
+	CharSetChipBase name[162] chip[35]
+	CharSetChipPattern name[162] 5
+	CharFlagsSet name[162] 0x1000
+	_Char6A name[162]
+	Sc_7D_0 name[162] 30 300
+	SoundPlay sound[250] 0 60 0
+	CharWalkToPos name[162] (-910, 1350, 7510) 10000mm/s 0
+	CharWalkToPos name[162] (100, 0, 15520) 10000mm/s 0
+	SoundPlay sound[844] 0 100 0
+	_Char96 name[162] (460, 1250, 18850) 2500 10000
+	CharWalkToPos name[162] (4610, 1250, 21370) 10000mm/s 0
+	SoundPlay sound[251] 0 50 0
+	_Char96 name[162] (7720, 2500, 22800) 2500 10000
+	CharTurnTo name[162] 270deg 0deg/s
+	_Char96 name[162] (0, 3800, 23090) 4000 5000
+	SoundPlay sound[326] 0 50 0
+	CharTurnTo name[162] 270deg 0deg/s
+	Sc_7D_1 name[162] 0 0
+	Sc_CF name[162] 25 "nullch2"
+	CharFlagsUnset name[162] 0x0001
+	name[162].36 = 165
+	_Char6A null
+	_Char6A char[11]
+	CharSetChipBase name[162] chip[255]
+	CharSetChipPattern name[162] 0
+	SoundPlay sound[879] 0 70 0
+	ED7_74 object[25] 0 20
+	ED7ObjPlay object[25] 43 66 0 0
+	Sleep 1100ms
+	SoundPlay sound[879] 0 60 0
+	ED7_74 object[25] 0 10
+	ED7ObjPlay object[25] 43 58 0 0
+	Sleep 1500ms
+	SoundPlay sound[879] 0 50 0
+	ED7_74 object[25] 0 7
+	ED7ObjPlay object[25] 58 50 0 0
+	ObjWait object[25]
+	ED7_74 object[25] 0 5
+	ED7ObjPlay object[25] 50 57 0 0
+	ObjWait object[25]
+	SoundPlay sound[879] 0 40 0
+	ED7_74 object[25] 0 2
+	ED7ObjPlay object[25] 57 54 0 0
+	ObjWait object[25]
+	CharTurnToChar char[11] name[162] 500deg/s
+	_Char6A null
+	CamSetDistance -400 8390 22760 2000ms
+	ED7CamRotate 33deg 16deg 0deg 2000ms
+	CamPers 650 2000ms
+	CamZoom 11550 2000ms
+	CamWait 121
+	FadeWait
+	Sleep 1000ms
+	ForkQuit char[14] fork[1]
+	CrossFade 500ms
+	CamSetDistance -360 1320 15690 0ms
+	ED7CamRotate 39deg 25deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 13720 0ms
+	CharSetPos name[0] (900, 0, 15820) 0deg
+	CharSetPos char[1] (-900, 0, 15820) 0deg
+	Sc_CF name[162] 25 "nullch"
+	CharFlagsUnset name[162] 0x0001
+	name[162].36 = 165
+	ED7ObjPlay object[25] 11 11 0 0
+	FadeWait
+	TextTalk name[0] {
+		#1220000120V#12P#00005F咦……！？{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220180014V#12P#06205F好、好厉害……！{wait}
+	}
+	TextWait
+	_59
+	CrossFade 500ms
+	CamSetDistance -790 8810 23640 0ms
+	ED7CamRotate 3deg 22deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 12000 0ms
+	CharFlagsSet char[11] 0x0008
+	CharSetChipBase name[162] chip[32]
+	CharSetChipPattern name[162] 7
+	CharFlagsSet name[162] 0x0002
+	CharSetPos name[162] (250, 1250, 22960) 270deg
+	FadeWait
+	_Char6A name[162]
+	Fork char[14] fork[1]:
+		_Char91 self 0 6000 0 150 0
+	TextTalk char[11] {
+		#1222330001V#6P喵、喵……！{wait}
+	}
+	TextWait
+	TextTalk name[162] {
+		#1220460076V#11P#04606F嗯，我们又不是
+		要把你抓起来吃掉。{wait}
+	} {
+		#1220460077V别再害怕啦～{wait}
+	} {
+		#1220460078V#04602F来吧，看招丅{wait}
+	}
+	TextWait
+	TextMessage null {
+		{color 5}谢莉搔了搔
+		玛莉的脖子。{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	Emote name[162] 0mm 1200mm 24 27 250ms 0
+	Sleep 2000ms
+	EmoteStop name[162]
+	Emote name[162] 0mm 1200mm 8 9 250ms 1
+	SoundPlay sound[27] 0 100 0
+	Sleep 1000ms
+	SoundPlay sound[953] 0 100 0
+	TextTalk char[11] {
+		#1222330002V#6P喵、喵～{wait}
+	}
+	TextWait
+	TextTalk name[162] {
+		#1220460079V#11P#04609F呵呵，你说你喜欢啊？{wait}
+	} {
+		#1220460080V#04600F那接下来……看我这招㈱{wait}
+	}
+	TextWait
+	Emote name[162] 0mm 1200mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[11] {
+		#1222330003V#6P喵呜！{wait}
+	}
+	TextWait
+	Emote name[162] 0mm 1200mm 24 27 250ms 0
+	Sleep 2000ms
+	EmoteStop name[162]
+	Emote name[162] 0mm 1200mm 10 11 250ms 1
+	SoundPlay sound[27] 0 100 0
+	Sleep 1000ms
+	TextTalk char[11] {
+		#1222330004V#6P呼噜呼噜呼噜……喵喵㈱{wait}
+	}
+	TextWait
+	TextTalk name[162] {
+		#1220460081V#11P#04609F啊哈哈，稍微冷静点了没？{wait}
+	}
+	TextWait
+	_Char6A null
+	ED7_12 148 1000 100
+	CrossFade 500ms
+	CamSetDistance -390 1320 17820 0ms
+	ED7CamRotate 40deg 21deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 13620 0ms
+	CharSetPos name[0] (900, 0, 15820) 0deg
+	CharSetPos char[1] (-900, 0, 15820) 0deg
+	FadeWait
+	TextTalk name[0] {
+		#1220000121V#12P#00000F哈哈，她还挺有本事的嘛。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220180015V#12P#06204F是啊，而且她刚才的动作
+		轻盈得令人难以置信。{wait}
+	}
+	TextWait
+	Emote char[1] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CharTurnTo char[1] 270deg 500deg/s
+	Sleep 300ms
+	TextTalk char[1] {
+		#1220180016V#12P#06205F对了，得去确认一下
+		到底是谁动了装置……{wait}
+	}
+	TextWait
+	_59
+	ForkQuit char[14] fork[1]
+	CrossFade 500ms
+	CamSetDistance 290 11070 33130 0ms
+	ED7CamRotate 7deg 18deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 26000 0ms
+	CharSetPos char[14] (0, 11250, 25580) 0deg
+	Sc_D1 char[14] 0 0 0 0ms
+	FadeWait
+	TextTalk name[162] {
+		#1220460082V#11P#04600F那接下来，
+		我们要一起下去啰。{wait}
+	} {
+		#1220460083V别再乱动了。{wait}
+	}
+	TextWait
+	TextTalk char[11] {
+		#1222330005V#6P喵～丅{wait}
+	}
+	TextWait
+	CamSetDistance 290 9970 33130 100ms
+	SoundPlay sound[143] 0 100 0
+	_Char91 char[14] 0 -1500 0 8000 0
+	Emote name[162] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[162] {
+		#1220460084V#11P#04605F怎么突然……啊。{wait}
+	}
+	TextWait
+	CamSetDistance 3620 6670 29700 500ms
+	ED7CamRotate 25deg 17deg 0deg 500ms
+	CamPers 500 500ms
+	CamZoom 28350 500ms
+	SoundPlay sound[879] 0 100 0
+	ED7_74 object[25] 0 30
+	ED7ObjPlay object[25] 11 40 0 0
+	BlurOn 0ms 0xBBFFFFFF 0 0 0
+	_Char91 char[14] 0 -3000 0 10000 0
+	CharSetPos char[11] (520, 8840, 23300) 90deg
+	CharSetChipBase name[162] chip[255]
+	CharSetChipBase char[11] chip[34]
+	CharSetChipPattern name[162] 5
+	CharSetChipPattern char[11] 0
+	CharFlagsUnset char[11] 0x0008
+	CharFlagsSet name[162] 0x0002
+	CharFlagsSet char[11] 0x0002
+	SoundPlay sound[809] 0 100 0
+	Fork char[11] fork[1]:
+		_Char96 self (530, 9000, 17000) 2000 100
+	Sc_CF char[11] 255 "nullch"
+	CharTurnTo name[162] 180deg 0deg/s
+	BlurOff 500ms
+	Sleep 500ms
+	ForkQuit char[11] fork[1]
+	CrossFade 500ms
+	CamSetDistance -710 1320 19230 0ms
+	ED7CamRotate 45deg 22deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 16000 0ms
+	CharSetPos name[0] (900, 0, 15820) 0deg
+	CharSetPos char[1] (-900, 0, 15820) 0deg
+	CharSetPos char[11] (530, 10000, 22500) 90deg
+	ED7ObjPlay object[25] 40 40 0 0
+	FadeWait
+	Emote name[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote char[1] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000122V#00011F糟了……！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220180017V#06201F……唔………！{wait}
+	}
+	TextWait
+	ForkFunc char[1] fork[3] fn[0,47]
+	Sleep 500ms
+	CamSetDistance 3370 4570 23550 800ms
+	ED7CamRotate 48deg 23deg 0deg 800ms
+	CamPers 500 800ms
+	CamZoom 20670 800ms
+	SoundPlay sound[834] 0 50 0
+	Fork char[11] fork[1]:
+		_Char96 self (1750, 8000, 19000) 500 3000
+	Sleep 700ms
+	ForkQuit char[11] fork[1]
+	CharFlagsSet char[11] 0x0008
+	CamWait 121
+	ForkWait char[1] fork[3]
+	FlagUnset flag[12]
+	ForkQuit char[1] fork[0]
+	CharFlagsSet char[1] 0x0020
+	CharFlagsSet char[1] 0x0002
+	CharSetChipBase char[1] chip[33]
+	CharSetChipPattern char[1] 7
+	FadeWait
+	CamSetDistance 4110 4870 24080 1000ms
+	ED7CamRotate 48deg 23deg 0deg 1000ms
+	CamPers 500 1000ms
+	CamZoom 29060 1000ms
+	CamZoom 29060 1000ms
+	CharTurnToChar name[162] name[0] 0deg/s
+	FadeWait
+	CamWait 121
+	TextTalk name[162] {
+		#1220460085V#04605F哇喔！接得好！{wait}
+	}
+	TextWait
+	CamSetDistance -2520 5470 16640 5000ms
+	ED7CamRotate 48deg 23deg 0deg 5000ms
+	CamPers 500 5000ms
+	CamZoom 9920 5000ms
+	CharSetPos name[0] (-4480, 1250, 20070) 90deg
+	CharWalkToPos name[0] (1230, 1250, 20900) 2000mm/s 0
+	CharTurnToChar name[0] char[1] 500deg/s
+	CamWait 121
+	TextTalk name[0] {
+		#1220000123V#00000F呼……看来事情
+		总算是圆满解决了。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	Sleep 500ms
+	FadeIn 2000ms 0x00000000
+	FadeWait
+	FlagSet flag[273]
+	NewScene "scena/c0410.bin" 100 0 0
+	Hcf
+	Return
+
+fn[44]:
+	Fork name[0] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork name[0] fork[1]:
+		CharWalkToPos self (0, 2250, 2940) 4000mm/s 0
+	ForkWait name[0] fork[1]
+	Return
+
+fn[45]:
+	Fork name[162] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork name[162] fork[1]:
+		CharWalkToPos self (0, 1800, 5200) 4000mm/s 0
+	ForkWait name[162] fork[1]
+	Return
+
+fn[46]:
+	Fork char[1] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork char[1] fork[1]:
+		CharWalkToPos self (0, 1350, 7460) 4000mm/s 0
+	ForkWait char[1] fork[1]
+	Return
+
+fn[47]:
+	CharSetChipBase char[1] chip[31]
+	CharSetChipPattern char[1] 1
+	SoundPlay sound[250] 0 60 0
+	_Char96 char[1] (0, 1250, 19450) 3000 5000
+	CharSetChipPattern char[1] 0
+	FlagSet flag[12]
+	SoundPlay sound[637] 0 100 0
+	SoundPlay sound[844] 0 100 0
+	ForkFunc char[1] fork[0] fn[0,48]
+	Fork char[1] fork[1]:
+		_Char96 self (4230, 1250, 20860) 5000 4000
+	ED7CharAnimation char[1] 1500ms 1 2 3
+	ForkWait char[1] fork[1]
+	SoundPlay sound[326] 0 50 0
+	Return
+
+fn[48]:
+	while flag[12]:
+		self.4 += 315
+		Sleep 33ms
+	Return
+
+fn[49]:
+	CharSetPos char[2] (0, 1250, 25500) 270deg
+	while 1:
+		CharSetChipBase char[2] chip[58]
+		CharSetChipPattern char[2] 2
+		char[2].40 = 13
+		Sleep 1000ms
+		CharFlagsSet char[2] 0x1020
+		ForkFunc char[2] fork[1] fn[0,51]
+		Fork char[2] fork[2]:
+			CharTurnTo char[2] 270deg 500deg/s
+		SoundPlay sound[809] 0 30 0
+		_Char96 char[2] (0, 1250, 23000) 3000 1100
+		SoundPlay sound[50] 0 70 0
+		CharSetChipBase char[2] chip[57]
+		CharSetChipPattern char[2] 0
+		Sleep 200ms
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 2710 1
+		NextFrame
+		SoundPlay sound[809] 0 30 0
+		ForkFunc char[2] fork[1] fn[0,51]
+		CharJump char[2] 0 0 0 3000 1250mm/s
+		SoundPlay sound[50] 0 70 0
+		SoundPlay sound[809] 0 30 0
+		ForkFunc char[2] fork[1] fn[0,51]
+		CharJump char[2] 0 0 0 3000 1250mm/s
+		SoundPlay sound[50] 0 70 0
+		ForkQuit char[2] fork[2]
+		CharSetChipBase char[2] chip[57]
+		CharSetChipPattern char[2] 0
+		Sleep 300ms
+		CharFlagsUnset char[2] 0x1020
+		CharSetChipBase char[2] chip[56]
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 4200 1
+		Sleep 250ms
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 5200 1
+		Sleep 250ms
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 6200 1
+		Sleep 250ms
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 7000 0
+		NextFrame
+		CharFlagsSet char[2] 0x1020
+		CharSetChipBase char[2] chip[59]
+		CharSetChipPattern char[2] 2
+		ForkFunc char[2] fork[1] fn[0,54]
+		Sleep 1000ms
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 7200 0
+		NextFrame
+		SoundPlay sound[844] 0 30 0
+		CharJump char[2] 0 0 0 4000 1100mm/s
+		SoundPlay sound[50] 0 50 0
+		ForkQuit char[2] fork[2]
+		SoundPlay sound[809] 0 30 0
+		CharJump char[2] 0 0 0 3000 1400mm/s
+		SoundPlay sound[50] 0 50 0
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) -900000mdeg 10900 0
+		NextFrame
+		SoundPlay sound[844] 0 30 0
+		CharJump char[2] 0 0 0 3000 1300mm/s
+		SoundPlay sound[50] 0 50 0
+		Fork char[2] fork[2]:
+			CharTurnTo char[2] 0deg 200deg/s
+		ForkFunc char[2] fork[1] fn[0,51]
+		SoundPlay sound[809] 0 30 0
+		CharJump char[2] 0 0 0 3000 1400mm/s
+		SoundPlay sound[50] 0 50 0
+		ForkFunc char[2] fork[1] fn[0,51]
+		Fork char[2] fork[2]:
+			_Char97 char[2] (0, null, 25450) 900000mdeg 6200 2
+		NextFrame
+		SoundPlay sound[844] 0 30 0
+		CharJump char[2] 0 0 0 4000 175mm/s
+		SoundPlay sound[50] 0 50 0
+		ForkQuit char[2] fork[2]
+		CharTurnTo char[2] 270deg 0deg/s
+		CharSetChipBase char[2] chip[58]
+		CharSetChipPattern char[2] 2
+		Sleep 1000ms
+		CharFlagsUnset char[2] 0x1020
+		CharSetChipBase char[2] chip[55]
+		CharWalkToPos2 char[2] (3000, 1250, 25000) 2000mm/s 0
+		Sleep 700ms
+		CharSetChipBase char[2] chip[56]
+		CharWalkToPos2 char[2] (2000, 1250, 25000) 4500mm/s 0
+		ForkFunc char[2] fork[1] fn[0,50]
+		SoundPlay sound[809] 0 20 0
+		_Char96 char[2] (1000, 1250, 25000) 1000 3000
+		SoundPlay sound[50] 0 30 0
+		CharSetChipBase char[2] chip[59]
+		CharSetChipPattern char[2] 2
+		ForkFunc char[2] fork[1] fn[0,55]
+		SoundPlay sound[809] 0 20 0
+		_Char96 char[2] (0, 1250, 25000) 1500 3000
+		SoundPlay sound[50] 0 30 0
+		ForkFunc char[2] fork[1] fn[0,54]
+		SoundPlay sound[809] 0 20 0
+		_Char96 char[2] (-1750, 1250, 25000) 2000 3000
+		SoundPlay sound[50] 0 30 0
+		ForkFunc char[2] fork[1] fn[0,51]
+		Fork char[2] fork[2]:
+			CharTurnTo char[2] 90deg 200deg/s
+		SoundPlay sound[809] 0 20 0
+		_Char96 char[2] (-4000, 1250, 25000) 3000 1400
+		SoundPlay sound[50] 0 30 0
+		CharTurnTo char[2] 135deg 0deg/s
+		CharSetChipBase char[2] chip[57]
+		CharSetChipPattern char[2] 0
+		Sleep 1000ms
+		CharFlagsUnset char[2] 0x1020
+		CharSetChipBase char[2] chip[55]
+		CharWalkToPos2 char[2] (0, 1250, 25000) 2000mm/s 0
+	Return
+
+fn[50]:
+	CharSetChipBase self chip[57]
+	ED7CharAnimation self 3000ms 0 1 2
+	Sleep 300ms
+	CharSetChipBase self chip[56]
+	CharSetChipPattern self 1
+	Sleep 100ms
+	CharSetChipBase self chip[57]
+	CharSetChipPattern self 3
+	Return
+
+fn[51]:
+	CharSetChipBase self chip[57]
+	ED7CharAnimation self 2000ms 0 1 2
+	Sleep 500ms
+	CharSetChipBase self chip[56]
+	CharSetChipPattern self 1
+	Sleep 300ms
+	CharSetChipBase self chip[57]
+	CharSetChipPattern self 3
+	Return
+
+fn[52]:
+	CharSetChipBase self chip[57]
+	ED7CharAnimation self 2500ms 0 1
+	CharSetChipBase self chip[56]
+	CharSetChipPattern self 0
+	Return
+
+fn[53]:
+	CharSetChipBase self chip[59]
+	ED7CharAnimation self 3000ms 0 1 2
+	Return
+
+fn[54]:
+	while 1:
+		self.4 += 315
+		Sleep 30ms
+	Return
+
+fn[55]:
+	while 1:
+		self.4 += 315
+		Sleep 60ms
+	Return
+
+fn[56]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance 0 2500 25500 0ms
+	ED7CamRotate 32deg 5deg 0deg 0ms
+	CamPers 460 0ms
+	CamZoom 24000 0ms
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (0, 1250, 25500) 180deg
+	CharSetPos name[0] (0, 2700, 500) 0deg
+	CharSetPos name[1] (1200, 2700, 500) 0deg
+	CharSetPos name[2] (-1200, 2700, 500) 0deg
+	CharSetPos name[3] (0, 2700, -700) 0deg
+	CharSetPos name[4] (1200, 2700, -700) 0deg
+	CharSetPos name[8] (-1200, 2700, -700) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[2] 255
+	ED7LoadChip "chr/ch14150.itc" chip[55]
+	ED7LoadChip "chr/ch14151.itc" chip[56]
+	ED7LoadChip "chr/ch14152.itc" chip[57]
+	ED7LoadChip "chr/ch14153.itc" chip[58]
+	ED7LoadChip "chr/ch14154.itc" chip[59]
+	CharSetChipBase char[2] chip[55]
+	CharSetChipPattern char[2] 0
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (2500, 1250, 25450) 0deg
+	ForkFunc field_party[0] fork[0] fn[0,49]
+	FadeIn 1000ms 0x00000000
+	CamSetDistance 0 4000 25500 10000ms
+	ED7CamRotate 14deg 10deg 0deg 710000ms
+	Sleep 7000ms
+	CrossFade 500ms
+	CamSetDistance -1400 4130 3070 0ms
+	ED7CamRotate 30deg 14deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 16000 0ms
+	FadeWait
+	TextTalk name[0] {
+		#00000F她似乎练习得
+		十分认真。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00100F嗯，总管说得没错。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#00200F怎么说呢？
+		亲眼看到后，真的让人十分惊艳呢。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00300F她在练习
+		新加的场景啊。{wait}
+	} {
+		#00304F听说这个角色
+		挺重要的……{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10100F嗯，是『星姬』这个角色。{wait}
+	} {
+		据说在表演的后半段，
+		她会有十分活跃的场面喔。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10300F呵呵，难怪她会认么认真。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00003F是啊，而且也因此，
+		她承受的压力肯定不小……{wait}
+	} {
+		#00000F那我们还是赶紧离开吧，
+		免得打扰人家了。{wait}
+	}
+	TextWait
+	CrossFade 500ms
+	ForkQuit char[2] fork[0]
+	ForkQuit char[2] fork[1]
+	ForkQuit char[2] fork[2]
+	ForkQuit char[2] fork[3]
+	ForkQuit field_party[0] fork[0]
+	CharSetChipBase char[2] chip[16]
+	CharSetChipPattern char[2] 0
+	CharFlagsUnset char[2] 0x0080
+	CharFlagsSet char[2] 0x8000
+	CharSetPos char[2] (-1500, 1250, 25450) 90deg
+	CamSetDistance -1500 2500 25500 0ms
+	ED7CamRotate 0deg 13deg 0deg 0ms
+	CamPers 400 0ms
+	CamZoom 23000 0ms
+	FadeWait
+	CharTurnTo char[2] 180deg 600deg/s
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[2] {
+		#12205F啊……你们几个！{wait}
+	}
+	TextWait
+	CrossFade 500ms
+	CamSetDistance -1400 4130 3070 0ms
+	ED7CamRotate 30deg 14deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 16000 0ms
+	FadeWait
+	Emote name[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[0] {
+		#00005F哎呀……{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#00200F她注意到我们了。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00300F唉，我们来都来了。
+		就去打个招呼吧。{wait}
+	}
+	TextWait
+	Fork name[0] fork[1]:
+		_Char90 self 0 0 5000 2000 0
+	Sleep 50ms
+	Fork name[1] fork[1]:
+		_Char90 self 0 0 5000 2000 0
+	Sleep 50ms
+	Fork name[2] fork[1]:
+		_Char90 self 0 0 5000 2000 0
+	Sleep 50ms
+	Fork name[3] fork[1]:
+		_Char90 self 0 0 5000 2000 0
+	Sleep 50ms
+	Fork name[8] fork[1]:
+		_Char90 self 0 0 5000 2000 0
+	Sleep 50ms
+	Fork name[4] fork[1]:
+		_Char90 self 0 0 5000 2000 0
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	CamSetDistance -50 1320 14180 0ms
+	ED7CamRotate 45deg 26deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 13000 0ms
+	ForkQuit name[0] fork[1]
+	ForkQuit name[1] fork[1]
+	ForkQuit name[2] fork[1]
+	ForkQuit name[3] fork[1]
+	ForkQuit name[8] fork[1]
+	ForkQuit name[4] fork[1]
+	CharSetPos name[0] (0, 0, 14050) 0deg
+	CharSetPos name[1] (1000, 0, 14150) 0deg
+	CharSetPos name[2] (-1000, 0, 14150) 0deg
+	CharSetPos name[3] (0, 450, 12100) 0deg
+	CharSetPos name[4] (1000, 450, 12000) 0deg
+	CharSetPos name[8] (-1000, 450, 12100) 0deg
+	CharSetPos char[2] (-1500, 1250, 22000) 180deg
+	FadeIn 1000ms 0x00000000
+	CharFlagsUnset char[2] 0x1020
+	CharSetChipBase char[2] chip[56]
+	CharWalkToPos2 char[2] (0, 1250, 18070) 5000mm/s 0
+	CharSetChipBase char[2] chip[57]
+	CharSetChipPattern char[2] 0
+	Sleep 200ms
+	SoundPlay sound[809] 0 50 0
+	CharFlagsSet char[2] 0x1020
+	ForkFunc char[2] fork[1] fn[0,50]
+	_Char96 char[2] (-50, 0, 15980) 1000 2000
+	SoundPlay sound[42] 0 100 0
+	SoundPlay sound[326] 0 20 0
+	CharSetChipBase char[2] chip[57]
+	CharSetChipPattern char[2] 0
+	Sleep 200ms
+	CrossFade 500ms
+	CharSetChipBase char[2] chip[16]
+	CharSetChipPattern char[2] 0
+	FadeWait
+	TextTalk name[0] {
+		#00000F嗨，修莉。
+		不好意思，打扰你练习了。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12203F哼，还好啦……{wait}
+	} {
+		#12200F所以说，你们来这有什么事吗？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00100F没有啦，我们只是刚好经过，
+		就来看一下你的情况。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00000F是啊，但结果却打断你练习了，抱歉。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12206F没事，反正我正好
+		想要休息一下。
+		无所谓。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#00203F话说回来，我还是第一次
+		看到你的表演……{wait}
+	} {
+		#00202F动作很娴熟，
+		看起来根本不像新人呢。{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[2] {
+		#12205F是、是吗……？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00102F是啊，没错。
+		老实说，我吓了一大跳。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00004F嗯，还有，该怎么说呢？
+		你的动作非常简练。{wait}
+	} {
+		#00002F应该可说是已经
+		非常接近完美了吧？{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12205F咦……{wait}
+	}
+	TextWait
+	Emote char[2] 0mm 2000mm 24 27 250ms 0
+	Sleep 2000ms
+	TextTalk name[8] {
+		#10109F对啊对啊，而且那套服装，
+		你穿起来真的很好看。{wait}
+	}
+	TextWait
+	Emote name[8] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk name[8] {
+		#10105F……修莉？{wait}
+	}
+	TextWait
+	EmoteStop char[2]
+	ForkLoop name[1] fork[0]:
+		CharTurnToChar self char[2] 500deg/s
+	ForkLoop name[2] fork[0]:
+		CharTurnToChar self char[2] 500deg/s
+	CharWalkToChar char[2] name[0] 1000mm 2000mm/s 0
+	ForkQuit name[1] fork[255]
+	ForkQuit name[2] fork[255]
+	TextTalk char[2] {
+		#12203F……喂，我说你！{wait}
+	} {
+		#12200F要是你不介意，能不能
+		陪我练习一下？{wait}
+	} {
+		#12208F还有，呃……
+		我有件事想问你。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[1] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[2] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[3] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[4] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[8] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[1] {
+		#00105F你要罗伊德
+		陪你练习演戏？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00005F为、为什么找我？
+		还有，你想问的是……{wait}
+	} {
+		#00003F我要先声明，
+		我对表演的事情完全
+		不清楚，是个彻头彻尾的门外汉喔。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#12203F我、我又不是要叫你
+		做多困难的事。{wait}
+	} {
+		#12208F再说了，
+		我自然有我的想法嘛。{wait}
+	} {
+		#12200F……所以，你意下如何？
+		愿不愿意陪我一下？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00003F这、这个嘛……{wait}
+	}
+	TextWait
+	Call fn[0,57]
+	Return
+
+fn[57]:
+	FadeOut 300ms 0x00000000 100
+	FadeWait
+	TextSetPos -1 30 -1 -1
+	TextSetName ""
+	Menu menu[0] -1 -1 0
+		"陪修莉练习" // 0
+		"算了" // 1
+	MenuWait var[0]
+	MenuClose menu[0]
+	TextClose 0
+	TextSetPos -1 280 60 3
+	FadeIn 300ms 0x00000000
+	FadeWait
+	switch var[0]:
+		case 0:
+			TextTalk name[0] {
+				#00000F好啊，你觉得我没问题的话，我是没意见。{wait}
+			} {
+				我真的几乎什么都不会喔。{wait}
+			}
+			TextWait
+			TextTalk char[2] {
+				#12200F嗯……我知道了。{wait}
+			}
+			TextWait
+			SoundPlay sound[80] 0 100 0
+			TextSetPos -1 -1 -1 -1
+			TextSetName ""
+			TextMessage null {
+				开始进行{color 2}委托【秘密的演技指导】{color 0}！{wait}
+			}
+			TextWait
+			TextClose 0
+			_59
+			TextSetPos -1 280 60 3
+			system[76] = 113
+			FadeOut 1000ms 0x00000000 255
+			FadeWait
+			QuestFlagsSet quest[141] 0x02
+			FlagSet flag[273]
+			NewScene "scena/e3600.bin" 0 0 0
+			Hcf
+			break
+		case 1:
+			TextTalk name[0] {
+				#00006F……抱歉。
+				我现在还有其他事情，
+				实在腾不出时间。{wait}
+			}
+			TextWait
+			TextTalk char[2] {
+				#12206F这样啊，那算了。
+				……当我没提过吧。{wait}
+			} {
+				#12208F那我要继续练习了。{wait}
+			}
+			TextWait
+			TextTalk name[0] {
+				#00000F嗯、好……{wait}
+			}
+			TextWait
+			CharTurnToChar name[1] name[0] 500deg/s
+			TextTalk name[1] {
+				#00100F（我说啊，罗伊德。
+				　你就不能空出一点时间吗？）{wait}
+			}
+			TextWait
+			CharTurnToChar name[0] name[1] 500deg/s
+			TextTalk name[0] {
+				#00003F（这、这个嘛……
+				　我再考虑一下好了。）{wait}
+			}
+			TextWait
+			FlagSet flag[3012]
+			CharSetPos char[2] (-50, 0, 15980) 180deg
+			_Char4B char[2] 255
+			ForkFunc char[2] fork[3] fn[0,0]
+			ED7_Cam69 255 0
+			CharSetPos field_party[0] (0, 0, 14050) 0deg
+			CharFlagsSet field_party[4] 0x0080
+			CharFlags2Set field_party[4] 0x8000
+			CharFlagsSet field_party[5] 0x0080
+			CharFlags2Set field_party[5] 0x8000
+			EventEnd 5
+			break
+	Return
+
+fn[58]:
+	EventBegin 0
+	CrossFade 500ms
+	CamSetDistance -620 1320 14390 0ms
+	ED7CamRotate 45deg 22deg 0deg 0ms
+	CamPers 650 0ms
+	CamZoom 13000 0ms
+	CharSetPos name[0] (0, 0, 14050) 0deg
+	CharSetPos name[1] (1000, 0, 14150) 0deg
+	CharSetPos name[2] (-1000, 0, 14150) 0deg
+	CharSetPos name[3] (0, 450, 12100) 0deg
+	CharSetPos name[4] (1000, 450, 12000) 0deg
+	CharSetPos name[8] (-1000, 450, 12100) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	_Char4A char[2] 255
+	FadeWait
+	TextTalk char[2] {
+		#12205F怎样？你不是
+		还有事情吗？{wait}
+	} {
+		#12200F难道说……
+		你愿意陪我练习了？{wait}
+	}
+	TextWait
+	Call fn[0,57]
+	Return
+
+fn[59]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	ED7LoadChip "chr/ch11000.itc" chip[30]
+	ED7LoadChip "chr/ch11200.itc" chip[31]
+	CharSetChipBase char[15] chip[30]
+	CharSetChipPattern char[15] 0
+	CharFlagsUnset char[15] 0x0080
+	CharFlagsSet char[15] 0x8000
+	CharSetChipBase char[16] chip[31]
+	CharSetChipPattern char[16] 0
+	CharFlagsUnset char[16] 0x0080
+	CharFlagsSet char[16] 0x8000
+	CharFlagsUnset char[0] 0x0080
+	CharFlagsSet char[0] 0x8000
+	_Char4A char[0] 255
+	_Char4A char[5] 255
+	CharFlagsSet char[5] 0x8000
+	_Char4A char[6] 255
+	CharFlagsSet char[6] 0x8000
+	CharSetPos char[0] (0, 1250, 23550) 0deg
+	CharSetPos char[15] (700, 1350, 7760) 0deg
+	CharSetPos char[16] (-700, 1350, 7760) 0deg
+	CharSetPos name[0] (700, 1520, 6680) 0deg
+	CharSetPos name[1] (-700, 1520, 6680) 0deg
+	CharSetPos name[2] (700, 1800, 5600) 0deg
+	CharSetPos name[3] (-700, 1800, 5600) 0deg
+	CharSetPos name[4] (700, 2250, 4520) 0deg
+	CharSetPos name[8] (-700, 2250, 4520) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	CamSetDistance -3620 3220 18610 0ms
+	ED7CamRotate 29deg 2deg 0deg 0ms
+	CamPers 750 0ms
+	CamZoom 6350 0ms
+	FadeIn 500ms 0x00000000
+	FadeWait
+	Emote char[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 500ms
+	CharTurnTo char[0] 180deg 500deg/s
+	CamSetDistance -4600 3220 11630 4000ms
+	ED7CamRotate 51deg 12deg 0deg 4000ms
+	CamPers 750 4000ms
+	CamZoom 6350 4000ms
+	Fork char[15] fork[0]:
+		_Char90 char[15] 0 0 5600 2000 0
+	Sleep 50ms
+	Fork char[16] fork[0]:
+		_Char90 char[16] 0 0 5600 2000 0
+	Sleep 50ms
+	Fork name[0] fork[0]:
+		_Char90 name[0] 0 0 5600 2000 0
+	Sleep 50ms
+	Fork name[1] fork[0]:
+		_Char90 name[1] 0 0 5600 2000 0
+	Fork name[2] fork[0]:
+		_Char90 name[2] 0 0 5600 2000 0
+	Sleep 50ms
+	Fork name[3] fork[0]:
+		_Char90 name[3] 0 0 5600 2000 0
+	Sleep 50ms
+	Fork name[4] fork[0]:
+		_Char90 name[4] 0 0 5600 2000 0
+	Sleep 50ms
+	Fork name[8] fork[0]:
+		_Char90 name[8] 0 0 5600 2000 0
+	Fork char[0] fork[0]:
+		_Char90 char[0] 0 0 -5000 2000 0
+	Sleep 1000ms
+	Fork char[5] fork[1]:
+		CharTurnTo self 180deg 500deg/s
+	Fork char[6] fork[1]:
+		CharTurnTo self 180deg 500deg/s
+	ForkWait char[0] fork[0]
+	TextTalk char[0] {
+		#2P#01700F哎呀呀，这不是克萝蒂雅公主吗！{wait}
+	}
+	TextWait
+	CamWait 121
+	ForkWait name[8] fork[0]
+	TextTalk name[0] {
+		#3P#00011F咦……
+		你们认识吗！？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#2P#01702F不算认识。只是我在台上看得到观众席，
+		而且有人告诉过我
+		每个座位上坐的是哪位来宾。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#3P#00005F观众席明明那么暗……{wait}
+	}
+	TextWait
+	TextTalk char[15] {
+		#3P#07004F我昨天真的很感动。{wait}
+	} {
+		#07000F今天，罗伊德先生他们
+		带我参观这座城市。{wait}
+	} {
+		#07009F我们过来这边后，
+		总管就答应让我
+		进来参观各位的练习了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#2P#01700F原来是这么回事。
+		不过，练习的样子不比演出时精彩吧？{wait}
+	}
+	TextWait
+	TextTalk char[15] {
+		#3P#07000F你说得或许没错……
+		可是，各位认真对待表演的精神，
+		却是和正式演出时毫无二致。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#2P#01704F呵呵呵……说得没错。{wait}
+	}
+	TextWait
+	TextTalk char[15] {
+		#3P#07002F昨天那场戏真的十分精彩！
+		伊莉雅小姐演得非常帅气！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#2P#01705F哎呀呀，
+		你嘴巴还真甜！{wait}
+	}
+	TextWait
+	ED7_EE 0 1
+	Sc_7D_0 char[0] 30 300
+	Sc_7D_0 char[16] 30 300
+	CharFlagsSet char[16] 0x0010
+	CamSetDistance -3820 2420 13550 1000ms
+	ED7CamRotate 61deg 12deg 0deg 1000ms
+	CamPers 750 1000ms
+	CamZoom 5440 1000ms
+	SoundPlay sound[844] 0 100 0
+	_Char96 char[0] (1000, 0, 16500) 2000 5000
+	SoundPlay sound[326] 0 50 0
+	CamWait 121
+	TextTalk char[0] {
+		#2P#01709F我都想抱抱你了！{wait}
+	}
+	TextWait
+	SoundPlay sound[250] 0 60 0
+	BlurOn 0ms 0xBBFFFFFF 0 0 0
+	CamSetDistance -2840 2520 12590 1000ms
+	ED7CamRotate 62deg 18deg 0deg 1000ms
+	CamPers 750 1000ms
+	CamZoom 4430 1000ms
+	Fork char[0] fork[0]:
+		_Char91 self 0 0 -1200 4000 0
+	Fork char[16] fork[0]:
+		_Char91 self 1500 0 1000 5000 0
+	ForkWait char[0] fork[0]
+	Sc_7D_1 char[0] 0 0
+	Sc_7D_1 char[16] 0 0
+	CharFlagsUnset char[16] 0x0010
+	CamWait 121
+	BlurOff 500ms
+	TextTalk char[16] {
+		#4P#07101F…………{wait}
+	}
+	TextWait
+	Emote char[15] 0mm 2000mm 40 43 100ms 3
+	Sleep 1000ms
+	TextTalk char[15] {
+		#07005F啊！尤莉亚，应该没问题的！{wait}
+	}
+	TextWait
+	TextTalk char[16] {
+		#4P#07103F虽然我也如此认为……
+		但这是我的职责。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1P#01705F她动作竟然比我还快……{wait}
+	} {
+		#01709F你挺厉害的嘛！{wait}
+	}
+	TextWait
+	TextTalk char[16] {
+		#4P#07105F……什么？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#01700F你想不想站上舞台表演看看呢？
+		我们应该能一起做出很有意思的表演哦！{wait}
+	}
+	TextWait
+	Emote char[16] 0mm 2000mm 40 43 100ms 3
+	Sleep 1000ms
+	TextTalk char[16] {
+		#4P#07108F我、我不太会演戏……
+		这可头痛了……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#01709F一定能把场面炒热的！
+		#5S请你一定要演个男性角色！#3S{wait}
+	}
+	Sleep 500ms
+	TextTalk char[16] {
+		#4P#07109F#5S请容我拒绝。#3S{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[2] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk char[15] {
+		#07009F哇，不错啊！
+		我也好想看到
+		尤莉亚站上舞台哦！{wait}
+	}
+	TextWait
+	CharTurnTo char[16] 180deg 500deg/s
+	Sleep 500ms
+	TextTalk char[16] {
+		#2P#07105F这个……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#01702F好嘛！你绝对不会后悔的！{wait}
+	}
+	TextWait
+	CharTurnTo char[16] 0deg 500deg/s
+	Sleep 500ms
+	TextTalk char[16] {
+		#2P#07108F不行，我还有职责在身……{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00012F嗯，这样看来，
+		她应该还算玩得满开心的吧？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	BgmStop 1000ms
+	FadeOut 1000ms 0x00000000 255
+	VisShow vis[0] 0 8 480 264 0 0 512 256 0 0 480 256 0x00FFFFFF 0 "c_vis600.itp"
+	FadeWait
+	VisSet vis[0] 3 0xFFFFFFFF 1000ms 0 0
+	VisWait vis[0] 3
+	Sleep 1000ms
+	TextSetPos -1 0 -1 -1
+	if flag[3820]:
+		Call fn[0,60]
+	elif flag[3819]:
+		TextMessage name[3] {
+			#00302F勉勉强强吧。
+			最后去个热闹点的地方吧！{wait}
+		}
+		TextWait
+	else:
+		TextMessage name[3] {
+			#00302F勉勉强强吧。
+			接下来去个热闹点的地方吧！{wait}
+		}
+		TextWait
+	TextSetPos -1 230 -1 -1
+	if !flag[3818]:
+		TextMessage name[0] {
+			#00003F我想想……
+			第一站是……{wait}
+		}
+		TextWait
+	elif !flag[3819]:
+		TextMessage name[0] {
+			#00003F接下来要去的是……{wait}
+		}
+		TextWait
+	else:
+		TextMessage name[0] {
+			#00003F最后一个地方是……{wait}
+		}
+		TextWait
+	VisSet vis[0] 3 0x88FFFFFF 300ms 0 0
+	VisWait vis[0] 3
+	var[0] = 0
+	var[1] = 0
+	ED7MenuNew menu[1]
+	if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7 && !QuestTaskGet quest[158] 13 && !QuestTaskGet quest[158] 15 && !QuestTaskGet quest[158] 21:
+		ED7MenuAdd menu[1] "行政区的摊贩"
+	if !QuestTaskGet quest[158] 2 && !QuestTaskGet quest[158] 8 && !QuestTaskGet quest[158] 16:
+		ED7MenuAdd menu[1] "中央广场的百货"
+	if !QuestTaskGet quest[158] 3 && !QuestTaskGet quest[158] 9 && !QuestTaskGet quest[158] 17:
+		ED7MenuAdd menu[1] "面包咖啡馆丄摩尔吉 "
+	if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10 && !QuestTaskGet quest[158] 14 && !QuestTaskGet quest[158] 18 && !QuestTaskGet quest[158] 22:
+		ED7MenuAdd menu[1] "东侧大道的摊贩"
+	if !QuestTaskGet quest[158] 5 && !QuestTaskGet quest[158] 11 && !QuestTaskGet quest[158] 19:
+		ED7MenuAdd menu[1] "旧市街"
+	if !QuestTaskGet quest[158] 6 && !QuestTaskGet quest[158] 12 && !QuestTaskGet quest[158] 20:
+		ED7MenuAdd menu[1] "彩虹剧团"
+	ED7MenuShow menu[1] 65535 65535 0
+	MenuWait var[0]
+	MenuClose menu[1]
+	TextClose 0
+	_59
+	Sleep 1000ms
+	VisSet vis[0] 3 0x00FFFFFF 1000ms 0 0
+	VisWait vis[0] 3
+	VisSet vis[0] 3 0x00FFFFFF 0ms 0 0
+	VisHide vis[255] 0
+	var[1] = 0
+	if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7 && !QuestTaskGet quest[158] 13 && !QuestTaskGet quest[158] 15 && !QuestTaskGet quest[158] 21:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 1
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				if !QuestTaskGet quest[158] 4:
+					QuestTaskSet quest[158] 7
+				else:
+					QuestTaskSet quest[158] 13
+			else:
+				FlagSet flag[3820]
+				if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10:
+					QuestTaskSet quest[158] 15
+				else:
+					QuestTaskSet quest[158] 21
+			FlagSet flag[276]
+			NewScene "scena/c1100.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 2 && !QuestTaskGet quest[158] 8 && !QuestTaskGet quest[158] 16:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 2
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 8
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 16
+			FlagSet flag[273]
+			NewScene "scena/c0170.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 3 && !QuestTaskGet quest[158] 9 && !QuestTaskGet quest[158] 17:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 3
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 9
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 17
+			FlagSet flag[275]
+			NewScene "scena/c0200.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10 && !QuestTaskGet quest[158] 14 && !QuestTaskGet quest[158] 18 && !QuestTaskGet quest[158] 22:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 4
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				if !QuestTaskGet quest[158] 1:
+					QuestTaskSet quest[158] 10
+				else:
+					QuestTaskSet quest[158] 14
+			else:
+				FlagSet flag[3820]
+				if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7:
+					QuestTaskSet quest[158] 18
+				else:
+					QuestTaskSet quest[158] 22
+			FlagSet flag[282]
+			NewScene "scena/c1000.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 5 && !QuestTaskGet quest[158] 11 && !QuestTaskGet quest[158] 19:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 5
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 11
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 19
+			FlagSet flag[276]
+			NewScene "scena/c1400.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 6 && !QuestTaskGet quest[158] 12 && !QuestTaskGet quest[158] 20:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 6
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 12
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 20
+			FlagSet flag[280]
+			NewScene "scena/c0400.bin" 0 0 0
+			Hcf
+	Return
+
+fn[60]:
+	TextSetPos -1 230 -1 -1
+	TextMessage char[16] {
+		#07103F嗯……
+		时间差不多了。{wait}
+	}
+	TextWait
+	TextSetPos -1 0 -1 -1
+	TextMessage char[15] {
+		#07005F咦？已经
+		这么晚了吗？{wait}
+	}
+	TextWait
+	TextSetPos -1 230 -1 -1
+	TextMessage char[16] {
+		#07103F虽然有点可惜，不过……
+		但公务行程可是，
+		万万不能迟到。{wait}
+	}
+	TextWait
+	TextSetPos -1 0 -1 -1
+	TextMessage char[15] {
+		#07003F嗯，那当然。{wait}
+	} {
+		#07001F毕竟我就是为了
+		这件事来到
+		克洛斯贝尔的。{wait}
+	}
+	TextWait
+	TextSetPos -1 230 -1 -1
+	TextMessage char[16] {
+		#07100F我们先回
+		埃尔赛尤号吧。{wait}
+	}
+	TextWait
+	TextSetPos 0 -1 -1 -1
+	TextMessage name[0] {
+		#00000F我明白了。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	FlagSet flag[274]
+	NewScene "scena/e3210.bin" 0 0 0
+	Hcf
+	Return

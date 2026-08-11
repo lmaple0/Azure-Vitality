@@ -1,0 +1,3132 @@
+calmare ao_k scena
+scena:
+	name "e3210" "e3210" "e3210"
+	town town[0]
+	bgm bgm[0]
+	flags 0
+	item_use fn[0,255]
+	unk 255 0
+
+entry:
+	pos (0, 0, -1000)
+	unk1 0
+	cam_from (0, 0, 24000)
+	cam_pers 500
+	unk2 30
+	cam_deg 45deg
+	cam_limit 0deg 360deg
+	cam_at (0, 0, 0)
+	unk3 0
+	unk4 0
+	flags 0x0001
+	town town[1]
+	init fn[0,1]
+	reinit fn[0,2]
+
+npc char[0]:
+	name "壥壥壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[1]:
+	name "壥壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[2]:
+	name "壥壥壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[3]:
+	name "壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[4]:
+	name "壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[5]:
+	name "壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[6]:
+	name "壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[7]:
+	name "壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x01C5
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+fn[0]:
+	switch random % 8:
+		case 0:
+			ED7_A0 self 1450ms 0 251
+			break
+		case 1:
+			ED7_A0 self 1550ms 0 251
+			break
+		case 2:
+			ED7_A0 self 1600ms 0 251
+			break
+		case 3:
+			ED7_A0 self 1400ms 0 251
+			break
+		case 4:
+			ED7_A0 self 1650ms 0 251
+			break
+		case 5:
+			ED7_A0 self 1350ms 0 251
+			break
+		case 6:
+			ED7_A0 self 1500ms 0 251
+			break
+		default:
+			ED7_A0 self 1500ms 0 251
+			break
+	while 1:
+		ED7_A0 self 1500ms 0 251
+	Return
+
+fn[1]:
+	if flag[272]:
+		FlagUnset flag[272]
+		Event fn[0,13]
+	elif flag[273]:
+		FlagUnset flag[273]
+		Event fn[0,14]
+	elif flag[274]:
+		FlagUnset flag[274]
+		Event fn[0,15]
+	Return
+
+fn[2]:
+	Return
+
+fn[3]:
+	Fork self fork[1]:
+		CharWalkToPos self (0, 0, 3300) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-2000, 0, 3300) 2500mm/s 0
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		_Char90 self 0 0 -5000 2500 0
+	Sleep 1000ms
+	Fork self fork[2]:
+		CharColor self 0x00FFFFFF 500ms
+	ForkWait self fork[1]
+	Return
+
+fn[4]:
+	Sleep 2500ms
+	SoundPlay sound[802] 0 100 0
+	CharSetChipBase char[5] chip[41]
+	CharSetChipPattern char[5] 0
+	Return
+
+fn[5]:
+	Sleep 7000ms
+	SoundPlay sound[802] 0 100 0
+	CharSetChipBase char[6] chip[41]
+	CharSetChipPattern char[6] 0
+	Return
+
+fn[6]:
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 3200) 2000mm/s 0
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 5200) 2000mm/s 0
+	ForkWait self fork[1]
+	Return
+
+fn[7]:
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 42400) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-100900, 0, 44300) 2500mm/s 0
+	ForkWait self fork[1]
+	CharTurnTo self 45deg 500deg/s
+	Return
+
+fn[8]:
+	Sleep 700ms
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 42400) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-101400, 0, 43000) 2500mm/s 0
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-101600, 0, 45000) 2500mm/s 0
+	ForkWait self fork[1]
+	CharTurnTo self 45deg 500deg/s
+	Return
+
+fn[9]:
+	Sleep 1600ms
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 42400) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-102100, 0, 43700) 2500mm/s 0
+	ForkWait self fork[1]
+	CharTurnTo self 45deg 500deg/s
+	Return
+
+fn[10]:
+	Sleep 2300ms
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 42400) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-101400, 0, 43000) 2500mm/s 0
+	ForkWait self fork[1]
+	CharTurnTo self 45deg 500deg/s
+	Return
+
+fn[11]:
+	Sleep 3000ms
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 42400) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-100200, 0, 43000) 2500mm/s 0
+	ForkWait self fork[1]
+	CharTurnTo self 45deg 500deg/s
+	Return
+
+fn[12]:
+	Sleep 3700ms
+	Fork self fork[1]:
+		CharWalkToPos self (-99000, 0, 42400) 2500mm/s 0
+	Fork self fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-95500, 0, 44900) 2500mm/s 0
+	ForkWait self fork[1]
+	Fork self fork[1]:
+		CharWalkToPos self (-95500, 0, 48600) 2500mm/s 0
+	ForkWait self fork[1]
+	CharTurnTo self 225deg 500deg/s
+	Return
+
+fn[13]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	ED7LoadChip "chr/ch11000.itc" chip[30]
+	ED7LoadChip "chr/ch11100.itc" chip[31]
+	ED7LoadChip "chr/ch11200.itc" chip[32]
+	ED7LoadChip "chr/ch11300.itc" chip[33]
+	ED7LoadChip "chr/ch13801.itc" chip[34]
+	ED7LoadChip "chr/ch41600.itc" chip[35]
+	ED7LoadChip "apl/ch51260.itc" chip[36]
+	ED7LoadChip "chr/ch11002.itc" chip[37]
+	ED7LoadChip "chr/ch11102.itc" chip[38]
+	ED7LoadChip "chr/ch11202.itc" chip[39]
+	ED7LoadChip "chr/ch11302.itc" chip[40]
+	ED7LoadChip "apl/ch51213.itc" chip[41]
+	ED7LoadChip "apl/ch51214.itc" chip[42]
+	ED7LoadChip "apl/ch51215.itc" chip[43]
+	ED7LoadChip "chr/ch00002.itc" chip[44]
+	ED7LoadChip "chr/ch00102.itc" chip[45]
+	ED7LoadChip "chr/ch00302.itc" chip[46]
+	ED7LoadChip "chr/ch02902.itc" chip[47]
+	ED7LoadChip "chr/ch03002.itc" chip[48]
+	ED7LoadChip "chr/ch13802.itc" chip[49]
+	SoundLoad sound[498]
+	VisShow vis[0] 234 0 490 256 0 0 512 512 0 0 512 512 0x00FFFFFF 0 "bu07000.itp"
+	VisShow vis[1] 234 0 490 256 0 0 512 512 0 0 512 512 0x00FFFFFF 0 "bu07201.itp"
+	VisShow vis[2] 234 0 490 256 0 0 512 512 0 0 512 512 0x00FFFFFF 0 "bu07300.itp"
+	CharSetChipBase char[0] chip[30]
+	CharSetChipPattern char[0] 0
+	CharFlagsSet char[0] 0x8000
+	CharSetChipBase char[1] chip[32]
+	CharSetChipPattern char[1] 0
+	CharFlagsUnset char[1] 0x0080
+	CharFlagsSet char[1] 0x8000
+	CharFlagsUnset char[1] 0x0004
+	CharSetPos char[1] (0, 0, -13500) 0deg
+	CharColor char[1] 0x00FFFFFF 0ms
+	CharSetChipBase char[2] chip[42]
+	CharSetChipPattern char[2] 0
+	CharFlagsSet char[2] 0x8000
+	CharColor char[2] 0x00FFFFFF 0ms
+	CharSetChipBase char[3] chip[33]
+	CharSetChipPattern char[3] 0
+	CharFlagsSet char[3] 0x8000
+	CharColor char[3] 0x00FFFFFF 0ms
+	CharSetChipBase char[4] chip[34]
+	CharSetChipPattern char[4] 0
+	CharFlagsSet char[4] 0x8000
+	CharSetChipBase char[5] chip[35]
+	CharSetChipPattern char[5] 0
+	CharFlagsUnset char[5] 0x0080
+	CharFlagsSet char[5] 0x8000
+	CharSetPos char[5] (3200, 0, -6000) 270deg
+	CharSetChipBase char[6] chip[35]
+	CharSetChipPattern char[6] 0
+	CharFlagsUnset char[6] 0x0080
+	CharFlagsSet char[6] 0x8000
+	CharSetPos char[6] (-3500, 0, 3500) 90deg
+	CharSetPos name[0] (0, 0, -13500) 0deg
+	CharSetPos name[1] (0, 0, -13500) 0deg
+	CharSetPos name[3] (0, 0, -13500) 0deg
+	CharSetPos name[8] (0, 0, -13500) 0deg
+	CharSetPos name[4] (0, 0, -13500) 0deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharColor name[0] 0x00FFFFFF 0ms
+	CharColor name[1] 0x00FFFFFF 0ms
+	CharColor name[3] 0x00FFFFFF 0ms
+	CharColor name[8] 0x00FFFFFF 0ms
+	CharColor name[4] 0x00FFFFFF 0ms
+	ObjFlagsSet object[4] 0x1000
+	ObjFrame object[4] 0
+	MapColor 0x00C8D2FF 0ms
+	CamSetDistance 0 1000 -10000 0ms
+	ED7CamRotate 45deg 25deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 19000 0ms
+	CamSetDistance 0 1000 1000 7000ms
+	CamZoom 20500 7000ms
+	SoundPlay sound[100] 0 80 0
+	FadeIn 1000ms 0x00000000
+	ForkFunc char[5] fork[3] fn[0,4]
+	ForkFunc char[6] fork[3] fn[0,5]
+	ForkFunc char[1] fork[3] fn[0,3]
+	Sleep 900ms
+	ForkFunc name[0] fork[3] fn[0,3]
+	Sleep 600ms
+	ForkFunc name[1] fork[3] fn[0,3]
+	Sleep 600ms
+	ForkFunc name[3] fork[3] fn[0,3]
+	Sleep 600ms
+	ForkFunc name[8] fork[3] fn[0,3]
+	Sleep 600ms
+	ForkFunc name[4] fork[3] fn[0,3]
+	Sleep 500ms
+	SoundPlay sound[100] 0 80 0
+	CamWait 121
+	CamZoom 19000 5000ms
+	ForkWait char[1] fork[3]
+	Sleep 2000ms
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	ForkQuit char[1] fork[255]
+	ForkQuit name[0] fork[255]
+	ForkQuit name[1] fork[255]
+	ForkQuit name[3] fork[255]
+	ForkQuit name[8] fork[255]
+	ForkQuit name[4] fork[255]
+	CharColor char[1] 0xFFFFFFFF 0ms
+	CharColor name[0] 0xFFFFFFFF 0ms
+	CharColor name[1] 0xFFFFFFFF 0ms
+	CharColor name[3] 0xFFFFFFFF 0ms
+	CharColor name[8] 0xFFFFFFFF 0ms
+	CharColor name[4] 0xFFFFFFFF 0ms
+	CharSetChipPattern name[0] 0
+	CharSetChipPattern name[1] 0
+	CharSetChipPattern name[3] 0
+	CharSetChipPattern name[8] 0
+	CharSetChipPattern name[4] 0
+	CharSetChipBase char[5] chip[35]
+	CharSetChipPattern char[5] 0
+	CharFlagsUnset char[5] 0x0080
+	CharFlagsSet char[5] 0x8000
+	CharSetPos char[5] (-3410, 0, 96130) 270deg
+	ForkFunc char[5] fork[3] fn[0,0]
+	CharSetChipBase char[6] chip[36]
+	CharSetChipPattern char[6] 0
+	CharFlagsUnset char[6] 0x0080
+	CharFlagsSet char[6] 0x8000
+	CharSetPos char[6] (1850, 200, 97370) 90deg
+	CharSetChipBase char[7] chip[36]
+	CharSetChipPattern char[7] 0
+	CharFlagsUnset char[7] 0x0080
+	CharFlagsSet char[7] 0x8000
+	CharSetPos char[7] (-3520, 200, 97470) 270deg
+	CamSetDistance -1000 1500 97000 0ms
+	ED7CamRotate 50deg 21deg 0deg 0ms
+	CamPers 600 0ms
+	CamZoom 18500 0ms
+	CamSetDistance -1000 2500 96000 7000ms
+	ED7CamRotate 35deg 25deg 0deg 7000ms
+	CamZoom 21500 7000ms
+	SoundPlay sound[498] 2 30 0
+	FadeIn 2000ms 0x00000000
+	FadeWait
+	Sleep 3000ms
+	ED7_12 498 2000 30
+	FadeOut 2000ms 0x00000000 255
+	FadeWait
+	CamWait 121
+	CamSetDistance -99000 1600 2900 0ms
+	ED7CamRotate 45deg 21deg 0deg 0ms
+	CamPers 550 0ms
+	CamZoom 18000 0ms
+	CharSetPos name[0] (-99600, 70, 900) 0deg
+	CharSetPos name[1] (-98400, 70, 900) 0deg
+	CharSetPos name[3] (-97800, 60, -300) 0deg
+	CharSetPos name[8] (-99000, 70, -900) 0deg
+	CharSetPos name[4] (-100200, 60, -300) 0deg
+	CharSetPos char[1] (-99000, 70, 2500) 0deg
+	CharFlagsSet char[1] 0x0004
+	CharSetPos char[0] (-99000, 70, 6500) 0deg
+	CharFlagsUnset char[0] 0x0080
+	MapColor 0x00FFFFFF 0ms
+	CamSetDistance -99000 1100 2900 2000ms
+	FadeIn 2000ms 0x00000000
+	FadeWait
+	Fork char[1] fork[1]:
+		CharWalkToPos2 self (-99000, 70, 3200) 1500mm/s 0
+	ForkWait char[1] fork[1]
+	SoundPlay sound[808] 0 100 0
+	Sleep 500ms
+	TextTalk char[1] {
+		#1220710017V#11P#07104F──殿下，打扰了。{wait}
+	} {
+		#1220710018V我将特务支援课的
+		各位带来了。{wait}
+	}
+	TextWait
+	TextTalkNamed char[0] "清澈的声音" {
+		#1220700002V#3C#2S#11P请进吧。{wait}
+	}
+	TextWait
+	Sleep 150ms
+	SoundPlay sound[100] 0 80 0
+	ObjFlagsUnset object[2] 0x0010
+	ED7ObjPlay object[2] 0 30 0 0
+	ObjWait object[2]
+	Fork char[1] fork[1]:
+		CharWalkToPos self (-97800, 70, 3200) 2000mm/s 0
+	ForkWait char[1] fork[1]
+	CharTurnTo char[1] 225deg 500deg/s
+	ForkLoop char[1] fork[2]:
+		CharTurnToChar self name[0] 500deg/s
+	TextTalk char[1] {
+		#1220710019V#5P#07102F来吧，请进。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000172V#12P#00001F是、是的。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010084V#00104F那么便叨扰了。{wait}
+	}
+	TextWait
+	CamSetDistance -99000 1100 3900 2000ms
+	FadeOut 2000ms 0x00000000 255
+	ForkFunc name[0] fork[3] fn[0,6]
+	Sleep 700ms
+	ForkFunc name[1] fork[3] fn[0,6]
+	Sleep 300ms
+	ForkQuit char[1] fork[2]
+	ForkFunc name[3] fork[3] fn[0,6]
+	Sleep 700ms
+	ForkFunc name[8] fork[3] fn[0,6]
+	Sleep 300ms
+	ForkFunc name[4] fork[3] fn[0,6]
+	FadeWait
+	CamWait 121
+	ForkQuit name[0] fork[255]
+	ForkQuit name[1] fork[255]
+	ForkQuit name[3] fork[255]
+	ForkQuit name[8] fork[255]
+	ForkQuit name[4] fork[255]
+	CharSetChipBase char[0] chip[37]
+	CharSetChipPattern char[0] 1
+	CharSetPos char[0] (-96900, 50, 49350) 270deg
+	CharFlagsUnset char[4] 0x0080
+	CharSetChipBase char[4] chip[49]
+	CharSetChipPattern char[4] 0
+	CharSetPos char[4] (-98400, 700, 48350) 135deg
+	char[4].7 = 700
+	char[4].52 = 700
+	CharSetPos char[1] (-99000, 0, 40500) 0deg
+	CharColor char[1] 0x00FFFFFF 0ms
+	CharSetPos name[0] (-99000, 0, 40500) 0deg
+	CharSetPos name[1] (-99000, 0, 40500) 0deg
+	CharSetPos name[3] (-99000, 0, 40500) 0deg
+	CharSetPos name[8] (-99000, 0, 40500) 0deg
+	CharSetPos name[4] (-99000, 0, 40500) 0deg
+	CharColor name[0] 0x00FFFFFF 0ms
+	CharColor name[1] 0x00FFFFFF 0ms
+	CharColor name[3] 0x00FFFFFF 0ms
+	CharColor name[8] 0x00FFFFFF 0ms
+	CharColor name[4] 0x00FFFFFF 0ms
+	CamSetDistance -98700 1100 44800 0ms
+	ED7CamRotate 27deg 19deg 0deg 0ms
+	CamPers 450 0ms
+	CamZoom 21500 0ms
+	CamSetDistance -98700 1100 46800 4000ms
+	ED7CamRotate 41deg 13deg 0deg 4000ms
+	CamPers 450 4000ms
+	CamZoom 19290 4000ms
+	FadeIn 1000ms 0x00000000
+	ForkFunc name[0] fork[3] fn[0,7]
+	ForkFunc name[1] fork[3] fn[0,8]
+	ForkFunc name[3] fork[3] fn[0,9]
+	ForkFunc name[8] fork[3] fn[0,10]
+	ForkFunc name[4] fork[3] fn[0,11]
+	ForkFunc char[1] fork[3] fn[0,12]
+	ForkWait name[4] fork[3]
+	TextTalk name[0] {
+		#1220000173V#6P#00005F啊……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CrossFade 250ms
+	SoundPlay sound[812] 0 100 0
+	CharSetChipBase char[0] chip[30]
+	CharSetChipPattern char[0] 0
+	CharSetPos char[0] (-96900, 0, 48600) 225deg
+	FadeWait
+	BgmPlay bgm[519] 0
+	VisSet vis[0] 3 0xFFFFFFFF 500ms 0 0
+	VisSet vis[0] 0 -10000 0 500ms 0
+	VisWait vis[0] 3
+	VisWait vis[0] 0
+	TextSetPos -1 280 35 3
+	Sleep 500ms
+	TextMessage char[0] {
+		#1220700003V呵呵，大家好。{wait}
+	} {
+		#1220700004V我是利贝尔王国的王储
+		克萝蒂雅。{wait}
+	} {
+		#1220700005V以这样的方式找各位过来，
+		真的是非常地抱歉。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextSetPos -1 280 60 3
+	VisSet vis[0] 3 0x00FFFFFF 500ms 0 0
+	VisSet vis[0] 0 0 0 500ms 0
+	VisWait vis[0] 3
+	VisWait vis[0] 0
+	TextTalk char[4] {
+		#1220800007V#5P#08009F哔。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000174V#6P#00011F不、不会，您太客气了。{wait}
+	} {
+		#1220000175V#00003F您好──
+		我是克洛斯贝尔警察
+		特务支援课的罗伊德丄班宁斯。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010085V#6P#00104F我是同属特务支援课的
+		艾莉丄麦克道尔。{wait}
+	} {
+		#1220010086V#00102F王储殿下
+		您好。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700006V#07009F#5P呵呵，其实我听说了很多
+		关于艾莉小姐的事情……{wait}
+	} {
+		#1220700007V#07002F真高兴能够见到你。{wait}
+	}
+	TextWait
+	Emote name[1] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[1] {
+		#1220010087V#6P#00105F是这样吗……？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700008V#07004F#5P是啊，前阵子刚好有机会
+		与你的外公麦克道尔议长
+		稍微聊了一下。{wait}
+	} {
+		#1220700009V#07000F还有，我也曾和玛利亚贝尔小姐
+		谈过好几次话。{wait}
+	} {
+		#1220700010V听说你以前曾经来
+		利贝尔留学过是吗？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010088V#6P#00104F是的。
+		虽然只待了三个月左右……{wait}
+	} {
+		#1220010089V#00102F没能前去问候真是失礼了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700011V#07009F不不，
+		我才甚是失礼。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030065V#6P#00309F哈哈……您好。
+		我是兰迪丄奥兰多。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050050V#6P#N#10100F我、我是诺艾儿丄希卡！
+		请您多多指教！{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextTalk name[4] {
+		#1220040042V#12P#10304F瓦奇丄赫密士菲亚。
+		能够和美丽的公主见面真是备感光荣。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextTalk char[0] {
+		#1220700012V#07009F#5P欢迎你们。{wait}
+	} {
+		#1220700013V#07004F本来想要趁这个机会，
+		和各位介绍一位人士，不过……{wait}
+	} {
+		#1220700014V#07000F那个，他似乎稍微迟到了。{wait}
+	}
+	TextWait
+	ObjFlagsUnset object[3] 0x0010
+	ED7ObjPlay object[3] 0 30 0 0
+	ObjWait object[3]
+	CharFlagsUnset char[2] 0x0080
+	CharSetPos char[2] (-99000, 0, 39000) 0deg
+	BgmVolume 50 300ms
+	SoundPlay sound[849] 0 100 0
+	Sleep 2000ms
+	BgmVolume 100 1000ms
+	TextTalkNamed char[2] "悠哉的声音" {
+		#1220720002V哼……
+		用不着担心。{wait}
+	}
+	TextWait
+	if flag[2738]:
+		Fork char[0] fork[2]:
+			CharTurnToChar self char[2] 500deg/s
+		Fork char[1] fork[2]:
+			CharTurnToChar self char[2] 500deg/s
+		Emote name[0] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 50ms
+		Emote name[1] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 50ms
+		Emote name[3] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 50ms
+		Emote name[8] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 50ms
+		Emote name[4] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 1000ms
+		Fork name[0] fork[0]:
+			CharTurnToChar name[0] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[1] fork[0]:
+			CharTurnToChar name[1] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[3] fork[0]:
+			CharTurnToChar name[3] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[8] fork[0]:
+			CharTurnToChar name[8] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[4] fork[0]:
+			CharTurnToChar name[4] char[2] 500deg/s
+		Sleep 50ms
+		ForkWait name[0] fork[0]
+		ForkWait name[1] fork[0]
+		ForkWait name[3] fork[0]
+		ForkWait name[8] fork[0]
+		ForkWait name[4] fork[0]
+		TextTalk name[0] {
+			#1220000176V#00005F#5P这个声音是……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#1220010090V#00108F#5P好、好像在哪听过的样子。{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#1220030066V#00305F#5P喂喂，该不会──{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#1220710020V#11P#07104F#5P呵呵……
+			看来他似乎已经到了呢。{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		CrossFade 500ms
+		CamSetDistance -94200 900 101100 0ms
+		ED7CamRotate 53deg 19deg 0deg 0ms
+		CamPers 600 0ms
+		CamZoom 17000 0ms
+		CharSetPos char[0] (-101300, 0, 103300) 135deg
+		CharSetPos char[4] (-100800, 700, 102000) 90deg
+		CharSetPos char[1] (-99500, 0, 104700) 135deg
+		CharSetPos name[0] (-97700, 0, 99100) 0deg
+		CharSetPos name[1] (-97900, 0, 97700) 0deg
+		CharSetPos name[3] (-96700, 0, 97500) 0deg
+		CharSetPos name[8] (-96500, 0, 98900) 0deg
+		CharSetPos name[4] (-95300, 0, 98700) 315deg
+		CharSetPos char[2] (-92000, 0, 101200) 270deg
+		CharSetPos char[3] (-92000, 0, 101000) 270deg
+		CharFlagsUnset char[3] 0x0080
+		CamSetDistance -95880 900 101590 3000ms
+		ED7CamRotate 62deg 16deg 0deg 3000ms
+		CamPers 600 3000ms
+		CamZoom 15300 3000ms
+		Fork char[2] fork[1]:
+			CharWalkToPos self (-96300, 0, 101200) 1500mm/s 0
+		Fork char[2] fork[2]:
+			CharColor self 0xFFFFFFFF 500ms
+		Sleep 700ms
+		Fork char[3] fork[1]:
+			CharWalkToPos self (-95100, 0, 101000) 1500mm/s 0
+		Fork char[3] fork[2]:
+			CharColor self 0xFFFFFFFF 500ms
+		ForkWait char[2] fork[1]
+		ForkWait char[3] fork[1]
+		CamWait 121
+		Emote name[0] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Emote name[8] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 50ms
+		Emote name[3] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Emote name[4] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 50ms
+		Emote name[1] 0mm 2000mm 2 7 80ms 1
+		SoundPlay sound[28] 0 100 0
+		Sleep 1000ms
+		Shake 100 0 3000 300ms
+		TextTalk name[0] {
+			#1220000177V#6P#00011F#4S咦咦！？{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#1220050051V#12P#10111F该、该不会是
+			刚才支援请求的！？{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#1220700015V#07005F#6P#N哎呀，原来你们已经认识了吗？{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		TextTalk name[1] {
+			#1220010091V#12P#00109F是啊，那个……{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#1220040043V#10302F呵呵……
+			真是个大惊喜呢。{wait}
+		}
+		TextWait
+		TextTalkNamed char[3] "帝国军将校" {
+			#1220730002V#5P#07303F──各位，先前失礼了。{wait}
+		} {
+			#1220730003V#07308F#11P克萝蒂雅公主……
+			抱歉，我们来迟了。{wait}
+		} {
+			#1220730004V#07301F就和往常一样，这个傻瓜
+			又跑去插手麻烦事了。{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#1220700016V#07009F#6P#N呵呵，哎呀……{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		SoundPlay sound[850] 0 100 0
+		CharFlagsSet char[2] 0x0002
+		CharFlagsSet char[2] 0x0010
+		CharFlagsSet char[2] 0x0020
+		CharSetChipBase char[2] chip[43]
+		CharSetChipPattern char[2] 0
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 4
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 0
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 4
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 0
+		Sleep 300ms
+		Emote char[2] 300mm 1600mm 54 57 250ms 0
+		CharSetChipPattern char[2] 8
+		Sleep 130ms
+		SoundPlay sound[822] 0 100 0
+		CharSetChipPattern char[2] 9
+		Sleep 130ms
+		CharSetChipPattern char[2] 10
+		Sleep 500ms
+		CharSetChipPattern char[2] 11
+		Sleep 130ms
+		CharSetChipPattern char[2] 12
+		Sleep 130ms
+		CharSetChipPattern char[2] 13
+		Sleep 130ms
+		CharSetChipPattern char[2] 14
+		Sleep 130ms
+		CharSetChipPattern char[2] 15
+		Sleep 500ms
+		EmoteStop char[2]
+		CharSetChipBase char[2] chip[42]
+		CharSetChipPattern char[2] 0
+		CharFlagsUnset char[2] 0x0002
+		CharFlagsUnset char[2] 0x0010
+		CharFlagsUnset char[2] 0x0020
+		CharTurnTo char[2] 180deg 500deg/s
+		Sleep 300ms
+		Fork char[3] fork[1]:
+			CharTurnTo self 180deg 500deg/s
+		TextTalkNamed char[2] "金发青年" {
+			#1220720003V#5P#07204F──呵，那么就让我
+			重新介绍一下自己。{wait}
+		}
+		TextWait
+		VisSet vis[1] 3 0xFFFFFFFF 500ms 0 0
+		VisSet vis[1] 0 -10000 0 500ms 0
+		VisWait vis[1] 3
+		VisWait vis[1] 0
+		TextSetPos -1 280 35 3
+		TextSetPos -1 280 -1 3
+		Sleep 500ms
+		TextSetName "金发青年"
+		TextMessage null {
+			#1220720004V我是埃雷波尼亚帝国皇帝尤根特的代理人，
+			奥利巴特丄莱泽丄亚诺尔。{wait}
+		} {
+			#1220720005V当然，真实的身份
+			是不世出的天才、漂泊的演奏家，
+			也就是我奥利维尔丄朗海姆！{wait}
+		} {
+			#1220720006V哈哈哈！
+			请多多指教！{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		TextSetPos -1 280 60 3
+		VisSet vis[1] 3 0x00FFFFFF 500ms 0 0
+		VisSet vis[1] 0 0 0 500ms 0
+		VisWait vis[1] 3
+		VisWait vis[1] 0
+		TextTalk name[0] {
+			#1220000178V#6P#00011F………………………（目瞪口呆）{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#1220030067V#12P#00301F不……这不可能吧？{wait}
+		}
+		TextWait
+		TextTalkNamed char[3] "帝国军将校" {
+			#1220730005V#5P#07306F这是现实。
+			非常遗憾。{wait}
+		}
+		TextWait
+		VisSet vis[2] 3 0xFFFFFFFF 500ms 0 0
+		VisSet vis[2] 0 -10000 0 500ms 0
+		VisWait vis[2] 3
+		VisWait vis[2] 0
+		TextSetPos -1 280 35 3
+		Sleep 500ms
+		TextSetName "帝国军将校"
+		TextMessage null {
+			#1220730006V──我是帝国军第七机甲师团的
+			穆拉丄范德尔少校。{wait}
+		} {
+			#1220730007V与接受了克萝蒂雅公主邀请的
+			主人一同依约前来。{wait}
+		} {
+			#1220730008V请多指教──特务支援课的各位。{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		TextSetPos -1 280 60 3
+		VisSet vis[2] 3 0x00FFFFFF 500ms 0 0
+		VisSet vis[2] 0 0 0 500ms 0
+	else:
+		Fork char[0] fork[2]:
+			CharTurnToChar self char[2] 500deg/s
+		Fork char[1] fork[2]:
+			CharTurnToChar self char[2] 500deg/s
+		Emote name[0] 0mm 2000mm 0 1 250ms 2
+		SoundPlay sound[29] 0 100 0
+		Emote name[1] 0mm 2000mm 0 1 250ms 2
+		SoundPlay sound[29] 0 100 0
+		Emote name[3] 0mm 2000mm 0 1 250ms 2
+		SoundPlay sound[29] 0 100 0
+		Emote name[8] 0mm 2000mm 0 1 250ms 2
+		SoundPlay sound[29] 0 100 0
+		Emote name[4] 0mm 2000mm 0 1 250ms 2
+		SoundPlay sound[29] 0 100 0
+		Sleep 1000ms
+		Fork name[0] fork[0]:
+			CharTurnToChar name[0] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[1] fork[0]:
+			CharTurnToChar name[1] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[3] fork[0]:
+			CharTurnToChar name[3] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[8] fork[0]:
+			CharTurnToChar name[8] char[2] 500deg/s
+		Sleep 50ms
+		Fork name[4] fork[0]:
+			CharTurnToChar name[4] char[2] 500deg/s
+		Sleep 50ms
+		ForkWait name[0] fork[0]
+		ForkWait name[1] fork[0]
+		ForkWait name[3] fork[0]
+		ForkWait name[8] fork[0]
+		ForkWait name[4] fork[0]
+		TextTalk name[0] {
+			#1220000179V#00005F#5P咦……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#1220010092V#00108F#5P鲁特琴的声音……？{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#1220710021V#5P#07104F呵呵……
+			看来他似乎已经到了呢。{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		CrossFade 500ms
+		CamSetDistance -94200 900 101100 0ms
+		ED7CamRotate 53deg 19deg 0deg 0ms
+		CamPers 600 0ms
+		CamZoom 17000 0ms
+		CharSetPos char[0] (-101300, 0, 103300) 135deg
+		CharSetPos char[4] (-100800, 700, 102000) 90deg
+		CharSetPos char[1] (-99500, 0, 104700) 135deg
+		CharSetPos name[0] (-97700, 0, 99100) 0deg
+		CharSetPos name[1] (-97900, 0, 97700) 0deg
+		CharSetPos name[3] (-96700, 0, 97500) 0deg
+		CharSetPos name[8] (-96500, 0, 98900) 0deg
+		CharSetPos name[4] (-95300, 0, 98700) 315deg
+		CharSetPos char[2] (-92000, 0, 101200) 270deg
+		CharSetPos char[3] (-92000, 0, 101000) 270deg
+		CharFlagsUnset char[3] 0x0080
+		CamSetDistance -95880 900 101590 3000ms
+		ED7CamRotate 62deg 16deg 0deg 3000ms
+		CamPers 600 3000ms
+		CamZoom 15300 3000ms
+		Fork char[2] fork[1]:
+			CharWalkToPos self (-96300, 0, 101200) 1500mm/s 0
+		Fork char[2] fork[2]:
+			CharColor self 0xFFFFFFFF 500ms
+		Sleep 700ms
+		Fork char[3] fork[1]:
+			CharWalkToPos self (-95100, 0, 101000) 1500mm/s 0
+		Fork char[3] fork[2]:
+			CharColor self 0xFFFFFFFF 500ms
+		ForkWait char[2] fork[1]
+		ForkWait char[3] fork[1]
+		CamWait 121
+		Emote name[0] 0mm 2000mm 38 38 250ms 1
+		Emote name[8] 0mm 2000mm 38 38 250ms 1
+		Sleep 50ms
+		Emote name[3] 0mm 2000mm 38 38 250ms 1
+		Emote name[4] 0mm 2000mm 38 38 250ms 1
+		Sleep 50ms
+		Emote name[1] 0mm 2000mm 38 38 250ms 1
+		Sleep 1000ms
+		TextTalk name[0] {
+			#1220000180V#6P#00011F啊……{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#1220050052V#12P#10111F埃、埃雷波尼亚帝国的……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#1220010093V#12P#00105F奥利巴特皇子殿下……！？{wait}
+		}
+		TextWait
+		CharTurnToChar char[3] char[0] 500deg/s
+		Sleep 150ms
+		TextTalkNamed char[3] "帝国军将校" {
+			#1220730009V#07303F#11P──克萝蒂雅公主，
+			抱歉我们来迟了。{wait}
+		} {
+			#1220730010V#07301F就和往常一样，这个傻瓜
+			又跑去插手麻烦事了。{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#1220700017V#07009F#6P#N呵呵，哎呀……{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		SoundPlay sound[850] 0 100 0
+		CharFlagsSet char[2] 0x0002
+		CharFlagsSet char[2] 0x0010
+		CharFlagsSet char[2] 0x0020
+		CharSetChipBase char[2] chip[43]
+		CharSetChipPattern char[2] 0
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 4
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 0
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 4
+		Sleep 100ms
+		CharSetChipPattern char[2] 3
+		Sleep 100ms
+		CharSetChipPattern char[2] 2
+		Sleep 100ms
+		CharSetChipPattern char[2] 1
+		Sleep 100ms
+		CharSetChipPattern char[2] 0
+		Sleep 300ms
+		Emote char[2] 300mm 1600mm 54 57 250ms 0
+		CharSetChipPattern char[2] 8
+		Sleep 130ms
+		SoundPlay sound[822] 0 100 0
+		CharSetChipPattern char[2] 9
+		Sleep 130ms
+		CharSetChipPattern char[2] 10
+		Sleep 500ms
+		CharSetChipPattern char[2] 11
+		Sleep 130ms
+		CharSetChipPattern char[2] 12
+		Sleep 130ms
+		CharSetChipPattern char[2] 13
+		Sleep 130ms
+		CharSetChipPattern char[2] 14
+		Sleep 130ms
+		CharSetChipPattern char[2] 15
+		Sleep 500ms
+		EmoteStop char[2]
+		CharSetChipBase char[2] chip[42]
+		CharSetChipPattern char[2] 0
+		CharFlagsUnset char[2] 0x0002
+		CharFlagsUnset char[2] 0x0010
+		CharFlagsUnset char[2] 0x0020
+		CharTurnTo char[2] 180deg 500deg/s
+		Sleep 300ms
+		Fork char[3] fork[1]:
+			CharTurnTo self 180deg 500deg/s
+		TextTalk char[2] {
+			#1220720007V#5P#07204F──呵，大家好。{wait}
+		}
+		TextWait
+		VisSet vis[1] 3 0xFFFFFFFF 500ms 0 0
+		VisSet vis[1] 0 -10000 0 500ms 0
+		VisWait vis[1] 3
+		VisWait vis[1] 0
+		TextSetPos -1 280 35 3
+		TextSetPos -1 280 -1 3
+		Sleep 500ms
+		TextMessage char[2] {
+			#1220720008V我是埃雷波尼亚帝国皇帝尤根特的代理人，
+			奥利巴特丄莱泽丄亚诺尔。{wait}
+		} {
+			#1220720009V老实说比起皇子，
+			我更想要以为爱浪迹天涯的
+			漂泊演奏家这一身份踏上旅程呢。{wait}
+		} {
+			#1220720010V哈哈哈！
+			请多多指教！{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		TextSetPos -1 280 60 3
+		VisSet vis[1] 3 0x00FFFFFF 500ms 0 0
+		VisSet vis[1] 0 0 0 500ms 0
+		VisWait vis[1] 3
+		VisWait vis[1] 0
+		TextTalk name[0] {
+			#1220000181V#6P#00011F啊，那个……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#1220010094V#12P#00109F请、请多多指教。{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#1220030068V#12P#00305F还真是轻浮到令人难以相信
+			他就是帝国的皇子……{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#1220040044V#10305F话说，为什么是鲁特琴啊？{wait}
+		}
+		TextWait
+		TextTalkNamed char[3] "帝国军将校" {
+			#1220730011V#5P#07306F唉，关于这个部分
+			就请你们忘了吧。{wait}
+		}
+		TextWait
+		VisSet vis[2] 3 0xFFFFFFFF 500ms 0 0
+		VisSet vis[2] 0 -10000 0 500ms 0
+		VisWait vis[2] 3
+		VisWait vis[2] 0
+		TextSetPos -1 280 35 3
+		Sleep 500ms
+		TextSetName "帝国军将校"
+		TextMessage null {
+			#1220730012V──我是帝国军第七机甲师团的
+			穆拉丄范德尔少校。{wait}
+		} {
+			#1220730013V与接受了克萝蒂雅公主邀请的
+			主人一同依约前来。{wait}
+		} {
+			#1220730014V请多指教──特务支援课的各位。{wait}
+		}
+		TextWait
+		TextClose 0
+		_59
+		TextSetPos -1 280 60 3
+		VisSet vis[2] 3 0x00FFFFFF 500ms 0 0
+		VisSet vis[2] 0 0 0 500ms 0
+	CamZoom 15800 2000ms
+	FadeOut 2000ms 0x00000000 255
+	FadeWait
+	CamWait 121
+	VisHide vis[255] 0
+	VisShow vis[0] 0 8 480 264 0 0 512 256 0 0 480 256 0x00FFFFFF 0 "c_vis313.itp"
+	VisShow vis[1] 160 8 416 264 0 0 256 256 0 0 256 256 0x00FFFFFF 0 "c_vis314.itp"
+	VisShow vis[2] 160 8 416 264 0 0 256 256 0 0 256 256 0x00FFFFFF 0 "c_vis315.itp"
+	CharSetChipBase char[0] chip[37]
+	CharSetChipPattern char[0] 0
+	CharSetChipBase char[1] chip[39]
+	CharSetChipPattern char[1] 0
+	CharSetChipBase char[2] chip[38]
+	CharSetChipPattern char[2] 0
+	CharSetChipBase char[3] chip[40]
+	CharSetChipPattern char[3] 0
+	CharSetChipBase char[4] chip[34]
+	CharSetChipPattern char[4] 2
+	CharSetPos char[0] (-96900, 50, 50900) 270deg
+	CharSetPos char[1] (-96900, 50, 52400) 270deg
+	CharSetPos char[2] (-96900, 50, 49350) 270deg
+	CharSetPos char[3] (-96900, 50, 47850) 270deg
+	CharSetPos char[4] (-98400, 700, 46000) 0deg
+	char[4].7 = 700
+	char[4].52 = 700
+	CharSetChipBase name[0] chip[44]
+	CharSetChipPattern name[0] 0
+	CharSetChipBase name[1] chip[45]
+	CharSetChipPattern name[1] 0
+	CharSetChipBase name[3] chip[46]
+	CharSetChipPattern name[3] 2
+	CharSetChipBase name[8] chip[47]
+	CharSetChipPattern name[8] 0
+	CharSetChipBase name[4] chip[48]
+	CharSetChipPattern name[4] 1
+	CharFlagsSet name[0] 0x0004
+	CharFlagsSet name[1] 0x0004
+	CharFlagsSet name[3] 0x0004
+	CharFlagsSet name[8] 0x0004
+	CharFlagsSet name[4] 0x0004
+	CharSetPos name[0] (-101100, 50, 49350) 90deg
+	CharSetPos name[1] (-101100, 50, 50900) 90deg
+	CharSetPos name[3] (-101100, 50, 52400) 90deg
+	CharSetPos name[8] (-101100, 50, 47850) 90deg
+	CharSetPos name[4] (-101100, 50, 46450) 90deg
+	CamSetDistance -99250 1600 50090 0ms
+	ED7CamRotate 38deg 14deg 0deg 0ms
+	CamPers 450 0ms
+	CamZoom 18950 0ms
+	Sleep 1000ms
+	TextSetPos -1 -1 -1 -1
+	TextMessage name[0] {
+		#1220000182V#00004F原来如此……
+		是从她#2R艾丝蒂尔#们那里听来的啊。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextSetPos -1 280 60 3
+	CamSetDistance -99250 1100 50090 2000ms
+	FadeIn 2000ms 0x00000000
+	FadeWait
+	CamWait 121
+	TextTalk name[1] {
+		#1220010095V#6P#00102F原来各位是和艾丝蒂尔小姐她们
+		一起冒险的同伴啊……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030069V#6P#00309F哈哈哈，真是令人
+		难以置信的组合呢。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720011V#07204F是啊，所以各位就
+		放～轻松一点吧。{wait}
+	} {
+		#1220720012V#07202F我们和艾丝蒂尔等人是
+		一同面对利贝尔异变的同伴。{wait}
+	} {
+		#1220720013V而你们则是和艾丝蒂尔等人
+		一同面对克洛斯贝尔异变的同伴。{wait}
+	} {
+		#1220720014V#07209F也就是说我们也是
+		命中注定的同伴丅{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000183V#6P#00012F这、这个嘛～
+		事情应该不是那么简单。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010096V#6P#00106F那个……
+		老实说，不胜惶恐。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700018V#11P#07004F呵呵，不过我真的是希望
+		各位能够放轻松一点。{wait}
+	} {
+		#1220700019V#07002F虽然的确是因为有事情想和各位商量
+		才请各位过来的，不过……{wait}
+	} {
+		#1220700020V我更希望能够和各位
+		变得更亲近一点。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000184V#6P#00000F公主殿下……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030070V#6P#00309F喔喔，真令人感激……！{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050053V#6P#10112F哇哇……不、不敢当。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720015V#07204F不过，看来艾丝蒂尔她们
+		似乎在克洛斯贝尔
+		过得很开心呢。{wait}
+	} {
+		#1220720016V#07209F居然还有主题乐园呢，
+		我也想要在这边待上一个月左右──{wait}
+	}
+	TextWait
+	CharSetChipPattern char[3] 2
+	Sleep 300ms
+	TextTalk char[3] {
+		#1220730015V#07303F……你的行程表早就已经
+		排满到半年后了。{wait}
+	}
+	TextWait
+	CharSetChipPattern char[2] 1
+	Sleep 300ms
+	TextTalk char[2] {
+		#1220720017V#07201F#5P穆拉你这个小气鬼！
+		就让我怀抱着梦想嘛！{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1300ms
+	CharSetChipPattern char[1] 1
+	Sleep 150ms
+	TextTalk char[1] {
+		#1220710022V#5P#07104F嗯，事情就是这样，
+		我们对你们已经有了
+		一定程度的了解。{wait}
+	} {
+		#1220710023V#07100F基于此前提，有几件事情
+		想要告诉你们……{wait}
+	}
+	TextWait
+	CharSetChipPattern char[3] 0
+	Sleep 50ms
+	CharSetChipPattern char[2] 0
+	TextTalk name[0] {
+		#1220000185V#6P#00001F──是。
+		也就是这次的正题对吧。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010097V#6P#00101F听说是和通商会议有关，
+		令人在意的情报对吧？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700021V#11P#07003F嗯……{wait}
+	}
+	TextWait
+	BgmStop 4000ms
+	CharSetChipPattern char[0] 2
+	Sleep 300ms
+	CrossFade 250ms
+	SoundPlay sound[812] 0 100 0
+	CharSetChipBase char[1] chip[32]
+	CharSetChipPattern char[1] 0
+	CharSetPos char[1] (-96900, 0, 53400) 270deg
+	FadeWait
+	CharTurnToPos char[1] (-95000, null, 55000) 500deg/s
+	Fork char[1] fork[1]:
+		CharWalkToPos self (-95000, 0, 55000) 2000mm/s 0
+	CharSetChipPattern name[8] 1
+	CharSetChipPattern name[3] 0
+	Sleep 50ms
+	CharSetChipPattern name[0] 1
+	Sleep 50ms
+	CharSetChipPattern name[1] 1
+	Sleep 50ms
+	CharSetChipPattern name[3] 1
+	ForkWait char[1] fork[1]
+	CharTurnTo char[1] 45deg 500deg/s
+	CamSetDistance -99000 1000 54550 2000ms
+	ED7CamRotate 20deg 17deg 0deg 2000ms
+	CamZoom 20000 2000ms
+	CamWait 121
+	SoundPlay sound[72] 0 100 0
+	ED7_74 object[4] 0 15
+	ED7ObjPlay object[4] 11 20 0 0
+	ObjWait object[4]
+	Sleep 500ms
+	SoundPlay sound[939] 0 50 0
+	ED7ObjPlay object[4] 21 30 0 0
+	ObjWait object[4]
+	ED7_74 object[4] 0 30
+	SoundStop sound[939]
+	VisSet vis[0] 3 0xFFFFFFFF 500ms 0 0
+	VisWait vis[0] 3
+	Sleep 500ms
+	TextMessage name[8] {
+		#1220050054V#10105F啊……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[0] {
+		#1220000186V#00000F你们使用的是
+		爱普斯泰恩财团的系统吗？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage char[1] {
+		#1220710024V#07104F是啊，这艘战舰的情报处理系统
+		采用了财团的制品。{wait}
+	} {
+		#1220710025V#07101F请看这个。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	SoundPlay sound[1021] 0 100 0
+	VisSet vis[1] 3 0xFFFFFFFF 500ms 0 0
+	VisWait vis[1] 3
+	ObjFrame object[4] 40
+	BgmWait
+	Sleep 10ms
+	BgmPlay bgm[151] 0
+	Sleep 500ms
+	TextMessage name[1] {
+		#1220010098V#00108F……是埃雷波尼亚帝国的宰相，
+		吉利亚斯丄奥斯本阁下对吧？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage char[2] {
+		#1220720018V#07200F嗯，称他为《铁血宰相》就好。{wait}
+	} {
+		#1220720019V对于不知道他为人的你们，
+		我不打算在这边说他的坏话。{wait}
+	} {
+		#1220720020V#07203F不过，有件事希望能够
+		先让你们知道。{wait}
+	} {
+		#1220720021V#07201F──目前，埃雷波尼亚帝国正处于
+		何时发生内战都不奇怪的状况。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CamSetDistance -99250 1100 50090 0ms
+	ED7CamRotate 38deg 14deg 0deg 0ms
+	CamPers 450 0ms
+	CamZoom 18950 0ms
+	CharSetChipPattern char[0] 0
+	CharTurnToChar char[1] char[0] 0deg/s
+	CharSetChipPattern name[3] 2
+	CharSetChipPattern name[8] 0
+	CharSetChipPattern name[0] 0
+	CharSetChipPattern name[1] 0
+	VisSet vis[0] 3 0x00FFFFFF 500ms 0 0
+	VisSet vis[1] 3 0x00FFFFFF 500ms 0 0
+	VisWait vis[0] 3
+	VisWait vis[1] 3
+	Emote name[0] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[1] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[3] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[8] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[4] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000187V#6P#00013F什么……！？{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050055V#6P#10107F是、是这样吗！？{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720022V#07206F很遗憾，这是事实。{wait}
+	} {
+		#1220720023V#07208F具体来说，以宰相为中心
+		打算建构出中央集权体制的
+		『革新派』……{wait}
+	} {
+		#1220720024V以及以有力贵族为中心，
+		想要持续维持旧有贵族制度的
+		『贵族派』……{wait}
+	} {
+		#1220720025V#07201F──就是这两大派系的对立
+		导致了这样的结果。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000188V#6P#00001F革新派与贵族派的对立……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010099V#6P#00106F……这件事我也有听说过，
+		看来状况非常严重呢。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040045V#6P#N#10300F嗯，我猜殿下应该是
+		处于中立的立场对吧？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextTalk char[2] {
+		#1220720026V#07202F呵呵，与其说是中立，
+		不如说我打算走第三条道路。{wait}
+	} {
+		#1220720027V#07206F唉，也就是不论从哪边的阵营
+		看起来都像是可疑蝙蝠的
+		悲情立场啦。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#1220730016V#07303F……嗯，我也没办法否定。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000189V#6P#00008F不、不过……
+		既然双方的对立已经深刻到
+		就要触发内战了……{wait}
+	} {
+		#1220000190V#00013F难道说与通商会议有关的
+		『令人在意的情报』是指！？{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050056V#6P#10111F啊……{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040046V#6P#N#10306F……原来如此。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextTalk char[3] {
+		#1220730017V#07306F──就如同你猜想的那样。{wait}
+	} {
+		#1220730018V#07301F身为『贵族派』有力人士的
+		凯恩公爵有了动静。{wait}
+	} {
+		#1220730019V看来，他似乎是在这场通商会议中，
+		将盯上了奥斯本宰相的恐怖分子
+		送进了克洛斯贝尔中。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[1] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[3] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[8] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[4] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	Shake 100 0 3000 300ms
+	TextTalk name[0] {
+		#1220000191V#6P#00010F……！{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010100V#6P#00101F那个，不是刺客
+		而是恐怖分子……？{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720028V#07203F除了贵族派以外，
+		宰相殿下也得罪了很多人呢。{wait}
+	} {
+		#1220720029V国内外被镇压的势力
+		就这样结成了恐怖组织。{wait}
+	} {
+		#1220720030V#07201F对于那些人，贵族派非常体面地
+		提供了米拉并利用了他们。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030071V#6P#00301F是这么回事啊……{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040047V#6P#N#10304F打算不弄脏自己的手
+		就葬送掉政敌啊。{wait}
+	} {
+		#1220040048V#10305F不过，要是变成这样的话，
+		应该会很不妙吧？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CharSetChipPattern name[0] 2
+	Sleep 150ms
+	Shake 100 0 3000 300ms
+	TextTalk name[0] {
+		#1220000192V#5P#00007F岂止是很不妙！
+		对于克洛斯贝尔来说这可是个大问题！{wait}
+	} {
+		#1220000193V#00010F要是市长所举办的会议中
+		帝国的宰相遭到暗杀的话，
+		究竟会被要求支付多少赔偿──{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	CharSetChipPattern name[0] 0
+	TextTalk name[0] {
+		#1220000194V#6P#00006F抱、抱歉……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720031V#07204F不，你的担心是正确的。{wait}
+	} {
+		#1220720032V#07201F作为未能提防暗杀的代价，
+		帝国应该会向克洛斯贝尔自治州
+		要求巨大的赔偿吧。{wait}
+	} {
+		#1220720033V就算那是因为帝国中的
+		对立所导致的。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050057V#6P#10106F真、真是难以置信……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010101V#6P#00108F……虽然听起来很残酷，
+		但这也是外交的一部分。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030072V#6P#00306F……我想也是。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700022V#11P#07008F──然后。{wait}
+	} {
+		#1220700023V#07003F其实共和国中
+		也发生了同样的情况。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[1] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[3] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[8] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[4] 0mm 1700mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000195V#6P#00011F咦……！？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010102V#6P#00105F是、是这样吗！？{wait}
+	}
+	TextWait
+	CharSetChipPattern char[0] 2
+	Sleep 300ms
+	TextTalk char[0] {
+		#1220700024V#11P#07001F尤莉亚小姐，麻烦你了。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220710026V#07100F是。{wait}
+	}
+	TextWait
+	CharTurnTo char[1] 45deg 500deg/s
+	CharSetChipPattern name[8] 1
+	CharSetChipPattern name[3] 1
+	Sleep 50ms
+	CharSetChipPattern name[0] 1
+	Sleep 50ms
+	CharSetChipPattern name[1] 1
+	Sleep 300ms
+	ED7_74 object[4] 0 15
+	SoundPlay sound[1021] 0 100 0
+	ED7ObjPlay object[4] 41 50 0 0
+	ObjWait object[4]
+	ED7_74 object[4] 0 30
+	Sleep 300ms
+	VisSet vis[0] 3 0xFFFFFFFF 500ms 0 0
+	VisSet vis[2] 3 0xFFFFFFFF 500ms 0 0
+	VisWait vis[0] 3
+	VisWait vis[2] 3
+	Sleep 1000ms
+	TextMessage name[1] {
+		#1220010103V#00101F卡尔瓦德共和国政府代表，
+		萨谬尔丄洛克史密斯总统……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[4] {
+		#1220040049V#10301F这个大叔
+		也遭人怨恨了吗？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage char[0] {
+		#1220700025V#07003F不，与其说是他个人，
+		不如说是因为卡尔瓦德的历史所致。{wait}
+	} {
+		#1220700026V位于西塞姆利亚，从以前开始
+		就接纳了各种文化的卡尔瓦德，一直以来
+		都抱持着一个相当难解的问题。{wait}
+	} {
+		#1220700027V#07001F也就是『民族问题』。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[8] {
+		#1220050058V#10101F民族问题……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage char[1] {
+		#1220710027V#07103F正如各位所知，卡尔瓦德是个从以前开始
+		就大量接纳东方移民的国家。{wait}
+	} {
+		#1220710028V#07108F随着体制转变为共和制，
+		这样的趋势也变得越来越显著，
+		甚至还出现了巨大的东方人街……{wait}
+	} {
+		#1220710029V#07101F当然，面对这样的趋势，
+		自然也会出现反弹。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[1] {
+		#1220010104V#00106F……反东方丄移民政策主义啊。{wait}
+	} {
+		#1220010105V#00108F虽然我知道有那样的社会运动存在，
+		但仅仅只是知道而已……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[0] {
+		#1220000196V#00001F那样的民族主义者
+		盯上了总统吗？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage char[0] {
+		#1220700028V#07003F是啊，似乎还有着拥有
+		丰富资金来源的赞助者……{wait}
+	} {
+		#1220700029V#07001F我收到了情报，获得了最新武装的
+		过激派#6R恐怖分子#已经展开行动了。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[0] {
+		#1220000197V#00008F…………………………………{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextMessage name[3] {
+		#1220030073V#00303F……那还真是麻烦呢。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	CharSetChipPattern char[0] 0
+	CharTurnToChar char[1] char[0] 0deg/s
+	CharSetChipPattern name[3] 2
+	CharSetChipPattern name[8] 0
+	CharSetChipPattern name[0] 0
+	CharSetChipPattern name[1] 0
+	Fork char[1] fork[1]:
+		CharWalkToPos self (-96900, 0, 53300) 2000mm/s 0
+	VisSet vis[0] 3 0x00FFFFFF 500ms 0 0
+	VisSet vis[2] 3 0x00FFFFFF 500ms 0 0
+	VisWait vis[0] 3
+	VisWait vis[2] 3
+	SoundPlay sound[73] 0 100 0
+	ED7ObjPlay object[4] 51 60 0 0
+	ForkWait char[1] fork[1]
+	CrossFade 250ms
+	SoundPlay sound[812] 0 100 0
+	CharSetChipBase char[1] chip[39]
+	CharSetChipPattern char[1] 0
+	CharSetPos char[1] (-96900, 50, 52400) 270deg
+	FadeWait
+	CharSetChipPattern char[1] 1
+	Emote name[0] 0mm 1700mm 24 27 250ms 0
+	Sleep 1500ms
+	EmoteStop name[0]
+	TextTalk name[0] {
+		#1220000198V#6P#00006F──事情我已经明白了。{wait}
+	} {
+		#1220000199V#00001F可是，为什么要将
+		那么重大的事情告诉我们呢……？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040050V#6P#N#10300F的确，直接向自治州政府传达
+		不是比较好吗？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	Emote char[0] 0mm 1700mm 24 27 250ms 0
+	Emote char[1] 0mm 1700mm 24 27 250ms 0
+	Emote char[2] 0mm 1700mm 24 27 250ms 0
+	Emote char[3] 0mm 1700mm 24 27 250ms 0
+	Sleep 1500ms
+	EmoteStop char[0]
+	EmoteStop char[1]
+	EmoteStop char[2]
+	EmoteStop char[3]
+	TextTalk name[1] {
+		#1220010106V#6P#00106F……有些事情就算想传达
+		也没办法传达。{wait}
+	} {
+		#1220010107V#00101F就是这么一回事吧？{wait}
+	}
+	TextWait
+	CharSetChipPattern name[0] 1
+	Sleep 100ms
+	TextTalk name[0] {
+		#1220000200V#6P#00005F咦……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720034V#07203F正如艾莉所言。{wait}
+	} {
+		#1220720035V#07208F不论是奥斯本宰相
+		还是洛克史密斯总统……{wait}
+	} {
+		#1220720036V他们当然都知道盯上了自己的
+		势力已经展开行动了。{wait}
+	} {
+		#1220720037V#07201F即便如此，却完全没有
+		告知克洛斯贝尔政府这件事情。{wait}
+	}
+	TextWait
+	CharSetChipPattern name[0] 0
+	TextTalk name[0] {
+		#1220000201V#6P#00013F……！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700030V#11P#07003F他们究竟是抱持着怎么样的想法，
+		目前我们也没办法得知……{wait}
+	} {
+		#1220700031V#07008F不过，也因此让我们没办法
+		将帝国以及共和国的内幕
+		擅自传达出去。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720038V#07206F然后尽管我是皇族，
+		也没办法干涉帝国政府的方针……{wait}
+	} {
+		#1220720039V#07200F于是在公主殿下的提案下，
+		将你们找到了这里。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000202V#6P#00003F………原来如此。{wait}
+	} {
+		#1220000203V#00000F也就是说，在这里所谈的内容
+		就只是私底下的内容对吧？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700032V#11P#07009F是啊，就只是有着共同朋友的人
+		在茶会中稍微寒暄了一下……{wait}
+	} {
+		#1220700033V#07002F当然，在这里听到的谣言
+		想要传达给谁都是个人的自由。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010108V#6P#00102F呵呵，是这么一回事啊。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030074V#6P#00304F哎呀呀……
+		该说比想像得还要大胆吧。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040051V#6P#N#10302F呵呵，虽说是个优雅的公主大人，
+		但似乎还挺能干的呢。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	Emote name[8] 0mm 1700mm 40 43 100ms 3
+	CharSetChipPattern name[8] 2
+	Sleep 150ms
+	TextTalk name[8] {
+		#1220050059V#5P#10111F等、等等，瓦奇。
+		再怎么说这样也太失礼了……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700034V#11P#07004F呵呵，没关系。{wait}
+	} {
+		#1220700035V#07008F克洛斯贝尔所处的情况
+		越来越混乱了……{wait}
+	} {
+		#1220700036V#07000F为了让大局观视野多少变得更好，
+		就只能努力挣扎了。{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720040V#07206F而且相关情报似乎
+		早就已经被麻烦的家伙们
+		给控管住了。{wait}
+	} {
+		#1220720041V#07200F至少让我活用一下
+		艾丝蒂尔那边的门路。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 1700mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Emote name[1] 0mm 1700mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Emote name[3] 0mm 1700mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Emote name[8] 0mm 1700mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	CharSetChipPattern name[8] 0
+	Emote name[4] 0mm 1700mm 0 1 250ms 2
+	SoundPlay sound[29] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#1220000204V#6P#00005F麻烦的家伙们……？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700037V#11P#07003F……我想你应该知道。{wait}
+	} {
+		#1220700038V#07001F就是雷克多丄亚兰德尔以及
+		雾香丄楼兰女士这两个人。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000205V#6P#00001F……！{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010109V#6P#00103F……原来如此。{wait}
+	} {
+		#1220010110V#00101F刚才的情报几乎都没有传到
+		克洛斯贝尔政府的原因……{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220710030V#5P#07103F大概，就是他们两个人进行了情报操纵吧。{wait}
+	} {
+		#1220710031V#07100F雾香女士原本是在利贝尔
+		担任游击士协会的接待人员，
+		但似乎拥有着堪称千里眼的慧眼。{wait}
+	} {
+		#1220710032V这种程度的情报操纵
+		应该能够轻松办到吧。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000206V#6P#00008F……原来如此。
+		我们虽然也去问过协会……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030075V#6P#00306F若是同伴的话就算了，要是变成敌人的话
+		可以说是最麻烦的类型呢……{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#1220730020V#07303F然后──雷克多丄亚兰德尔。{wait}
+	} {
+		#1220730021V虽然来历及出生都不明，
+		但有件事已经明白了。{wait}
+	} {
+		#1220730022V#07301F那就是他是被称为
+		『铁血之子#8RIron Breed#』的其中一人。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050061V#6P#10111F铁、铁血之子#8RIron Breed#……？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040052V#6P#N#10306F又是个夸张的称号呢。{wait}
+	} {
+		#1220040053V#10300F听起来似乎是和铁血宰相
+		有关的成员呢。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextTalk char[2] {
+		#1220720042V#07203F似乎是被宰相殿下捡回来
+		从小培养的一群年轻人。{wait}
+	} {
+		#1220720043V虽然有些坏毛病但却非常有能力，
+		似乎从事了各式各样的工作。{wait}
+	} {
+		#1220720044V#07200F贵族派则是对他们
+		抱持了最高程度的警戒。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#1220700039V#11P#07008F………………………………{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000207V#6P#00003F……『铁血之子#8RIron Breed#』。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010111V#6P#00108F看来似乎比一般的
+		情报将校还要难缠呢……{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220710033V#5P#07103F……再加上现在待在克洛斯贝尔的
+		『黑月』以及『红色星座』也是个问题。{wait}
+	} {
+		#1220710034V#07100F他们似乎都和政府有所关联，
+		所以我想他们应该是不会盯上会议……{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#1220730023V#07303F不过，我们也有接获消息指出，
+		他们做出了难以理解的行动。{wait}
+	} {
+		#1220730024V#07300F关于这件事情，我想应该是
+		你们会知道得比较清楚吧。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000208V#6P#00003F嗯……{wait}
+	} {
+		#1220000209V#00000F──要说是回礼好像也不太对，
+		就让我向各位分享一下目前
+		我们所掌握到的现况。{wait}
+	}
+	TextWait
+	FadeOut 300ms 0x00000000 100
+	TextSetName ""
+	TextMessage null {
+		{color 5}罗伊德一行人针对『红色星座』
+		以及『黑月』的行动进行了说明。{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	FadeIn 300ms 0x00000000
+	FadeWait
+	TextTalk char[1] {
+		#1220710035V#5P#07105F……原来发生过这样的事啊。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#1220730025V#07301F嗯，虽然我对于那个叫做
+		《银》的刺客稍微有些在意……{wait}
+	}
+	TextWait
+	TextTalk char[2] {
+		#1220720045V#07204F嗯，应该不用担心他会
+		盯上宰相阁下还有我吧？{wait}
+	} {
+		#1220720046V#07200F另外那个『红色星座』似乎是个
+		非常好战的猎兵团。{wait}
+	} {
+		#1220720047V要以我这种没带多少
+		护卫的人为目标，
+		应该会感到很不满足吧？{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030076V#6P#00309F哈哈……
+		搞不好喔。{wait}
+	} {
+		#1220030077V#00300F如果那边那位少校也在的话，
+		或许会有人想要与他一战喔。{wait}
+	}
+	TextWait
+	TextTalk char[3] {
+		#1220730026V#07303F我就只不过是一名军人而已。
+		而且这样也太不切实际了。{wait}
+	} {
+		#1220730027V#07300F无论如何，现在似乎
+		只能预测各种可能会
+		发生的状况并做好准备了呢。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#1220710036V#5P#07108F是啊……{wait}
+	}
+	TextWait
+	BgmStop 4000ms
+	TextTalk char[0] {
+		#1220700040V#11P#07004F──各位。
+		谢谢你们告诉我们这些事。{wait}
+	} {
+		#1220700041V#07002F托各位的福，我们似乎也
+		能够应对各种突发状况了。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000210V#6P#00002F不、不会，没这回事！{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010112V#6P#00102F我们才是要感谢各位特地
+		告诉我们这么重要的情报……{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#1220050062V#6P#10109F真的是非常感谢你们！{wait}
+	}
+	TextWait
+	BgmWait
+	Sleep 10ms
+	BgmPlay bgm[111] 0
+	TextTalk char[2] {
+		#1220720048V#07209F哈、哈、哈，彼此彼此。{wait}
+	} {
+		#1220720049V#07202F不过，既然这样的话，
+		作为回报能够带我去
+		克洛斯贝尔夜晚的观光景点吗？{wait}
+	} {
+		#1220720050V瓦奇和兰迪似乎对这类的
+		事情还蛮清楚的。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030078V#6P#00305F哦，要去吗？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#1220040054V#6P#N#10309F呵呵，既然如此我就带你去
+		我珍藏的景点吧。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	Emote name[0] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 1700mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk char[2] {
+		#1220720051V#07212F喔喔，既然这么决定了
+		就将晚宴给取消──{wait}
+	}
+	TextWait
+	CharSetChipPattern char[3] 2
+	Sleep 300ms
+	TextTalk char[3] {
+		#1220730028V#07306F──怎么可能取消啊，傻瓜。{wait}
+	} {
+		#1220730029V#07301F之后不是还要去看
+		彩虹剧团的公演吗？{wait}
+	}
+	TextWait
+	CharSetChipPattern char[2] 1
+	Sleep 300ms
+	TextTalk char[2] {
+		#1220720052V#07201F#5P唔唔……还有这回事啊。{wait}
+	} {
+		#1220720053V#07206F嗯～我真的还蛮想要
+		去看一次彩虹剧团的。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000211V#6P#00012F哈哈……
+		你一定会觉得值回票价的。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#1220010113V#6P#00109F是啊，我保证你一定会
+		看到目瞪口呆。{wait}
+	}
+	TextWait
+	CharSetChipPattern char[3] 0
+	Sleep 50ms
+	CharSetChipPattern char[2] 0
+	TextTalk char[0] {
+		#1220700042V#11P#07009F呵呵，我会期待的。{wait}
+	} {
+		#1220700043V#07002F……要是又发生了什么事，
+		会再通知各位的。{wait}
+	} {
+		#1220700044V下次就不会通过吉克，
+		而是直接进行联系了。{wait}
+	}
+	TextWait
+	TextTalk char[4] {
+		#1220800008V#11P#08009F哔。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#1220000212V#6P#00004F哈哈，我明白了。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#1220030079V#6P#00302F那样实在是
+		太难理解了啦。{wait}
+	}
+	TextWait
+	CamZoom 19450 2000ms
+	FadeOut 2000ms 0x00000000 255
+	FadeWait
+	CamWait 121
+	VisHide vis[255] 0
+	BgmStop 4000ms
+	BgmWait
+	SoundStop sound[498]
+	CharSetChipBase name[0] chip[255]
+	CharSetChipPattern name[0] 0
+	CharSetChipBase name[1] chip[255]
+	CharSetChipPattern name[1] 0
+	CharSetChipBase name[3] chip[255]
+	CharSetChipPattern name[3] 0
+	CharSetChipBase name[8] chip[255]
+	CharSetChipPattern name[8] 0
+	CharSetChipBase name[4] chip[255]
+	CharSetChipPattern name[4] 0
+	CharFlagsUnset name[0] 0x0004
+	CharFlagsUnset name[1] 0x0004
+	CharFlagsUnset name[3] 0x0004
+	CharFlagsUnset name[8] 0x0004
+	CharFlagsUnset name[4] 0x0004
+	FlagSet flag[274]
+	NewScene "scena/c010b.bin" 0 0 0
+	Hcf
+	Return
+
+fn[14]:
+	EventBegin 0
+	Call fn[0,16]
+	TextTalk char[0] {
+		#07002F哎呀？我们，
+		是第一次见面没错吧？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#3P#00205F啊，是的……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07009F呵呵，我是利贝尔王国
+		王储的克萝蒂雅。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#3P#00204F……我是缇欧丄普拉托。
+		请多指教。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00002F然后……
+		公主殿下是要向我们
+		提出什么样的委托呢？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00100F听你说是私事，
+		交给我们真的没关系吗？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07000F是的。昨天聊过之后……
+		希望务必能够拜托
+		特务支援课的各位帮忙。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#07103F唉……{wait}
+	} {
+		#07101F虽然我是希望能够
+		尽可能满足殿下的需求，
+		不过……{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10111F（总觉得，情况看起来好像很严重？）{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00310F（我有种麻烦事
+		　即将发生的预感……）{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#3P#10304F（呵呵……如果不是麻烦的事情，
+		　大人物应该不会
+		　特地来拜托我们吧？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#3P#00203F…………{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07000F我想要委托你们，
+		带我参观克洛斯贝尔。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00005F咦？如果是观光的话，
+		不是早就已经
+		安排进行程之中了吗？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00105F我记得应该会招待参加
+		通商会议的贵宾们，
+		去参观克洛斯贝尔市才对……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00305F是这样吗？{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10106F兰迪学长……
+		也稍微确认下
+		其他部门的行程吧。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#3P#00200F……似乎是去了百货、警察署、
+		ＩＢＣ等地进行了观光。{wait}
+	} {
+		#00202F最后则是去
+		彩虹剧团看表演……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00305F小缇，你明明昨天才和我们会合，
+		也知道得太清楚了吧？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#3P#00203F……重要人士的行程当然应该要
+		掌握清楚才行啊。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07003F就和你说得一样，
+		我有去参观了那些地方。{wait}
+	} {
+		#07001F但是……
+		那样不就只有看到了
+		克洛斯贝尔繁荣的一面吗？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00008F的确……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00108F克洛斯贝尔繁荣的背后，
+		也有着黑暗的一面……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07004F我想要知道真正的克洛斯贝尔……
+		想要亲眼看看街上的生活风景。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00304F生活风景啊……
+		要看看我们的午餐吗？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#3P#10302F呵呵……
+		她不是
+		这个意思啦。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00310F我知道啦……
+		该怎么办呢？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00000F……也就是说，公主殿下。{wait}
+	} {
+		你想要看的……
+		是克洛斯贝尔的日常光景，是吗？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07009F是的。
+		没错，罗伊德。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#07103F带着大量的护卫实在是
+		太过显眼，会没办法
+		看到街上的生活风景。{wait}
+	} {
+		#07101F殿下是希望能够
+		微服出巡视察民情。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00105F微服出巡！？
+		就连护卫都不带！？{wait}
+	}
+	TextWait
+	if QuestFlagsGet quest[118] 0x10:
+		TextTalk char[0] {
+			#07000F是啊，听说奥利巴特皇子
+			也微服视察了
+			街上的状况。{wait}
+		}
+		TextWait
+		Emote name[0] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote name[1] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote name[3] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote name[8] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Emote name[4] 0mm 2000mm 16 19 250ms 1
+		SoundPlay sound[23] 0 100 0
+		Sleep 1000ms
+		TextTalk name[0] {
+			#00012F……那是……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00106F……他有打算遮掩吗？{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#3P#10112F虽然他确实是隐藏了
+			自己的真实身分啦……{wait}
+		}
+		TextWait
+		TextTalk char[0] {
+			#07003F像这样用自己的双眼，
+			去见证真正的克洛斯贝尔，
+			难道不是必要的行为吗……？{wait}
+		} {
+			#07001F我是这么认为的。{wait}
+		}
+		TextWait
+	else:
+		TextTalk char[0] {
+			#07000F是啊，听说奥利巴特皇子
+			也微服视察了
+			街上的状况。{wait}
+		} {
+			#07003F像这样用自己的双眼，
+			去见证真正的克洛斯贝尔，
+			难道不是必要的行为吗……？{wait}
+		} {
+			#07001F我是这么认为的。{wait}
+		}
+		TextWait
+	TextTalk char[1] {
+		#07108F对我来说，
+		这样实在是太危险了……{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00108F就是说啊。
+		实在是太危险了……{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#07103F但是，若是让殿下身处于
+		安全的环境之中，就不需要护卫了。{wait}
+	} {
+		#07102F最大限度地尊重殿下的意愿，
+		同时也保护了殿下的安全，
+		这样才是称职的护卫不是吗？{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10105F原、原来如此！
+		真不愧是尤莉亚准校！{wait}
+	} {
+		#10101F我太感动了！
+		请务必让我帮忙！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#07109F谢谢你。{wait}
+	} {
+		#07102F除了担任向导外，
+		我也很期待各位
+		担任护卫的能力。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10107F是！{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00308F喂喂喂……
+		怎么好像不知不觉中
+		就变成要接受这件事了……{wait}
+	} {
+		#00305F这样好吗？罗伊德？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#3P#10304F呵呵，责任重大呢。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00001F公主殿下是因为信赖我们，
+		所以才委托我们的。{wait}
+	} {
+		#00003F而且，
+		是为了更加认识
+		克洛斯贝尔。{wait}
+	} {
+		#00002F应该没有理由拒绝吧？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00102F是啊。这么重要的工作，
+		可不能让给其他人呢。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10100F当然了！
+		能够帮忙尤莉亚准校，
+		并为公主殿下出一份力。{wait}
+	} {
+		#10109F没有比这还要更光荣的了！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07000F那么，能够拜托你们吗？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00009F好的，我很乐意。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07009F谢谢！{wait}
+	} {
+		请多多指教。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#07100F考量到时间以及安全方面的问题，
+		应该能够去逛三个地方吧。{wait}
+	} {
+		#07103F至于参观的地方，就交给各位决定了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		#07000F我也不是说只想要
+		看看不好的地方。{wait}
+	} {
+		#07002F只是想要看看克洛斯贝尔街上
+		日常的生活风景而已。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00100F说到日常的生活风景……{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10103F果然，应该就是
+		吃饭的地方吧？{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#3P#10300F购物的地方
+		应该也不错吧？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#3P#00203F的确……{wait}
+	} {
+		#00201F购买咪西的周边商品
+		也是生活的一环呢。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	BgmStop 1000ms
+	FadeOut 1000ms 0x00000000 255
+	VisShow vis[0] 0 8 480 264 0 0 512 256 0 0 480 256 0x00FFFFFF 0 "c_vis600.itp"
+	FadeWait
+	VisSet vis[0] 3 0xFFFFFFFF 1000ms 0 0
+	VisWait vis[0] 3
+	Sleep 1000ms
+	TextSetPos -1 0 -1 -1
+	TextMessage name[3] {
+		#00300F所以呢？
+		该怎么办呢？罗伊德？{wait}
+	}
+	TextWait
+	TextSetPos -1 230 -1 -1
+	if !flag[3818]:
+		TextMessage name[0] {
+			#00003F我想想……
+			第一站是……{wait}
+		}
+		TextWait
+	elif !flag[3819]:
+		TextMessage name[0] {
+			#00003F接下来要去的地方是……{wait}
+		}
+		TextWait
+	else:
+		TextMessage name[0] {
+			#00003F最后应该带你去看看……{wait}
+		}
+		TextWait
+	VisSet vis[0] 3 0x88FFFFFF 300ms 0 0
+	VisWait vis[0] 3
+	var[0] = 0
+	var[1] = 0
+	ED7MenuNew menu[1]
+	if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7 && !QuestTaskGet quest[158] 13 && !QuestTaskGet quest[158] 15 && !QuestTaskGet quest[158] 21:
+		ED7MenuAdd menu[1] "行政区的摊贩"
+	if !QuestTaskGet quest[158] 2 && !QuestTaskGet quest[158] 8 && !QuestTaskGet quest[158] 16:
+		ED7MenuAdd menu[1] "中央广场的百货"
+	if !QuestTaskGet quest[158] 3 && !QuestTaskGet quest[158] 9 && !QuestTaskGet quest[158] 17:
+		ED7MenuAdd menu[1] "摩尔吉面包坊"
+	if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10 && !QuestTaskGet quest[158] 14 && !QuestTaskGet quest[158] 18 && !QuestTaskGet quest[158] 22:
+		ED7MenuAdd menu[1] "东侧大道的摊贩"
+	if !QuestTaskGet quest[158] 5 && !QuestTaskGet quest[158] 11 && !QuestTaskGet quest[158] 19:
+		ED7MenuAdd menu[1] "旧市街"
+	if !QuestTaskGet quest[158] 6 && !QuestTaskGet quest[158] 12 && !QuestTaskGet quest[158] 20:
+		ED7MenuAdd menu[1] "彩虹剧团"
+	ED7MenuShow menu[1] 65535 65535 0
+	MenuWait var[0]
+	MenuClose menu[1]
+	TextClose 0
+	_59
+	Sleep 1000ms
+	VisSet vis[0] 3 0x00FFFFFF 1000ms 0 0
+	VisWait vis[0] 3
+	VisSet vis[0] 3 0x00FFFFFF 0ms 0 0
+	VisHide vis[255] 0
+	var[1] = 0
+	if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7 && !QuestTaskGet quest[158] 13 && !QuestTaskGet quest[158] 15 && !QuestTaskGet quest[158] 21:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 1
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				if !QuestTaskGet quest[158] 4:
+					QuestTaskSet quest[158] 7
+				else:
+					QuestTaskSet quest[158] 13
+			else:
+				FlagSet flag[3820]
+				if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10:
+					QuestTaskSet quest[158] 15
+				else:
+					QuestTaskSet quest[158] 21
+			FlagSet flag[276]
+			NewScene "scena/c1100.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 2 && !QuestTaskGet quest[158] 8 && !QuestTaskGet quest[158] 16:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 2
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 8
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 16
+			FlagSet flag[273]
+			NewScene "scena/c0170.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 3 && !QuestTaskGet quest[158] 9 && !QuestTaskGet quest[158] 17:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 3
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 9
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 17
+			FlagSet flag[275]
+			NewScene "scena/c0200.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10 && !QuestTaskGet quest[158] 14 && !QuestTaskGet quest[158] 18 && !QuestTaskGet quest[158] 22:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 4
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				if !QuestTaskGet quest[158] 1:
+					QuestTaskSet quest[158] 10
+				else:
+					QuestTaskSet quest[158] 14
+			else:
+				FlagSet flag[3820]
+				if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7:
+					QuestTaskSet quest[158] 18
+				else:
+					QuestTaskSet quest[158] 22
+			FlagSet flag[282]
+			NewScene "scena/c1000.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 5 && !QuestTaskGet quest[158] 11 && !QuestTaskGet quest[158] 19:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 5
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 11
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 19
+			FlagSet flag[276]
+			NewScene "scena/c1400.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 6 && !QuestTaskGet quest[158] 12 && !QuestTaskGet quest[158] 20:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 6
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 12
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 20
+			FlagSet flag[280]
+			NewScene "scena/c0400.bin" 0 0 0
+			Hcf
+	Return
+
+fn[15]:
+	EventBegin 0
+	ED7LoadChip "chr/ch11200.itc" chip[39]
+	Call fn[0,16]
+	TextTalk name[0] {
+		#00000F辛苦了。
+		这次的参观行程
+		有符合你的期待吗？{wait}
+	}
+	TextWait
+	var[1] = 0
+	if QuestTaskGet quest[158] 1 | QuestTaskGet quest[158] 7 | QuestTaskGet quest[158] 15:
+		var[1] += 2
+		QuestBonusBp quest[158] 2
+	if QuestTaskGet quest[158] 3 | QuestTaskGet quest[158] 9 | QuestTaskGet quest[158] 17:
+		var[1] += 2
+		QuestBonusBp quest[158] 2
+	if QuestTaskGet quest[158] 4 | QuestTaskGet quest[158] 10 | QuestTaskGet quest[158] 18:
+		var[1] += 1
+		QuestBonusBp quest[158] 1
+	if QuestTaskGet quest[158] 5 | QuestTaskGet quest[158] 11 | QuestTaskGet quest[158] 19:
+		var[1] += 1
+		QuestBonusBp quest[158] 1
+	if QuestTaskGet quest[158] 6 | QuestTaskGet quest[158] 12 | QuestTaskGet quest[158] 20:
+		var[1] += 1
+		QuestBonusBp quest[158] 1
+	if var[1] >= 4:
+		TextTalk char[0] {
+			#07003F不。{wait}
+		} {
+			#07002F远远超出了我的期待！{wait}
+		} {
+			#07009F拜托特务支援课的各位带我参观，
+			实在是太正确了。{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#07102F我也获得了相当贵重的经验。
+			增广见闻了。
+			谢谢你们。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00011F这、这实在是太过奖了。{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00109F我认为这样的评价很客观呢，罗伊德。{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			#3P#00214F我同意。
+			真不愧是罗伊德前辈。{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#3P#10309F呵呵……
+			下次要不要带我参观一下呢？{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#3P#10105F啊，我也要！{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00006F瓦奇和诺艾儿对这里
+			已经熟到不能再熟了吧……{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#07109F呵呵，能够接下那么仓促的委托，
+			真的是非常感谢。{wait}
+		}
+		TextWait
+		QuestTaskSet quest[158] 23
+	elif var[1] >= 2:
+		TextTalk char[0] {
+			#07000F当然。{wait}
+		} {
+			拜托特务支援课的各位带我参观，
+			实在是太正确了。{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#07104F而且也没有感觉到任何危险。
+			我认为是非常适当的选择。
+			谢谢你们。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00005F啊，不……
+			能够回应你们的期待，
+			真是太好了。{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00102F太好了呢，罗伊德。{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			#3P#00202F真不愧是罗伊德前辈。{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#3P#10302F呵呵……
+			还蛮有一套的呢。{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#07102F能够接下那么仓促的委托，
+			真的是非常感谢。{wait}
+		}
+		TextWait
+		QuestTaskSet quest[158] 24
+	else:
+		TextTalk char[0] {
+			#07008F嗯、嗯……
+			这个嘛。{wait}
+		} {
+			#07003F虽然和我期待的
+			有些不同，不过……{wait}
+		} {
+			#07000F我认为这会是一段美好的回忆。{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#07101F这也是克洛斯贝尔
+			这座城镇的一面吧。{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00106F难得的机会……
+			真的是非常抱歉。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00008F（嗯……
+			　看来应该在深思熟虑仔细思量后，
+			　再决定要去参观的地方呢。）{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#00306F唉，毕竟这和一般的导览不同，
+			这也没办法啦。{wait}
+		}
+		TextWait
+		TextTalk char[1] {
+			#07100F无论如何，能够接下
+			那么仓促的委托，
+			真的是非常感谢。{wait}
+		}
+		TextWait
+		QuestTaskSet quest[158] 25
+	CrossFade 250ms
+	CharSetChipBase char[1] chip[39]
+	CharSetChipPattern char[1] 0
+	CharFlagsSet char[1] 0x0004
+	CharSetPos char[1] (-97200, 100, 49350) 270deg
+	FadeWait
+	TextTalk char[1] {
+		#07103F我会派导力车
+		将各位送回据点。{wait}
+	}
+	TextWait
+	CharTurnTo char[1] 180deg 500deg/s
+	Sleep 500ms
+	TextTalk char[1] {
+		#07100F殿下，我们赶快
+		去准备吧。{wait}
+	}
+	TextWait
+	CrossFade 250ms
+	CharSetChipPattern char[0] 2
+	FadeWait
+	TextTalk char[0] {
+		#07000F没问题，已经可以出发了。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		#07104F真不愧是殿下。
+		那么，我们出发吧。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#3P#10114F（呼……
+		　尤莉亚准校还真是
+		　英姿焕发呢。）{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	SoundPlay sound[9] 0 100 0
+	TextSetPos -1 -1 -1 -1
+	TextSetName ""
+	TextMessage null {
+		达成{color 2}任务【克洛斯贝尔导览】{color 0}了！{wait}
+	}
+	TextWait
+	TextClose 0
+	TextSetPos 14 280 60 3
+	CharFlagsUnset char[1] 0x0004
+	ED7_37
+	QuestFlagsSet quest[158] 0x10
+	FlagSet flag[287]
+	ED7_Cam69 255 0
+	EventEnd 5
+	NewScene "scena/c0110.bin" 0 0 0
+	Hcf
+	Return
+
+fn[16]:
+	NextFrame
+	FadeOut 0ms 0x00000000 255
+	BgmPlay bgm[519] 0
+	ED7LoadChip "chr/ch00002.itc" chip[30]
+	ED7LoadChip "chr/ch00202.itc" chip[31]
+	ED7LoadChip "chr/ch00102.itc" chip[32]
+	ED7LoadChip "chr/ch00302.itc" chip[33]
+	ED7LoadChip "chr/ch02902.itc" chip[34]
+	ED7LoadChip "chr/ch03002.itc" chip[35]
+	ED7LoadChip "chr/ch13802.itc" chip[36]
+	ED7LoadChip "chr/ch11002.itc" chip[37]
+	ED7LoadChip "chr/ch11202.itc" chip[38]
+	CharSetChipBase char[0] chip[37]
+	CharSetChipPattern char[0] 0
+	CharFlagsUnset char[0] 0x0080
+	CharFlagsSet char[0] 0x8000
+	CharFlagsUnset char[0] 0x0004
+	CharSetChipBase char[1] chip[38]
+	CharSetChipPattern char[1] 0
+	CharFlagsUnset char[1] 0x0080
+	CharFlagsSet char[1] 0x8000
+	CharFlagsUnset char[1] 0x0004
+	CharSetChipBase char[4] chip[36]
+	CharSetChipPattern char[4] 0
+	CharFlagsUnset char[4] 0x0080
+	CharFlagsSet char[4] 0x8000
+	CharSetPos char[0] (-96900, 100, 47850) 270deg
+	CharSetPos char[1] (-96900, 100, 49350) 270deg
+	CharSetPos char[4] (-98400, 700, 46000) 270deg
+	char[4].7 = 700
+	char[4].52 = 700
+	CharSetChipBase name[0] chip[30]
+	CharSetChipPattern name[0] 0
+	CharSetChipBase name[2] chip[31]
+	CharSetChipPattern name[2] 0
+	CharSetChipBase name[1] chip[32]
+	CharSetChipPattern name[1] 0
+	CharSetChipBase name[3] chip[33]
+	CharSetChipPattern name[3] 2
+	CharSetChipBase name[8] chip[34]
+	CharSetChipPattern name[8] 0
+	CharSetChipBase name[4] chip[35]
+	CharSetChipPattern name[4] 1
+	CharFlagsSet name[0] 0x0004
+	CharFlagsSet name[2] 0x0004
+	CharFlagsSet name[1] 0x0004
+	CharFlagsSet name[3] 0x0004
+	CharFlagsSet name[8] 0x0004
+	CharFlagsSet name[4] 0x0004
+	CharSetPos name[0] (-101250, 100, 49350) 90deg
+	CharSetPos name[2] (-101250, 100, 47850) 90deg
+	CharSetPos name[1] (-101250, 100, 50900) 90deg
+	CharSetPos name[3] (-101250, 100, 52400) 90deg
+	CharSetPos name[8] (-101250, 100, 46450) 90deg
+	CharSetPos name[4] (-101250, 100, 45050) 90deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	ObjFlagsUnset object[6] 0x0004
+	ObjFlagsSet object[4] 0x1000
+	ObjFrame object[4] 0
+	CamSetDistance -99100 1600 49310 0ms
+	ED7CamRotate 54deg 13deg 0deg 0ms
+	CamPers 450 0ms
+	CamZoom 18950 0ms
+	CamSetDistance -99100 1100 49310 2000ms
+	FadeIn 2000ms 0x00000000
+	FadeWait
+	CamWait 121
+	Return

@@ -1,0 +1,12162 @@
+{
+  "8094": {
+    "char": "・",
+    "scenario_evidence": 0
+  },
+  "8096": {
+    "char": "×",
+    "scenario_evidence": 0
+  },
+  "80BF": {
+    "char": "Σ",
+    "scenario_evidence": 0
+  },
+  "80C5": {
+    "char": "Ω",
+    "scenario_evidence": 0
+  },
+  "80CE": {
+    "char": "β",
+    "scenario_evidence": 0
+  },
+  "8180": {
+    "char": "「",
+    "scenario_evidence": 0
+  },
+  "8181": {
+    "char": "」",
+    "scenario_evidence": 0
+  },
+  "8186": {
+    "char": "・",
+    "scenario_evidence": 0
+  },
+  "818A": {
+    "char": "…",
+    "scenario_evidence": 0
+  },
+  "818B": {
+    "char": "・",
+    "scenario_evidence": 0
+  },
+  "819F": {
+    "char": "※",
+    "scenario_evidence": 0
+  },
+  "81C3": {
+    "char": "Ⅰ",
+    "scenario_evidence": 0
+  },
+  "81C4": {
+    "char": "Ⅱ",
+    "scenario_evidence": 0
+  },
+  "81C5": {
+    "char": "Ⅲ",
+    "scenario_evidence": 0
+  },
+  "824B": {
+    "char": "∴",
+    "scenario_evidence": 0
+  },
+  "8276": {
+    "char": "①",
+    "scenario_evidence": 0
+  },
+  "8277": {
+    "char": "②",
+    "scenario_evidence": 0
+  },
+  "8278": {
+    "char": "③",
+    "scenario_evidence": 0
+  },
+  "8279": {
+    "char": "④",
+    "scenario_evidence": 0
+  },
+  "827A": {
+    "char": "⑤",
+    "scenario_evidence": 0
+  },
+  "827B": {
+    "char": "⑥",
+    "scenario_evidence": 0
+  },
+  "827C": {
+    "char": "⑦",
+    "scenario_evidence": 0
+  },
+  "827D": {
+    "char": "⑧",
+    "scenario_evidence": 0
+  },
+  "827E": {
+    "char": "⑨",
+    "scenario_evidence": 0
+  },
+  "827F": {
+    "char": "⑩",
+    "scenario_evidence": 0
+  },
+  "8280": {
+    "char": "⑪",
+    "scenario_evidence": 0
+  },
+  "8294": {
+    "char": "─",
+    "scenario_evidence": 0
+  },
+  "8367": {
+    "char": "△",
+    "scenario_evidence": 0
+  },
+  "837A": {
+    "char": "◆",
+    "scenario_evidence": 0
+  },
+  "837F": {
+    "char": "○",
+    "scenario_evidence": 0
+  },
+  "8388": {
+    "char": "★",
+    "scenario_evidence": 0
+  },
+  "8389": {
+    "char": "☆",
+    "scenario_evidence": 0
+  },
+  "8390": {
+    "char": "♪",
+    "scenario_evidence": 0
+  },
+  "8393": {
+    "char": "　",
+    "scenario_evidence": 0
+  },
+  "8394": {
+    "char": "、",
+    "scenario_evidence": 0
+  },
+  "8395": {
+    "char": "。",
+    "scenario_evidence": 0
+  },
+  "8396": {
+    "char": "〃",
+    "scenario_evidence": 0
+  },
+  "839D": {
+    "char": "《",
+    "scenario_evidence": 0
+  },
+  "839E": {
+    "char": "》",
+    "scenario_evidence": 0
+  },
+  "839F": {
+    "char": "「",
+    "scenario_evidence": 0
+  },
+  "83A0": {
+    "char": "」",
+    "scenario_evidence": 0
+  },
+  "83A1": {
+    "char": "『",
+    "scenario_evidence": 0
+  },
+  "83A2": {
+    "char": "』",
+    "scenario_evidence": 0
+  },
+  "83A3": {
+    "char": "【",
+    "scenario_evidence": 0
+  },
+  "83A4": {
+    "char": "】",
+    "scenario_evidence": 0
+  },
+  "83F1": {
+    "char": "の",
+    "scenario_evidence": 0
+  },
+  "8464": {
+    "char": "ァ",
+    "scenario_evidence": 0
+  },
+  "8465": {
+    "char": "ア",
+    "scenario_evidence": 0
+  },
+  "8466": {
+    "char": "ィ",
+    "scenario_evidence": 0
+  },
+  "8467": {
+    "char": "イ",
+    "scenario_evidence": 0
+  },
+  "8468": {
+    "char": "ゥ",
+    "scenario_evidence": 0
+  },
+  "8469": {
+    "char": "ウ",
+    "scenario_evidence": 0
+  },
+  "846A": {
+    "char": "ェ",
+    "scenario_evidence": 0
+  },
+  "846B": {
+    "char": "エ",
+    "scenario_evidence": 0
+  },
+  "846D": {
+    "char": "オ",
+    "scenario_evidence": 0
+  },
+  "846E": {
+    "char": "カ",
+    "scenario_evidence": 0
+  },
+  "846F": {
+    "char": "ガ",
+    "scenario_evidence": 0
+  },
+  "8470": {
+    "char": "キ",
+    "scenario_evidence": 0
+  },
+  "8471": {
+    "char": "ギ",
+    "scenario_evidence": 0
+  },
+  "8472": {
+    "char": "ク",
+    "scenario_evidence": 0
+  },
+  "8473": {
+    "char": "グ",
+    "scenario_evidence": 0
+  },
+  "8476": {
+    "char": "コ",
+    "scenario_evidence": 0
+  },
+  "8477": {
+    "char": "ゴ",
+    "scenario_evidence": 0
+  },
+  "8478": {
+    "char": "サ",
+    "scenario_evidence": 0
+  },
+  "8479": {
+    "char": "ザ",
+    "scenario_evidence": 0
+  },
+  "847A": {
+    "char": "シ",
+    "scenario_evidence": 0
+  },
+  "847B": {
+    "char": "ジ",
+    "scenario_evidence": 0
+  },
+  "847C": {
+    "char": "ス",
+    "scenario_evidence": 0
+  },
+  "847D": {
+    "char": "ズ",
+    "scenario_evidence": 0
+  },
+  "847E": {
+    "char": "セ",
+    "scenario_evidence": 0
+  },
+  "847F": {
+    "char": "ゼ",
+    "scenario_evidence": 0
+  },
+  "8480": {
+    "char": "ソ",
+    "scenario_evidence": 0
+  },
+  "8481": {
+    "char": "ゾ",
+    "scenario_evidence": 0
+  },
+  "8482": {
+    "char": "タ",
+    "scenario_evidence": 0
+  },
+  "8483": {
+    "char": "ダ",
+    "scenario_evidence": 0
+  },
+  "8484": {
+    "char": "チ",
+    "scenario_evidence": 0
+  },
+  "8486": {
+    "char": "ッ",
+    "scenario_evidence": 0
+  },
+  "8489": {
+    "char": "テ",
+    "scenario_evidence": 0
+  },
+  "848A": {
+    "char": "デ",
+    "scenario_evidence": 0
+  },
+  "848B": {
+    "char": "ト",
+    "scenario_evidence": 0
+  },
+  "848C": {
+    "char": "ド",
+    "scenario_evidence": 0
+  },
+  "848D": {
+    "char": "ナ",
+    "scenario_evidence": 0
+  },
+  "848E": {
+    "char": "ニ",
+    "scenario_evidence": 0
+  },
+  "8490": {
+    "char": "ネ",
+    "scenario_evidence": 0
+  },
+  "8492": {
+    "char": "ハ",
+    "scenario_evidence": 0
+  },
+  "8493": {
+    "char": "バ",
+    "scenario_evidence": 0
+  },
+  "8494": {
+    "char": "パ",
+    "scenario_evidence": 0
+  },
+  "8496": {
+    "char": "ビ",
+    "scenario_evidence": 0
+  },
+  "8498": {
+    "char": "フ",
+    "scenario_evidence": 0
+  },
+  "8499": {
+    "char": "ブ",
+    "scenario_evidence": 0
+  },
+  "849A": {
+    "char": "プ",
+    "scenario_evidence": 0
+  },
+  "849B": {
+    "char": "ヘ",
+    "scenario_evidence": 0
+  },
+  "849D": {
+    "char": "ペ",
+    "scenario_evidence": 0
+  },
+  "849E": {
+    "char": "ホ",
+    "scenario_evidence": 0
+  },
+  "849F": {
+    "char": "ボ",
+    "scenario_evidence": 0
+  },
+  "84A1": {
+    "char": "マ",
+    "scenario_evidence": 0
+  },
+  "84A2": {
+    "char": "ミ",
+    "scenario_evidence": 0
+  },
+  "84A3": {
+    "char": "ム",
+    "scenario_evidence": 0
+  },
+  "84A4": {
+    "char": "メ",
+    "scenario_evidence": 0
+  },
+  "84A5": {
+    "char": "モ",
+    "scenario_evidence": 0
+  },
+  "84A6": {
+    "char": "ャ",
+    "scenario_evidence": 0
+  },
+  "84A7": {
+    "char": "ヤ",
+    "scenario_evidence": 0
+  },
+  "84A8": {
+    "char": "ュ",
+    "scenario_evidence": 0
+  },
+  "84AA": {
+    "char": "ョ",
+    "scenario_evidence": 0
+  },
+  "84AC": {
+    "char": "ラ",
+    "scenario_evidence": 0
+  },
+  "84AD": {
+    "char": "リ",
+    "scenario_evidence": 0
+  },
+  "84AE": {
+    "char": "ル",
+    "scenario_evidence": 0
+  },
+  "84AF": {
+    "char": "レ",
+    "scenario_evidence": 0
+  },
+  "84B0": {
+    "char": "ロ",
+    "scenario_evidence": 0
+  },
+  "84B6": {
+    "char": "ン",
+    "scenario_evidence": 0
+  },
+  "84B7": {
+    "char": "ヴ",
+    "scenario_evidence": 0
+  },
+  "84BE": {
+    "char": "・",
+    "scenario_evidence": 0
+  },
+  "84BF": {
+    "char": "ー",
+    "scenario_evidence": 0
+  },
+  "84E7": {
+    "char": "㈱",
+    "scenario_evidence": 0
+  },
+  "858D": {
+    "char": "一",
+    "scenario_evidence": 0
+  },
+  "858E": {
+    "char": "丁",
+    "scenario_evidence": 0
+  },
+  "8590": {
+    "char": "七",
+    "scenario_evidence": 0
+  },
+  "8595": {
+    "char": "丈",
+    "scenario_evidence": 0
+  },
+  "8596": {
+    "char": "三",
+    "scenario_evidence": 0
+  },
+  "8597": {
+    "char": "上",
+    "scenario_evidence": 0
+  },
+  "8598": {
+    "char": "下",
+    "scenario_evidence": 0
+  },
+  "859A": {
+    "char": "不",
+    "scenario_evidence": 0
+  },
+  "859E": {
+    "char": "丑",
+    "scenario_evidence": 0
+  },
+  "85A1": {
+    "char": "且",
+    "scenario_evidence": 0
+  },
+  "85A3": {
+    "char": "世",
+    "scenario_evidence": 0
+  },
+  "85A5": {
+    "char": "丘",
+    "scenario_evidence": 0
+  },
+  "85AC": {
+    "char": "丟",
+    "scenario_evidence": 0
+  },
+  "85B3": {
+    "char": "並",
+    "scenario_evidence": 0
+  },
+  "85BA": {
+    "char": "中",
+    "scenario_evidence": 0
+  },
+  "85BF": {
+    "char": "串",
+    "scenario_evidence": 0
+  },
+  "85C5": {
+    "char": "丸",
+    "scenario_evidence": 0
+  },
+  "85C6": {
+    "char": "丹",
+    "scenario_evidence": 0
+  },
+  "85C8": {
+    "char": "主",
+    "scenario_evidence": 0
+  },
+  "85D2": {
+    "char": "久",
+    "scenario_evidence": 0
+  },
+  "85D8": {
+    "char": "之",
+    "scenario_evidence": 0
+  },
+  "85DA": {
+    "char": "乍",
+    "scenario_evidence": 0
+  },
+  "85DB": {
+    "char": "乎",
+    "scenario_evidence": 0
+  },
+  "85DC": {
+    "char": "乏",
+    "scenario_evidence": 0
+  },
+  "85E3": {
+    "char": "乖",
+    "scenario_evidence": 0
+  },
+  "85E5": {
+    "char": "乘",
+    "scenario_evidence": 0
+  },
+  "85E6": {
+    "char": "乙",
+    "scenario_evidence": 0
+  },
+  "85EA": {
+    "char": "九",
+    "scenario_evidence": 0
+  },
+  "85EC": {
+    "char": "也",
+    "scenario_evidence": 0
+  },
+  "8640": {
+    "char": "乳",
+    "scenario_evidence": 0
+  },
+  "864B": {
+    "char": "乾",
+    "scenario_evidence": 0
+  },
+  "864F": {
+    "char": "亂",
+    "scenario_evidence": 0
+  },
+  "8653": {
+    "char": "了",
+    "scenario_evidence": 0
+  },
+  "8655": {
+    "char": "予",
+    "scenario_evidence": 0
+  },
+  "8658": {
+    "char": "事",
+    "scenario_evidence": 0
+  },
+  "8659": {
+    "char": "二",
+    "scenario_evidence": 0
+  },
+  "865F": {
+    "char": "互",
+    "scenario_evidence": 0
+  },
+  "8661": {
+    "char": "五",
+    "scenario_evidence": 0
+  },
+  "8668": {
+    "char": "些",
+    "scenario_evidence": 0
+  },
+  "866B": {
+    "char": "亞",
+    "scenario_evidence": 0
+  },
+  "866E": {
+    "char": "亡",
+    "scenario_evidence": 0
+  },
+  "8671": {
+    "char": "交",
+    "scenario_evidence": 0
+  },
+  "8673": {
+    "char": "亦",
+    "scenario_evidence": 0
+  },
+  "8675": {
+    "char": "亨",
+    "scenario_evidence": 0
+  },
+  "8678": {
+    "char": "享",
+    "scenario_evidence": 0
+  },
+  "867A": {
+    "char": "亭",
+    "scenario_evidence": 0
+  },
+  "867B": {
+    "char": "亮",
+    "scenario_evidence": 0
+  },
+  "8687": {
+    "char": "人",
+    "scenario_evidence": 0
+  },
+  "868D": {
+    "char": "什",
+    "scenario_evidence": 0
+  },
+  "868E": {
+    "char": "仁",
+    "scenario_evidence": 0
+  },
+  "8694": {
+    "char": "仇",
+    "scenario_evidence": 0
+  },
+  "8697": {
+    "char": "今",
+    "scenario_evidence": 0
+  },
+  "8698": {
+    "char": "介",
+    "scenario_evidence": 0
+  },
+  "869A": {
+    "char": "仍",
+    "scenario_evidence": 0
+  },
+  "86A1": {
+    "char": "仔",
+    "scenario_evidence": 0
+  },
+  "86A3": {
+    "char": "他",
+    "scenario_evidence": 0
+  },
+  "86A5": {
+    "char": "付",
+    "scenario_evidence": 0
+  },
+  "86A6": {
+    "char": "仙",
+    "scenario_evidence": 0
+  },
+  "86B0": {
+    "char": "代",
+    "scenario_evidence": 0
+  },
+  "86B1": {
+    "char": "令",
+    "scenario_evidence": 0
+  },
+  "86B2": {
+    "char": "以",
+    "scenario_evidence": 0
+  },
+  "86BD": {
+    "char": "仰",
+    "scenario_evidence": 0
+  },
+  "86BF": {
+    "char": "仲",
+    "scenario_evidence": 0
+  },
+  "86C3": {
+    "char": "件",
+    "scenario_evidence": 0
+  },
+  "86C8": {
+    "char": "任",
+    "scenario_evidence": 0
+  },
+  "86CA": {
+    "char": "份",
+    "scenario_evidence": 0
+  },
+  "86CC": {
+    "char": "仿",
+    "scenario_evidence": 0
+  },
+  "86CE": {
+    "char": "企",
+    "scenario_evidence": 0
+  },
+  "86D7": {
+    "char": "伊",
+    "scenario_evidence": 0
+  },
+  "86DA": {
+    "char": "伍",
+    "scenario_evidence": 0
+  },
+  "86DB": {
+    "char": "伎",
+    "scenario_evidence": 0
+  },
+  "86DC": {
+    "char": "伏",
+    "scenario_evidence": 0
+  },
+  "86DD": {
+    "char": "伐",
+    "scenario_evidence": 0
+  },
+  "86DE": {
+    "char": "休",
+    "scenario_evidence": 0
+  },
+  "86E6": {
+    "char": "伙",
+    "scenario_evidence": 0
+  },
+  "86FC": {
+    "char": "伯",
+    "scenario_evidence": 0
+  },
+  "86FD": {
+    "char": "估",
+    "scenario_evidence": 0
+  },
+  "8741": {
+    "char": "伴",
+    "scenario_evidence": 0
+  },
+  "8743": {
+    "char": "伶",
+    "scenario_evidence": 0
+  },
+  "8749": {
+    "char": "似",
+    "scenario_evidence": 0
+  },
+  "8753": {
+    "char": "但",
+    "scenario_evidence": 0
+  },
+  "8755": {
+    "char": "佈",
+    "scenario_evidence": 0
+  },
+  "875A": {
+    "char": "位",
+    "scenario_evidence": 0
+  },
+  "875B": {
+    "char": "低",
+    "scenario_evidence": 0
+  },
+  "875C": {
+    "char": "住",
+    "scenario_evidence": 0
+  },
+  "875D": {
+    "char": "佐",
+    "scenario_evidence": 1
+  },
+  "875E": {
+    "char": "佑",
+    "scenario_evidence": 0
+  },
+  "8761": {
+    "char": "佔",
+    "scenario_evidence": 0
+  },
+  "8762": {
+    "char": "何",
+    "scenario_evidence": 0
+  },
+  "8768": {
+    "char": "佛",
+    "scenario_evidence": 0
+  },
+  "8769": {
+    "char": "作",
+    "scenario_evidence": 0
+  },
+  "876D": {
+    "char": "你",
+    "scenario_evidence": 0
+  },
+  "8776": {
+    "char": "佩",
+    "scenario_evidence": 0
+  },
+  "8779": {
+    "char": "佬",
+    "scenario_evidence": 2
+  },
+  "877C": {
+    "char": "佯",
+    "scenario_evidence": 0
+  },
+  "8780": {
+    "char": "佳",
+    "scenario_evidence": 0
+  },
+  "878C": {
+    "char": "使",
+    "scenario_evidence": 0
+  },
+  "8793": {
+    "char": "來",
+    "scenario_evidence": 0
+  },
+  "8795": {
+    "char": "侈",
+    "scenario_evidence": 0
+  },
+  "8798": {
+    "char": "例",
+    "scenario_evidence": 0
+  },
+  "879A": {
+    "char": "侍",
+    "scenario_evidence": 0
+  },
+  "87A8": {
+    "char": "供",
+    "scenario_evidence": 0
+  },
+  "87AA": {
+    "char": "依",
+    "scenario_evidence": 0
+  },
+  "87BC": {
+    "char": "候",
+    "scenario_evidence": 0
+  },
+  "87C2": {
+    "char": "侵",
+    "scenario_evidence": 0
+  },
+  "87C3": {
+    "char": "侶",
+    "scenario_evidence": 0
+  },
+  "87CC": {
+    "char": "便",
+    "scenario_evidence": 0
+  },
+  "87CF": {
+    "char": "係",
+    "scenario_evidence": 0
+  },
+  "87D0": {
+    "char": "促",
+    "scenario_evidence": 0
+  },
+  "87D7": {
+    "char": "俊",
+    "scenario_evidence": 0
+  },
+  "87DD": {
+    "char": "俐",
+    "scenario_evidence": 0
+  },
+  "87E4": {
+    "char": "俗",
+    "scenario_evidence": 0
+  },
+  "87E5": {
+    "char": "俘",
+    "scenario_evidence": 0
+  },
+  "87EA": {
+    "char": "保",
+    "scenario_evidence": 0
+  },
+  "87EE": {
+    "char": "信",
+    "scenario_evidence": 0
+  },
+  "87FB": {
+    "char": "修",
+    "scenario_evidence": 0
+  },
+  "87FE": {
+    "char": "俱",
+    "scenario_evidence": 0
+  },
+  "8847": {
+    "char": "俺",
+    "scenario_evidence": 0
+  },
+  "8852": {
+    "char": "倆",
+    "scenario_evidence": 0
+  },
+  "8855": {
+    "char": "倉",
+    "scenario_evidence": 0
+  },
+  "8857": {
+    "char": "個",
+    "scenario_evidence": 0
+  },
+  "8859": {
+    "char": "倍",
+    "scenario_evidence": 0
+  },
+  "885D": {
+    "char": "們",
+    "scenario_evidence": 0
+  },
+  "885E": {
+    "char": "倒",
+    "scenario_evidence": 0
+  },
+  "8862": {
+    "char": "倖",
+    "scenario_evidence": 0
+  },
+  "8865": {
+    "char": "候",
+    "scenario_evidence": 0
+  },
+  "886B": {
+    "char": "借",
+    "scenario_evidence": 0
+  },
+  "886D": {
+    "char": "倡",
+    "scenario_evidence": 1
+  },
+  "8877": {
+    "char": "倫",
+    "scenario_evidence": 0
+  },
+  "8888": {
+    "char": "值",
+    "scenario_evidence": 0
+  },
+  "8893": {
+    "char": "假",
+    "scenario_evidence": 0
+  },
+  "8895": {
+    "char": "偉",
+    "scenario_evidence": 0
+  },
+  "889B": {
+    "char": "偏",
+    "scenario_evidence": 0
+  },
+  "88A6": {
+    "char": "做",
+    "scenario_evidence": 0
+  },
+  "88A8": {
+    "char": "停",
+    "scenario_evidence": 0
+  },
+  "88B1": {
+    "char": "健",
+    "scenario_evidence": 0
+  },
+  "88C0": {
+    "char": "側",
+    "scenario_evidence": 0
+  },
+  "88C1": {
+    "char": "偵",
+    "scenario_evidence": 2
+  },
+  "88C2": {
+    "char": "偶",
+    "scenario_evidence": 0
+  },
+  "88C3": {
+    "char": "偷",
+    "scenario_evidence": 0
+  },
+  "88C9": {
+    "char": "偽",
+    "scenario_evidence": 0
+  },
+  "88CC": {
+    "char": "傀",
+    "scenario_evidence": 0
+  },
+  "88D1": {
+    "char": "傅",
+    "scenario_evidence": 0
+  },
+  "88D9": {
+    "char": "傍",
+    "scenario_evidence": 0
+  },
+  "88DD": {
+    "char": "傑",
+    "scenario_evidence": 0
+  },
+  "88E4": {
+    "char": "傘",
+    "scenario_evidence": 0
+  },
+  "88E5": {
+    "char": "備",
+    "scenario_evidence": 0
+  },
+  "88EE": {
+    "char": "傢",
+    "scenario_evidence": 0
+  },
+  "88F8": {
+    "char": "催",
+    "scenario_evidence": 0
+  },
+  "88F9": {
+    "char": "傭",
+    "scenario_evidence": 0
+  },
+  "88FE": {
+    "char": "傲",
+    "scenario_evidence": 0
+  },
+  "88FF": {
+    "char": "傳",
+    "scenario_evidence": 0
+  },
+  "8943": {
+    "char": "傷",
+    "scenario_evidence": 0
+  },
+  "8947": {
+    "char": "傻",
+    "scenario_evidence": 0
+  },
+  "894A": {
+    "char": "傾",
+    "scenario_evidence": 0
+  },
+  "8951": {
+    "char": "僅",
+    "scenario_evidence": 0
+  },
+  "895B": {
+    "char": "像",
+    "scenario_evidence": 0
+  },
+  "8961": {
+    "char": "僕",
+    "scenario_evidence": 0
+  },
+  "8971": {
+    "char": "僥",
+    "scenario_evidence": 1
+  },
+  "8973": {
+    "char": "僧",
+    "scenario_evidence": 0
+  },
+  "8981": {
+    "char": "僵",
+    "scenario_evidence": 0
+  },
+  "8985": {
+    "char": "價",
+    "scenario_evidence": 0
+  },
+  "898C": {
+    "char": "儀",
+    "scenario_evidence": 0
+  },
+  "898E": {
+    "char": "儂",
+    "scenario_evidence": 2
+  },
+  "8990": {
+    "char": "億",
+    "scenario_evidence": 0
+  },
+  "89A4": {
+    "char": "儘",
+    "scenario_evidence": 0
+  },
+  "89AB": {
+    "char": "償",
+    "scenario_evidence": 0
+  },
+  "89AD": {
+    "char": "儡",
+    "scenario_evidence": 0
+  },
+  "89B6": {
+    "char": "優",
+    "scenario_evidence": 0
+  },
+  "89BE": {
+    "char": "儲",
+    "scenario_evidence": 0
+  },
+  "89CD": {
+    "char": "准",
+    "scenario_evidence": 0
+  },
+  "89CF": {
+    "char": "元",
+    "scenario_evidence": 3
+  },
+  "89D0": {
+    "char": "兄",
+    "scenario_evidence": 0
+  },
+  "89D1": {
+    "char": "充",
+    "scenario_evidence": 0
+  },
+  "89D2": {
+    "char": "兆",
+    "scenario_evidence": 0
+  },
+  "89D3": {
+    "char": "兇",
+    "scenario_evidence": 0
+  },
+  "89D4": {
+    "char": "先",
+    "scenario_evidence": 0
+  },
+  "89D5": {
+    "char": "光",
+    "scenario_evidence": 0
+  },
+  "89D7": {
+    "char": "克",
+    "scenario_evidence": 0
+  },
+  "89D8": {
+    "char": "兌",
+    "scenario_evidence": 0
+  },
+  "89D9": {
+    "char": "免",
+    "scenario_evidence": 0
+  },
+  "89DE": {
+    "char": "兒",
+    "scenario_evidence": 0
+  },
+  "89E0": {
+    "char": "兔",
+    "scenario_evidence": 0
+  },
+  "89E8": {
+    "char": "兜",
+    "scenario_evidence": 1
+  },
+  "89F1": {
+    "char": "入",
+    "scenario_evidence": 0
+  },
+  "89F3": {
+    "char": "內",
+    "scenario_evidence": 0
+  },
+  "89F4": {
+    "char": "全",
+    "scenario_evidence": 0
+  },
+  "89F5": {
+    "char": "兩",
+    "scenario_evidence": 0
+  },
+  "89F7": {
+    "char": "八",
+    "scenario_evidence": 0
+  },
+  "89F8": {
+    "char": "公",
+    "scenario_evidence": 0
+  },
+  "89F9": {
+    "char": "六",
+    "scenario_evidence": 0
+  },
+  "89FD": {
+    "char": "共",
+    "scenario_evidence": 0
+  },
+  "8A41": {
+    "char": "兵",
+    "scenario_evidence": 0
+  },
+  "8A42": {
+    "char": "其",
+    "scenario_evidence": 0
+  },
+  "8A43": {
+    "char": "具",
+    "scenario_evidence": 0
+  },
+  "8A44": {
+    "char": "典",
+    "scenario_evidence": 0
+  },
+  "8A48": {
+    "char": "兼",
+    "scenario_evidence": 0
+  },
+  "8A56": {
+    "char": "冊",
+    "scenario_evidence": 0
+  },
+  "8A59": {
+    "char": "再",
+    "scenario_evidence": 0
+  },
+  "8A5E": {
+    "char": "冒",
+    "scenario_evidence": 0
+  },
+  "8A6C": {
+    "char": "冠",
+    "scenario_evidence": 0
+  },
+  "8A70": {
+    "char": "冤",
+    "scenario_evidence": 1
+  },
+  "8A71": {
+    "char": "冥",
+    "scenario_evidence": 0
+  },
+  "8A7C": {
+    "char": "冰",
+    "scenario_evidence": 0
+  },
+  "8A83": {
+    "char": "冷",
+    "scenario_evidence": 0
+  },
+  "8A89": {
+    "char": "冽",
+    "scenario_evidence": 0
+  },
+  "8A92": {
+    "char": "準",
+    "scenario_evidence": 0
+  },
+  "8A99": {
+    "char": "凍",
+    "scenario_evidence": 0
+  },
+  "8AA8": {
+    "char": "凜",
+    "scenario_evidence": 0
+  },
+  "8AA9": {
+    "char": "凝",
+    "scenario_evidence": 0
+  },
+  "8AAD": {
+    "char": "處",
+    "scenario_evidence": 0
+  },
+  "8ABC": {
+    "char": "凰",
+    "scenario_evidence": 0
+  },
+  "8ABD": {
+    "char": "凱",
+    "scenario_evidence": 0
+  },
+  "8AC2": {
+    "char": "凶",
+    "scenario_evidence": 0
+  },
+  "8AC4": {
+    "char": "凸",
+    "scenario_evidence": 0
+  },
+  "8AC5": {
+    "char": "凹",
+    "scenario_evidence": 0
+  },
+  "8AC6": {
+    "char": "出",
+    "scenario_evidence": 0
+  },
+  "8AC9": {
+    "char": "函",
+    "scenario_evidence": 0
+  },
+  "8ACB": {
+    "char": "刀",
+    "scenario_evidence": 0
+  },
+  "8ACE": {
+    "char": "刃",
+    "scenario_evidence": 0
+  },
+  "8AD1": {
+    "char": "分",
+    "scenario_evidence": 0
+  },
+  "8AD2": {
+    "char": "切",
+    "scenario_evidence": 0
+  },
+  "8AD5": {
+    "char": "刊",
+    "scenario_evidence": 0
+  },
+  "8ADC": {
+    "char": "安",
+    "scenario_evidence": 0
+  },
+  "8AE2": {
+    "char": "列",
+    "scenario_evidence": 0
+  },
+  "8AE8": {
+    "char": "初",
+    "scenario_evidence": 0
+  },
+  "8AEF": {
+    "char": "判",
+    "scenario_evidence": 0
+  },
+  "8AF0": {
+    "char": "別",
+    "scenario_evidence": 0
+  },
+  "8AF4": {
+    "char": "利",
+    "scenario_evidence": 0
+  },
+  "8AFB": {
+    "char": "到",
+    "scenario_evidence": 0
+  },
+  "8B41": {
+    "char": "制",
+    "scenario_evidence": 0
+  },
+  "8B43": {
+    "char": "券",
+    "scenario_evidence": 0
+  },
+  "8B45": {
+    "char": "刺",
+    "scenario_evidence": 0
+  },
+  "8B46": {
+    "char": "刻",
+    "scenario_evidence": 0
+  },
+  "8B52": {
+    "char": "則",
+    "scenario_evidence": 0
+  },
+  "8B55": {
+    "char": "削",
+    "scenario_evidence": 0
+  },
+  "8B56": {
+    "char": "剋",
+    "scenario_evidence": 0
+  },
+  "8B58": {
+    "char": "前",
+    "scenario_evidence": 0
+  },
+  "8B59": {
+    "char": "剎",
+    "scenario_evidence": 0
+  },
+  "8B5F": {
+    "char": "剔",
+    "scenario_evidence": 0
+  },
+  "8B61": {
+    "char": "剖",
+    "scenario_evidence": 0
+  },
+  "8B66": {
+    "char": "剛",
+    "scenario_evidence": 0
+  },
+  "8B67": {
+    "char": "剜",
+    "scenario_evidence": 0
+  },
+  "8B68": {
+    "char": "剝",
+    "scenario_evidence": 0
+  },
+  "8B74": {
+    "char": "剩",
+    "scenario_evidence": 0
+  },
+  "8B75": {
+    "char": "剪",
+    "scenario_evidence": 0
+  },
+  "8B7A": {
+    "char": "副",
+    "scenario_evidence": 0
+  },
+  "8B7D": {
+    "char": "割",
+    "scenario_evidence": 0
+  },
+  "8B80": {
+    "char": "創",
+    "scenario_evidence": 0
+  },
+  "8B8A": {
+    "char": "剿",
+    "scenario_evidence": 0
+  },
+  "8B8E": {
+    "char": "劃",
+    "scenario_evidence": 0
+  },
+  "8B92": {
+    "char": "劇",
+    "scenario_evidence": 0
+  },
+  "8B93": {
+    "char": "劈",
+    "scenario_evidence": 0
+  },
+  "8B94": {
+    "char": "劉",
+    "scenario_evidence": 0
+  },
+  "8B98": {
+    "char": "劍",
+    "scenario_evidence": 0
+  },
+  "8B9C": {
+    "char": "劑",
+    "scenario_evidence": 0
+  },
+  "8BA6": {
+    "char": "力",
+    "scenario_evidence": 0
+  },
+  "8BAA": {
+    "char": "功",
+    "scenario_evidence": 0
+  },
+  "8BAB": {
+    "char": "加",
+    "scenario_evidence": 0
+  },
+  "8BAE": {
+    "char": "劣",
+    "scenario_evidence": 0
+  },
+  "8BB4": {
+    "char": "助",
+    "scenario_evidence": 0
+  },
+  "8BB5": {
+    "char": "努",
+    "scenario_evidence": 0
+  },
+  "8BB6": {
+    "char": "劫",
+    "scenario_evidence": 0
+  },
+  "8BCC": {
+    "char": "勁",
+    "scenario_evidence": 0
+  },
+  "8BCE": {
+    "char": "勃",
+    "scenario_evidence": 0
+  },
+  "8BD2": {
+    "char": "勇",
+    "scenario_evidence": 0
+  },
+  "8BD4": {
+    "char": "勉",
+    "scenario_evidence": 0
+  },
+  "8BDD": {
+    "char": "勒",
+    "scenario_evidence": 0
+  },
+  "8BE0": {
+    "char": "動",
+    "scenario_evidence": 0
+  },
+  "8BE4": {
+    "char": "務",
+    "scenario_evidence": 0
+  },
+  "8BE8": {
+    "char": "勝",
+    "scenario_evidence": 0
+  },
+  "8BE9": {
+    "char": "勞",
+    "scenario_evidence": 0
+  },
+  "8BEA": {
+    "char": "募",
+    "scenario_evidence": 0
+  },
+  "8BED": {
+    "char": "勢",
+    "scenario_evidence": 0
+  },
+  "8BEF": {
+    "char": "勤",
+    "scenario_evidence": 0
+  },
+  "8C40": {
+    "char": "勵",
+    "scenario_evidence": 0
+  },
+  "8C43": {
+    "char": "勸",
+    "scenario_evidence": 0
+  },
+  "8C49": {
+    "char": "勾",
+    "scenario_evidence": 0
+  },
+  "8C4F": {
+    "char": "包",
+    "scenario_evidence": 0
+  },
+  "8C50": {
+    "char": "匆",
+    "scenario_evidence": 0
+  },
+  "8C60": {
+    "char": "化",
+    "scenario_evidence": 0
+  },
+  "8C61": {
+    "char": "北",
+    "scenario_evidence": 0
+  },
+  "8C63": {
+    "char": "匙",
+    "scenario_evidence": 0
+  },
+  "8C6A": {
+    "char": "匠",
+    "scenario_evidence": 0
+  },
+  "8C6D": {
+    "char": "殼",
+    "scenario_evidence": 0
+  },
+  "8C74": {
+    "char": "匪",
+    "scenario_evidence": 0
+  },
+  "8C79": {
+    "char": "匯",
+    "scenario_evidence": 0
+  },
+  "8C89": {
+    "char": "匿",
+    "scenario_evidence": 0
+  },
+  "8C8A": {
+    "char": "區",
+    "scenario_evidence": 0
+  },
+  "8C8B": {
+    "char": "十",
+    "scenario_evidence": 0
+  },
+  "8C8D": {
+    "char": "千",
+    "scenario_evidence": 0
+  },
+  "8C91": {
+    "char": "升",
+    "scenario_evidence": 0
+  },
+  "8C92": {
+    "char": "午",
+    "scenario_evidence": 0
+  },
+  "8C94": {
+    "char": "半",
+    "scenario_evidence": 0
+  },
+  "8C9B": {
+    "char": "卑",
+    "scenario_evidence": 0
+  },
+  "8C9D": {
+    "char": "卓",
+    "scenario_evidence": 0
+  },
+  "8C9E": {
+    "char": "協",
+    "scenario_evidence": 0
+  },
+  "8CA1": {
+    "char": "南",
+    "scenario_evidence": 0
+  },
+  "8CA4": {
+    "char": "博",
+    "scenario_evidence": 0
+  },
+  "8CA6": {
+    "char": "卜",
+    "scenario_evidence": 0
+  },
+  "8CAA": {
+    "char": "占",
+    "scenario_evidence": 0
+  },
+  "8CAB": {
+    "char": "卡",
+    "scenario_evidence": 0
+  },
+  "8CB0": {
+    "char": "卦",
+    "scenario_evidence": 1
+  },
+  "8CBA": {
+    "char": "印",
+    "scenario_evidence": 0
+  },
+  "8CBB": {
+    "char": "危",
+    "scenario_evidence": 0
+  },
+  "8CBD": {
+    "char": "即",
+    "scenario_evidence": 0
+  },
+  "8CBF": {
+    "char": "卵",
+    "scenario_evidence": 0
+  },
+  "8CC1": {
+    "char": "卷",
+    "scenario_evidence": 0
+  },
+  "8CC5": {
+    "char": "卻",
+    "scenario_evidence": 0
+  },
+  "8CCE": {
+    "char": "厄",
+    "scenario_evidence": 0
+  },
+  "8CE4": {
+    "char": "厚",
+    "scenario_evidence": 0
+  },
+  "8CE9": {
+    "char": "原",
+    "scenario_evidence": 0
+  },
+  "8CEF": {
+    "char": "厥",
+    "scenario_evidence": 0
+  },
+  "8CF7": {
+    "char": "厭",
+    "scenario_evidence": 0
+  },
+  "8CFC": {
+    "char": "厲",
+    "scenario_evidence": 0
+  },
+  "8D45": {
+    "char": "去",
+    "scenario_evidence": 0
+  },
+  "8D4D": {
+    "char": "參",
+    "scenario_evidence": 0
+  },
+  "8D52": {
+    "char": "又",
+    "scenario_evidence": 0
+  },
+  "8D53": {
+    "char": "叉",
+    "scenario_evidence": 0
+  },
+  "8D54": {
+    "char": "及",
+    "scenario_evidence": 0
+  },
+  "8D55": {
+    "char": "友",
+    "scenario_evidence": 0
+  },
+  "8D57": {
+    "char": "反",
+    "scenario_evidence": 0
+  },
+  "8D5E": {
+    "char": "叔",
+    "scenario_evidence": 0
+  },
+  "8D60": {
+    "char": "取",
+    "scenario_evidence": 0
+  },
+  "8D61": {
+    "char": "受",
+    "scenario_evidence": 0
+  },
+  "8D65": {
+    "char": "叛",
+    "scenario_evidence": 0
+  },
+  "8D6D": {
+    "char": "口",
+    "scenario_evidence": 0
+  },
+  "8D6E": {
+    "char": "古",
+    "scenario_evidence": 0
+  },
+  "8D6F": {
+    "char": "句",
+    "scenario_evidence": 0
+  },
+  "8D70": {
+    "char": "另",
+    "scenario_evidence": 0
+  },
+  "8D72": {
+    "char": "叨",
+    "scenario_evidence": 1
+  },
+  "8D74": {
+    "char": "只",
+    "scenario_evidence": 0
+  },
+  "8D75": {
+    "char": "叫",
+    "scenario_evidence": 0
+  },
+  "8D76": {
+    "char": "召",
+    "scenario_evidence": 0
+  },
+  "8D77": {
+    "char": "叭",
+    "scenario_evidence": 1
+  },
+  "8D78": {
+    "char": "叮",
+    "scenario_evidence": 0
+  },
+  "8D79": {
+    "char": "可",
+    "scenario_evidence": 0
+  },
+  "8D7A": {
+    "char": "台",
+    "scenario_evidence": 0
+  },
+  "8D7C": {
+    "char": "史",
+    "scenario_evidence": 0
+  },
+  "8D7D": {
+    "char": "右",
+    "scenario_evidence": 0
+  },
+  "8D82": {
+    "char": "司",
+    "scenario_evidence": 0
+  },
+  "8D89": {
+    "char": "吃",
+    "scenario_evidence": 0
+  },
+  "8D8A": {
+    "char": "各",
+    "scenario_evidence": 0
+  },
+  "8D8E": {
+    "char": "合",
+    "scenario_evidence": 0
+  },
+  "8D8F": {
+    "char": "吉",
+    "scenario_evidence": 0
+  },
+  "8D90": {
+    "char": "吊",
+    "scenario_evidence": 0
+  },
+  "8D91": {
+    "char": "分",
+    "scenario_evidence": 0
+  },
+  "8D92": {
+    "char": "同",
+    "scenario_evidence": 0
+  },
+  "8D93": {
+    "char": "名",
+    "scenario_evidence": 0
+  },
+  "8D96": {
+    "char": "吐",
+    "scenario_evidence": 0
+  },
+  "8D97": {
+    "char": "向",
+    "scenario_evidence": 0
+  },
+  "8DA1": {
+    "char": "君",
+    "scenario_evidence": 0
+  },
+  "8DA4": {
+    "char": "吞",
+    "scenario_evidence": 0
+  },
+  "8DA5": {
+    "char": "吟",
+    "scenario_evidence": 0
+  },
+  "8DA6": {
+    "char": "吠",
+    "scenario_evidence": 0
+  },
+  "8DAC": {
+    "char": "否",
+    "scenario_evidence": 0
+  },
+  "8DAD": {
+    "char": "吧",
+    "scenario_evidence": 0
+  },
+  "8DAF": {
+    "char": "吩",
+    "scenario_evidence": 0
+  },
+  "8DB1": {
+    "char": "含",
+    "scenario_evidence": 0
+  },
+  "8DBB": {
+    "char": "吵",
+    "scenario_evidence": 0
+  },
+  "8DBC": {
+    "char": "吶",
+    "scenario_evidence": 0
+  },
+  "8DBE": {
+    "char": "吸",
+    "scenario_evidence": 0
+  },
+  "8DBF": {
+    "char": "吹",
+    "scenario_evidence": 0
+  },
+  "8DC1": {
+    "char": "吻",
+    "scenario_evidence": 0
+  },
+  "8DC2": {
+    "char": "吼",
+    "scenario_evidence": 0
+  },
+  "8DC4": {
+    "char": "吾",
+    "scenario_evidence": 0
+  },
+  "8DC6": {
+    "char": "呀",
+    "scenario_evidence": 0
+  },
+  "8DC9": {
+    "char": "呃",
+    "scenario_evidence": 0
+  },
+  "8DCC": {
+    "char": "呆",
+    "scenario_evidence": 3
+  },
+  "8DCE": {
+    "char": "呈",
+    "scenario_evidence": 0
+  },
+  "8DD0": {
+    "char": "告",
+    "scenario_evidence": 0
+  },
+  "8DE8": {
+    "char": "呢",
+    "scenario_evidence": 0
+  },
+  "8DEE": {
+    "char": "周",
+    "scenario_evidence": 0
+  },
+  "8DF9": {
+    "char": "味",
+    "scenario_evidence": 0
+  },
+  "8DFB": {
+    "char": "呵",
+    "scenario_evidence": 0
+  },
+  "8E41": {
+    "char": "呻",
+    "scenario_evidence": 4
+  },
+  "8E42": {
+    "char": "呼",
+    "scenario_evidence": 0
+  },
+  "8E43": {
+    "char": "命",
+    "scenario_evidence": 0
+  },
+  "8E4C": {
+    "char": "咆",
+    "scenario_evidence": 0
+  },
+  "8E52": {
+    "char": "和",
+    "scenario_evidence": 0
+  },
+  "8E56": {
+    "char": "咐",
+    "scenario_evidence": 0
+  },
+  "8E58": {
+    "char": "咒",
+    "scenario_evidence": 0
+  },
+  "8E5A": {
+    "char": "喀",
+    "scenario_evidence": 11
+  },
+  "8E5B": {
+    "char": "咕",
+    "scenario_evidence": 0
+  },
+  "8E5C": {
+    "char": "咖",
+    "scenario_evidence": 0
+  },
+  "8E60": {
+    "char": "咚",
+    "scenario_evidence": 0
+  },
+  "8E6C": {
+    "char": "咦",
+    "scenario_evidence": 0
+  },
+  "8E70": {
+    "char": "咪",
+    "scenario_evidence": 0
+  },
+  "8E71": {
+    "char": "咫",
+    "scenario_evidence": 0
+  },
+  "8E72": {
+    "char": "咬",
+    "scenario_evidence": 0
+  },
+  "8E75": {
+    "char": "咯",
+    "scenario_evidence": 3
+  },
+  "8E77": {
+    "char": "咱",
+    "scenario_evidence": 0
+  },
+  "8E79": {
+    "char": "咳",
+    "scenario_evidence": 0
+  },
+  "8E81": {
+    "char": "咻",
+    "scenario_evidence": 0
+  },
+  "8E86": {
+    "char": "哀",
+    "scenario_evidence": 0
+  },
+  "8E87": {
+    "char": "品",
+    "scenario_evidence": 0
+  },
+  "8E8D": {
+    "char": "哇",
+    "scenario_evidence": 0
+  },
+  "8E8E": {
+    "char": "哈",
+    "scenario_evidence": 0
+  },
+  "8E94": {
+    "char": "哎",
+    "scenario_evidence": 0
+  },
+  "8EA7": {
+    "char": "員",
+    "scenario_evidence": 0
+  },
+  "8EA8": {
+    "char": "哢",
+    "scenario_evidence": 0
+  },
+  "8EAB": {
+    "char": "哥",
+    "scenario_evidence": 0
+  },
+  "8EAC": {
+    "char": "哦",
+    "scenario_evidence": 0
+  },
+  "8EAE": {
+    "char": "拍",
+    "scenario_evidence": 0
+  },
+  "8EAF": {
+    "char": "哩",
+    "scenario_evidence": 1
+  },
+  "8EB0": {
+    "char": "哪",
+    "scenario_evidence": 0
+  },
+  "8EB3": {
+    "char": "哭",
+    "scenario_evidence": 0
+  },
+  "8EB4": {
+    "char": "哮",
+    "scenario_evidence": 0
+  },
+  "8EC2": {
+    "char": "哼",
+    "scenario_evidence": 0
+  },
+  "8EC9": {
+    "char": "唄",
+    "scenario_evidence": 1
+  },
+  "8ECB": {
+    "char": "唆",
+    "scenario_evidence": 1
+  },
+  "8ECE": {
+    "char": "唉",
+    "scenario_evidence": 0
+  },
+  "8ED4": {
+    "char": "唏",
+    "scenario_evidence": 0
+  },
+  "8ED5": {
+    "char": "唐",
+    "scenario_evidence": 0
+  },
+  "8ED9": {
+    "char": "唔",
+    "scenario_evidence": 0
+  },
+  "8EF3": {
+    "char": "售",
+    "scenario_evidence": 0
+  },
+  "8EF4": {
+    "char": "唯",
+    "scenario_evidence": 0
+  },
+  "8EF6": {
+    "char": "唱",
+    "scenario_evidence": 0
+  },
+  "8EFC": {
+    "char": "呀",
+    "scenario_evidence": 0
+  },
+  "8F48": {
+    "char": "啃",
+    "scenario_evidence": 0
+  },
+  "8F4B": {
+    "char": "商",
+    "scenario_evidence": 0
+  },
+  "8F4F": {
+    "char": "啊",
+    "scenario_evidence": 0
+  },
+  "8F54": {
+    "char": "問",
+    "scenario_evidence": 0
+  },
+  "8F63": {
+    "char": "啞",
+    "scenario_evidence": 0
+  },
+  "8F64": {
+    "char": "啟",
+    "scenario_evidence": 0
+  },
+  "8F66": {
+    "char": "啡",
+    "scenario_evidence": 0
+  },
+  "8F6A": {
+    "char": "啥",
+    "scenario_evidence": 1
+  },
+  "8F6B": {
+    "char": "啦",
+    "scenario_evidence": 0
+  },
+  "8F6F": {
+    "char": "啪",
+    "scenario_evidence": 0
+  },
+  "8F87": {
+    "char": "喂",
+    "scenario_evidence": 0
+  },
+  "8F89": {
+    "char": "善",
+    "scenario_evidence": 0
+  },
+  "8F8E": {
+    "char": "唱",
+    "scenario_evidence": 0
+  },
+  "8F8F": {
+    "char": "喊",
+    "scenario_evidence": 0
+  },
+  "8F94": {
+    "char": "喏",
+    "scenario_evidence": 0
+  },
+  "8F96": {
+    "char": "喑",
+    "scenario_evidence": 0
+  },
+  "8F99": {
+    "char": "哦",
+    "scenario_evidence": 0
+  },
+  "8F9D": {
+    "char": "喘",
+    "scenario_evidence": 0
+  },
+  "8F9F": {
+    "char": "喚",
+    "scenario_evidence": 0
+  },
+  "8FA1": {
+    "char": "喜",
+    "scenario_evidence": 0
+  },
+  "8FA2": {
+    "char": "喝",
+    "scenario_evidence": 0
+  },
+  "8FAC": {
+    "char": "喧",
+    "scenario_evidence": 0
+  },
+  "8FAF": {
+    "char": "喪",
+    "scenario_evidence": 0
+  },
+  "8FB1": {
+    "char": "喬",
+    "scenario_evidence": 0
+  },
+  "8FB3": {
+    "char": "單",
+    "scenario_evidence": 0
+  },
+  "8FB7": {
+    "char": "喲",
+    "scenario_evidence": 0
+  },
+  "8FBA": {
+    "char": "喵",
+    "scenario_evidence": 0
+  },
+  "8FC0": {
+    "char": "喻",
+    "scenario_evidence": 1
+  },
+  "8FCA": {
+    "char": "嗅",
+    "scenario_evidence": 0
+  },
+  "8FD3": {
+    "char": "嗎",
+    "scenario_evidence": 0
+  },
+  "8FDF": {
+    "char": "嗚",
+    "scenario_evidence": 0
+  },
+  "8FE2": {
+    "char": "嗝",
+    "scenario_evidence": 0
+  },
+  "8FEB": {
+    "char": "嗦",
+    "scenario_evidence": 0
+  },
+  "8FED": {
+    "char": "嗨",
+    "scenario_evidence": 17
+  },
+  "8FF4": {
+    "char": "嗯",
+    "scenario_evidence": 0
+  },
+  "8FFB": {
+    "char": "嗶",
+    "scenario_evidence": 0
+  },
+  "8FFC": {
+    "char": "嗷",
+    "scenario_evidence": 0
+  },
+  "9046": {
+    "char": "嘁",
+    "scenario_evidence": 0
+  },
+  "904B": {
+    "char": "嘆",
+    "scenario_evidence": 0
+  },
+  "904E": {
+    "char": "嘉",
+    "scenario_evidence": 0
+  },
+  "9053": {
+    "char": "嘎",
+    "scenario_evidence": 3
+  },
+  "9059": {
+    "char": "嘔",
+    "scenario_evidence": 0
+  },
+  "905B": {
+    "char": "嘖",
+    "scenario_evidence": 0
+  },
+  "905C": {
+    "char": "嘗",
+    "scenario_evidence": 0
+  },
+  "9060": {
+    "char": "嘛",
+    "scenario_evidence": 0
+  },
+  "9064": {
+    "char": "嘟",
+    "scenario_evidence": 0
+  },
+  "9074": {
+    "char": "嘯",
+    "scenario_evidence": 0
+  },
+  "9075": {
+    "char": "嘰",
+    "scenario_evidence": 0
+  },
+  "9077": {
+    "char": "嬉",
+    "scenario_evidence": 0
+  },
+  "9079": {
+    "char": "嘴",
+    "scenario_evidence": 0
+  },
+  "9080": {
+    "char": "嘻",
+    "scenario_evidence": 0
+  },
+  "9084": {
+    "char": "嘿",
+    "scenario_evidence": 0
+  },
+  "9086": {
+    "char": "噁",
+    "scenario_evidence": 0
+  },
+  "9091": {
+    "char": "噌",
+    "scenario_evidence": 0
+  },
+  "9098": {
+    "char": "噓",
+    "scenario_evidence": 0
+  },
+  "909C": {
+    "char": "噗",
+    "scenario_evidence": 4
+  },
+  "90A5": {
+    "char": "噠",
+    "scenario_evidence": 11
+  },
+  "90A7": {
+    "char": "噢",
+    "scenario_evidence": 2
+  },
+  "90AD": {
+    "char": "器",
+    "scenario_evidence": 0
+  },
+  "90AE": {
+    "char": "噩",
+    "scenario_evidence": 0
+  },
+  "90B0": {
+    "char": "噫",
+    "scenario_evidence": 0
+  },
+  "90B1": {
+    "char": "噬",
+    "scenario_evidence": 0
+  },
+  "90B9": {
+    "char": "噴",
+    "scenario_evidence": 0
+  },
+  "90BE": {
+    "char": "噹",
+    "scenario_evidence": 0
+  },
+  "90CC": {
+    "char": "嚇",
+    "scenario_evidence": 0
+  },
+  "90D3": {
+    "char": "嚎",
+    "scenario_evidence": 0
+  },
+  "90D8": {
+    "char": "嚓",
+    "scenario_evidence": 0
+  },
+  "90DA": {
+    "char": "嚕",
+    "scenario_evidence": 0
+  },
+  "90EA": {
+    "char": "嚥",
+    "scenario_evidence": 0
+  },
+  "90F3": {
+    "char": "嚮",
+    "scenario_evidence": 2
+  },
+  "90F9": {
+    "char": "嚴",
+    "scenario_evidence": 0
+  },
+  "9141": {
+    "char": "嚼",
+    "scenario_evidence": 0
+  },
+  "9147": {
+    "char": "囂",
+    "scenario_evidence": 0
+  },
+  "914E": {
+    "char": "囉",
+    "scenario_evidence": 0
+  },
+  "914F": {
+    "char": "囊",
+    "scenario_evidence": 0
+  },
+  "9159": {
+    "char": "囔",
+    "scenario_evidence": 0
+  },
+  "915F": {
+    "char": "囚",
+    "scenario_evidence": 0
+  },
+  "9160": {
+    "char": "四",
+    "scenario_evidence": 0
+  },
+  "9163": {
+    "char": "回",
+    "scenario_evidence": 0
+  },
+  "9165": {
+    "char": "因",
+    "scenario_evidence": 0
+  },
+  "9175": {
+    "char": "困",
+    "scenario_evidence": 0
+  },
+  "917F": {
+    "char": "固",
+    "scenario_evidence": 0
+  },
+  "918C": {
+    "char": "圈",
+    "scenario_evidence": 0
+  },
+  "918F": {
+    "char": "國",
+    "scenario_evidence": 0
+  },
+  "9191": {
+    "char": "圍",
+    "scenario_evidence": 0
+  },
+  "9196": {
+    "char": "園",
+    "scenario_evidence": 0
+  },
+  "9197": {
+    "char": "圓",
+    "scenario_evidence": 0
+  },
+  "919A": {
+    "char": "圖",
+    "scenario_evidence": 0
+  },
+  "919C": {
+    "char": "團",
+    "scenario_evidence": 0
+  },
+  "91A3": {
+    "char": "土",
+    "scenario_evidence": 0
+  },
+  "91AC": {
+    "char": "在",
+    "scenario_evidence": 0
+  },
+  "91B4": {
+    "char": "地",
+    "scenario_evidence": 0
+  },
+  "91C4": {
+    "char": "址",
+    "scenario_evidence": 0
+  },
+  "91CB": {
+    "char": "均",
+    "scenario_evidence": 0
+  },
+  "91CE": {
+    "char": "坊",
+    "scenario_evidence": 0
+  },
+  "91D1": {
+    "char": "坍",
+    "scenario_evidence": 0
+  },
+  "91D2": {
+    "char": "坎",
+    "scenario_evidence": 0
+  },
+  "91D4": {
+    "char": "坐",
+    "scenario_evidence": 0
+  },
+  "91D5": {
+    "char": "坑",
+    "scenario_evidence": 0
+  },
+  "91E5": {
+    "char": "坡",
+    "scenario_evidence": 0
+  },
+  "91EA": {
+    "char": "坦",
+    "scenario_evidence": 0
+  },
+  "9246": {
+    "char": "垂",
+    "scenario_evidence": 0
+  },
+  "924F": {
+    "char": "型",
+    "scenario_evidence": 0
+  },
+  "9266": {
+    "char": "垢",
+    "scenario_evidence": 0
+  },
+  "9287": {
+    "char": "埃",
+    "scenario_evidence": 0
+  },
+  "928F": {
+    "char": "埋",
+    "scenario_evidence": 0
+  },
+  "9292": {
+    "char": "城",
+    "scenario_evidence": 0
+  },
+  "92A3": {
+    "char": "域",
+    "scenario_evidence": 0
+  },
+  "92BB": {
+    "char": "執",
+    "scenario_evidence": 0
+  },
+  "92BD": {
+    "char": "培",
+    "scenario_evidence": 0
+  },
+  "92BE": {
+    "char": "基",
+    "scenario_evidence": 0
+  },
+  "92C4": {
+    "char": "堂",
+    "scenario_evidence": 0
+  },
+  "92C7": {
+    "char": "堅",
+    "scenario_evidence": 0
+  },
+  "92C8": {
+    "char": "堆",
+    "scenario_evidence": 0
+  },
+  "92E3": {
+    "char": "堡",
+    "scenario_evidence": 0
+  },
+  "92EC": {
+    "char": "堪",
+    "scenario_evidence": 0
+  },
+  "92F3": {
+    "char": "報",
+    "scenario_evidence": 0
+  },
+  "92F6": {
+    "char": "場",
+    "scenario_evidence": 0
+  },
+  "92F7": {
+    "char": "堵",
+    "scenario_evidence": 0
+  },
+  "934C": {
+    "char": "塊",
+    "scenario_evidence": 0
+  },
+  "934E": {
+    "char": "塌",
+    "scenario_evidence": 1
+  },
+  "9356": {
+    "char": "塔",
+    "scenario_evidence": 0
+  },
+  "9359": {
+    "char": "塗",
+    "scenario_evidence": 0
+  },
+  "935A": {
+    "char": "塘",
+    "scenario_evidence": 0
+  },
+  "9360": {
+    "char": "塞",
+    "scenario_evidence": 0
+  },
+  "936D": {
+    "char": "填",
+    "scenario_evidence": 0
+  },
+  "9377": {
+    "char": "塵",
+    "scenario_evidence": 0
+  },
+  "9385": {
+    "char": "境",
+    "scenario_evidence": 0
+  },
+  "9387": {
+    "char": "墅",
+    "scenario_evidence": 0
+  },
+  "938C": {
+    "char": "墊",
+    "scenario_evidence": 0
+  },
+  "9395": {
+    "char": "墓",
+    "scenario_evidence": 0
+  },
+  "939B": {
+    "char": "弄",
+    "scenario_evidence": 0
+  },
+  "939E": {
+    "char": "墜",
+    "scenario_evidence": 0
+  },
+  "93A0": {
+    "char": "增",
+    "scenario_evidence": 0
+  },
+  "93A1": {
+    "char": "墟",
+    "scenario_evidence": 0
+  },
+  "93B0": {
+    "char": "墮",
+    "scenario_evidence": 0
+  },
+  "93B5": {
+    "char": "墳",
+    "scenario_evidence": 0
+  },
+  "93C3": {
+    "char": "壁",
+    "scenario_evidence": 0
+  },
+  "93C9": {
+    "char": "壇",
+    "scenario_evidence": 0
+  },
+  "93D1": {
+    "char": "被",
+    "scenario_evidence": 0
+  },
+  "93D5": {
+    "char": "壓",
+    "scenario_evidence": 0
+  },
+  "93D7": {
+    "char": "壕",
+    "scenario_evidence": 0
+  },
+  "93DA": {
+    "char": "壘",
+    "scenario_evidence": 0
+  },
+  "93E0": {
+    "char": "壞",
+    "scenario_evidence": 0
+  },
+  "93ED": {
+    "char": "士",
+    "scenario_evidence": 0
+  },
+  "93F1": {
+    "char": "壯",
+    "scenario_evidence": 0
+  },
+  "93FC": {
+    "char": "壺",
+    "scenario_evidence": 0
+  },
+  "93FF": {
+    "char": "壽",
+    "scenario_evidence": 0
+  },
+  "944E": {
+    "char": "夏",
+    "scenario_evidence": 0
+  },
+  "9454": {
+    "char": "夕",
+    "scenario_evidence": 0
+  },
+  "9455": {
+    "char": "外",
+    "scenario_evidence": 0
+  },
+  "9459": {
+    "char": "多",
+    "scenario_evidence": 0
+  },
+  "945B": {
+    "char": "夜",
+    "scenario_evidence": 0
+  },
+  "945F": {
+    "char": "夠",
+    "scenario_evidence": 0
+  },
+  "9461": {
+    "char": "夢",
+    "scenario_evidence": 0
+  },
+  "9464": {
+    "char": "夥",
+    "scenario_evidence": 0
+  },
+  "9466": {
+    "char": "大",
+    "scenario_evidence": 0
+  },
+  "9468": {
+    "char": "天",
+    "scenario_evidence": 0
+  },
+  "9469": {
+    "char": "太",
+    "scenario_evidence": 0
+  },
+  "946A": {
+    "char": "夫",
+    "scenario_evidence": 0
+  },
+  "946D": {
+    "char": "央",
+    "scenario_evidence": 0
+  },
+  "9470": {
+    "char": "失",
+    "scenario_evidence": 0
+  },
+  "9476": {
+    "char": "夷",
+    "scenario_evidence": 0
+  },
+  "947D": {
+    "char": "夾",
+    "scenario_evidence": 0
+  },
+  "9486": {
+    "char": "奇",
+    "scenario_evidence": 0
+  },
+  "9487": {
+    "char": "奈",
+    "scenario_evidence": 0
+  },
+  "9488": {
+    "char": "奉",
+    "scenario_evidence": 1
+  },
+  "948D": {
+    "char": "奎",
+    "scenario_evidence": 0
+  },
+  "948E": {
+    "char": "奏",
+    "scenario_evidence": 0
+  },
+  "9490": {
+    "char": "契",
+    "scenario_evidence": 0
+  },
+  "9493": {
+    "char": "奔",
+    "scenario_evidence": 0
+  },
+  "9496": {
+    "char": "套",
+    "scenario_evidence": 0
+  },
+  "94A1": {
+    "char": "奢",
+    "scenario_evidence": 0
+  },
+  "94A6": {
+    "char": "奧",
+    "scenario_evidence": 0
+  },
+  "94A9": {
+    "char": "奪",
+    "scenario_evidence": 0
+  },
+  "94AD": {
+    "char": "奮",
+    "scenario_evidence": 0
+  },
+  "94B2": {
+    "char": "女",
+    "scenario_evidence": 0
+  },
+  "94B5": {
+    "char": "奶",
+    "scenario_evidence": 0
+  },
+  "94B8": {
+    "char": "她",
+    "scenario_evidence": 0
+  },
+  "94BC": {
+    "char": "好",
+    "scenario_evidence": 0
+  },
+  "94C1": {
+    "char": "如",
+    "scenario_evidence": 0
+  },
+  "94C3": {
+    "char": "妄",
+    "scenario_evidence": 0
+  },
+  "94D5": {
+    "char": "妖",
+    "scenario_evidence": 0
+  },
+  "94D8": {
+    "char": "妙",
+    "scenario_evidence": 0
+  },
+  "94DC": {
+    "char": "妝",
+    "scenario_evidence": 0
+  },
+  "94E4": {
+    "char": "妥",
+    "scenario_evidence": 0
+  },
+  "94E7": {
+    "char": "妨",
+    "scenario_evidence": 0
+  },
+  "94ED": {
+    "char": "妮",
+    "scenario_evidence": 0
+  },
+  "94F2": {
+    "char": "妳",
+    "scenario_evidence": 0
+  },
+  "94F8": {
+    "char": "妹",
+    "scenario_evidence": 0
+  },
+  "94FA": {
+    "char": "妻",
+    "scenario_evidence": 0
+  },
+  "9545": {
+    "char": "姆",
+    "scenario_evidence": 0
+  },
+  "9549": {
+    "char": "姊",
+    "scenario_evidence": 0
+  },
+  "954A": {
+    "char": "始",
+    "scenario_evidence": 0
+  },
+  "954F": {
+    "char": "姐",
+    "scenario_evidence": 0
+  },
+  "9550": {
+    "char": "姑",
+    "scenario_evidence": 0
+  },
+  "9552": {
+    "char": "姓",
+    "scenario_evidence": 0
+  },
+  "9553": {
+    "char": "委",
+    "scenario_evidence": 0
+  },
+  "9567": {
+    "char": "姨",
+    "scenario_evidence": 0
+  },
+  "956B": {
+    "char": "姬",
+    "scenario_evidence": 0
+  },
+  "957E": {
+    "char": "姿",
+    "scenario_evidence": 0
+  },
+  "9580": {
+    "char": "威",
+    "scenario_evidence": 0
+  },
+  "9582": {
+    "char": "娃",
+    "scenario_evidence": 0
+  },
+  "9597": {
+    "char": "娘",
+    "scenario_evidence": 0
+  },
+  "959A": {
+    "char": "娛",
+    "scenario_evidence": 0
+  },
+  "959B": {
+    "char": "娜",
+    "scenario_evidence": 0
+  },
+  "95C5": {
+    "char": "婆",
+    "scenario_evidence": 0
+  },
+  "95D9": {
+    "char": "婚",
+    "scenario_evidence": 0
+  },
+  "95E5": {
+    "char": "婦",
+    "scenario_evidence": 0
+  },
+  "95E9": {
+    "char": "婪",
+    "scenario_evidence": 0
+  },
+  "95FE": {
+    "char": "婿",
+    "scenario_evidence": 0
+  },
+  "9651": {
+    "char": "媒",
+    "scenario_evidence": 0
+  },
+  "9672": {
+    "char": "媳",
+    "scenario_evidence": 4
+  },
+  "967C": {
+    "char": "媽",
+    "scenario_evidence": 0
+  },
+  "968B": {
+    "char": "嫌",
+    "scenario_evidence": 0
+  },
+  "96A8": {
+    "char": "嫩",
+    "scenario_evidence": 0
+  },
+  "96C7": {
+    "char": "嬉",
+    "scenario_evidence": 0
+  },
+  "96CA": {
+    "char": "嬌",
+    "scenario_evidence": 0
+  },
+  "96EE": {
+    "char": "嬰",
+    "scenario_evidence": 2
+  },
+  "96F6": {
+    "char": "嬸",
+    "scenario_evidence": 1
+  },
+  "974E": {
+    "char": "子",
+    "scenario_evidence": 0
+  },
+  "9752": {
+    "char": "孔",
+    "scenario_evidence": 0
+  },
+  "9755": {
+    "char": "字",
+    "scenario_evidence": 0
+  },
+  "9756": {
+    "char": "存",
+    "scenario_evidence": 0
+  },
+  "9761": {
+    "char": "季",
+    "scenario_evidence": 0
+  },
+  "9762": {
+    "char": "孤",
+    "scenario_evidence": 0
+  },
+  "9767": {
+    "char": "孩",
+    "scenario_evidence": 0
+  },
+  "9769": {
+    "char": "孫",
+    "scenario_evidence": 0
+  },
+  "9776": {
+    "char": "學",
+    "scenario_evidence": 0
+  },
+  "9781": {
+    "char": "它",
+    "scenario_evidence": 0
+  },
+  "9783": {
+    "char": "宅",
+    "scenario_evidence": 0
+  },
+  "9785": {
+    "char": "宇",
+    "scenario_evidence": 0
+  },
+  "9786": {
+    "char": "守",
+    "scenario_evidence": 0
+  },
+  "9787": {
+    "char": "安",
+    "scenario_evidence": 0
+  },
+  "978A": {
+    "char": "完",
+    "scenario_evidence": 0
+  },
+  "978D": {
+    "char": "洪",
+    "scenario_evidence": 0
+  },
+  "9795": {
+    "char": "宗",
+    "scenario_evidence": 0
+  },
+  "9796": {
+    "char": "官",
+    "scenario_evidence": 0
+  },
+  "9797": {
+    "char": "宙",
+    "scenario_evidence": 0
+  },
+  "9798": {
+    "char": "定",
+    "scenario_evidence": 0
+  },
+  "9799": {
+    "char": "宛",
+    "scenario_evidence": 0
+  },
+  "979A": {
+    "char": "宜",
+    "scenario_evidence": 0
+  },
+  "97A0": {
+    "char": "客",
+    "scenario_evidence": 0
+  },
+  "97A1": {
+    "char": "宣",
+    "scenario_evidence": 0
+  },
+  "97A2": {
+    "char": "室",
+    "scenario_evidence": 0
+  },
+  "97AC": {
+    "char": "宮",
+    "scenario_evidence": 0
+  },
+  "97AE": {
+    "char": "宰",
+    "scenario_evidence": 0
+  },
+  "97B1": {
+    "char": "害",
+    "scenario_evidence": 0
+  },
+  "97B2": {
+    "char": "宴",
+    "scenario_evidence": 0
+  },
+  "97B4": {
+    "char": "家",
+    "scenario_evidence": 0
+  },
+  "97B7": {
+    "char": "容",
+    "scenario_evidence": 0
+  },
+  "97BD": {
+    "char": "宿",
+    "scenario_evidence": 0
+  },
+  "97C0": {
+    "char": "寂",
+    "scenario_evidence": 0
+  },
+  "97C2": {
+    "char": "寄",
+    "scenario_evidence": 0
+  },
+  "97C4": {
+    "char": "密",
+    "scenario_evidence": 0
+  },
+  "97C5": {
+    "char": "寇",
+    "scenario_evidence": 0
+  },
+  "97CA": {
+    "char": "富",
+    "scenario_evidence": 0
+  },
+  "97CE": {
+    "char": "寐",
+    "scenario_evidence": 0
+  },
+  "97D0": {
+    "char": "寒",
+    "scenario_evidence": 0
+  },
+  "97D1": {
+    "char": "寓",
+    "scenario_evidence": 0
+  },
+  "97DC": {
+    "char": "寞",
+    "scenario_evidence": 0
+  },
+  "97DD": {
+    "char": "察",
+    "scenario_evidence": 0
+  },
+  "97E0": {
+    "char": "寢",
+    "scenario_evidence": 0
+  },
+  "97E4": {
+    "char": "實",
+    "scenario_evidence": 0
+  },
+  "97E5": {
+    "char": "寧",
+    "scenario_evidence": 0
+  },
+  "97E7": {
+    "char": "審",
+    "scenario_evidence": 0
+  },
+  "97E9": {
+    "char": "寫",
+    "scenario_evidence": 0
+  },
+  "97EA": {
+    "char": "寬",
+    "scenario_evidence": 0
+  },
+  "97F3": {
+    "char": "寵",
+    "scenario_evidence": 0
+  },
+  "97F4": {
+    "char": "寶",
+    "scenario_evidence": 0
+  },
+  "97F6": {
+    "char": "寸",
+    "scenario_evidence": 0
+  },
+  "97F9": {
+    "char": "封",
+    "scenario_evidence": 0
+  },
+  "97FC": {
+    "char": "射",
+    "scenario_evidence": 0
+  },
+  "97FF": {
+    "char": "將",
+    "scenario_evidence": 0
+  },
+  "9840": {
+    "char": "專",
+    "scenario_evidence": 0
+  },
+  "9841": {
+    "char": "尉",
+    "scenario_evidence": 0
+  },
+  "9842": {
+    "char": "尊",
+    "scenario_evidence": 0
+  },
+  "9843": {
+    "char": "尋",
+    "scenario_evidence": 0
+  },
+  "9845": {
+    "char": "對",
+    "scenario_evidence": 0
+  },
+  "9846": {
+    "char": "導",
+    "scenario_evidence": 0
+  },
+  "9847": {
+    "char": "小",
+    "scenario_evidence": 0
+  },
+  "9849": {
+    "char": "少",
+    "scenario_evidence": 0
+  },
+  "984E": {
+    "char": "尖",
+    "scenario_evidence": 0
+  },
+  "9852": {
+    "char": "尚",
+    "scenario_evidence": 0
+  },
+  "985C": {
+    "char": "尤",
+    "scenario_evidence": 0
+  },
+  "9869": {
+    "char": "就",
+    "scenario_evidence": 0
+  },
+  "9872": {
+    "char": "尺",
+    "scenario_evidence": 0
+  },
+  "9874": {
+    "char": "尼",
+    "scenario_evidence": 0
+  },
+  "9876": {
+    "char": "尾",
+    "scenario_evidence": 0
+  },
+  "9878": {
+    "char": "局",
+    "scenario_evidence": 0
+  },
+  "9879": {
+    "char": "屁",
+    "scenario_evidence": 0
+  },
+  "987D": {
+    "char": "居",
+    "scenario_evidence": 0
+  },
+  "9880": {
+    "char": "屈",
+    "scenario_evidence": 0
+  },
+  "9883": {
+    "char": "屋",
+    "scenario_evidence": 0
+  },
+  "9885": {
+    "char": "屍",
+    "scenario_evidence": 0
+  },
+  "9887": {
+    "char": "屏",
+    "scenario_evidence": 0
+  },
+  "9888": {
+    "char": "屐",
+    "scenario_evidence": 0
+  },
+  "988D": {
+    "char": "展",
+    "scenario_evidence": 0
+  },
+  "9898": {
+    "char": "屠",
+    "scenario_evidence": 0
+  },
+  "989A": {
+    "char": "屢",
+    "scenario_evidence": 0
+  },
+  "989C": {
+    "char": "層",
+    "scenario_evidence": 0
+  },
+  "989D": {
+    "char": "履",
+    "scenario_evidence": 0
+  },
+  "98A4": {
+    "char": "屬",
+    "scenario_evidence": 0
+  },
+  "98A9": {
+    "char": "山",
+    "scenario_evidence": 0
+  },
+  "98CC": {
+    "char": "岔",
+    "scenario_evidence": 0
+  },
+  "98D9": {
+    "char": "岡",
+    "scenario_evidence": 0
+  },
+  "98E1": {
+    "char": "岩",
+    "scenario_evidence": 0
+  },
+  "98EB": {
+    "char": "岳",
+    "scenario_evidence": 0
+  },
+  "98F0": {
+    "char": "岸",
+    "scenario_evidence": 0
+  },
+  "9951": {
+    "char": "峙",
+    "scenario_evidence": 0
+  },
+  "9973": {
+    "char": "峻",
+    "scenario_evidence": 0
+  },
+  "997F": {
+    "char": "崇",
+    "scenario_evidence": 0
+  },
+  "998C": {
+    "char": "崔",
+    "scenario_evidence": 0
+  },
+  "998E": {
+    "char": "崖",
+    "scenario_evidence": 0
+  },
+  "99A1": {
+    "char": "崩",
+    "scenario_evidence": 0
+  },
+  "99C4": {
+    "char": "嵌",
+    "scenario_evidence": 0
+  },
+  "99C8": {
+    "char": "嵐",
+    "scenario_evidence": 0
+  },
+  "99FC": {
+    "char": "嶄",
+    "scenario_evidence": 0
+  },
+  "9A72": {
+    "char": "嶺",
+    "scenario_evidence": 0
+  },
+  "9A85": {
+    "char": "巍",
+    "scenario_evidence": 0
+  },
+  "9A95": {
+    "char": "川",
+    "scenario_evidence": 0
+  },
+  "9A96": {
+    "char": "州",
+    "scenario_evidence": 0
+  },
+  "9A99": {
+    "char": "巡",
+    "scenario_evidence": 0
+  },
+  "9A9A": {
+    "char": "巢",
+    "scenario_evidence": 0
+  },
+  "9A9D": {
+    "char": "工",
+    "scenario_evidence": 0
+  },
+  "9A9E": {
+    "char": "左",
+    "scenario_evidence": 0
+  },
+  "9A9F": {
+    "char": "巧",
+    "scenario_evidence": 0
+  },
+  "9AA0": {
+    "char": "巨",
+    "scenario_evidence": 0
+  },
+  "9AA3": {
+    "char": "巫",
+    "scenario_evidence": 4
+  },
+  "9AA6": {
+    "char": "差",
+    "scenario_evidence": 0
+  },
+  "9AA9": {
+    "char": "己",
+    "scenario_evidence": 0
+  },
+  "9AAA": {
+    "char": "已",
+    "scenario_evidence": 0
+  },
+  "9AAC": {
+    "char": "巴",
+    "scenario_evidence": 0
+  },
+  "9AAF": {
+    "char": "巷",
+    "scenario_evidence": 0
+  },
+  "9AB6": {
+    "char": "巾",
+    "scenario_evidence": 0
+  },
+  "9AB8": {
+    "char": "市",
+    "scenario_evidence": 0
+  },
+  "9AB9": {
+    "char": "布",
+    "scenario_evidence": 0
+  },
+  "9ABC": {
+    "char": "帆",
+    "scenario_evidence": 0
+  },
+  "9AC2": {
+    "char": "希",
+    "scenario_evidence": 0
+  },
+  "9ACB": {
+    "char": "帕",
+    "scenario_evidence": 0
+  },
+  "9AD3": {
+    "char": "帝",
+    "scenario_evidence": 0
+  },
+  "9ADB": {
+    "char": "帥",
+    "scenario_evidence": 0
+  },
+  "9AE1": {
+    "char": "師",
+    "scenario_evidence": 0
+  },
+  "9AE3": {
+    "char": "席",
+    "scenario_evidence": 0
+  },
+  "9AE9": {
+    "char": "帳",
+    "scenario_evidence": 0
+  },
+  "9AEC": {
+    "char": "帶",
+    "scenario_evidence": 0
+  },
+  "9AEE": {
+    "char": "常",
+    "scenario_evidence": 0
+  },
+  "9AF3": {
+    "char": "帽",
+    "scenario_evidence": 0
+  },
+  "9AFB": {
+    "char": "幅",
+    "scenario_evidence": 0
+  },
+  "9B4B": {
+    "char": "幕",
+    "scenario_evidence": 0
+  },
+  "9B55": {
+    "char": "幟",
+    "scenario_evidence": 0
+  },
+  "9B58": {
+    "char": "幢",
+    "scenario_evidence": 0
+  },
+  "9B59": {
+    "char": "幣",
+    "scenario_evidence": 0
+  },
+  "9B61": {
+    "char": "幫",
+    "scenario_evidence": 0
+  },
+  "9B69": {
+    "char": "平",
+    "scenario_evidence": 0
+  },
+  "9B6A": {
+    "char": "年",
+    "scenario_evidence": 0
+  },
+  "9B6E": {
+    "char": "幸",
+    "scenario_evidence": 0
+  },
+  "9B6F": {
+    "char": "幹",
+    "scenario_evidence": 0
+  },
+  "9B71": {
+    "char": "幻",
+    "scenario_evidence": 0
+  },
+  "9B72": {
+    "char": "幼",
+    "scenario_evidence": 0
+  },
+  "9B73": {
+    "char": "幽",
+    "scenario_evidence": 0
+  },
+  "9B74": {
+    "char": "幾",
+    "scenario_evidence": 0
+  },
+  "9B7D": {
+    "char": "庇",
+    "scenario_evidence": 0
+  },
+  "9B80": {
+    "char": "床",
+    "scenario_evidence": 0
+  },
+  "9B85": {
+    "char": "序",
+    "scenario_evidence": 0
+  },
+  "9B8B": {
+    "char": "底",
+    "scenario_evidence": 0
+  },
+  "9B8D": {
+    "char": "店",
+    "scenario_evidence": 0
+  },
+  "9B92": {
+    "char": "府",
+    "scenario_evidence": 0
+  },
+  "9B9C": {
+    "char": "度",
+    "scenario_evidence": 0
+  },
+  "9B9D": {
+    "char": "座",
+    "scenario_evidence": 0
+  },
+  "9BA1": {
+    "char": "庫",
+    "scenario_evidence": 0
+  },
+  "9BA3": {
+    "char": "庭",
+    "scenario_evidence": 0
+  },
+  "9BAB": {
+    "char": "庵",
+    "scenario_evidence": 0
+  },
+  "9BAD": {
+    "char": "康",
+    "scenario_evidence": 0
+  },
+  "9BAE": {
+    "char": "庸",
+    "scenario_evidence": 0
+  },
+  "9BB8": {
+    "char": "廂",
+    "scenario_evidence": 0
+  },
+  "9BC0": {
+    "char": "廊",
+    "scenario_evidence": 0
+  },
+  "9BD0": {
+    "char": "廚",
+    "scenario_evidence": 0
+  },
+  "9BD6": {
+    "char": "廠",
+    "scenario_evidence": 0
+  },
+  "9BD8": {
+    "char": "廢",
+    "scenario_evidence": 0
+  },
+  "9BD9": {
+    "char": "廣",
+    "scenario_evidence": 0
+  },
+  "9BE9": {
+    "char": "廳",
+    "scenario_evidence": 0
+  },
+  "9BEC": {
+    "char": "延",
+    "scenario_evidence": 0
+  },
+  "9BF0": {
+    "char": "建",
+    "scenario_evidence": 0
+  },
+  "9BF9": {
+    "char": "弄",
+    "scenario_evidence": 0
+  },
+  "9C44": {
+    "char": "式",
+    "scenario_evidence": 0
+  },
+  "9C48": {
+    "char": "弓",
+    "scenario_evidence": 0
+  },
+  "9C4A": {
+    "char": "引",
+    "scenario_evidence": 0
+  },
+  "9C4C": {
+    "char": "弗",
+    "scenario_evidence": 0
+  },
+  "9C50": {
+    "char": "弛",
+    "scenario_evidence": 0
+  },
+  "9C54": {
+    "char": "弟",
+    "scenario_evidence": 0
+  },
+  "9C5C": {
+    "char": "弧",
+    "scenario_evidence": 0
+  },
+  "9C5E": {
+    "char": "弩",
+    "scenario_evidence": 0
+  },
+  "9C66": {
+    "char": "弱",
+    "scenario_evidence": 0
+  },
+  "9C6A": {
+    "char": "張",
+    "scenario_evidence": 0
+  },
+  "9C6C": {
+    "char": "強",
+    "scenario_evidence": 0
+  },
+  "9C7D": {
+    "char": "彈",
+    "scenario_evidence": 0
+  },
+  "9C81": {
+    "char": "彌",
+    "scenario_evidence": 0
+  },
+  "9C83": {
+    "char": "彎",
+    "scenario_evidence": 0
+  },
+  "9C8C": {
+    "char": "彗",
+    "scenario_evidence": 0
+  },
+  "9C97": {
+    "char": "形",
+    "scenario_evidence": 0
+  },
+  "9C9E": {
+    "char": "彩",
+    "scenario_evidence": 0
+  },
+  "9C9F": {
+    "char": "彪",
+    "scenario_evidence": 0
+  },
+  "9CA5": {
+    "char": "彰",
+    "scenario_evidence": 0
+  },
+  "9CA6": {
+    "char": "影",
+    "scenario_evidence": 0
+  },
+  "9CB1": {
+    "char": "彼",
+    "scenario_evidence": 0
+  },
+  "9CB5": {
+    "char": "往",
+    "scenario_evidence": 0
+  },
+  "9CB6": {
+    "char": "徵",
+    "scenario_evidence": 0
+  },
+  "9CBA": {
+    "char": "待",
+    "scenario_evidence": 0
+  },
+  "9CBD": {
+    "char": "很",
+    "scenario_evidence": 0
+  },
+  "9CBF": {
+    "char": "徊",
+    "scenario_evidence": 0
+  },
+  "9CC0": {
+    "char": "律",
+    "scenario_evidence": 0
+  },
+  "9CC1": {
+    "char": "後",
+    "scenario_evidence": 0
+  },
+  "9CC6": {
+    "char": "徑",
+    "scenario_evidence": 0
+  },
+  "9CC7": {
+    "char": "徒",
+    "scenario_evidence": 0
+  },
+  "9CCC": {
+    "char": "得",
+    "scenario_evidence": 0
+  },
+  "9CCD": {
+    "char": "徘",
+    "scenario_evidence": 0
+  },
+  "9CCE": {
+    "char": "徙",
+    "scenario_evidence": 0
+  },
+  "9CD3": {
+    "char": "從",
+    "scenario_evidence": 0
+  },
+  "9CD6": {
+    "char": "御",
+    "scenario_evidence": 1
+  },
+  "9CDE": {
+    "char": "復",
+    "scenario_evidence": 0
+  },
+  "9CDF": {
+    "char": "循",
+    "scenario_evidence": 0
+  },
+  "9CE3": {
+    "char": "微",
+    "scenario_evidence": 0
+  },
+  "9CEA": {
+    "char": "徵",
+    "scenario_evidence": 0
+  },
+  "9CEC": {
+    "char": "德",
+    "scenario_evidence": 0
+  },
+  "9CEE": {
+    "char": "徹",
+    "scenario_evidence": 0
+  },
+  "9CF2": {
+    "char": "徽",
+    "scenario_evidence": 0
+  },
+  "9CF8": {
+    "char": "心",
+    "scenario_evidence": 0
+  },
+  "9CFA": {
+    "char": "必",
+    "scenario_evidence": 0
+  },
+  "9D41": {
+    "char": "忌",
+    "scenario_evidence": 0
+  },
+  "9D42": {
+    "char": "忍",
+    "scenario_evidence": 0
+  },
+  "9D4C": {
+    "char": "志",
+    "scenario_evidence": 0
+  },
+  "9D4D": {
+    "char": "忘",
+    "scenario_evidence": 0
+  },
+  "9D4E": {
+    "char": "忙",
+    "scenario_evidence": 0
+  },
+  "9D55": {
+    "char": "忠",
+    "scenario_evidence": 0
+  },
+  "9D60": {
+    "char": "快",
+    "scenario_evidence": 0
+  },
+  "9D6A": {
+    "char": "念",
+    "scenario_evidence": 0
+  },
+  "9D72": {
+    "char": "忽",
+    "scenario_evidence": 0
+  },
+  "9D83": {
+    "char": "怎",
+    "scenario_evidence": 0
+  },
+  "9D87": {
+    "char": "怒",
+    "scenario_evidence": 0
+  },
+  "9D8A": {
+    "char": "怕",
+    "scenario_evidence": 0
+  },
+  "9D8B": {
+    "char": "怖",
+    "scenario_evidence": 0
+  },
+  "9D92": {
+    "char": "思",
+    "scenario_evidence": 0
+  },
+  "9D9A": {
+    "char": "急",
+    "scenario_evidence": 0
+  },
+  "9D9C": {
+    "char": "性",
+    "scenario_evidence": 0
+  },
+  "9D9D": {
+    "char": "怨",
+    "scenario_evidence": 0
+  },
+  "9D9F": {
+    "char": "怪",
+    "scenario_evidence": 0
+  },
+  "9DA4": {
+    "char": "怯",
+    "scenario_evidence": 0
+  },
+  "9DBB": {
+    "char": "恆",
+    "scenario_evidence": 0
+  },
+  "9DC5": {
+    "char": "恐",
+    "scenario_evidence": 0
+  },
+  "9DCA": {
+    "char": "恕",
+    "scenario_evidence": 4
+  },
+  "9DCE": {
+    "char": "恙",
+    "scenario_evidence": 5
+  },
+  "9DD7": {
+    "char": "恢",
+    "scenario_evidence": 0
+  },
+  "9DDA": {
+    "char": "恥",
+    "scenario_evidence": 0
+  },
+  "9DDD": {
+    "char": "恨",
+    "scenario_evidence": 0
+  },
+  "9DDE": {
+    "char": "恩",
+    "scenario_evidence": 0
+  },
+  "9DE2": {
+    "char": "恭",
+    "scenario_evidence": 0
+  },
+  "9DE4": {
+    "char": "息",
+    "scenario_evidence": 0
+  },
+  "9DE5": {
+    "char": "恰",
+    "scenario_evidence": 0
+  },
+  "9DF9": {
+    "char": "悄",
+    "scenario_evidence": 0
+  },
+  "9DFA": {
+    "char": "悅",
+    "scenario_evidence": 0
+  },
+  "9DFE": {
+    "char": "悉",
+    "scenario_evidence": 0
+  },
+  "9E42": {
+    "char": "悍",
+    "scenario_evidence": 0
+  },
+  "9E49": {
+    "char": "悔",
+    "scenario_evidence": 0
+  },
+  "9E54": {
+    "char": "悟",
+    "scenario_evidence": 0
+  },
+  "9E55": {
+    "char": "悠",
+    "scenario_evidence": 0
+  },
+  "9E58": {
+    "char": "患",
+    "scenario_evidence": 0
+  },
+  "9E5D": {
+    "char": "您",
+    "scenario_evidence": 0
+  },
+  "9E67": {
+    "char": "悲",
+    "scenario_evidence": 0
+  },
+  "9E6B": {
+    "char": "悶",
+    "scenario_evidence": 1
+  },
+  "9E7A": {
+    "char": "情",
+    "scenario_evidence": 0
+  },
+  "9E83": {
+    "char": "會",
+    "scenario_evidence": 0
+  },
+  "9E86": {
+    "char": "惑",
+    "scenario_evidence": 0
+  },
+  "9E8A": {
+    "char": "惕",
+    "scenario_evidence": 0
+  },
+  "9E91": {
+    "char": "惜",
+    "scenario_evidence": 0
+  },
+  "9E95": {
+    "char": "惠",
+    "scenario_evidence": 1
+  },
+  "9E96": {
+    "char": "惡",
+    "scenario_evidence": 0
+  },
+  "9EA6": {
+    "char": "惱",
+    "scenario_evidence": 0
+  },
+  "9EA8": {
+    "char": "想",
+    "scenario_evidence": 0
+  },
+  "9EAE": {
+    "char": "惹",
+    "scenario_evidence": 0
+  },
+  "9EB6": {
+    "char": "愁",
+    "scenario_evidence": 0
+  },
+  "9EBD": {
+    "char": "愈",
+    "scenario_evidence": 0
+  },
+  "9EBE": {
+    "char": "愉",
+    "scenario_evidence": 0
+  },
+  "9EC4": {
+    "char": "意",
+    "scenario_evidence": 0
+  },
+  "9ECA": {
+    "char": "愕",
+    "scenario_evidence": 1
+  },
+  "9ECF": {
+    "char": "愚",
+    "scenario_evidence": 0
+  },
+  "9ED0": {
+    "char": "愛",
+    "scenario_evidence": 0
+  },
+  "9ED4": {
+    "char": "感",
+    "scenario_evidence": 0
+  },
+  "9EDC": {
+    "char": "愧",
+    "scenario_evidence": 0
+  },
+  "9EF9": {
+    "char": "栗",
+    "scenario_evidence": 0
+  },
+  "9EFD": {
+    "char": "慈",
+    "scenario_evidence": 0
+  },
+  "9F40": {
+    "char": "態",
+    "scenario_evidence": 0
+  },
+  "9F41": {
+    "char": "慌",
+    "scenario_evidence": 0
+  },
+  "9F43": {
+    "char": "慎",
+    "scenario_evidence": 0
+  },
+  "9F4A": {
+    "char": "慕",
+    "scenario_evidence": 0
+  },
+  "9F4D": {
+    "char": "慘",
+    "scenario_evidence": 0
+  },
+  "9F4F": {
+    "char": "慚",
+    "scenario_evidence": 0
+  },
+  "9F57": {
+    "char": "慢",
+    "scenario_evidence": 0
+  },
+  "9F58": {
+    "char": "慣",
+    "scenario_evidence": 0
+  },
+  "9F5C": {
+    "char": "慧",
+    "scenario_evidence": 0
+  },
+  "9F5D": {
+    "char": "慨",
+    "scenario_evidence": 0
+  },
+  "9F63": {
+    "char": "慮",
+    "scenario_evidence": 0
+  },
+  "9F65": {
+    "char": "慰",
+    "scenario_evidence": 0
+  },
+  "9F6B": {
+    "char": "慶",
+    "scenario_evidence": 0
+  },
+  "9F73": {
+    "char": "慾",
+    "scenario_evidence": 0
+  },
+  "9F77": {
+    "char": "憂",
+    "scenario_evidence": 0
+  },
+  "9F7F": {
+    "char": "憊",
+    "scenario_evidence": 0
+  },
+  "9F85": {
+    "char": "憐",
+    "scenario_evidence": 0
+  },
+  "9F86": {
+    "char": "憑",
+    "scenario_evidence": 0
+  },
+  "9F99": {
+    "char": "憤",
+    "scenario_evidence": 0
+  },
+  "9F9C": {
+    "char": "憧",
+    "scenario_evidence": 0
+  },
+  "9F9E": {
+    "char": "憩",
+    "scenario_evidence": 0
+  },
+  "9FA1": {
+    "char": "憬",
+    "scenario_evidence": 0
+  },
+  "9FAB": {
+    "char": "憶",
+    "scenario_evidence": 0
+  },
+  "9FB3": {
+    "char": "憾",
+    "scenario_evidence": 0
+  },
+  "9FB7": {
+    "char": "懂",
+    "scenario_evidence": 0
+  },
+  "9FBC": {
+    "char": "懇",
+    "scenario_evidence": 0
+  },
+  "9FBD": {
+    "char": "懈",
+    "scenario_evidence": 0
+  },
+  "9FBE": {
+    "char": "應",
+    "scenario_evidence": 0
+  },
+  "9FE7": {
+    "char": "懲",
+    "scenario_evidence": 0
+  },
+  "9FEB": {
+    "char": "懶",
+    "scenario_evidence": 0
+  },
+  "9FEC": {
+    "char": "懷",
+    "scenario_evidence": 0
+  },
+  "9FED": {
+    "char": "懸",
+    "scenario_evidence": 0
+  },
+  "9FF1": {
+    "char": "懼",
+    "scenario_evidence": 0
+  },
+  "9FF3": {
+    "char": "懾",
+    "scenario_evidence": 0
+  },
+  "9FF5": {
+    "char": "戀",
+    "scenario_evidence": 0
+  },
+  "A045": {
+    "char": "成",
+    "scenario_evidence": 0
+  },
+  "A046": {
+    "char": "我",
+    "scenario_evidence": 0
+  },
+  "A047": {
+    "char": "戒",
+    "scenario_evidence": 0
+  },
+  "A04B": {
+    "char": "或",
+    "scenario_evidence": 0
+  },
+  "A05F": {
+    "char": "截",
+    "scenario_evidence": 0
+  },
+  "A063": {
+    "char": "戮",
+    "scenario_evidence": 0
+  },
+  "A065": {
+    "char": "戰",
+    "scenario_evidence": 0
+  },
+  "A067": {
+    "char": "戲",
+    "scenario_evidence": 0
+  },
+  "A069": {
+    "char": "戴",
+    "scenario_evidence": 0
+  },
+  "A06B": {
+    "char": "戶",
+    "scenario_evidence": 0
+  },
+  "A074": {
+    "char": "房",
+    "scenario_evidence": 0
+  },
+  "A075": {
+    "char": "所",
+    "scenario_evidence": 0
+  },
+  "A07C": {
+    "char": "扇",
+    "scenario_evidence": 0
+  },
+  "A07E": {
+    "char": "扉",
+    "scenario_evidence": 0
+  },
+  "A080": {
+    "char": "手",
+    "scenario_evidence": 0
+  },
+  "A082": {
+    "char": "才",
+    "scenario_evidence": 0
+  },
+  "A083": {
+    "char": "扎",
+    "scenario_evidence": 0
+  },
+  "A088": {
+    "char": "打",
+    "scenario_evidence": 0
+  },
+  "A089": {
+    "char": "扔",
+    "scenario_evidence": 0
+  },
+  "A08D": {
+    "char": "托",
+    "scenario_evidence": 0
+  },
+  "A098": {
+    "char": "扣",
+    "scenario_evidence": 0
+  },
+  "A0A2": {
+    "char": "扭",
+    "scenario_evidence": 0
+  },
+  "A0A3": {
+    "char": "扮",
+    "scenario_evidence": 0
+  },
+  "A0A4": {
+    "char": "扯",
+    "scenario_evidence": 0
+  },
+  "A0B3": {
+    "char": "找",
+    "scenario_evidence": 0
+  },
+  "A0B4": {
+    "char": "承",
+    "scenario_evidence": 0
+  },
+  "A0B5": {
+    "char": "技",
+    "scenario_evidence": 0
+  },
+  "A0BF": {
+    "char": "把",
+    "scenario_evidence": 0
+  },
+  "A0C6": {
+    "char": "抑",
+    "scenario_evidence": 0
+  },
+  "A0C7": {
+    "char": "抒",
+    "scenario_evidence": 0
+  },
+  "A0C8": {
+    "char": "抓",
+    "scenario_evidence": 0
+  },
+  "A0CA": {
+    "char": "投",
+    "scenario_evidence": 0
+  },
+  "A0CB": {
+    "char": "抖",
+    "scenario_evidence": 0
+  },
+  "A0CC": {
+    "char": "抗",
+    "scenario_evidence": 0
+  },
+  "A0CD": {
+    "char": "折",
+    "scenario_evidence": 0
+  },
+  "A0E0": {
+    "char": "披",
+    "scenario_evidence": 0
+  },
+  "A0E1": {
+    "char": "抬",
+    "scenario_evidence": 0
+  },
+  "A0E6": {
+    "char": "抱",
+    "scenario_evidence": 0
+  },
+  "A0EA": {
+    "char": "抵",
+    "scenario_evidence": 0
+  },
+  "A0EE": {
+    "char": "抹",
+    "scenario_evidence": 0
+  },
+  "A0F1": {
+    "char": "押",
+    "scenario_evidence": 0
+  },
+  "A0F2": {
+    "char": "抽",
+    "scenario_evidence": 0
+  },
+  "A0FE": {
+    "char": "拉",
+    "scenario_evidence": 0
+  },
+  "A140": {
+    "char": "拋",
+    "scenario_evidence": 0
+  },
+  "A141": {
+    "char": "心",
+    "scenario_evidence": 0
+  },
+  "A142": {
+    "char": "拍",
+    "scenario_evidence": 0
+  },
+  "A145": {
+    "char": "旋",
+    "scenario_evidence": 0
+  },
+  "A147": {
+    "char": "拒",
+    "scenario_evidence": 0
+  },
+  "A149": {
+    "char": "拔",
+    "scenario_evidence": 0
+  },
+  "A14C": {
+    "char": "拗",
+    "scenario_evidence": 0
+  },
+  "A14D": {
+    "char": "拘",
+    "scenario_evidence": 0
+  },
+  "A150": {
+    "char": "招",
+    "scenario_evidence": 0
+  },
+  "A151": {
+    "char": "拜",
+    "scenario_evidence": 0
+  },
+  "A161": {
+    "char": "括",
+    "scenario_evidence": 0
+  },
+  "A168": {
+    "char": "拳",
+    "scenario_evidence": 0
+  },
+  "A171": {
+    "char": "拼",
+    "scenario_evidence": 0
+  },
+  "A173": {
+    "char": "拾",
+    "scenario_evidence": 0
+  },
+  "A174": {
+    "char": "拿",
+    "scenario_evidence": 0
+  },
+  "A176": {
+    "char": "持",
+    "scenario_evidence": 0
+  },
+  "A17C": {
+    "char": "指",
+    "scenario_evidence": 0
+  },
+  "A17E": {
+    "char": "按",
+    "scenario_evidence": 0
+  },
+  "A186": {
+    "char": "挑",
+    "scenario_evidence": 0
+  },
+  "A18B": {
+    "char": "挖",
+    "scenario_evidence": 0
+  },
+  "A18C": {
+    "char": "挨",
+    "scenario_evidence": 0
+  },
+  "A18F": {
+    "char": "挫",
+    "scenario_evidence": 0
+  },
+  "A193": {
+    "char": "振",
+    "scenario_evidence": 0
+  },
+  "A19E": {
+    "char": "挺",
+    "scenario_evidence": 0
+  },
+  "A1A1": {
+    "char": "挽",
+    "scenario_evidence": 0
+  },
+  "A1AA": {
+    "char": "捆",
+    "scenario_evidence": 0
+  },
+  "A1AD": {
+    "char": "捉",
+    "scenario_evidence": 0
+  },
+  "A1B3": {
+    "char": "捏",
+    "scenario_evidence": 0
+  },
+  "A1B4": {
+    "char": "捐",
+    "scenario_evidence": 0
+  },
+  "A1B9": {
+    "char": "捕",
+    "scenario_evidence": 0
+  },
+  "A1CC": {
+    "char": "捨",
+    "scenario_evidence": 1
+  },
+  "A1D6": {
+    "char": "捲",
+    "scenario_evidence": 0
+  },
+  "A1DB": {
+    "char": "捷",
+    "scenario_evidence": 0
+  },
+  "A1DF": {
+    "char": "捻",
+    "scenario_evidence": 0
+  },
+  "A1E7": {
+    "char": "掃",
+    "scenario_evidence": 0
+  },
+  "A1EC": {
+    "char": "授",
+    "scenario_evidence": 0
+  },
+  "A1ED": {
+    "char": "掉",
+    "scenario_evidence": 0
+  },
+  "A1F0": {
+    "char": "掌",
+    "scenario_evidence": 0
+  },
+  "A1F6": {
+    "char": "排",
+    "scenario_evidence": 0
+  },
+  "A1FC": {
+    "char": "掘",
+    "scenario_evidence": 0
+  },
+  "A1FD": {
+    "char": "掙",
+    "scenario_evidence": 0
+  },
+  "A1FF": {
+    "char": "掛",
+    "scenario_evidence": 0
+  },
+  "A244": {
+    "char": "掠",
+    "scenario_evidence": 0
+  },
+  "A245": {
+    "char": "採",
+    "scenario_evidence": 0
+  },
+  "A246": {
+    "char": "探",
+    "scenario_evidence": 0
+  },
+  "A249": {
+    "char": "接",
+    "scenario_evidence": 0
+  },
+  "A24B": {
+    "char": "控",
+    "scenario_evidence": 0
+  },
+  "A24C": {
+    "char": "推",
+    "scenario_evidence": 0
+  },
+  "A24D": {
+    "char": "掩",
+    "scenario_evidence": 0
+  },
+  "A24E": {
+    "char": "措",
+    "scenario_evidence": 0
+  },
+  "A26D": {
+    "char": "揉",
+    "scenario_evidence": 0
+  },
+  "A273": {
+    "char": "描",
+    "scenario_evidence": 0
+  },
+  "A274": {
+    "char": "提",
+    "scenario_evidence": 0
+  },
+  "A276": {
+    "char": "插",
+    "scenario_evidence": 0
+  },
+  "A27E": {
+    "char": "揚",
+    "scenario_evidence": 0
+  },
+  "A27F": {
+    "char": "換",
+    "scenario_evidence": 0
+  },
+  "A285": {
+    "char": "握",
+    "scenario_evidence": 0
+  },
+  "A287": {
+    "char": "揣",
+    "scenario_evidence": 0
+  },
+  "A28E": {
+    "char": "揪",
+    "scenario_evidence": 2
+  },
+  "A291": {
+    "char": "揭",
+    "scenario_evidence": 0
+  },
+  "A292": {
+    "char": "揮",
+    "scenario_evidence": 0
+  },
+  "A298": {
+    "char": "援",
+    "scenario_evidence": 0
+  },
+  "A2AA": {
+    "char": "損",
+    "scenario_evidence": 0
+  },
+  "A2AC": {
+    "char": "搏",
+    "scenario_evidence": 0
+  },
+  "A2B3": {
+    "char": "搖",
+    "scenario_evidence": 0
+  },
+  "A2B4": {
+    "char": "搗",
+    "scenario_evidence": 0
+  },
+  "A2B9": {
+    "char": "搜",
+    "scenario_evidence": 0
+  },
+  "A2BB": {
+    "char": "搞",
+    "scenario_evidence": 0
+  },
+  "A2C9": {
+    "char": "搬",
+    "scenario_evidence": 0
+  },
+  "A2CA": {
+    "char": "搭",
+    "scenario_evidence": 0
+  },
+  "A2D3": {
+    "char": "搶",
+    "scenario_evidence": 0
+  },
+  "A2F5": {
+    "char": "摘",
+    "scenario_evidence": 0
+  },
+  "A346": {
+    "char": "摩",
+    "scenario_evidence": 0
+  },
+  "A34C": {
+    "char": "摯",
+    "scenario_evidence": 0
+  },
+  "A355": {
+    "char": "摸",
+    "scenario_evidence": 0
+  },
+  "A357": {
+    "char": "摺",
+    "scenario_evidence": 0
+  },
+  "A365": {
+    "char": "撈",
+    "scenario_evidence": 0
+  },
+  "A36D": {
+    "char": "撐",
+    "scenario_evidence": 0
+  },
+  "A36F": {
+    "char": "撒",
+    "scenario_evidence": 0
+  },
+  "A370": {
+    "char": "撓",
+    "scenario_evidence": 0
+  },
+  "A372": {
+    "char": "撕",
+    "scenario_evidence": 0
+  },
+  "A37B": {
+    "char": "撞",
+    "scenario_evidence": 0
+  },
+  "A381": {
+    "char": "撤",
+    "scenario_evidence": 0
+  },
+  "A382": {
+    "char": "撥",
+    "scenario_evidence": 0
+  },
+  "A388": {
+    "char": "撫",
+    "scenario_evidence": 0
+  },
+  "A389": {
+    "char": "撬",
+    "scenario_evidence": 0
+  },
+  "A38A": {
+    "char": "播",
+    "scenario_evidence": 0
+  },
+  "A38D": {
+    "char": "撰",
+    "scenario_evidence": 0
+  },
+  "A38F": {
+    "char": "撲",
+    "scenario_evidence": 0
+  },
+  "A399": {
+    "char": "撼",
+    "scenario_evidence": 0
+  },
+  "A39C": {
+    "char": "撿",
+    "scenario_evidence": 0
+  },
+  "A39E": {
+    "char": "擁",
+    "scenario_evidence": 0
+  },
+  "A3A2": {
+    "char": "擅",
+    "scenario_evidence": 0
+  },
+  "A3A4": {
+    "char": "擇",
+    "scenario_evidence": 0
+  },
+  "A3A7": {
+    "char": "擊",
+    "scenario_evidence": 0
+  },
+  "A3A8": {
+    "char": "擋",
+    "scenario_evidence": 0
+  },
+  "A3AA": {
+    "char": "操",
+    "scenario_evidence": 0
+  },
+  "A3AB": {
+    "char": "擎",
+    "scenario_evidence": 0
+  },
+  "A3B1": {
+    "char": "擔",
+    "scenario_evidence": 0
+  },
+  "A3B7": {
+    "char": "據",
+    "scenario_evidence": 0
+  },
+  "A3BD": {
+    "char": "擠",
+    "scenario_evidence": 0
+  },
+  "A3C3": {
+    "char": "擦",
+    "scenario_evidence": 0
+  },
+  "A3C9": {
+    "char": "擬",
+    "scenario_evidence": 0
+  },
+  "A3CF": {
+    "char": "擲",
+    "scenario_evidence": 0
+  },
+  "A3D1": {
+    "char": "擴",
+    "scenario_evidence": 0
+  },
+  "A3D7": {
+    "char": "擺",
+    "scenario_evidence": 0
+  },
+  "A3DB": {
+    "char": "擾",
+    "scenario_evidence": 0
+  },
+  "A3DD": {
+    "char": "攀",
+    "scenario_evidence": 2
+  },
+  "A3EC": {
+    "char": "攏",
+    "scenario_evidence": 0
+  },
+  "A3F1": {
+    "char": "攔",
+    "scenario_evidence": 0
+  },
+  "A3F9": {
+    "char": "攜",
+    "scenario_evidence": 0
+  },
+  "A3FA": {
+    "char": "攝",
+    "scenario_evidence": 0
+  },
+  "A3FE": {
+    "char": "拉",
+    "scenario_evidence": 0
+  },
+  "A441": {
+    "char": "攤",
+    "scenario_evidence": 0
+  },
+  "A449": {
+    "char": "攬",
+    "scenario_evidence": 0
+  },
+  "A44C": {
+    "char": "支",
+    "scenario_evidence": 0
+  },
+  "A453": {
+    "char": "收",
+    "scenario_evidence": 0
+  },
+  "A456": {
+    "char": "改",
+    "scenario_evidence": 0
+  },
+  "A458": {
+    "char": "攻",
+    "scenario_evidence": 0
+  },
+  "A45B": {
+    "char": "放",
+    "scenario_evidence": 0
+  },
+  "A45C": {
+    "char": "政",
+    "scenario_evidence": 0
+  },
+  "A462": {
+    "char": "故",
+    "scenario_evidence": 0
+  },
+  "A465": {
+    "char": "效",
+    "scenario_evidence": 0
+  },
+  "A46C": {
+    "char": "敏",
+    "scenario_evidence": 0
+  },
+  "A46E": {
+    "char": "救",
+    "scenario_evidence": 0
+  },
+  "A474": {
+    "char": "敗",
+    "scenario_evidence": 0
+  },
+  "A476": {
+    "char": "教",
+    "scenario_evidence": 0
+  },
+  "A47B": {
+    "char": "敞",
+    "scenario_evidence": 0
+  },
+  "A47F": {
+    "char": "敢",
+    "scenario_evidence": 0
+  },
+  "A480": {
+    "char": "散",
+    "scenario_evidence": 0
+  },
+  "A483": {
+    "char": "敦",
+    "scenario_evidence": 0
+  },
+  "A489": {
+    "char": "敬",
+    "scenario_evidence": 2
+  },
+  "A48F": {
+    "char": "敲",
+    "scenario_evidence": 0
+  },
+  "A491": {
+    "char": "整",
+    "scenario_evidence": 0
+  },
+  "A492": {
+    "char": "敵",
+    "scenario_evidence": 0
+  },
+  "A494": {
+    "char": "敷",
+    "scenario_evidence": 0
+  },
+  "A495": {
+    "char": "數",
+    "scenario_evidence": 0
+  },
+  "A4A4": {
+    "char": "文",
+    "scenario_evidence": 0
+  },
+  "A4AE": {
+    "char": "斑",
+    "scenario_evidence": 0
+  },
+  "A4B2": {
+    "char": "斕",
+    "scenario_evidence": 0
+  },
+  "A4B4": {
+    "char": "斗",
+    "scenario_evidence": 0
+  },
+  "A4B6": {
+    "char": "料",
+    "scenario_evidence": 0
+  },
+  "A4C1": {
+    "char": "斤",
+    "scenario_evidence": 0
+  },
+  "A4C2": {
+    "char": "斥",
+    "scenario_evidence": 0
+  },
+  "A4C4": {
+    "char": "斧",
+    "scenario_evidence": 0
+  },
+  "A4C9": {
+    "char": "斬",
+    "scenario_evidence": 0
+  },
+  "A4CC": {
+    "char": "斯",
+    "scenario_evidence": 0
+  },
+  "A4CD": {
+    "char": "新",
+    "scenario_evidence": 0
+  },
+  "A4D4": {
+    "char": "斷",
+    "scenario_evidence": 0
+  },
+  "A4D6": {
+    "char": "方",
+    "scenario_evidence": 0
+  },
+  "A4D9": {
+    "char": "於",
+    "scenario_evidence": 0
+  },
+  "A4DA": {
+    "char": "施",
+    "scenario_evidence": 0
+  },
+  "A4DE": {
+    "char": "旁",
+    "scenario_evidence": 0
+  },
+  "A4E2": {
+    "char": "旅",
+    "scenario_evidence": 0
+  },
+  "A4E8": {
+    "char": "旋",
+    "scenario_evidence": 0
+  },
+  "A4EC": {
+    "char": "族",
+    "scenario_evidence": 0
+  },
+  "A4F4": {
+    "char": "旗",
+    "scenario_evidence": 0
+  },
+  "A4FF": {
+    "char": "既",
+    "scenario_evidence": 0
+  },
+  "A542": {
+    "char": "日",
+    "scenario_evidence": 0
+  },
+  "A543": {
+    "char": "旦",
+    "scenario_evidence": 0
+  },
+  "A546": {
+    "char": "早",
+    "scenario_evidence": 0
+  },
+  "A54A": {
+    "char": "旭",
+    "scenario_evidence": 0
+  },
+  "A557": {
+    "char": "旺",
+    "scenario_evidence": 0
+  },
+  "A55D": {
+    "char": "昂",
+    "scenario_evidence": 0
+  },
+  "A561": {
+    "char": "昆",
+    "scenario_evidence": 0
+  },
+  "A562": {
+    "char": "昇",
+    "scenario_evidence": 0
+  },
+  "A569": {
+    "char": "明",
+    "scenario_evidence": 0
+  },
+  "A56A": {
+    "char": "昏",
+    "scenario_evidence": 0
+  },
+  "A56E": {
+    "char": "易",
+    "scenario_evidence": 0
+  },
+  "A56F": {
+    "char": "昔",
+    "scenario_evidence": 0
+  },
+  "A57A": {
+    "char": "星",
+    "scenario_evidence": 0
+  },
+  "A57B": {
+    "char": "映",
+    "scenario_evidence": 0
+  },
+  "A580": {
+    "char": "春",
+    "scenario_evidence": 1
+  },
+  "A582": {
+    "char": "昧",
+    "scenario_evidence": 1
+  },
+  "A583": {
+    "char": "昨",
+    "scenario_evidence": 0
+  },
+  "A588": {
+    "char": "顯",
+    "scenario_evidence": 0
+  },
+  "A58A": {
+    "char": "是",
+    "scenario_evidence": 0
+  },
+  "A59D": {
+    "char": "時",
+    "scenario_evidence": 0
+  },
+  "A59E": {
+    "char": "晃",
+    "scenario_evidence": 0
+  },
+  "A5B5": {
+    "char": "晚",
+    "scenario_evidence": 0
+  },
+  "A5C3": {
+    "char": "晨",
+    "scenario_evidence": 0
+  },
+  "A5C9": {
+    "char": "普",
+    "scenario_evidence": 0
+  },
+  "A5CA": {
+    "char": "景",
+    "scenario_evidence": 0
+  },
+  "A5CF": {
+    "char": "晴",
+    "scenario_evidence": 0
+  },
+  "A5D1": {
+    "char": "晶",
+    "scenario_evidence": 0
+  },
+  "A5D5": {
+    "char": "智",
+    "scenario_evidence": 0
+  },
+  "A5E2": {
+    "char": "暇",
+    "scenario_evidence": 0
+  },
+  "A5E3": {
+    "char": "暈",
+    "scenario_evidence": 0
+  },
+  "A5F1": {
+    "char": "暖",
+    "scenario_evidence": 0
+  },
+  "A5F2": {
+    "char": "暗",
+    "scenario_evidence": 0
+  },
+  "A5FD": {
+    "char": "暢",
+    "scenario_evidence": 0
+  },
+  "A646": {
+    "char": "暫",
+    "scenario_evidence": 0
+  },
+  "A64C": {
+    "char": "暱",
+    "scenario_evidence": 0
+  },
+  "A64F": {
+    "char": "暴",
+    "scenario_evidence": 0
+  },
+  "A661": {
+    "char": "歷",
+    "scenario_evidence": 0
+  },
+  "A664": {
+    "char": "曉",
+    "scenario_evidence": 0
+  },
+  "A671": {
+    "char": "曖",
+    "scenario_evidence": 0
+  },
+  "A674": {
+    "char": "曙",
+    "scenario_evidence": 0
+  },
+  "A67B": {
+    "char": "曠",
+    "scenario_evidence": 0
+  },
+  "A687": {
+    "char": "曬",
+    "scenario_evidence": 0
+  },
+  "A68D": {
+    "char": "曲",
+    "scenario_evidence": 0
+  },
+  "A68E": {
+    "char": "曳",
+    "scenario_evidence": 0
+  },
+  "A68F": {
+    "char": "更",
+    "scenario_evidence": 0
+  },
+  "A693": {
+    "char": "書",
+    "scenario_evidence": 0
+  },
+  "A694": {
+    "char": "曹",
+    "scenario_evidence": 0
+  },
+  "A697": {
+    "char": "曼",
+    "scenario_evidence": 0
+  },
+  "A699": {
+    "char": "曾",
+    "scenario_evidence": 0
+  },
+  "A69A": {
+    "char": "替",
+    "scenario_evidence": 0
+  },
+  "A69B": {
+    "char": "最",
+    "scenario_evidence": 0
+  },
+  "A69E": {
+    "char": "會",
+    "scenario_evidence": 0
+  },
+  "A6A3": {
+    "char": "月",
+    "scenario_evidence": 0
+  },
+  "A6A4": {
+    "char": "有",
+    "scenario_evidence": 0
+  },
+  "A6A6": {
+    "char": "朋",
+    "scenario_evidence": 0
+  },
+  "A6A8": {
+    "char": "服",
+    "scenario_evidence": 0
+  },
+  "A6B2": {
+    "char": "朗",
+    "scenario_evidence": 0
+  },
+  "A6B6": {
+    "char": "望",
+    "scenario_evidence": 0
+  },
+  "A6B8": {
+    "char": "朝",
+    "scenario_evidence": 0
+  },
+  "A6BA": {
+    "char": "期",
+    "scenario_evidence": 0
+  },
+  "A6C1": {
+    "char": "朦",
+    "scenario_evidence": 0
+  },
+  "A6C2": {
+    "char": "朧",
+    "scenario_evidence": 0
+  },
+  "A6C3": {
+    "char": "木",
+    "scenario_evidence": 0
+  },
+  "A6C5": {
+    "char": "未",
+    "scenario_evidence": 0
+  },
+  "A6C6": {
+    "char": "末",
+    "scenario_evidence": 0
+  },
+  "A6C7": {
+    "char": "本",
+    "scenario_evidence": 0
+  },
+  "A6C8": {
+    "char": "札",
+    "scenario_evidence": 1
+  },
+  "A6CC": {
+    "char": "朱",
+    "scenario_evidence": 0
+  },
+  "A6D0": {
+    "char": "朵",
+    "scenario_evidence": 0
+  },
+  "A6E1": {
+    "char": "杆",
+    "scenario_evidence": 0
+  },
+  "A6E9": {
+    "char": "李",
+    "scenario_evidence": 0
+  },
+  "A6EA": {
+    "char": "杏",
+    "scenario_evidence": 0
+  },
+  "A6EB": {
+    "char": "材",
+    "scenario_evidence": 0
+  },
+  "A6EC": {
+    "char": "村",
+    "scenario_evidence": 0
+  },
+  "A6F1": {
+    "char": "杖",
+    "scenario_evidence": 0
+  },
+  "A6F7": {
+    "char": "杜",
+    "scenario_evidence": 0
+  },
+  "A6FA": {
+    "char": "束",
+    "scenario_evidence": 0
+  },
+  "A74A": {
+    "char": "杯",
+    "scenario_evidence": 0
+  },
+  "A74C": {
+    "char": "東",
+    "scenario_evidence": 0
+  },
+  "A75A": {
+    "char": "板",
+    "scenario_evidence": 0
+  },
+  "A76B": {
+    "char": "析",
+    "scenario_evidence": 0
+  },
+  "A772": {
+    "char": "林",
+    "scenario_evidence": 0
+  },
+  "A775": {
+    "char": "枚",
+    "scenario_evidence": 0
+  },
+  "A777": {
+    "char": "果",
+    "scenario_evidence": 0
+  },
+  "A791": {
+    "char": "架",
+    "scenario_evidence": 0
+  },
+  "A79F": {
+    "char": "柄",
+    "scenario_evidence": 0
+  },
+  "A7AB": {
+    "char": "某",
+    "scenario_evidence": 0
+  },
+  "A7AE": {
+    "char": "染",
+    "scenario_evidence": 0
+  },
+  "A7AF": {
+    "char": "柔",
+    "scenario_evidence": 0
+  },
+  "A7C0": {
+    "char": "查",
+    "scenario_evidence": 0
+  },
+  "A7CA": {
+    "char": "柯",
+    "scenario_evidence": 0
+  },
+  "A7CC": {
+    "char": "柱",
+    "scenario_evidence": 0
+  },
+  "A7CE": {
+    "char": "柳",
+    "scenario_evidence": 0
+  },
+  "A7D0": {
+    "char": "柵",
+    "scenario_evidence": 0
+  },
+  "A7D5": {
+    "char": "旋",
+    "scenario_evidence": 0
+  },
+  "A7F0": {
+    "char": "栗",
+    "scenario_evidence": 0
+  },
+  "A7FA": {
+    "char": "校",
+    "scenario_evidence": 0
+  },
+  "A851": {
+    "char": "核",
+    "scenario_evidence": 0
+  },
+  "A852": {
+    "char": "根",
+    "scenario_evidence": 0
+  },
+  "A855": {
+    "char": "格",
+    "scenario_evidence": 0
+  },
+  "A856": {
+    "char": "栽",
+    "scenario_evidence": 0
+  },
+  "A85C": {
+    "char": "桃",
+    "scenario_evidence": 0
+  },
+  "A861": {
+    "char": "案",
+    "scenario_evidence": 0
+  },
+  "A865": {
+    "char": "桌",
+    "scenario_evidence": 0
+  },
+  "A86A": {
+    "char": "桑",
+    "scenario_evidence": 0
+  },
+  "A879": {
+    "char": "桶",
+    "scenario_evidence": 0
+  },
+  "A882": {
+    "char": "桿",
+    "scenario_evidence": 0
+  },
+  "A884": {
+    "char": "梁",
+    "scenario_evidence": 1
+  },
+  "A888": {
+    "char": "梅",
+    "scenario_evidence": 0
+  },
+  "A8A0": {
+    "char": "條",
+    "scenario_evidence": 0
+  },
+  "A8AB": {
+    "char": "梨",
+    "scenario_evidence": 0
+  },
+  "A8B0": {
+    "char": "梭",
+    "scenario_evidence": 0
+  },
+  "A8B2": {
+    "char": "機",
+    "scenario_evidence": 0
+  },
+  "A8B3": {
+    "char": "械",
+    "scenario_evidence": 0
+  },
+  "A8C7": {
+    "char": "棄",
+    "scenario_evidence": 0
+  },
+  "A8CC": {
+    "char": "棉",
+    "scenario_evidence": 0
+  },
+  "A8D0": {
+    "char": "棍",
+    "scenario_evidence": 0
+  },
+  "A8D5": {
+    "char": "棒",
+    "scenario_evidence": 0
+  },
+  "A8DB": {
+    "char": "棘",
+    "scenario_evidence": 0
+  },
+  "A8E2": {
+    "char": "棟",
+    "scenario_evidence": 0
+  },
+  "A8EA": {
+    "char": "棧",
+    "scenario_evidence": 0
+  },
+  "A8F1": {
+    "char": "森",
+    "scenario_evidence": 0
+  },
+  "A8F5": {
+    "char": "棲",
+    "scenario_evidence": 0
+  },
+  "A8F8": {
+    "char": "棵",
+    "scenario_evidence": 6
+  },
+  "A946": {
+    "char": "椅",
+    "scenario_evidence": 0
+  },
+  "A94E": {
+    "char": "植",
+    "scenario_evidence": 0
+  },
+  "A953": {
+    "char": "椒",
+    "scenario_evidence": 0
+  },
+  "A994": {
+    "char": "楓",
+    "scenario_evidence": 0
+  },
+  "A99B": {
+    "char": "楚",
+    "scenario_evidence": 0
+  },
+  "A9A1": {
+    "char": "楠",
+    "scenario_evidence": 0
+  },
+  "A9AE": {
+    "char": "業",
+    "scenario_evidence": 0
+  },
+  "A9B6": {
+    "char": "極",
+    "scenario_evidence": 0
+  },
+  "A9C3": {
+    "char": "概",
+    "scenario_evidence": 0
+  },
+  "A9D5": {
+    "char": "榔",
+    "scenario_evidence": 0
+  },
+  "A9E9": {
+    "char": "榨",
+    "scenario_evidence": 0
+  },
+  "A9EE": {
+    "char": "榭",
+    "scenario_evidence": 0
+  },
+  "A9EF": {
+    "char": "榮",
+    "scenario_evidence": 0
+  },
+  "A9F5": {
+    "char": "榴",
+    "scenario_evidence": 0
+  },
+  "AA4C": {
+    "char": "構",
+    "scenario_evidence": 0
+  },
+  "AA4D": {
+    "char": "槌",
+    "scenario_evidence": 0
+  },
+  "AA4E": {
+    "char": "槍",
+    "scenario_evidence": 0
+  },
+  "AA51": {
+    "char": "槐",
+    "scenario_evidence": 0
+  },
+  "AA7E": {
+    "char": "槽",
+    "scenario_evidence": 0
+  },
+  "AA83": {
+    "char": "樂",
+    "scenario_evidence": 0
+  },
+  "AA94": {
+    "char": "樓",
+    "scenario_evidence": 0
+  },
+  "AA9A": {
+    "char": "標",
+    "scenario_evidence": 0
+  },
+  "AAA2": {
+    "char": "模",
+    "scenario_evidence": 0
+  },
+  "AAA4": {
+    "char": "樣",
+    "scenario_evidence": 0
+  },
+  "AAB9": {
+    "char": "樸",
+    "scenario_evidence": 0
+  },
+  "AABA": {
+    "char": "樹",
+    "scenario_evidence": 0
+  },
+  "AACC": {
+    "char": "橋",
+    "scenario_evidence": 0
+  },
+  "AAD9": {
+    "char": "橘",
+    "scenario_evidence": 0
+  },
+  "AADA": {
+    "char": "橙",
+    "scenario_evidence": 0
+  },
+  "AAE0": {
+    "char": "機",
+    "scenario_evidence": 0
+  },
+  "AAE2": {
+    "char": "橡",
+    "scenario_evidence": 0
+  },
+  "AAEC": {
+    "char": "橫",
+    "scenario_evidence": 0
+  },
+  "AB41": {
+    "char": "檀",
+    "scenario_evidence": 0
+  },
+  "AB55": {
+    "char": "檔",
+    "scenario_evidence": 0
+  },
+  "AB63": {
+    "char": "檢",
+    "scenario_evidence": 0
+  },
+  "AB6D": {
+    "char": "檬",
+    "scenario_evidence": 0
+  },
+  "AB70": {
+    "char": "檯",
+    "scenario_evidence": 0
+  },
+  "AB79": {
+    "char": "檸",
+    "scenario_evidence": 0
+  },
+  "AB84": {
+    "char": "櫃",
+    "scenario_evidence": 0
+  },
+  "ABBC": {
+    "char": "櫻",
+    "scenario_evidence": 0
+  },
+  "ABC2": {
+    "char": "欄",
+    "scenario_evidence": 0
+  },
+  "ABC8": {
+    "char": "權",
+    "scenario_evidence": 0
+  },
+  "ABDE": {
+    "char": "欠",
+    "scenario_evidence": 1
+  },
+  "ABDF": {
+    "char": "次",
+    "scenario_evidence": 0
+  },
+  "ABE1": {
+    "char": "欣",
+    "scenario_evidence": 0
+  },
+  "ABF6": {
+    "char": "欸",
+    "scenario_evidence": 3
+  },
+  "ABF8": {
+    "char": "欺",
+    "scenario_evidence": 3
+  },
+  "ABFC": {
+    "char": "款",
+    "scenario_evidence": 0
+  },
+  "AC47": {
+    "char": "歉",
+    "scenario_evidence": 0
+  },
+  "AC4A": {
+    "char": "歌",
+    "scenario_evidence": 0
+  },
+  "AC4E": {
+    "char": "歐",
+    "scenario_evidence": 0
+  },
+  "AC5F": {
+    "char": "歡",
+    "scenario_evidence": 0
+  },
+  "AC60": {
+    "char": "止",
+    "scenario_evidence": 0
+  },
+  "AC61": {
+    "char": "正",
+    "scenario_evidence": 0
+  },
+  "AC62": {
+    "char": "此",
+    "scenario_evidence": 0
+  },
+  "AC63": {
+    "char": "步",
+    "scenario_evidence": 0
+  },
+  "AC64": {
+    "char": "武",
+    "scenario_evidence": 0
+  },
+  "AC68": {
+    "char": "歪",
+    "scenario_evidence": 1
+  },
+  "AC70": {
+    "char": "歲",
+    "scenario_evidence": 0
+  },
+  "AC75": {
+    "char": "歷",
+    "scenario_evidence": 0
+  },
+  "AC76": {
+    "char": "歸",
+    "scenario_evidence": 0
+  },
+  "AC79": {
+    "char": "死",
+    "scenario_evidence": 0
+  },
+  "AC84": {
+    "char": "殆",
+    "scenario_evidence": 0
+  },
+  "AC88": {
+    "char": "殊",
+    "scenario_evidence": 0
+  },
+  "AC94": {
+    "char": "殖",
+    "scenario_evidence": 0
+  },
+  "AC96": {
+    "char": "殘",
+    "scenario_evidence": 0
+  },
+  "ACB0": {
+    "char": "殲",
+    "scenario_evidence": 0
+  },
+  "ACB3": {
+    "char": "段",
+    "scenario_evidence": 0
+  },
+  "ACB8": {
+    "char": "殺",
+    "scenario_evidence": 0
+  },
+  "ACBA": {
+    "char": "殼",
+    "scenario_evidence": 0
+  },
+  "ACBD": {
+    "char": "殿",
+    "scenario_evidence": 0
+  },
+  "ACBE": {
+    "char": "毀",
+    "scenario_evidence": 0
+  },
+  "ACC3": {
+    "char": "毅",
+    "scenario_evidence": 0
+  },
+  "ACC9": {
+    "char": "毋",
+    "scenario_evidence": 0
+  },
+  "ACCB": {
+    "char": "母",
+    "scenario_evidence": 0
+  },
+  "ACCD": {
+    "char": "每",
+    "scenario_evidence": 0
+  },
+  "ACD0": {
+    "char": "毒",
+    "scenario_evidence": 0
+  },
+  "ACD2": {
+    "char": "比",
+    "scenario_evidence": 0
+  },
+  "ACD9": {
+    "char": "毛",
+    "scenario_evidence": 0
+  },
+  "ACE9": {
+    "char": "毫",
+    "scenario_evidence": 0
+  },
+  "ACED": {
+    "char": "毯",
+    "scenario_evidence": 0
+  },
+  "AD4F": {
+    "char": "民",
+    "scenario_evidence": 0
+  },
+  "AD54": {
+    "char": "氖",
+    "scenario_evidence": 0
+  },
+  "AD59": {
+    "char": "氛",
+    "scenario_evidence": 0
+  },
+  "AD61": {
+    "char": "氣",
+    "scenario_evidence": 0
+  },
+  "AD72": {
+    "char": "水",
+    "scenario_evidence": 0
+  },
+  "AD76": {
+    "char": "永",
+    "scenario_evidence": 0
+  },
+  "AD7F": {
+    "char": "汁",
+    "scenario_evidence": 0
+  },
+  "AD80": {
+    "char": "求",
+    "scenario_evidence": 0
+  },
+  "AD95": {
+    "char": "汗",
+    "scenario_evidence": 0
+  },
+  "AD9B": {
+    "char": "汝",
+    "scenario_evidence": 0
+  },
+  "AD9E": {
+    "char": "池",
+    "scenario_evidence": 0
+  },
+  "AD9F": {
+    "char": "污",
+    "scenario_evidence": 0
+  },
+  "ADA8": {
+    "char": "汪",
+    "scenario_evidence": 6
+  },
+  "ADB8": {
+    "char": "決",
+    "scenario_evidence": 0
+  },
+  "ADBB": {
+    "char": "汽",
+    "scenario_evidence": 0
+  },
+  "ADC7": {
+    "char": "沉",
+    "scenario_evidence": 0
+  },
+  "ADCA": {
+    "char": "沌",
+    "scenario_evidence": 0
+  },
+  "ADCE": {
+    "char": "沐",
+    "scenario_evidence": 0
+  },
+  "ADD0": {
+    "char": "沒",
+    "scenario_evidence": 0
+  },
+  "ADD4": {
+    "char": "衝",
+    "scenario_evidence": 0
+  },
+  "ADD7": {
+    "char": "沙",
+    "scenario_evidence": 0
+  },
+  "ADD9": {
+    "char": "裕",
+    "scenario_evidence": 0
+  },
+  "ADE9": {
+    "char": "沫",
+    "scenario_evidence": 0
+  },
+  "ADF1": {
+    "char": "河",
+    "scenario_evidence": 0
+  },
+  "ADF6": {
+    "char": "沸",
+    "scenario_evidence": 0
+  },
+  "ADF7": {
+    "char": "油",
+    "scenario_evidence": 0
+  },
+  "ADF9": {
+    "char": "治",
+    "scenario_evidence": 0
+  },
+  "ADFC": {
+    "char": "沾",
+    "scenario_evidence": 0
+  },
+  "ADFD": {
+    "char": "沿",
+    "scenario_evidence": 0
+  },
+  "ADFF": {
+    "char": "況",
+    "scenario_evidence": 0
+  },
+  "AE42": {
+    "char": "泄",
+    "scenario_evidence": 0
+  },
+  "AE47": {
+    "char": "泉",
+    "scenario_evidence": 0
+  },
+  "AE53": {
+    "char": "法",
+    "scenario_evidence": 0
+  },
+  "AE59": {
+    "char": "泛",
+    "scenario_evidence": 0
+  },
+  "AE5F": {
+    "char": "泡",
+    "scenario_evidence": 0
+  },
+  "AE60": {
+    "char": "波",
+    "scenario_evidence": 0
+  },
+  "AE63": {
+    "char": "泥",
+    "scenario_evidence": 0
+  },
+  "AE66": {
+    "char": "注",
+    "scenario_evidence": 0
+  },
+  "AE6E": {
+    "char": "泰",
+    "scenario_evidence": 0
+  },
+  "AE71": {
+    "char": "泳",
+    "scenario_evidence": 0
+  },
+  "AE7C": {
+    "char": "洄",
+    "scenario_evidence": 0
+  },
+  "AE83": {
+    "char": "洋",
+    "scenario_evidence": 0
+  },
+  "AE8F": {
+    "char": "洗",
+    "scenario_evidence": 0
+  },
+  "AE93": {
+    "char": "洛",
+    "scenario_evidence": 0
+  },
+  "AE96": {
+    "char": "洞",
+    "scenario_evidence": 0
+  },
+  "AEA2": {
+    "char": "洪",
+    "scenario_evidence": 0
+  },
+  "AEAE": {
+    "char": "洶",
+    "scenario_evidence": 0
+  },
+  "AEB0": {
+    "char": "洸",
+    "scenario_evidence": 0
+  },
+  "AEB3": {
+    "char": "活",
+    "scenario_evidence": 0
+  },
+  "AEB5": {
+    "char": "询",
+    "scenario_evidence": 0
+  },
+  "AEB6": {
+    "char": "派",
+    "scenario_evidence": 0
+  },
+  "AEB9": {
+    "char": "流",
+    "scenario_evidence": 0
+  },
+  "AECD": {
+    "char": "浪",
+    "scenario_evidence": 0
+  },
+  "AED1": {
+    "char": "浮",
+    "scenario_evidence": 0
+  },
+  "AED7": {
+    "char": "浴",
+    "scenario_evidence": 0
+  },
+  "AEDA": {
+    "char": "海",
+    "scenario_evidence": 0
+  },
+  "AEDB": {
+    "char": "浸",
+    "scenario_evidence": 1
+  },
+  "AEE8": {
+    "char": "涅",
+    "scenario_evidence": 0
+  },
+  "AEEB": {
+    "char": "消",
+    "scenario_evidence": 0
+  },
+  "AEEC": {
+    "char": "涉",
+    "scenario_evidence": 0
+  },
+  "AEF1": {
+    "char": "涎",
+    "scenario_evidence": 0
+  },
+  "AF44": {
+    "char": "液",
+    "scenario_evidence": 0
+  },
+  "AF47": {
+    "char": "涵",
+    "scenario_evidence": 0
+  },
+  "AF4E": {
+    "char": "涼",
+    "scenario_evidence": 0
+  },
+  "AF58": {
+    "char": "淆",
+    "scenario_evidence": 0
+  },
+  "AF59": {
+    "char": "淇",
+    "scenario_evidence": 0
+  },
+  "AF5D": {
+    "char": "淋",
+    "scenario_evidence": 0
+  },
+  "AF63": {
+    "char": "淑",
+    "scenario_evidence": 0
+  },
+  "AF6C": {
+    "char": "淚",
+    "scenario_evidence": 0
+  },
+  "AF73": {
+    "char": "淡",
+    "scenario_evidence": 0
+  },
+  "AF7A": {
+    "char": "淨",
+    "scenario_evidence": 0
+  },
+  "AF7B": {
+    "char": "淩",
+    "scenario_evidence": 0
+  },
+  "AF7E": {
+    "char": "淬",
+    "scenario_evidence": 0
+  },
+  "AF83": {
+    "char": "深",
+    "scenario_evidence": 0
+  },
+  "AF87": {
+    "char": "淵",
+    "scenario_evidence": 0
+  },
+  "AF89": {
+    "char": "混",
+    "scenario_evidence": 0
+  },
+  "AF8C": {
+    "char": "淺",
+    "scenario_evidence": 0
+  },
+  "AF8D": {
+    "char": "添",
+    "scenario_evidence": 0
+  },
+  "AF95": {
+    "char": "清",
+    "scenario_evidence": 0
+  },
+  "AF98": {
+    "char": "減",
+    "scenario_evidence": 0
+  },
+  "AF9E": {
+    "char": "渡",
+    "scenario_evidence": 0
+  },
+  "AFA3": {
+    "char": "渦",
+    "scenario_evidence": 0
+  },
+  "AFA9": {
+    "char": "測",
+    "scenario_evidence": 0
+  },
+  "AFAC": {
+    "char": "港",
+    "scenario_evidence": 0
+  },
+  "AFB1": {
+    "char": "渴",
+    "scenario_evidence": 0
+  },
+  "AFB5": {
+    "char": "游",
+    "scenario_evidence": 0
+  },
+  "AFB7": {
+    "char": "渺",
+    "scenario_evidence": 1
+  },
+  "AFBB": {
+    "char": "渾",
+    "scenario_evidence": 0
+  },
+  "AFC7": {
+    "char": "湊",
+    "scenario_evidence": 0
+  },
+  "AFD3": {
+    "char": "湖",
+    "scenario_evidence": 0
+  },
+  "AFD8": {
+    "char": "湛",
+    "scenario_evidence": 0
+  },
+  "AFE4": {
+    "char": "湧",
+    "scenario_evidence": 0
+  },
+  "AFEC": {
+    "char": "湯",
+    "scenario_evidence": 0
+  },
+  "B04D": {
+    "char": "源",
+    "scenario_evidence": 0
+  },
+  "B053": {
+    "char": "準",
+    "scenario_evidence": 0
+  },
+  "B059": {
+    "char": "溜",
+    "scenario_evidence": 0
+  },
+  "B05A": {
+    "char": "溝",
+    "scenario_evidence": 0
+  },
+  "B05F": {
+    "char": "溢",
+    "scenario_evidence": 0
+  },
+  "B067": {
+    "char": "溪",
+    "scenario_evidence": 0
+  },
+  "B068": {
+    "char": "溫",
+    "scenario_evidence": 0
+  },
+  "B06C": {
+    "char": "溯",
+    "scenario_evidence": 0
+  },
+  "B073": {
+    "char": "溶",
+    "scenario_evidence": 0
+  },
+  "B082": {
+    "char": "滅",
+    "scenario_evidence": 0
+  },
+  "B088": {
+    "char": "滋",
+    "scenario_evidence": 0
+  },
+  "B089": {
+    "char": "滌",
+    "scenario_evidence": 0
+  },
+  "B08E": {
+    "char": "滑",
+    "scenario_evidence": 0
+  },
+  "B0AC": {
+    "char": "滯",
+    "scenario_evidence": 0
+  },
+  "B0B1": {
+    "char": "滴",
+    "scenario_evidence": 0
+  },
+  "B0BB": {
+    "char": "滾",
+    "scenario_evidence": 0
+  },
+  "B0BC": {
+    "char": "滿",
+    "scenario_evidence": 0
+  },
+  "B0BF": {
+    "char": "漂",
+    "scenario_evidence": 0
+  },
+  "B0C3": {
+    "char": "漆",
+    "scenario_evidence": 0
+  },
+  "B0CC": {
+    "char": "漏",
+    "scenario_evidence": 0
+  },
+  "B0D1": {
+    "char": "演",
+    "scenario_evidence": 0
+  },
+  "B0DF": {
+    "char": "漢",
+    "scenario_evidence": 0
+  },
+  "B0E6": {
+    "char": "漩",
+    "scenario_evidence": 0
+  },
+  "B0E8": {
+    "char": "漫",
+    "scenario_evidence": 0
+  },
+  "B0EF": {
+    "char": "漲",
+    "scenario_evidence": 0
+  },
+  "B0F5": {
+    "char": "漸",
+    "scenario_evidence": 0
+  },
+  "B0FB": {
+    "char": "漾",
+    "scenario_evidence": 0
+  },
+  "B0FC": {
+    "char": "漿",
+    "scenario_evidence": 0
+  },
+  "B14E": {
+    "char": "潑",
+    "scenario_evidence": 0
+  },
+  "B151": {
+    "char": "潔",
+    "scenario_evidence": 0
+  },
+  "B155": {
+    "char": "潘",
+    "scenario_evidence": 0
+  },
+  "B158": {
+    "char": "潛",
+    "scenario_evidence": 0
+  },
+  "B161": {
+    "char": "潤",
+    "scenario_evidence": 0
+  },
+  "B16B": {
+    "char": "潮",
+    "scenario_evidence": 0
+  },
+  "B16D": {
+    "char": "潰",
+    "scenario_evidence": 0
+  },
+  "B17D": {
+    "char": "澀",
+    "scenario_evidence": 0
+  },
+  "B181": {
+    "char": "澄",
+    "scenario_evidence": 0
+  },
+  "B183": {
+    "char": "澆",
+    "scenario_evidence": 0
+  },
+  "B19E": {
+    "char": "澡",
+    "scenario_evidence": 0
+  },
+  "B1A1": {
+    "char": "澤",
+    "scenario_evidence": 0
+  },
+  "B1BD": {
+    "char": "激",
+    "scenario_evidence": 0
+  },
+  "B1BE": {
+    "char": "濁",
+    "scenario_evidence": 0
+  },
+  "B1C0": {
+    "char": "濃",
+    "scenario_evidence": 0
+  },
+  "B1D2": {
+    "char": "濕",
+    "scenario_evidence": 0
+  },
+  "B1DC": {
+    "char": "濟",
+    "scenario_evidence": 0
+  },
+  "B1E1": {
+    "char": "濤",
+    "scenario_evidence": 0
+  },
+  "B1E8": {
+    "char": "濫",
+    "scenario_evidence": 0
+  },
+  "B1EE": {
+    "char": "畔",
+    "scenario_evidence": 0
+  },
+  "B24E": {
+    "char": "瀑",
+    "scenario_evidence": 0
+  },
+  "B252": {
+    "char": "瀕",
+    "scenario_evidence": 0
+  },
+  "B25A": {
+    "char": "瀝",
+    "scenario_evidence": 0
+  },
+  "B28E": {
+    "char": "灑",
+    "scenario_evidence": 1
+  },
+  "B295": {
+    "char": "灘",
+    "scenario_evidence": 0
+  },
+  "B2A0": {
+    "char": "灣",
+    "scenario_evidence": 0
+  },
+  "B2A8": {
+    "char": "火",
+    "scenario_evidence": 0
+  },
+  "B2AD": {
+    "char": "灰",
+    "scenario_evidence": 0
+  },
+  "B2B9": {
+    "char": "灼",
+    "scenario_evidence": 0
+  },
+  "B2BA": {
+    "char": "災",
+    "scenario_evidence": 0
+  },
+  "B2CB": {
+    "char": "炎",
+    "scenario_evidence": 0
+  },
+  "B2CF": {
+    "char": "炒",
+    "scenario_evidence": 0
+  },
+  "B2D6": {
+    "char": "炙",
+    "scenario_evidence": 0
+  },
+  "B2E8": {
+    "char": "炫",
+    "scenario_evidence": 0
+  },
+  "B2EA": {
+    "char": "炭",
+    "scenario_evidence": 0
+  },
+  "B2EB": {
+    "char": "炮",
+    "scenario_evidence": 0
+  },
+  "B2F5": {
+    "char": "炸",
+    "scenario_evidence": 0
+  },
+  "B2F7": {
+    "char": "為",
+    "scenario_evidence": 0
+  },
+  "B345": {
+    "char": "烈",
+    "scenario_evidence": 0
+  },
+  "B34C": {
+    "char": "烏",
+    "scenario_evidence": 0
+  },
+  "B356": {
+    "char": "烙",
+    "scenario_evidence": 0
+  },
+  "B361": {
+    "char": "烤",
+    "scenario_evidence": 0
+  },
+  "B376": {
+    "char": "烹",
+    "scenario_evidence": 0
+  },
+  "B386": {
+    "char": "焉",
+    "scenario_evidence": 0
+  },
+  "B39E": {
+    "char": "無",
+    "scenario_evidence": 0
+  },
+  "B3A3": {
+    "char": "焦",
+    "scenario_evidence": 0
+  },
+  "B3AD": {
+    "char": "焰",
+    "scenario_evidence": 0
+  },
+  "B3B3": {
+    "char": "然",
+    "scenario_evidence": 0
+  },
+  "B3C6": {
+    "char": "煉",
+    "scenario_evidence": 0
+  },
+  "B3C9": {
+    "char": "煌",
+    "scenario_evidence": 0
+  },
+  "B3CB": {
+    "char": "煎",
+    "scenario_evidence": 0
+  },
+  "B3D6": {
+    "char": "煙",
+    "scenario_evidence": 0
+  },
+  "B3DB": {
+    "char": "煞",
+    "scenario_evidence": 0
+  },
+  "B3E4": {
+    "char": "照",
+    "scenario_evidence": 0
+  },
+  "B3E6": {
+    "char": "煩",
+    "scenario_evidence": 0
+  },
+  "B3EB": {
+    "char": "煮",
+    "scenario_evidence": 0
+  },
+  "B447": {
+    "char": "熊",
+    "scenario_evidence": 0
+  },
+  "B451": {
+    "char": "熔",
+    "scenario_evidence": 0
+  },
+  "B45C": {
+    "char": "熟",
+    "scenario_evidence": 0
+  },
+  "B46E": {
+    "char": "熱",
+    "scenario_evidence": 0
+  },
+  "B47B": {
+    "char": "熾",
+    "scenario_evidence": 0
+  },
+  "B480": {
+    "char": "燃",
+    "scenario_evidence": 0
+  },
+  "B485": {
+    "char": "燈",
+    "scenario_evidence": 0
+  },
+  "B486": {
+    "char": "燉",
+    "scenario_evidence": 0
+  },
+  "B48B": {
+    "char": "燎",
+    "scenario_evidence": 0
+  },
+  "B48F": {
+    "char": "燒",
+    "scenario_evidence": 0
+  },
+  "B496": {
+    "char": "燙",
+    "scenario_evidence": 0
+  },
+  "B49C": {
+    "char": "營",
+    "scenario_evidence": 0
+  },
+  "B4A2": {
+    "char": "燥",
+    "scenario_evidence": 0
+  },
+  "B4A3": {
+    "char": "燦",
+    "scenario_evidence": 0
+  },
+  "B4B1": {
+    "char": "燴",
+    "scenario_evidence": 0
+  },
+  "B4B9": {
+    "char": "燼",
+    "scenario_evidence": 0
+  },
+  "B4C2": {
+    "char": "爆",
+    "scenario_evidence": 0
+  },
+  "B4C9": {
+    "char": "爍",
+    "scenario_evidence": 0
+  },
+  "B4D7": {
+    "char": "爛",
+    "scenario_evidence": 0
+  },
+  "B4E6": {
+    "char": "爪",
+    "scenario_evidence": 0
+  },
+  "B4E8": {
+    "char": "爬",
+    "scenario_evidence": 0
+  },
+  "B4E9": {
+    "char": "爭",
+    "scenario_evidence": 0
+  },
+  "B4F1": {
+    "char": "爵",
+    "scenario_evidence": 0
+  },
+  "B4F2": {
+    "char": "父",
+    "scenario_evidence": 0
+  },
+  "B4F4": {
+    "char": "爸",
+    "scenario_evidence": 0
+  },
+  "B4F6": {
+    "char": "爺",
+    "scenario_evidence": 0
+  },
+  "B4F9": {
+    "char": "爽",
+    "scenario_evidence": 0
+  },
+  "B4FA": {
+    "char": "爾",
+    "scenario_evidence": 0
+  },
+  "B542": {
+    "char": "牆",
+    "scenario_evidence": 0
+  },
+  "B543": {
+    "char": "片",
+    "scenario_evidence": 0
+  },
+  "B544": {
+    "char": "版",
+    "scenario_evidence": 0
+  },
+  "B548": {
+    "char": "牌",
+    "scenario_evidence": 0
+  },
+  "B555": {
+    "char": "牙",
+    "scenario_evidence": 0
+  },
+  "B557": {
+    "char": "牛",
+    "scenario_evidence": 0
+  },
+  "B55C": {
+    "char": "牠",
+    "scenario_evidence": 0
+  },
+  "B55E": {
+    "char": "牢",
+    "scenario_evidence": 0
+  },
+  "B565": {
+    "char": "物",
+    "scenario_evidence": 0
+  },
+  "B56E": {
+    "char": "牲",
+    "scenario_evidence": 0
+  },
+  "B575": {
+    "char": "特",
+    "scenario_evidence": 0
+  },
+  "B579": {
+    "char": "牽",
+    "scenario_evidence": 0
+  },
+  "B5A3": {
+    "char": "犧",
+    "scenario_evidence": 0
+  },
+  "B5A8": {
+    "char": "犬",
+    "scenario_evidence": 0
+  },
+  "B5AB": {
+    "char": "犯",
+    "scenario_evidence": 0
+  },
+  "B5BC": {
+    "char": "狀",
+    "scenario_evidence": 0
+  },
+  "B5BE": {
+    "char": "狂",
+    "scenario_evidence": 0
+  },
+  "B5C0": {
+    "char": "狄",
+    "scenario_evidence": 0
+  },
+  "B5CC": {
+    "char": "狐",
+    "scenario_evidence": 0
+  },
+  "B5CE": {
+    "char": "狒",
+    "scenario_evidence": 0
+  },
+  "B5D3": {
+    "char": "狗",
+    "scenario_evidence": 0
+  },
+  "B5D5": {
+    "char": "狙",
+    "scenario_evidence": 0
+  },
+  "B5DC": {
+    "char": "狠",
+    "scenario_evidence": 0
+  },
+  "B5DD": {
+    "char": "狡",
+    "scenario_evidence": 0
+  },
+  "B5E5": {
+    "char": "狩",
+    "scenario_evidence": 0
+  },
+  "B5F4": {
+    "char": "狸",
+    "scenario_evidence": 0
+  },
+  "B5F5": {
+    "char": "狹",
+    "scenario_evidence": 0
+  },
+  "B5F8": {
+    "char": "狼",
+    "scenario_evidence": 0
+  },
+  "B657": {
+    "char": "猛",
+    "scenario_evidence": 0
+  },
+  "B658": {
+    "char": "猜",
+    "scenario_evidence": 0
+  },
+  "B665": {
+    "char": "猩",
+    "scenario_evidence": 0
+  },
+  "B67A": {
+    "char": "猾",
+    "scenario_evidence": 0
+  },
+  "B67B": {
+    "char": "猿",
+    "scenario_evidence": 0
+  },
+  "B680": {
+    "char": "獄",
+    "scenario_evidence": 0
+  },
+  "B681": {
+    "char": "獅",
+    "scenario_evidence": 0
+  },
+  "B68A": {
+    "char": "獎",
+    "scenario_evidence": 0
+  },
+  "B6A4": {
+    "char": "獨",
+    "scenario_evidence": 0
+  },
+  "B6AE": {
+    "char": "獲",
+    "scenario_evidence": 0
+  },
+  "B6B1": {
+    "char": "獵",
+    "scenario_evidence": 0
+  },
+  "B6B4": {
+    "char": "獸",
+    "scenario_evidence": 0
+  },
+  "B6B7": {
+    "char": "高",
+    "scenario_evidence": 0
+  },
+  "B6C0": {
+    "char": "玄",
+    "scenario_evidence": 0
+  },
+  "B6C3": {
+    "char": "率",
+    "scenario_evidence": 0
+  },
+  "B6C5": {
+    "char": "玉",
+    "scenario_evidence": 0
+  },
+  "B6C7": {
+    "char": "王",
+    "scenario_evidence": 0
+  },
+  "B6D2": {
+    "char": "玖",
+    "scenario_evidence": 2
+  },
+  "B6E5": {
+    "char": "玩",
+    "scenario_evidence": 0
+  },
+  "B6E7": {
+    "char": "玫",
+    "scenario_evidence": 1
+  },
+  "B6F7": {
+    "char": "玻",
+    "scenario_evidence": 0
+  },
+  "B6FC": {
+    "char": "珀",
+    "scenario_evidence": 0
+  },
+  "B746": {
+    "char": "珊",
+    "scenario_evidence": 0
+  },
+  "B749": {
+    "char": "珍",
+    "scenario_evidence": 0
+  },
+  "B75C": {
+    "char": "珠",
+    "scenario_evidence": 0
+  },
+  "B769": {
+    "char": "班",
+    "scenario_evidence": 0
+  },
+  "B77A": {
+    "char": "現",
+    "scenario_evidence": 0
+  },
+  "B77F": {
+    "char": "球",
+    "scenario_evidence": 0
+  },
+  "B781": {
+    "char": "琅",
+    "scenario_evidence": 0
+  },
+  "B782": {
+    "char": "理",
+    "scenario_evidence": 0
+  },
+  "B7A1": {
+    "char": "琥",
+    "scenario_evidence": 0
+  },
+  "B7A2": {
+    "char": "琦",
+    "scenario_evidence": 0
+  },
+  "B7A6": {
+    "char": "琪",
+    "scenario_evidence": 0
+  },
+  "B7AF": {
+    "char": "琳",
+    "scenario_evidence": 0
+  },
+  "B7B0": {
+    "char": "琴",
+    "scenario_evidence": 0
+  },
+  "B7B6": {
+    "char": "琺",
+    "scenario_evidence": 0
+  },
+  "B7D6": {
+    "char": "瑚",
+    "scenario_evidence": 0
+  },
+  "B7DA": {
+    "char": "瑞",
+    "scenario_evidence": 0
+  },
+  "B7DB": {
+    "char": "瑟",
+    "scenario_evidence": 0
+  },
+  "B7DF": {
+    "char": "瑣",
+    "scenario_evidence": 0
+  },
+  "B7E5": {
+    "char": "瑩",
+    "scenario_evidence": 0
+  },
+  "B7E6": {
+    "char": "瑪",
+    "scenario_evidence": 0
+  },
+  "B7EC": {
+    "char": "瑰",
+    "scenario_evidence": 1
+  },
+  "B7FF": {
+    "char": "璃",
+    "scenario_evidence": 0
+  },
+  "B86C": {
+    "char": "環",
+    "scenario_evidence": 0
+  },
+  "B886": {
+    "char": "瓊",
+    "scenario_evidence": 0
+  },
+  "B898": {
+    "char": "瓜",
+    "scenario_evidence": 1
+  },
+  "B8A2": {
+    "char": "瓦",
+    "scenario_evidence": 0
+  },
+  "B8B2": {
+    "char": "瓶",
+    "scenario_evidence": 0
+  },
+  "B8D4": {
+    "char": "甘",
+    "scenario_evidence": 0
+  },
+  "B8D6": {
+    "char": "甚",
+    "scenario_evidence": 0
+  },
+  "B8D8": {
+    "char": "甜",
+    "scenario_evidence": 0
+  },
+  "B8DB": {
+    "char": "生",
+    "scenario_evidence": 0
+  },
+  "B8DE": {
+    "char": "產",
+    "scenario_evidence": 0
+  },
+  "B8E2": {
+    "char": "甦",
+    "scenario_evidence": 0
+  },
+  "B8E4": {
+    "char": "用",
+    "scenario_evidence": 0
+  },
+  "B8E5": {
+    "char": "甩",
+    "scenario_evidence": 0
+  },
+  "B8EC": {
+    "char": "田",
+    "scenario_evidence": 0
+  },
+  "B8ED": {
+    "char": "由",
+    "scenario_evidence": 0
+  },
+  "B8EE": {
+    "char": "甲",
+    "scenario_evidence": 0
+  },
+  "B8EF": {
+    "char": "申",
+    "scenario_evidence": 0
+  },
+  "B8F3": {
+    "char": "男",
+    "scenario_evidence": 0
+  },
+  "B948": {
+    "char": "界",
+    "scenario_evidence": 0
+  },
+  "B94B": {
+    "char": "畏",
+    "scenario_evidence": 0
+  },
+  "B950": {
+    "char": "畔",
+    "scenario_evidence": 0
+  },
+  "B955": {
+    "char": "留",
+    "scenario_evidence": 0
+  },
+  "B958": {
+    "char": "畜",
+    "scenario_evidence": 0
+  },
+  "B95E": {
+    "char": "畢",
+    "scenario_evidence": 0
+  },
+  "B961": {
+    "char": "略",
+    "scenario_evidence": 0
+  },
+  "B966": {
+    "char": "番",
+    "scenario_evidence": 0
+  },
+  "B967": {
+    "char": "畫",
+    "scenario_evidence": 0
+  },
+  "B96C": {
+    "char": "異",
+    "scenario_evidence": 0
+  },
+  "B972": {
+    "char": "當",
+    "scenario_evidence": 0
+  },
+  "B986": {
+    "char": "疊",
+    "scenario_evidence": 0
+  },
+  "B98B": {
+    "char": "疏",
+    "scenario_evidence": 0
+  },
+  "B98D": {
+    "char": "疑",
+    "scenario_evidence": 0
+  },
+  "B9AE": {
+    "char": "疲",
+    "scenario_evidence": 0
+  },
+  "B9B8": {
+    "char": "疼",
+    "scenario_evidence": 0
+  },
+  "B9BA": {
+    "char": "疾",
+    "scenario_evidence": 0
+  },
+  "B9C1": {
+    "char": "病",
+    "scenario_evidence": 0
+  },
+  "B9C3": {
+    "char": "症",
+    "scenario_evidence": 0
+  },
+  "B9C6": {
+    "char": "痊",
+    "scenario_evidence": 0
+  },
+  "B9D1": {
+    "char": "痕",
+    "scenario_evidence": 0
+  },
+  "B9D7": {
+    "char": "痛",
+    "scenario_evidence": 0
+  },
+  "B9F6": {
+    "char": "痺",
+    "scenario_evidence": 0
+  },
+  "BA47": {
+    "char": "瘋",
+    "scenario_evidence": 0
+  },
+  "BA62": {
+    "char": "瘦",
+    "scenario_evidence": 0
+  },
+  "BA70": {
+    "char": "瘴",
+    "scenario_evidence": 0
+  },
+  "BA7E": {
+    "char": "療",
+    "scenario_evidence": 0
+  },
+  "BA8E": {
+    "char": "癒",
+    "scenario_evidence": 0
+  },
+  "BA92": {
+    "char": "癖",
+    "scenario_evidence": 1
+  },
+  "BA9D": {
+    "char": "癡",
+    "scenario_evidence": 0
+  },
+  "BA9E": {
+    "char": "癢",
+    "scenario_evidence": 0
+  },
+  "BAAA": {
+    "char": "癮",
+    "scenario_evidence": 0
+  },
+  "BAB4": {
+    "char": "癸",
+    "scenario_evidence": 0
+  },
+  "BAB7": {
+    "char": "登",
+    "scenario_evidence": 0
+  },
+  "BAB8": {
+    "char": "發",
+    "scenario_evidence": 0
+  },
+  "BAB9": {
+    "char": "白",
+    "scenario_evidence": 0
+  },
+  "BABA": {
+    "char": "百",
+    "scenario_evidence": 0
+  },
+  "BAC0": {
+    "char": "的",
+    "scenario_evidence": 0
+  },
+  "BAC2": {
+    "char": "皆",
+    "scenario_evidence": 0
+  },
+  "BAC3": {
+    "char": "皇",
+    "scenario_evidence": 0
+  },
+  "BAD5": {
+    "char": "皙",
+    "scenario_evidence": 0
+  },
+  "BAEA": {
+    "char": "皮",
+    "scenario_evidence": 0
+  },
+  "BB44": {
+    "char": "盈",
+    "scenario_evidence": 0
+  },
+  "BB46": {
+    "char": "益",
+    "scenario_evidence": 0
+  },
+  "BB4E": {
+    "char": "盒",
+    "scenario_evidence": 0
+  },
+  "BB50": {
+    "char": "盔",
+    "scenario_evidence": 0
+  },
+  "BB57": {
+    "char": "盛",
+    "scenario_evidence": 0
+  },
+  "BB58": {
+    "char": "盜",
+    "scenario_evidence": 0
+  },
+  "BB5B": {
+    "char": "盟",
+    "scenario_evidence": 0
+  },
+  "BB5D": {
+    "char": "盡",
+    "scenario_evidence": 0
+  },
+  "BB5F": {
+    "char": "監",
+    "scenario_evidence": 0
+  },
+  "BB60": {
+    "char": "盤",
+    "scenario_evidence": 0
+  },
+  "BB63": {
+    "char": "盧",
+    "scenario_evidence": 0
+  },
+  "BB66": {
+    "char": "盪",
+    "scenario_evidence": 0
+  },
+  "BB6A": {
+    "char": "目",
+    "scenario_evidence": 0
+  },
+  "BB6B": {
+    "char": "盯",
+    "scenario_evidence": 0
+  },
+  "BB6E": {
+    "char": "盲",
+    "scenario_evidence": 0
+  },
+  "BB70": {
+    "char": "直",
+    "scenario_evidence": 0
+  },
+  "BB74": {
+    "char": "相",
+    "scenario_evidence": 0
+  },
+  "BB7A": {
+    "char": "盾",
+    "scenario_evidence": 0
+  },
+  "BB7B": {
+    "char": "省",
+    "scenario_evidence": 0
+  },
+  "BB83": {
+    "char": "眉",
+    "scenario_evidence": 0
+  },
+  "BB85": {
+    "char": "看",
+    "scenario_evidence": 0
+  },
+  "BB99": {
+    "char": "真",
+    "scenario_evidence": 0
+  },
+  "BB9A": {
+    "char": "眠",
+    "scenario_evidence": 0
+  },
+  "BBA3": {
+    "char": "眩",
+    "scenario_evidence": 0
+  },
+  "BBB1": {
+    "char": "眷",
+    "scenario_evidence": 0
+  },
+  "BBB4": {
+    "char": "眺",
+    "scenario_evidence": 0
+  },
+  "BBB6": {
+    "char": "眼",
+    "scenario_evidence": 0
+  },
+  "BBB8": {
+    "char": "眾",
+    "scenario_evidence": 0
+  },
+  "BBC9": {
+    "char": "睏",
+    "scenario_evidence": 1
+  },
+  "BBD5": {
+    "char": "睛",
+    "scenario_evidence": 1
+  },
+  "BBD6": {
+    "char": "睜",
+    "scenario_evidence": 0
+  },
+  "BBDB": {
+    "char": "睡",
+    "scenario_evidence": 0
+  },
+  "BBDD": {
+    "char": "部",
+    "scenario_evidence": 0
+  },
+  "BBF3": {
+    "char": "睹",
+    "scenario_evidence": 0
+  },
+  "BBF9": {
+    "char": "睿",
+    "scenario_evidence": 0
+  },
+  "BBFE": {
+    "char": "瞄",
+    "scenario_evidence": 0
+  },
+  "BC58": {
+    "char": "瞞",
+    "scenario_evidence": 0
+  },
+  "BC64": {
+    "char": "瞪",
+    "scenario_evidence": 0
+  },
+  "BC66": {
+    "char": "瞬",
+    "scenario_evidence": 0
+  },
+  "BC67": {
+    "char": "瞭",
+    "scenario_evidence": 0
+  },
+  "BC6D": {
+    "char": "瞳",
+    "scenario_evidence": 0
+  },
+  "BC94": {
+    "char": "矚",
+    "scenario_evidence": 1
+  },
+  "BC95": {
+    "char": "矛",
+    "scenario_evidence": 0
+  },
+  "BC9F": {
+    "char": "知",
+    "scenario_evidence": 0
+  },
+  "BCA7": {
+    "char": "短",
+    "scenario_evidence": 0
+  },
+  "BCA8": {
+    "char": "矮",
+    "scenario_evidence": 0
+  },
+  "BCAD": {
+    "char": "石",
+    "scenario_evidence": 0
+  },
+  "BCB9": {
+    "char": "砂",
+    "scenario_evidence": 0
+  },
+  "BCC4": {
+    "char": "砍",
+    "scenario_evidence": 0
+  },
+  "BCCB": {
+    "char": "研",
+    "scenario_evidence": 0
+  },
+  "BCE9": {
+    "char": "砲",
+    "scenario_evidence": 0
+  },
+  "BCEB": {
+    "char": "破",
+    "scenario_evidence": 0
+  },
+  "BCEF": {
+    "char": "砸",
+    "scenario_evidence": 0
+  },
+  "BD63": {
+    "char": "硬",
+    "scenario_evidence": 0
+  },
+  "BD83": {
+    "char": "碌",
+    "scenario_evidence": 0
+  },
+  "BD85": {
+    "char": "碎",
+    "scenario_evidence": 0
+  },
+  "BD88": {
+    "char": "碑",
+    "scenario_evidence": 1
+  },
+  "BD8E": {
+    "char": "碗",
+    "scenario_evidence": 0
+  },
+  "BD9E": {
+    "char": "碧",
+    "scenario_evidence": 0
+  },
+  "BDA7": {
+    "char": "碰",
+    "scenario_evidence": 0
+  },
+  "BDAA": {
+    "char": "碳",
+    "scenario_evidence": 0
+  },
+  "BDB1": {
+    "char": "確",
+    "scenario_evidence": 0
+  },
+  "BDB3": {
+    "char": "碼",
+    "scenario_evidence": 0
+  },
+  "BDB8": {
+    "char": "磁",
+    "scenario_evidence": 0
+  },
+  "BDC7": {
+    "char": "磐",
+    "scenario_evidence": 0
+  },
+  "BDD1": {
+    "char": "磚",
+    "scenario_evidence": 0
+  },
+  "BDDF": {
+    "char": "磨",
+    "scenario_evidence": 0
+  },
+  "BE44": {
+    "char": "礎",
+    "scenario_evidence": 0
+  },
+  "BE4F": {
+    "char": "礙",
+    "scenario_evidence": 0
+  },
+  "BE5C": {
+    "char": "礦",
+    "scenario_evidence": 0
+  },
+  "BE70": {
+    "char": "示",
+    "scenario_evidence": 0
+  },
+  "BE74": {
+    "char": "社",
+    "scenario_evidence": 0
+  },
+  "BE7E": {
+    "char": "祈",
+    "scenario_evidence": 0
+  },
+  "BE86": {
+    "char": "祐",
+    "scenario_evidence": 1
+  },
+  "BE8B": {
+    "char": "祕",
+    "scenario_evidence": 0
+  },
+  "BE8C": {
+    "char": "祖",
+    "scenario_evidence": 4
+  },
+  "BE93": {
+    "char": "祝",
+    "scenario_evidence": 0
+  },
+  "BE94": {
+    "char": "神",
+    "scenario_evidence": 0
+  },
+  "BE9B": {
+    "char": "祥",
+    "scenario_evidence": 0
+  },
+  "BE9E": {
+    "char": "票",
+    "scenario_evidence": 0
+  },
+  "BEA3": {
+    "char": "祭",
+    "scenario_evidence": 0
+  },
+  "BEB7": {
+    "char": "禁",
+    "scenario_evidence": 0
+  },
+  "BEC3": {
+    "char": "禍",
+    "scenario_evidence": 0
+  },
+  "BEC5": {
+    "char": "福",
+    "scenario_evidence": 0
+  },
+  "BEDC": {
+    "char": "禦",
+    "scenario_evidence": 0
+  },
+  "BEDD": {
+    "char": "禧",
+    "scenario_evidence": 0
+  },
+  "BEE4": {
+    "char": "禮",
+    "scenario_evidence": 0
+  },
+  "BEE7": {
+    "char": "禱",
+    "scenario_evidence": 0
+  },
+  "BEF5": {
+    "char": "禿",
+    "scenario_evidence": 0
+  },
+  "BEF6": {
+    "char": "秀",
+    "scenario_evidence": 0
+  },
+  "BEF7": {
+    "char": "私",
+    "scenario_evidence": 0
+  },
+  "BF47": {
+    "char": "科",
+    "scenario_evidence": 0
+  },
+  "BF4E": {
+    "char": "秘",
+    "scenario_evidence": 0
+  },
+  "BF55": {
+    "char": "租",
+    "scenario_evidence": 0
+  },
+  "BF5A": {
+    "char": "秤",
+    "scenario_evidence": 0
+  },
+  "BF71": {
+    "char": "移",
+    "scenario_evidence": 0
+  },
+  "BF72": {
+    "char": "稀",
+    "scenario_evidence": 0
+  },
+  "BF77": {
+    "char": "稅",
+    "scenario_evidence": 2
+  },
+  "BF7D": {
+    "char": "程",
+    "scenario_evidence": 0
+  },
+  "BF7F": {
+    "char": "稍",
+    "scenario_evidence": 0
+  },
+  "BF91": {
+    "char": "稟",
+    "scenario_evidence": 1
+  },
+  "BF92": {
+    "char": "稠",
+    "scenario_evidence": 0
+  },
+  "BFA0": {
+    "char": "種",
+    "scenario_evidence": 0
+  },
+  "BFA3": {
+    "char": "稱",
+    "scenario_evidence": 0
+  },
+  "BFAD": {
+    "char": "稻",
+    "scenario_evidence": 0
+  },
+  "BFAF": {
+    "char": "稽",
+    "scenario_evidence": 0
+  },
+  "BFB1": {
+    "char": "稿",
+    "scenario_evidence": 0
+  },
+  "BFB2": {
+    "char": "穀",
+    "scenario_evidence": 0
+  },
+  "BFB8": {
+    "char": "穆",
+    "scenario_evidence": 0
+  },
+  "BFBF": {
+    "char": "積",
+    "scenario_evidence": 0
+  },
+  "BFDB": {
+    "char": "穩",
+    "scenario_evidence": 0
+  },
+  "BFDD": {
+    "char": "穫",
+    "scenario_evidence": 0
+  },
+  "BFE6": {
+    "char": "穴",
+    "scenario_evidence": 0
+  },
+  "BFE8": {
+    "char": "究",
+    "scenario_evidence": 0
+  },
+  "BFEB": {
+    "char": "穹",
+    "scenario_evidence": 0
+  },
+  "BFEC": {
+    "char": "空",
+    "scenario_evidence": 0
+  },
+  "BFF1": {
+    "char": "穿",
+    "scenario_evidence": 0
+  },
+  "BFF3": {
+    "char": "突",
+    "scenario_evidence": 0
+  },
+  "BFF6": {
+    "char": "狹",
+    "scenario_evidence": 0
+  },
+  "C049": {
+    "char": "窗",
+    "scenario_evidence": 0
+  },
+  "C051": {
+    "char": "窟",
+    "scenario_evidence": 1
+  },
+  "C060": {
+    "char": "窮",
+    "scenario_evidence": 0
+  },
+  "C06C": {
+    "char": "窺",
+    "scenario_evidence": 0
+  },
+  "C077": {
+    "char": "竅",
+    "scenario_evidence": 0
+  },
+  "C07C": {
+    "char": "竊",
+    "scenario_evidence": 0
+  },
+  "C07D": {
+    "char": "立",
+    "scenario_evidence": 0
+  },
+  "C08B": {
+    "char": "站",
+    "scenario_evidence": 0
+  },
+  "C091": {
+    "char": "竟",
+    "scenario_evidence": 0
+  },
+  "C092": {
+    "char": "章",
+    "scenario_evidence": 0
+  },
+  "C097": {
+    "char": "童",
+    "scenario_evidence": 0
+  },
+  "C09F": {
+    "char": "竭",
+    "scenario_evidence": 0
+  },
+  "C0A1": {
+    "char": "端",
+    "scenario_evidence": 0
+  },
+  "C0A8": {
+    "char": "競",
+    "scenario_evidence": 0
+  },
+  "C0AB": {
+    "char": "竹",
+    "scenario_evidence": 0
+  },
+  "C0B1": {
+    "char": "竿",
+    "scenario_evidence": 0
+  },
+  "C0C3": {
+    "char": "笑",
+    "scenario_evidence": 0
+  },
+  "C0D8": {
+    "char": "符",
+    "scenario_evidence": 0
+  },
+  "C0DA": {
+    "char": "笨",
+    "scenario_evidence": 0
+  },
+  "C0DE": {
+    "char": "第",
+    "scenario_evidence": 0
+  },
+  "C0F8": {
+    "char": "筆",
+    "scenario_evidence": 0
+  },
+  "C0FB": {
+    "char": "等",
+    "scenario_evidence": 0
+  },
+  "C0FD": {
+    "char": "筋",
+    "scenario_evidence": 0
+  },
+  "C144": {
+    "char": "筒",
+    "scenario_evidence": 0
+  },
+  "C146": {
+    "char": "答",
+    "scenario_evidence": 0
+  },
+  "C148": {
+    "char": "策",
+    "scenario_evidence": 0
+  },
+  "C17F": {
+    "char": "箍",
+    "scenario_evidence": 0
+  },
+  "C189": {
+    "char": "算",
+    "scenario_evidence": 0
+  },
+  "C193": {
+    "char": "管",
+    "scenario_evidence": 0
+  },
+  "C19F": {
+    "char": "箭",
+    "scenario_evidence": 0
+  },
+  "C1A3": {
+    "char": "箱",
+    "scenario_evidence": 0
+  },
+  "C1B2": {
+    "char": "節",
+    "scenario_evidence": 0
+  },
+  "C1B6": {
+    "char": "範",
+    "scenario_evidence": 0
+  },
+  "C1B8": {
+    "char": "篆",
+    "scenario_evidence": 0
+  },
+  "C1B9": {
+    "char": "篇",
+    "scenario_evidence": 0
+  },
+  "C1BB": {
+    "char": "築",
+    "scenario_evidence": 0
+  },
+  "C1E9": {
+    "char": "篷",
+    "scenario_evidence": 0
+  },
+  "C253": {
+    "char": "簡",
+    "scenario_evidence": 0
+  },
+  "C259": {
+    "char": "簧",
+    "scenario_evidence": 0
+  },
+  "C269": {
+    "char": "簷",
+    "scenario_evidence": 0
+  },
+  "C26F": {
+    "char": "簽",
+    "scenario_evidence": 0
+  },
+  "C270": {
+    "char": "簾",
+    "scenario_evidence": 0
+  },
+  "C275": {
+    "char": "籃",
+    "scenario_evidence": 0
+  },
+  "C27E": {
+    "char": "籌",
+    "scenario_evidence": 0
+  },
+  "C27F": {
+    "char": "籍",
+    "scenario_evidence": 0
+  },
+  "C292": {
+    "char": "籠",
+    "scenario_evidence": 0
+  },
+  "C2A5": {
+    "char": "米",
+    "scenario_evidence": 0
+  },
+  "C2BB": {
+    "char": "粉",
+    "scenario_evidence": 0
+  },
+  "C2C4": {
+    "char": "粒",
+    "scenario_evidence": 0
+  },
+  "C2C9": {
+    "char": "粗",
+    "scenario_evidence": 0
+  },
+  "C2CA": {
+    "char": "黏",
+    "scenario_evidence": 0
+  },
+  "C2EB": {
+    "char": "粹",
+    "scenario_evidence": 0
+  },
+  "C2F0": {
+    "char": "精",
+    "scenario_evidence": 0
+  },
+  "C2FC": {
+    "char": "糊",
+    "scenario_evidence": 0
+  },
+  "C347": {
+    "char": "糕",
+    "scenario_evidence": 0
+  },
+  "C348": {
+    "char": "糖",
+    "scenario_evidence": 0
+  },
+  "C349": {
+    "char": "糗",
+    "scenario_evidence": 1
+  },
+  "C34B": {
+    "char": "糙",
+    "scenario_evidence": 0
+  },
+  "C351": {
+    "char": "糟",
+    "scenario_evidence": 0
+  },
+  "C362": {
+    "char": "糰",
+    "scenario_evidence": 0
+  },
+  "C36D": {
+    "char": "系",
+    "scenario_evidence": 0
+  },
+  "C370": {
+    "char": "糾",
+    "scenario_evidence": 0
+  },
+  "C371": {
+    "char": "紀",
+    "scenario_evidence": 0
+  },
+  "C375": {
+    "char": "約",
+    "scenario_evidence": 0
+  },
+  "C376": {
+    "char": "紅",
+    "scenario_evidence": 0
+  },
+  "C37B": {
+    "char": "紊",
+    "scenario_evidence": 0
+  },
+  "C37C": {
+    "char": "紋",
+    "scenario_evidence": 0
+  },
+  "C37E": {
+    "char": "納",
+    "scenario_evidence": 0
+  },
+  "C384": {
+    "char": "紓",
+    "scenario_evidence": 1
+  },
+  "C385": {
+    "char": "純",
+    "scenario_evidence": 0
+  },
+  "C38A": {
+    "char": "紙",
+    "scenario_evidence": 0
+  },
+  "C38B": {
+    "char": "級",
+    "scenario_evidence": 0
+  },
+  "C38C": {
+    "char": "紛",
+    "scenario_evidence": 0
+  },
+  "C391": {
+    "char": "素",
+    "scenario_evidence": 0
+  },
+  "C392": {
+    "char": "紡",
+    "scenario_evidence": 0
+  },
+  "C393": {
+    "char": "索",
+    "scenario_evidence": 0
+  },
+  "C39C": {
+    "char": "紫",
+    "scenario_evidence": 0
+  },
+  "C39F": {
+    "char": "札",
+    "scenario_evidence": 0
+  },
+  "C3A1": {
+    "char": "細",
+    "scenario_evidence": 0
+  },
+  "C3A4": {
+    "char": "紳",
+    "scenario_evidence": 0
+  },
+  "C3AA": {
+    "char": "紹",
+    "scenario_evidence": 0
+  },
+  "C3AB": {
+    "char": "紺",
+    "scenario_evidence": 0
+  },
+  "C3B3": {
+    "char": "終",
+    "scenario_evidence": 0
+  },
+  "C3B5": {
+    "char": "組",
+    "scenario_evidence": 0
+  },
+  "C3B7": {
+    "char": "絆",
+    "scenario_evidence": 0
+  },
+  "C3C1": {
+    "char": "結",
+    "scenario_evidence": 0
+  },
+  "C3C6": {
+    "char": "絕",
+    "scenario_evidence": 0
+  },
+  "C3D2": {
+    "char": "絡",
+    "scenario_evidence": 0
+  },
+  "C3D3": {
+    "char": "絢",
+    "scenario_evidence": 0
+  },
+  "C3D7": {
+    "char": "給",
+    "scenario_evidence": 0
+  },
+  "C3D9": {
+    "char": "絨",
+    "scenario_evidence": 0
+  },
+  "C3E2": {
+    "char": "統",
+    "scenario_evidence": 0
+  },
+  "C3E3": {
+    "char": "絲",
+    "scenario_evidence": 0
+  },
+  "C3F2": {
+    "char": "綁",
+    "scenario_evidence": 0
+  },
+  "C444": {
+    "char": "經",
+    "scenario_evidence": 0
+  },
+  "C44D": {
+    "char": "綜",
+    "scenario_evidence": 0
+  },
+  "C451": {
+    "char": "綠",
+    "scenario_evidence": 0
+  },
+  "C45E": {
+    "char": "維",
+    "scenario_evidence": 0
+  },
+  "C463": {
+    "char": "網",
+    "scenario_evidence": 0
+  },
+  "C46C": {
+    "char": "綻",
+    "scenario_evidence": 0
+  },
+  "C46E": {
+    "char": "綽",
+    "scenario_evidence": 1
+  },
+  "C470": {
+    "char": "綿",
+    "scenario_evidence": 0
+  },
+  "C47B": {
+    "char": "緊",
+    "scenario_evidence": 0
+  },
+  "C47C": {
+    "char": "緋",
+    "scenario_evidence": 0
+  },
+  "C483": {
+    "char": "緒",
+    "scenario_evidence": 0
+  },
+  "C489": {
+    "char": "緘",
+    "scenario_evidence": 0
+  },
+  "C48B": {
+    "char": "線",
+    "scenario_evidence": 0
+  },
+  "C48E": {
+    "char": "緝",
+    "scenario_evidence": 0
+  },
+  "C48F": {
+    "char": "緞",
+    "scenario_evidence": 0
+  },
+  "C491": {
+    "char": "締",
+    "scenario_evidence": 0
+  },
+  "C494": {
+    "char": "緣",
+    "scenario_evidence": 0
+  },
+  "C499": {
+    "char": "編",
+    "scenario_evidence": 0
+  },
+  "C49A": {
+    "char": "緩",
+    "scenario_evidence": 0
+  },
+  "C4A5": {
+    "char": "練",
+    "scenario_evidence": 0
+  },
+  "C4AA": {
+    "char": "緹",
+    "scenario_evidence": 0
+  },
+  "C4AC": {
+    "char": "緻",
+    "scenario_evidence": 0
+  },
+  "C4C5": {
+    "char": "縛",
+    "scenario_evidence": 0
+  },
+  "C4C7": {
+    "char": "縝",
+    "scenario_evidence": 0
+  },
+  "C4D5": {
+    "char": "縫",
+    "scenario_evidence": 0
+  },
+  "C4D8": {
+    "char": "縮",
+    "scenario_evidence": 0
+  },
+  "C4DB": {
+    "char": "縱",
+    "scenario_evidence": 0
+  },
+  "C4E1": {
+    "char": "縷",
+    "scenario_evidence": 0
+  },
+  "C4E7": {
+    "char": "總",
+    "scenario_evidence": 0
+  },
+  "C4E8": {
+    "char": "績",
+    "scenario_evidence": 0
+  },
+  "C4EB": {
+    "char": "繁",
+    "scenario_evidence": 0
+  },
+  "C4ED": {
+    "char": "繃",
+    "scenario_evidence": 0
+  },
+  "C4FE": {
+    "char": "織",
+    "scenario_evidence": 0
+  },
+  "C544": {
+    "char": "繚",
+    "scenario_evidence": 0
+  },
+  "C548": {
+    "char": "繞",
+    "scenario_evidence": 0
+  },
+  "C54B": {
+    "char": "繡",
+    "scenario_evidence": 0
+  },
+  "C553": {
+    "char": "繩",
+    "scenario_evidence": 0
+  },
+  "C554": {
+    "char": "繪",
+    "scenario_evidence": 0
+  },
+  "C555": {
+    "char": "繫",
+    "scenario_evidence": 0
+  },
+  "C55D": {
+    "char": "繳",
+    "scenario_evidence": 2
+  },
+  "C566": {
+    "char": "繼",
+    "scenario_evidence": 0
+  },
+  "C576": {
+    "char": "續",
+    "scenario_evidence": 0
+  },
+  "C579": {
+    "char": "纏",
+    "scenario_evidence": 0
+  },
+  "C580": {
+    "char": "纖",
+    "scenario_evidence": 0
+  },
+  "C586": {
+    "char": "纜",
+    "scenario_evidence": 0
+  },
+  "C589": {
+    "char": "缸",
+    "scenario_evidence": 0
+  },
+  "C58B": {
+    "char": "缺",
+    "scenario_evidence": 0
+  },
+  "C5A1": {
+    "char": "罐",
+    "scenario_evidence": 0
+  },
+  "C5A6": {
+    "char": "罕",
+    "scenario_evidence": 0
+  },
+  "C5BA": {
+    "char": "罩",
+    "scenario_evidence": 0
+  },
+  "C5BB": {
+    "char": "罪",
+    "scenario_evidence": 0
+  },
+  "C5BF": {
+    "char": "置",
+    "scenario_evidence": 0
+  },
+  "C5C1": {
+    "char": "罰",
+    "scenario_evidence": 0
+  },
+  "C5C3": {
+    "char": "署",
+    "scenario_evidence": 0
+  },
+  "C5C6": {
+    "char": "罵",
+    "scenario_evidence": 0
+  },
+  "C5C8": {
+    "char": "罷",
+    "scenario_evidence": 0
+  },
+  "C5D6": {
+    "char": "羅",
+    "scenario_evidence": 0
+  },
+  "C5D9": {
+    "char": "羈",
+    "scenario_evidence": 0
+  },
+  "C5DB": {
+    "char": "羊",
+    "scenario_evidence": 0
+  },
+  "C5DF": {
+    "char": "美",
+    "scenario_evidence": 0
+  },
+  "C5EF": {
+    "char": "羞",
+    "scenario_evidence": 0
+  },
+  "C5F2": {
+    "char": "羨",
+    "scenario_evidence": 0
+  },
+  "C5F5": {
+    "char": "群",
+    "scenario_evidence": 0
+  },
+  "C5F9": {
+    "char": "羨",
+    "scenario_evidence": 5
+  },
+  "C5FA": {
+    "char": "義",
+    "scenario_evidence": 0
+  },
+  "C640": {
+    "char": "羯",
+    "scenario_evidence": 0
+  },
+  "C64E": {
+    "char": "羽",
+    "scenario_evidence": 0
+  },
+  "C652": {
+    "char": "翁",
+    "scenario_evidence": 0
+  },
+  "C656": {
+    "char": "翅",
+    "scenario_evidence": 0
+  },
+  "C65D": {
+    "char": "翌",
+    "scenario_evidence": 0
+  },
+  "C663": {
+    "char": "習",
+    "scenario_evidence": 0
+  },
+  "C671": {
+    "char": "翠",
+    "scenario_evidence": 0
+  },
+  "C672": {
+    "char": "翡",
+    "scenario_evidence": 0
+  },
+  "C68A": {
+    "char": "翹",
+    "scenario_evidence": 1
+  },
+  "C68C": {
+    "char": "翻",
+    "scenario_evidence": 0
+  },
+  "C68D": {
+    "char": "翼",
+    "scenario_evidence": 0
+  },
+  "C691": {
+    "char": "耀",
+    "scenario_evidence": 0
+  },
+  "C692": {
+    "char": "老",
+    "scenario_evidence": 0
+  },
+  "C694": {
+    "char": "考",
+    "scenario_evidence": 0
+  },
+  "C696": {
+    "char": "者",
+    "scenario_evidence": 0
+  },
+  "C69D": {
+    "char": "而",
+    "scenario_evidence": 0
+  },
+  "C69E": {
+    "char": "耍",
+    "scenario_evidence": 0
+  },
+  "C6A1": {
+    "char": "耐",
+    "scenario_evidence": 0
+  },
+  "C6A8": {
+    "char": "耗",
+    "scenario_evidence": 0
+  },
+  "C6C4": {
+    "char": "耳",
+    "scenario_evidence": 0
+  },
+  "C6C7": {
+    "char": "耶",
+    "scenario_evidence": 0
+  },
+  "C6D0": {
+    "char": "耿",
+    "scenario_evidence": 0
+  },
+  "C6DB": {
+    "char": "聊",
+    "scenario_evidence": 0
+  },
+  "C6E7": {
+    "char": "聖",
+    "scenario_evidence": 0
+  },
+  "C6EB": {
+    "char": "聚",
+    "scenario_evidence": 0
+  },
+  "C6EF": {
+    "char": "聞",
+    "scenario_evidence": 0
+  },
+  "C740": {
+    "char": "聯",
+    "scenario_evidence": 0
+  },
+  "C741": {
+    "char": "聰",
+    "scenario_evidence": 0
+  },
+  "C743": {
+    "char": "聲",
+    "scenario_evidence": 0
+  },
+  "C744": {
+    "char": "聳",
+    "scenario_evidence": 0
+  },
+  "C748": {
+    "char": "職",
+    "scenario_evidence": 0
+  },
+  "C74E": {
+    "char": "聽",
+    "scenario_evidence": 0
+  },
+  "C756": {
+    "char": "肅",
+    "scenario_evidence": 0
+  },
+  "C757": {
+    "char": "肆",
+    "scenario_evidence": 1
+  },
+  "C75A": {
+    "char": "肉",
+    "scenario_evidence": 0
+  },
+  "C75D": {
+    "char": "肌",
+    "scenario_evidence": 0
+  },
+  "C76B": {
+    "char": "肚",
+    "scenario_evidence": 0
+  },
+  "C772": {
+    "char": "股",
+    "scenario_evidence": 0
+  },
+  "C776": {
+    "char": "肥",
+    "scenario_evidence": 0
+  },
+  "C77A": {
+    "char": "肩",
+    "scenario_evidence": 0
+  },
+  "C77B": {
+    "char": "肪",
+    "scenario_evidence": 1
+  },
+  "C780": {
+    "char": "肯",
+    "scenario_evidence": 0
+  },
+  "C783": {
+    "char": "育",
+    "scenario_evidence": 0
+  },
+  "C795": {
+    "char": "胄",
+    "scenario_evidence": 0
+  },
+  "C79D": {
+    "char": "背",
+    "scenario_evidence": 0
+  },
+  "C79F": {
+    "char": "胎",
+    "scenario_evidence": 0
+  },
+  "C7A7": {
+    "char": "胖",
+    "scenario_evidence": 0
+  },
+  "C7B2": {
+    "char": "胡",
+    "scenario_evidence": 0
+  },
+  "C7B6": {
+    "char": "胥",
+    "scenario_evidence": 0
+  },
+  "C7C9": {
+    "char": "胸",
+    "scenario_evidence": 0
+  },
+  "C7CE": {
+    "char": "能",
+    "scenario_evidence": 0
+  },
+  "C7D2": {
+    "char": "脂",
+    "scenario_evidence": 0
+  },
+  "C7D5": {
+    "char": "脅",
+    "scenario_evidence": 0
+  },
+  "C7D6": {
+    "char": "脆",
+    "scenario_evidence": 0
+  },
+  "C7D8": {
+    "char": "脈",
+    "scenario_evidence": 0
+  },
+  "C7DA": {
+    "char": "脊",
+    "scenario_evidence": 0
+  },
+  "C7EB": {
+    "char": "脛",
+    "scenario_evidence": 0
+  },
+  "C7FB": {
+    "char": "脫",
+    "scenario_evidence": 0
+  },
+  "C860": {
+    "char": "腐",
+    "scenario_evidence": 0
+  },
+  "C864": {
+    "char": "腔",
+    "scenario_evidence": 0
+  },
+  "C865": {
+    "char": "腕",
+    "scenario_evidence": 0
+  },
+  "C875": {
+    "char": "腥",
+    "scenario_evidence": 0
+  },
+  "C876": {
+    "char": "腦",
+    "scenario_evidence": 0
+  },
+  "C87E": {
+    "char": "腮",
+    "scenario_evidence": 0
+  },
+  "C880": {
+    "char": "腰",
+    "scenario_evidence": 0
+  },
+  "C883": {
+    "char": "腳",
+    "scenario_evidence": 0
+  },
+  "C889": {
+    "char": "腹",
+    "scenario_evidence": 0
+  },
+  "C88F": {
+    "char": "腿",
+    "scenario_evidence": 0
+  },
+  "C890": {
+    "char": "膀",
+    "scenario_evidence": 0
+  },
+  "C89F": {
+    "char": "膏",
+    "scenario_evidence": 0
+  },
+  "C8AC": {
+    "char": "膜",
+    "scenario_evidence": 0
+  },
+  "C8AD": {
+    "char": "膝",
+    "scenario_evidence": 0
+  },
+  "C8B0": {
+    "char": "膠",
+    "scenario_evidence": 0
+  },
+  "C8B9": {
+    "char": "膩",
+    "scenario_evidence": 0
+  },
+  "C8C3": {
+    "char": "膳",
+    "scenario_evidence": 0
+  },
+  "C8CD": {
+    "char": "膽",
+    "scenario_evidence": 0
+  },
+  "C8D2": {
+    "char": "臂",
+    "scenario_evidence": 0
+  },
+  "C8D9": {
+    "char": "臉",
+    "scenario_evidence": 0
+  },
+  "C8DD": {
+    "char": "臍",
+    "scenario_evidence": 2
+  },
+  "C8EF": {
+    "char": "臟",
+    "scenario_evidence": 0
+  },
+  "C8F8": {
+    "char": "臨",
+    "scenario_evidence": 0
+  },
+  "C8FA": {
+    "char": "自",
+    "scenario_evidence": 0
+  },
+  "C8FD": {
+    "char": "臭",
+    "scenario_evidence": 0
+  },
+  "C943": {
+    "char": "至",
+    "scenario_evidence": 0
+  },
+  "C944": {
+    "char": "致",
+    "scenario_evidence": 0
+  },
+  "C94A": {
+    "char": "臺",
+    "scenario_evidence": 0
+  },
+  "C950": {
+    "char": "舀",
+    "scenario_evidence": 1
+  },
+  "C957": {
+    "char": "與",
+    "scenario_evidence": 0
+  },
+  "C958": {
+    "char": "興",
+    "scenario_evidence": 0
+  },
+  "C959": {
+    "char": "舉",
+    "scenario_evidence": 0
+  },
+  "C95A": {
+    "char": "舊",
+    "scenario_evidence": 0
+  },
+  "C95C": {
+    "char": "舌",
+    "scenario_evidence": 0
+  },
+  "C95D": {
+    "char": "舍",
+    "scenario_evidence": 0
+  },
+  "C962": {
+    "char": "舒",
+    "scenario_evidence": 0
+  },
+  "C964": {
+    "char": "舔",
+    "scenario_evidence": 0
+  },
+  "C966": {
+    "char": "舖",
+    "scenario_evidence": 1
+  },
+  "C96E": {
+    "char": "舞",
+    "scenario_evidence": 0
+  },
+  "C96F": {
+    "char": "舟",
+    "scenario_evidence": 0
+  },
+  "C97A": {
+    "char": "航",
+    "scenario_evidence": 2
+  },
+  "C97C": {
+    "char": "般",
+    "scenario_evidence": 0
+  },
+  "C989": {
+    "char": "船",
+    "scenario_evidence": 0
+  },
+  "C997": {
+    "char": "艇",
+    "scenario_evidence": 0
+  },
+  "C9B6": {
+    "char": "艦",
+    "scenario_evidence": 2
+  },
+  "C9BF": {
+    "char": "良",
+    "scenario_evidence": 0
+  },
+  "C9C1": {
+    "char": "艱",
+    "scenario_evidence": 0
+  },
+  "C9C2": {
+    "char": "色",
+    "scenario_evidence": 0
+  },
+  "C9C7": {
+    "char": "艷",
+    "scenario_evidence": 0
+  },
+  "C9CE": {
+    "char": "艾",
+    "scenario_evidence": 0
+  },
+  "C9E2": {
+    "char": "芒",
+    "scenario_evidence": 0
+  },
+  "C9E9": {
+    "char": "芙",
+    "scenario_evidence": 0
+  },
+  "C9ED": {
+    "char": "芝",
+    "scenario_evidence": 0
+  },
+  "C9FC": {
+    "char": "芬",
+    "scenario_evidence": 0
+  },
+  "C9FD": {
+    "char": "芭",
+    "scenario_evidence": 0
+  },
+  "CA41": {
+    "char": "花",
+    "scenario_evidence": 0
+  },
+  "CA43": {
+    "char": "芳",
+    "scenario_evidence": 0
+  },
+  "CA4D": {
+    "char": "芽",
+    "scenario_evidence": 0
+  },
+  "CA64": {
+    "char": "苔",
+    "scenario_evidence": 0
+  },
+  "CA75": {
+    "char": "若",
+    "scenario_evidence": 0
+  },
+  "CA76": {
+    "char": "苦",
+    "scenario_evidence": 0
+  },
+  "CA81": {
+    "char": "英",
+    "scenario_evidence": 0
+  },
+  "CA90": {
+    "char": "茁",
+    "scenario_evidence": 0
+  },
+  "CA93": {
+    "char": "茄",
+    "scenario_evidence": 0
+  },
+  "CAAB": {
+    "char": "茜",
+    "scenario_evidence": 0
+  },
+  "CAB7": {
+    "char": "茨",
+    "scenario_evidence": 0
+  },
+  "CABA": {
+    "char": "茫",
+    "scenario_evidence": 0
+  },
+  "CAC1": {
+    "char": "茲",
+    "scenario_evidence": 0
+  },
+  "CAC5": {
+    "char": "茶",
+    "scenario_evidence": 0
+  },
+  "CAD8": {
+    "char": "草",
+    "scenario_evidence": 0
+  },
+  "CAD9": {
+    "char": "荊",
+    "scenario_evidence": 0
+  },
+  "CAE1": {
+    "char": "荒",
+    "scenario_evidence": 0
+  },
+  "CAEA": {
+    "char": "荷",
+    "scenario_evidence": 0
+  },
+  "CAFC": {
+    "char": "莉",
+    "scenario_evidence": 0
+  },
+  "CAFD": {
+    "char": "莊",
+    "scenario_evidence": 0
+  },
+  "CB41": {
+    "char": "莎",
+    "scenario_evidence": 0
+  },
+  "CB46": {
+    "char": "莓",
+    "scenario_evidence": 0
+  },
+  "CB4B": {
+    "char": "莘",
+    "scenario_evidence": 5
+  },
+  "CB5E": {
+    "char": "莫",
+    "scenario_evidence": 0
+  },
+  "CB70": {
+    "char": "莽",
+    "scenario_evidence": 0
+  },
+  "CB7A": {
+    "char": "菇",
+    "scenario_evidence": 0
+  },
+  "CB7F": {
+    "char": "菌",
+    "scenario_evidence": 0
+  },
+  "CB8F": {
+    "char": "菜",
+    "scenario_evidence": 0
+  },
+  "CB93": {
+    "char": "菠",
+    "scenario_evidence": 0
+  },
+  "CBA2": {
+    "char": "華",
+    "scenario_evidence": 0
+  },
+  "CBA5": {
+    "char": "菲",
+    "scenario_evidence": 0
+  },
+  "CBBC": {
+    "char": "萊",
+    "scenario_evidence": 0
+  },
+  "CBDE": {
+    "char": "萬",
+    "scenario_evidence": 0
+  },
+  "CBEF": {
+    "char": "落",
+    "scenario_evidence": 0
+  },
+  "CBFB": {
+    "char": "葉",
+    "scenario_evidence": 0
+  },
+  "CC49": {
+    "char": "著",
+    "scenario_evidence": 0
+  },
+  "CC4D": {
+    "char": "葛",
+    "scenario_evidence": 0
+  },
+  "CC55": {
+    "char": "董",
+    "scenario_evidence": 0
+  },
+  "CC5E": {
+    "char": "葬",
+    "scenario_evidence": 0
+  },
+  "CC67": {
+    "char": "葵",
+    "scenario_evidence": 0
+  },
+  "CC74": {
+    "char": "蒂",
+    "scenario_evidence": 0
+  },
+  "CC82": {
+    "char": "蒐",
+    "scenario_evidence": 4
+  },
+  "CC8B": {
+    "char": "蒙",
+    "scenario_evidence": 0
+  },
+  "CC90": {
+    "char": "蒞",
+    "scenario_evidence": 2
+  },
+  "CCAA": {
+    "char": "蒸",
+    "scenario_evidence": 0
+  },
+  "CCAE": {
+    "char": "蒼",
+    "scenario_evidence": 0
+  },
+  "CCB6": {
+    "char": "蓄",
+    "scenario_evidence": 0
+  },
+  "CCBB": {
+    "char": "蓉",
+    "scenario_evidence": 0
+  },
+  "CCBD": {
+    "char": "蓋",
+    "scenario_evidence": 0
+  },
+  "CCDE": {
+    "char": "蓬",
+    "scenario_evidence": 0
+  },
+  "CCE0": {
+    "char": "蓮",
+    "scenario_evidence": 0
+  },
+  "CD45": {
+    "char": "蔓",
+    "scenario_evidence": 0
+  },
+  "CD46": {
+    "char": "蔔",
+    "scenario_evidence": 0
+  },
+  "CD53": {
+    "char": "蔡",
+    "scenario_evidence": 0
+  },
+  "CD57": {
+    "char": "蔥",
+    "scenario_evidence": 0
+  },
+  "CD5E": {
+    "char": "蔬",
+    "scenario_evidence": 0
+  },
+  "CD6F": {
+    "char": "蔽",
+    "scenario_evidence": 0
+  },
+  "CD75": {
+    "char": "蕃",
+    "scenario_evidence": 2
+  },
+  "CD7A": {
+    "char": "蕈",
+    "scenario_evidence": 0
+  },
+  "CD7B": {
+    "char": "蕉",
+    "scenario_evidence": 0
+  },
+  "CD9B": {
+    "char": "蕩",
+    "scenario_evidence": 0
+  },
+  "CDB0": {
+    "char": "蕾",
+    "scenario_evidence": 0
+  },
+  "CDB6": {
+    "char": "薄",
+    "scenario_evidence": 0
+  },
+  "CDB9": {
+    "char": "薇",
+    "scenario_evidence": 0
+  },
+  "CDC6": {
+    "char": "薔",
+    "scenario_evidence": 0
+  },
+  "CDCB": {
+    "char": "薙",
+    "scenario_evidence": 0
+  },
+  "CDD8": {
+    "char": "薦",
+    "scenario_evidence": 0
+  },
+  "CDDB": {
+    "char": "薩",
+    "scenario_evidence": 0
+  },
+  "CDDC": {
+    "char": "薪",
+    "scenario_evidence": 0
+  },
+  "CDE1": {
+    "char": "薯",
+    "scenario_evidence": 0
+  },
+  "CDE2": {
+    "char": "薰",
+    "scenario_evidence": 0
+  },
+  "CDFB": {
+    "char": "借",
+    "scenario_evidence": 0
+  },
+  "CDFF": {
+    "char": "藍",
+    "scenario_evidence": 0
+  },
+  "CE41": {
+    "char": "藏",
+    "scenario_evidence": 0
+  },
+  "CE4F": {
+    "char": "藝",
+    "scenario_evidence": 0
+  },
+  "CE56": {
+    "char": "藤",
+    "scenario_evidence": 0
+  },
+  "CE57": {
+    "char": "藥",
+    "scenario_evidence": 0
+  },
+  "CE6D": {
+    "char": "藻",
+    "scenario_evidence": 0
+  },
+  "CE79": {
+    "char": "蘇",
+    "scenario_evidence": 0
+  },
+  "CE7C": {
+    "char": "蘊",
+    "scenario_evidence": 0
+  },
+  "CE7D": {
+    "char": "蘋",
+    "scenario_evidence": 0
+  },
+  "CE83": {
+    "char": "蘑",
+    "scenario_evidence": 0
+  },
+  "CE8C": {
+    "char": "蘚",
+    "scenario_evidence": 0
+  },
+  "CE9F": {
+    "char": "蘭",
+    "scenario_evidence": 0
+  },
+  "CEB1": {
+    "char": "蘿",
+    "scenario_evidence": 0
+  },
+  "CEC0": {
+    "char": "虎",
+    "scenario_evidence": 0
+  },
+  "CEC6": {
+    "char": "虔",
+    "scenario_evidence": 0
+  },
+  "CEC7": {
+    "char": "處",
+    "scenario_evidence": 0
+  },
+  "CECD": {
+    "char": "虛",
+    "scenario_evidence": 0
+  },
+  "CECE": {
+    "char": "虜",
+    "scenario_evidence": 0
+  },
+  "CED1": {
+    "char": "號",
+    "scenario_evidence": 0
+  },
+  "CED9": {
+    "char": "虧",
+    "scenario_evidence": 0
+  },
+  "CEEB": {
+    "char": "虹",
+    "scenario_evidence": 0
+  },
+  "CEFC": {
+    "char": "蚊",
+    "scenario_evidence": 0
+  },
+  "CF45": {
+    "char": "蚓",
+    "scenario_evidence": 0
+  },
+  "CF61": {
+    "char": "蚯",
+    "scenario_evidence": 0
+  },
+  "CF63": {
+    "char": "蚱",
+    "scenario_evidence": 0
+  },
+  "CF79": {
+    "char": "蛇",
+    "scenario_evidence": 0
+  },
+  "CF7D": {
+    "char": "蛋",
+    "scenario_evidence": 0
+  },
+  "CF8B": {
+    "char": "蛙",
+    "scenario_evidence": 0
+  },
+  "CF8D": {
+    "char": "蛛",
+    "scenario_evidence": 0
+  },
+  "CF90": {
+    "char": "蛞",
+    "scenario_evidence": 0
+  },
+  "CF9F": {
+    "char": "蛭",
+    "scenario_evidence": 0
+  },
+  "CFB0": {
+    "char": "蛾",
+    "scenario_evidence": 0
+  },
+  "CFB3": {
+    "char": "蜂",
+    "scenario_evidence": 0
+  },
+  "CFB4": {
+    "char": "蜃",
+    "scenario_evidence": 0
+  },
+  "CFC9": {
+    "char": "蜘",
+    "scenario_evidence": 0
+  },
+  "CFCD": {
+    "char": "蜜",
+    "scenario_evidence": 0
+  },
+  "CFD3": {
+    "char": "蜢",
+    "scenario_evidence": 0
+  },
+  "CFD6": {
+    "char": "蜥",
+    "scenario_evidence": 1
+  },
+  "CFE8": {
+    "char": "蜷",
+    "scenario_evidence": 0
+  },
+  "D044": {
+    "char": "蝓",
+    "scenario_evidence": 0
+  },
+  "D046": {
+    "char": "蝕",
+    "scenario_evidence": 0
+  },
+  "D04A": {
+    "char": "蝙",
+    "scenario_evidence": 0
+  },
+  "D051": {
+    "char": "蝠",
+    "scenario_evidence": 0
+  },
+  "D065": {
+    "char": "蝴",
+    "scenario_evidence": 0
+  },
+  "D067": {
+    "char": "蝶",
+    "scenario_evidence": 0
+  },
+  "D069": {
+    "char": "蝸",
+    "scenario_evidence": 0
+  },
+  "D074": {
+    "char": "螃",
+    "scenario_evidence": 0
+  },
+  "D076": {
+    "char": "螅",
+    "scenario_evidence": 0
+  },
+  "D079": {
+    "char": "螈",
+    "scenario_evidence": 1
+  },
+  "D07E": {
+    "char": "融",
+    "scenario_evidence": 0
+  },
+  "D093": {
+    "char": "螢",
+    "scenario_evidence": 0
+  },
+  "D09C": {
+    "char": "螫",
+    "scenario_evidence": 0
+  },
+  "D0AB": {
+    "char": "螺",
+    "scenario_evidence": 0
+  },
+  "D0AE": {
+    "char": "螽",
+    "scenario_evidence": 0
+  },
+  "D0B1": {
+    "char": "蟀",
+    "scenario_evidence": 0
+  },
+  "D0BC": {
+    "char": "蟋",
+    "scenario_evidence": 0
+  },
+  "D0DD": {
+    "char": "蟬",
+    "scenario_evidence": 1
+  },
+  "D0E3": {
+    "char": "蟲",
+    "scenario_evidence": 0
+  },
+  "D0EA": {
+    "char": "蟹",
+    "scenario_evidence": 0
+  },
+  "D0EC": {
+    "char": "蟻",
+    "scenario_evidence": 0
+  },
+  "D0F6": {
+    "char": "蠅",
+    "scenario_evidence": 0
+  },
+  "D0FB": {
+    "char": "蠊",
+    "scenario_evidence": 0
+  },
+  "D0FE": {
+    "char": "蠍",
+    "scenario_evidence": 0
+  },
+  "D142": {
+    "char": "蠑",
+    "scenario_evidence": 1
+  },
+  "D146": {
+    "char": "蠕",
+    "scenario_evidence": 0
+  },
+  "D150": {
+    "char": "蠟",
+    "scenario_evidence": 0
+  },
+  "D153": {
+    "char": "蠢",
+    "scenario_evidence": 0
+  },
+  "D167": {
+    "char": "蠶",
+    "scenario_evidence": 0
+  },
+  "D16C": {
+    "char": "蠻",
+    "scenario_evidence": 11
+  },
+  "D171": {
+    "char": "血",
+    "scenario_evidence": 0
+  },
+  "D17D": {
+    "char": "行",
+    "scenario_evidence": 0
+  },
+  "D17E": {
+    "char": "衍",
+    "scenario_evidence": 0
+  },
+  "D184": {
+    "char": "術",
+    "scenario_evidence": 0
+  },
+  "D188": {
+    "char": "街",
+    "scenario_evidence": 0
+  },
+  "D18C": {
+    "char": "衛",
+    "scenario_evidence": 0
+  },
+  "D18E": {
+    "char": "衝",
+    "scenario_evidence": 0
+  },
+  "D192": {
+    "char": "衡",
+    "scenario_evidence": 0
+  },
+  "D194": {
+    "char": "衣",
+    "scenario_evidence": 0
+  },
+  "D199": {
+    "char": "表",
+    "scenario_evidence": 0
+  },
+  "D19C": {
+    "char": "衫",
+    "scenario_evidence": 0
+  },
+  "D1A8": {
+    "char": "衷",
+    "scenario_evidence": 0
+  },
+  "D1BC": {
+    "char": "袋",
+    "scenario_evidence": 0
+  },
+  "D1BE": {
+    "char": "袍",
+    "scenario_evidence": 0
+  },
+  "D1DC": {
+    "char": "被",
+    "scenario_evidence": 0
+  },
+  "D1F2": {
+    "char": "裁",
+    "scenario_evidence": 0
+  },
+  "D1F3": {
+    "char": "裂",
+    "scenario_evidence": 0
+  },
+  "D240": {
+    "char": "裏",
+    "scenario_evidence": 0
+  },
+  "D246": {
+    "char": "裕",
+    "scenario_evidence": 0
+  },
+  "D24A": {
+    "char": "裙",
+    "scenario_evidence": 0
+  },
+  "D24D": {
+    "char": "補",
+    "scenario_evidence": 0
+  },
+  "D24E": {
+    "char": "裝",
+    "scenario_evidence": 0
+  },
+  "D252": {
+    "char": "裡",
+    "scenario_evidence": 0
+  },
+  "D26A": {
+    "char": "裹",
+    "scenario_evidence": 0
+  },
+  "D26E": {
+    "char": "製",
+    "scenario_evidence": 0
+  },
+  "D276": {
+    "char": "複",
+    "scenario_evidence": 0
+  },
+  "D27F": {
+    "char": "褐",
+    "scenario_evidence": 0
+  },
+  "D2DE": {
+    "char": "襯",
+    "scenario_evidence": 0
+  },
+  "D2E1": {
+    "char": "襲",
+    "scenario_evidence": 0
+  },
+  "D2EE": {
+    "char": "西",
+    "scenario_evidence": 0
+  },
+  "D2F0": {
+    "char": "要",
+    "scenario_evidence": 0
+  },
+  "D2F5": {
+    "char": "覆",
+    "scenario_evidence": 0
+  },
+  "D2FA": {
+    "char": "見",
+    "scenario_evidence": 0
+  },
+  "D2FE": {
+    "char": "規",
+    "scenario_evidence": 0
+  },
+  "D345": {
+    "char": "視",
+    "scenario_evidence": 0
+  },
+  "D355": {
+    "char": "覦",
+    "scenario_evidence": 1
+  },
+  "D359": {
+    "char": "親",
+    "scenario_evidence": 0
+  },
+  "D35B": {
+    "char": "覬",
+    "scenario_evidence": 1
+  },
+  "D369": {
+    "char": "覺",
+    "scenario_evidence": 0
+  },
+  "D36C": {
+    "char": "覽",
+    "scenario_evidence": 0
+  },
+  "D36F": {
+    "char": "觀",
+    "scenario_evidence": 0
+  },
+  "D370": {
+    "char": "角",
+    "scenario_evidence": 0
+  },
+  "D381": {
+    "char": "解",
+    "scenario_evidence": 0
+  },
+  "D396": {
+    "char": "觸",
+    "scenario_evidence": 0
+  },
+  "D39E": {
+    "char": "言",
+    "scenario_evidence": 0
+  },
+  "D3A0": {
+    "char": "訂",
+    "scenario_evidence": 0
+  },
+  "D3A6": {
+    "char": "計",
+    "scenario_evidence": 0
+  },
+  "D3A8": {
+    "char": "訊",
+    "scenario_evidence": 0
+  },
+  "D3AC": {
+    "char": "討",
+    "scenario_evidence": 0
+  },
+  "D3B1": {
+    "char": "訓",
+    "scenario_evidence": 0
+  },
+  "D3B3": {
+    "char": "訕",
+    "scenario_evidence": 0
+  },
+  "D3B5": {
+    "char": "託",
+    "scenario_evidence": 0
+  },
+  "D3B6": {
+    "char": "記",
+    "scenario_evidence": 0
+  },
+  "D3BB": {
+    "char": "訝",
+    "scenario_evidence": 0
+  },
+  "D3C1": {
+    "char": "訣",
+    "scenario_evidence": 0
+  },
+  "D3C8": {
+    "char": "訪",
+    "scenario_evidence": 0
+  },
+  "D3CB": {
+    "char": "設",
+    "scenario_evidence": 0
+  },
+  "D3CF": {
+    "char": "許",
+    "scenario_evidence": 0
+  },
+  "D3D2": {
+    "char": "訴",
+    "scenario_evidence": 0
+  },
+  "D3D8": {
+    "char": "診",
+    "scenario_evidence": 0
+  },
+  "D3EE": {
+    "char": "詐",
+    "scenario_evidence": 0
+  },
+  "D3F3": {
+    "char": "評",
+    "scenario_evidence": 0
+  },
+  "D3F9": {
+    "char": "詛",
+    "scenario_evidence": 0
+  },
+  "D3FC": {
+    "char": "詞",
+    "scenario_evidence": 0
+  },
+  "D440": {
+    "char": "詢",
+    "scenario_evidence": 0
+  },
+  "D444": {
+    "char": "試",
+    "scenario_evidence": 0
+  },
+  "D447": {
+    "char": "詩",
+    "scenario_evidence": 0
+  },
+  "D44B": {
+    "char": "詭",
+    "scenario_evidence": 0
+  },
+  "D44F": {
+    "char": "話",
+    "scenario_evidence": 0
+  },
+  "D450": {
+    "char": "該",
+    "scenario_evidence": 0
+  },
+  "D451": {
+    "char": "詳",
+    "scenario_evidence": 0
+  },
+  "D465": {
+    "char": "誇",
+    "scenario_evidence": 0
+  },
+  "D46A": {
+    "char": "誌",
+    "scenario_evidence": 0
+  },
+  "D46B": {
+    "char": "認",
+    "scenario_evidence": 0
+  },
+  "D473": {
+    "char": "誕",
+    "scenario_evidence": 0
+  },
+  "D476": {
+    "char": "誘",
+    "scenario_evidence": 0
+  },
+  "D47C": {
+    "char": "語",
+    "scenario_evidence": 0
+  },
+  "D47E": {
+    "char": "誠",
+    "scenario_evidence": 0
+  },
+  "D47F": {
+    "char": "誡",
+    "scenario_evidence": 0
+  },
+  "D482": {
+    "char": "誤",
+    "scenario_evidence": 0
+  },
+  "D484": {
+    "char": "誦",
+    "scenario_evidence": 0
+  },
+  "D488": {
+    "char": "說",
+    "scenario_evidence": 0
+  },
+  "D48E": {
+    "char": "誰",
+    "scenario_evidence": 0
+  },
+  "D490": {
+    "char": "課",
+    "scenario_evidence": 0
+  },
+  "D49D": {
+    "char": "調",
+    "scenario_evidence": 0
+  },
+  "D4A5": {
+    "char": "談",
+    "scenario_evidence": 0
+  },
+  "D4A9": {
+    "char": "請",
+    "scenario_evidence": 0
+  },
+  "D4B0": {
+    "char": "諒",
+    "scenario_evidence": 0
+  },
+  "D4B4": {
+    "char": "論",
+    "scenario_evidence": 0
+  },
+  "D4BA": {
+    "char": "情",
+    "scenario_evidence": 0
+  },
+  "D4CC": {
+    "char": "諮",
+    "scenario_evidence": 0
+  },
+  "D4D1": {
+    "char": "諳",
+    "scenario_evidence": 0
+  },
+  "D4D5": {
+    "char": "諷",
+    "scenario_evidence": 0
+  },
+  "D4D6": {
+    "char": "諸",
+    "scenario_evidence": 0
+  },
+  "D4DC": {
+    "char": "諾",
+    "scenario_evidence": 0
+  },
+  "D4DE": {
+    "char": "謀",
+    "scenario_evidence": 0
+  },
+  "D4E0": {
+    "char": "謂",
+    "scenario_evidence": 0
+  },
+  "D4E8": {
+    "char": "謊",
+    "scenario_evidence": 0
+  },
+  "D4EC": {
+    "char": "謎",
+    "scenario_evidence": 0
+  },
+  "D4F9": {
+    "char": "講",
+    "scenario_evidence": 0
+  },
+  "D4FB": {
+    "char": "謝",
+    "scenario_evidence": 0
+  },
+  "D4FE": {
+    "char": "謠",
+    "scenario_evidence": 0
+  },
+  "D557": {
+    "char": "謹",
+    "scenario_evidence": 0
+  },
+  "D567": {
+    "char": "證",
+    "scenario_evidence": 0
+  },
+  "D576": {
+    "char": "識",
+    "scenario_evidence": 0
+  },
+  "D57A": {
+    "char": "譜",
+    "scenario_evidence": 0
+  },
+  "D584": {
+    "char": "警",
+    "scenario_evidence": 0
+  },
+  "D58E": {
+    "char": "議",
+    "scenario_evidence": 0
+  },
+  "D595": {
+    "char": "護",
+    "scenario_evidence": 0
+  },
+  "D59B": {
+    "char": "譽",
+    "scenario_evidence": 0
+  },
+  "D5A8": {
+    "char": "變",
+    "scenario_evidence": 0
+  },
+  "D5B1": {
+    "char": "讓",
+    "scenario_evidence": 0
+  },
+  "D5B8": {
+    "char": "讚",
+    "scenario_evidence": 0
+  },
+  "D5BE": {
+    "char": "谷",
+    "scenario_evidence": 1
+  },
+  "D5CD": {
+    "char": "豆",
+    "scenario_evidence": 0
+  },
+  "D5CF": {
+    "char": "豈",
+    "scenario_evidence": 1
+  },
+  "D5D7": {
+    "char": "豐",
+    "scenario_evidence": 0
+  },
+  "D5DB": {
+    "char": "豔",
+    "scenario_evidence": 0
+  },
+  "D5E8": {
+    "char": "象",
+    "scenario_evidence": 0
+  },
+  "D5F1": {
+    "char": "豪",
+    "scenario_evidence": 0
+  },
+  "D5F3": {
+    "char": "豬",
+    "scenario_evidence": 0
+  },
+  "D653": {
+    "char": "貌",
+    "scenario_evidence": 0
+  },
+  "D65A": {
+    "char": "貓",
+    "scenario_evidence": 0
+  },
+  "D664": {
+    "char": "貝",
+    "scenario_evidence": 0
+  },
+  "D667": {
+    "char": "負",
+    "scenario_evidence": 0
+  },
+  "D668": {
+    "char": "財",
+    "scenario_evidence": 0
+  },
+  "D66E": {
+    "char": "貧",
+    "scenario_evidence": 0
+  },
+  "D66F": {
+    "char": "貨",
+    "scenario_evidence": 0
+  },
+  "D670": {
+    "char": "販",
+    "scenario_evidence": 0
+  },
+  "D671": {
+    "char": "貪",
+    "scenario_evidence": 0
+  },
+  "D672": {
+    "char": "貫",
+    "scenario_evidence": 0
+  },
+  "D673": {
+    "char": "責",
+    "scenario_evidence": 0
+  },
+  "D67B": {
+    "char": "貴",
+    "scenario_evidence": 0
+  },
+  "D67E": {
+    "char": "買",
+    "scenario_evidence": 0
+  },
+  "D682": {
+    "char": "費",
+    "scenario_evidence": 0
+  },
+  "D683": {
+    "char": "貼",
+    "scenario_evidence": 0
+  },
+  "D686": {
+    "char": "貿",
+    "scenario_evidence": 0
+  },
+  "D687": {
+    "char": "賀",
+    "scenario_evidence": 1
+  },
+  "D68A": {
+    "char": "賃",
+    "scenario_evidence": 0
+  },
+  "D68E": {
+    "char": "資",
+    "scenario_evidence": 0
+  },
+  "D691": {
+    "char": "賊",
+    "scenario_evidence": 0
+  },
+  "D698": {
+    "char": "賑",
+    "scenario_evidence": 0
+  },
+  "D69A": {
+    "char": "賓",
+    "scenario_evidence": 0
+  },
+  "D6A3": {
+    "char": "賜",
+    "scenario_evidence": 0
+  },
+  "D6A5": {
+    "char": "賞",
+    "scenario_evidence": 0
+  },
+  "D6A7": {
+    "char": "賠",
+    "scenario_evidence": 0
+  },
+  "D6A9": {
+    "char": "賢",
+    "scenario_evidence": 0
+  },
+  "D6AA": {
+    "char": "賣",
+    "scenario_evidence": 0
+  },
+  "D6B1": {
+    "char": "質",
+    "scenario_evidence": 0
+  },
+  "D6B4": {
+    "char": "賭",
+    "scenario_evidence": 0
+  },
+  "D6BB": {
+    "char": "賴",
+    "scenario_evidence": 0
+  },
+  "D6C1": {
+    "char": "賺",
+    "scenario_evidence": 0
+  },
+  "D6C3": {
+    "char": "購",
+    "scenario_evidence": 0
+  },
+  "D6C4": {
+    "char": "賽",
+    "scenario_evidence": 0
+  },
+  "D6CB": {
+    "char": "贅",
+    "scenario_evidence": 1
+  },
+  "D6CE": {
+    "char": "贈",
+    "scenario_evidence": 0
+  },
+  "D6D0": {
+    "char": "贊",
+    "scenario_evidence": 0
+  },
+  "D6D5": {
+    "char": "贏",
+    "scenario_evidence": 0
+  },
+  "D6E2": {
+    "char": "赤",
+    "scenario_evidence": 0
+  },
+  "D6EE": {
+    "char": "走",
+    "scenario_evidence": 0
+  },
+  "D6F2": {
+    "char": "赴",
+    "scenario_evidence": 0
+  },
+  "D6F5": {
+    "char": "起",
+    "scenario_evidence": 0
+  },
+  "D6FF": {
+    "char": "趁",
+    "scenario_evidence": 0
+  },
+  "D743": {
+    "char": "超",
+    "scenario_evidence": 0
+  },
+  "D748": {
+    "char": "越",
+    "scenario_evidence": 0
+  },
+  "D753": {
+    "char": "趕",
+    "scenario_evidence": 0
+  },
+  "D75D": {
+    "char": "趟",
+    "scenario_evidence": 0
+  },
+  "D761": {
+    "char": "趣",
+    "scenario_evidence": 0
+  },
+  "D771": {
+    "char": "足",
+    "scenario_evidence": 0
+  },
+  "D78F": {
+    "char": "跑",
+    "scenario_evidence": 0
+  },
+  "D79B": {
+    "char": "距",
+    "scenario_evidence": 0
+  },
+  "D79D": {
+    "char": "跟",
+    "scenario_evidence": 0
+  },
+  "D79F": {
+    "char": "跡",
+    "scenario_evidence": 0
+  },
+  "D7A6": {
+    "char": "跨",
+    "scenario_evidence": 0
+  },
+  "D7AD": {
+    "char": "路",
+    "scenario_evidence": 0
+  },
+  "D7B1": {
+    "char": "跳",
+    "scenario_evidence": 0
+  },
+  "D7CD": {
+    "char": "踏",
+    "scenario_evidence": 0
+  },
+  "D7DB": {
+    "char": "踝",
+    "scenario_evidence": 0
+  },
+  "D7DC": {
+    "char": "踞",
+    "scenario_evidence": 0
+  },
+  "D7E0": {
+    "char": "踢",
+    "scenario_evidence": 0
+  },
+  "D7E7": {
+    "char": "踩",
+    "scenario_evidence": 0
+  },
+  "D840": {
+    "char": "蹂",
+    "scenario_evidence": 0
+  },
+  "D846": {
+    "char": "蹈",
+    "scenario_evidence": 0
+  },
+  "D848": {
+    "char": "蹊",
+    "scenario_evidence": 0
+  },
+  "D849": {
+    "char": "蹋",
+    "scenario_evidence": 0
+  },
+  "D85D": {
+    "char": "蹟",
+    "scenario_evidence": 0
+  },
+  "D862": {
+    "char": "蹤",
+    "scenario_evidence": 0
+  },
+  "D878": {
+    "char": "蹺",
+    "scenario_evidence": 0
+  },
+  "D87F": {
+    "char": "躁",
+    "scenario_evidence": 0
+  },
+  "D88B": {
+    "char": "躍",
+    "scenario_evidence": 0
+  },
+  "D8A8": {
+    "char": "躪",
+    "scenario_evidence": 0
+  },
+  "D8A9": {
+    "char": "身",
+    "scenario_evidence": 0
+  },
+  "D8B0": {
+    "char": "躲",
+    "scenario_evidence": 0
+  },
+  "D8B8": {
+    "char": "躺",
+    "scenario_evidence": 0
+  },
+  "D8BE": {
+    "char": "軀",
+    "scenario_evidence": 0
+  },
+  "D8C8": {
+    "char": "車",
+    "scenario_evidence": 0
+  },
+  "D8CA": {
+    "char": "軌",
+    "scenario_evidence": 0
+  },
+  "D8CB": {
+    "char": "軍",
+    "scenario_evidence": 0
+  },
+  "D8DD": {
+    "char": "軟",
+    "scenario_evidence": 0
+  },
+  "D8F6": {
+    "char": "軸",
+    "scenario_evidence": 0
+  },
+  "D941": {
+    "char": "較",
+    "scenario_evidence": 0
+  },
+  "D947": {
+    "char": "載",
+    "scenario_evidence": 0
+  },
+  "D952": {
+    "char": "輔",
+    "scenario_evidence": 0
+  },
+  "D953": {
+    "char": "輕",
+    "scenario_evidence": 0
+  },
+  "D959": {
+    "char": "輛",
+    "scenario_evidence": 0
+  },
+  "D95B": {
+    "char": "輝",
+    "scenario_evidence": 0
+  },
+  "D967": {
+    "char": "輩",
+    "scenario_evidence": 0
+  },
+  "D968": {
+    "char": "輪",
+    "scenario_evidence": 0
+  },
+  "D96D": {
+    "char": "輯",
+    "scenario_evidence": 0
+  },
+  "D976": {
+    "char": "輸",
+    "scenario_evidence": 0
+  },
+  "D980": {
+    "char": "轂",
+    "scenario_evidence": 0
+  },
+  "D987": {
+    "char": "轉",
+    "scenario_evidence": 0
+  },
+  "D98C": {
+    "char": "轎",
+    "scenario_evidence": 0
+  },
+  "D99D": {
+    "char": "轟",
+    "scenario_evidence": 0
+  },
+  "D9A3": {
+    "char": "辛",
+    "scenario_evidence": 0
+  },
+  "D9A4": {
+    "char": "辜",
+    "scenario_evidence": 0
+  },
+  "D9AB": {
+    "char": "辣",
+    "scenario_evidence": 0
+  },
+  "D9AE": {
+    "char": "辦",
+    "scenario_evidence": 0
+  },
+  "D9B0": {
+    "char": "辨",
+    "scenario_evidence": 0
+  },
+  "D9B5": {
+    "char": "辭",
+    "scenario_evidence": 0
+  },
+  "D9B7": {
+    "char": "辯",
+    "scenario_evidence": 0
+  },
+  "D9B8": {
+    "char": "辰",
+    "scenario_evidence": 0
+  },
+  "D9BA": {
+    "char": "農",
+    "scenario_evidence": 0
+  },
+  "D9CA": {
+    "char": "迂",
+    "scenario_evidence": 0
+  },
+  "D9CD": {
+    "char": "迅",
+    "scenario_evidence": 0
+  },
+  "D9D6": {
+    "char": "迎",
+    "scenario_evidence": 0
+  },
+  "D9D9": {
+    "char": "近",
+    "scenario_evidence": 0
+  },
+  "D9DC": {
+    "char": "返",
+    "scenario_evidence": 0
+  },
+  "D9EE": {
+    "char": "迦",
+    "scenario_evidence": 0
+  },
+  "D9F2": {
+    "char": "迪",
+    "scenario_evidence": 0
+  },
+  "D9F3": {
+    "char": "迫",
+    "scenario_evidence": 0
+  },
+  "D9F8": {
+    "char": "述",
+    "scenario_evidence": 0
+  },
+  "D9FC": {
+    "char": "迴",
+    "scenario_evidence": 0
+  },
+  "D9FF": {
+    "char": "迷",
+    "scenario_evidence": 0
+  },
+  "DA45": {
+    "char": "追",
+    "scenario_evidence": 0
+  },
+  "DA48": {
+    "char": "退",
+    "scenario_evidence": 0
+  },
+  "DA49": {
+    "char": "送",
+    "scenario_evidence": 0
+  },
+  "DA4B": {
+    "char": "逃",
+    "scenario_evidence": 0
+  },
+  "DA4D": {
+    "char": "逅",
+    "scenario_evidence": 0
+  },
+  "DA4E": {
+    "char": "逆",
+    "scenario_evidence": 0
+  },
+  "DA57": {
+    "char": "透",
+    "scenario_evidence": 0
+  },
+  "DA58": {
+    "char": "逐",
+    "scenario_evidence": 0
+  },
+  "DA5C": {
+    "char": "途",
+    "scenario_evidence": 0
+  },
+  "DA5F": {
+    "char": "逗",
+    "scenario_evidence": 0
+  },
+  "DA61": {
+    "char": "這",
+    "scenario_evidence": 0
+  },
+  "DA62": {
+    "char": "通",
+    "scenario_evidence": 0
+  },
+  "DA63": {
+    "char": "逛",
+    "scenario_evidence": 0
+  },
+  "DA66": {
+    "char": "逞",
+    "scenario_evidence": 0
+  },
+  "DA67": {
+    "char": "速",
+    "scenario_evidence": 0
+  },
+  "DA68": {
+    "char": "造",
+    "scenario_evidence": 0
+  },
+  "DA6A": {
+    "char": "逢",
+    "scenario_evidence": 0
+  },
+  "DA6B": {
+    "char": "連",
+    "scenario_evidence": 0
+  },
+  "DA76": {
+    "char": "逮",
+    "scenario_evidence": 0
+  },
+  "DA79": {
+    "char": "週",
+    "scenario_evidence": 0
+  },
+  "DA7A": {
+    "char": "進",
+    "scenario_evidence": 0
+  },
+  "DA80": {
+    "char": "逸",
+    "scenario_evidence": 1
+  },
+  "DA84": {
+    "char": "逼",
+    "scenario_evidence": 0
+  },
+  "DA86": {
+    "char": "逾",
+    "scenario_evidence": 0
+  },
+  "DA8A": {
+    "char": "遂",
+    "scenario_evidence": 0
+  },
+  "DA8F": {
+    "char": "遇",
+    "scenario_evidence": 0
+  },
+  "DA92": {
+    "char": "遊",
+    "scenario_evidence": 0
+  },
+  "DA93": {
+    "char": "運",
+    "scenario_evidence": 0
+  },
+  "DA95": {
+    "char": "遍",
+    "scenario_evidence": 0
+  },
+  "DA96": {
+    "char": "過",
+    "scenario_evidence": 0
+  },
+  "DA9B": {
+    "char": "道",
+    "scenario_evidence": 0
+  },
+  "DA9C": {
+    "char": "達",
+    "scenario_evidence": 0
+  },
+  "DA9D": {
+    "char": "違",
+    "scenario_evidence": 0
+  },
+  "DAA1": {
+    "char": "遙",
+    "scenario_evidence": 0
+  },
+  "DAA4": {
+    "char": "遜",
+    "scenario_evidence": 1
+  },
+  "DAA6": {
+    "char": "遞",
+    "scenario_evidence": 0
+  },
+  "DAA8": {
+    "char": "遠",
+    "scenario_evidence": 0
+  },
+  "DAB1": {
+    "char": "適",
+    "scenario_evidence": 0
+  },
+  "DAB5": {
+    "char": "遭",
+    "scenario_evidence": 0
+  },
+  "DABA": {
+    "char": "遲",
+    "scenario_evidence": 0
+  },
+  "DABD": {
+    "char": "遵",
+    "scenario_evidence": 0
+  },
+  "DABF": {
+    "char": "遷",
+    "scenario_evidence": 0
+  },
+  "DAC0": {
+    "char": "選",
+    "scenario_evidence": 0
+  },
+  "DAC2": {
+    "char": "遺",
+    "scenario_evidence": 0
+  },
+  "DAC4": {
+    "char": "遼",
+    "scenario_evidence": 0
+  },
+  "DAC5": {
+    "char": "遽",
+    "scenario_evidence": 0
+  },
+  "DAC7": {
+    "char": "避",
+    "scenario_evidence": 0
+  },
+  "DAC8": {
+    "char": "邀",
+    "scenario_evidence": 0
+  },
+  "DAC9": {
+    "char": "邁",
+    "scenario_evidence": 0
+  },
+  "DACA": {
+    "char": "邂",
+    "scenario_evidence": 0
+  },
+  "DACB": {
+    "char": "邃",
+    "scenario_evidence": 0
+  },
+  "DACC": {
+    "char": "還",
+    "scenario_evidence": 0
+  },
+  "DAD2": {
+    "char": "邊",
+    "scenario_evidence": 0
+  },
+  "DAD7": {
+    "char": "邏",
+    "scenario_evidence": 0
+  },
+  "DAEB": {
+    "char": "那",
+    "scenario_evidence": 0
+  },
+  "DAEE": {
+    "char": "邦",
+    "scenario_evidence": 0
+  },
+  "DAF2": {
+    "char": "邪",
+    "scenario_evidence": 0
+  },
+  "DB40": {
+    "char": "邸",
+    "scenario_evidence": 0
+  },
+  "DB49": {
+    "char": "郁",
+    "scenario_evidence": 0
+  },
+  "DB52": {
+    "char": "郊",
+    "scenario_evidence": 0
+  },
+  "DB70": {
+    "char": "部",
+    "scenario_evidence": 0
+  },
+  "DB7D": {
+    "char": "郵",
+    "scenario_evidence": 0
+  },
+  "DB83": {
+    "char": "都",
+    "scenario_evidence": 0
+  },
+  "DB85": {
+    "char": "都",
+    "scenario_evidence": 0
+  },
+  "DB91": {
+    "char": "鄉",
+    "scenario_evidence": 0
+  },
+  "DBA1": {
+    "char": "鄙",
+    "scenario_evidence": 0
+  },
+  "DBB8": {
+    "char": "鄰",
+    "scenario_evidence": 0
+  },
+  "DBD2": {
+    "char": "酊",
+    "scenario_evidence": 0
+  },
+  "DBD5": {
+    "char": "配",
+    "scenario_evidence": 0
+  },
+  "DBDA": {
+    "char": "酒",
+    "scenario_evidence": 0
+  },
+  "DBED": {
+    "char": "酥",
+    "scenario_evidence": 0
+  },
+  "DBF1": {
+    "char": "酩",
+    "scenario_evidence": 0
+  },
+  "DBF2": {
+    "char": "酪",
+    "scenario_evidence": 0
+  },
+  "DBFD": {
+    "char": "酵",
+    "scenario_evidence": 0
+  },
+  "DBFF": {
+    "char": "酷",
+    "scenario_evidence": 0
+  },
+  "DC40": {
+    "char": "酸",
+    "scenario_evidence": 0
+  },
+  "DC4F": {
+    "char": "醇",
+    "scenario_evidence": 0
+  },
+  "DC51": {
+    "char": "醉",
+    "scenario_evidence": 0
+  },
+  "DC5A": {
+    "char": "醒",
+    "scenario_evidence": 0
+  },
+  "DC64": {
+    "char": "醜",
+    "scenario_evidence": 0
+  },
+  "DC73": {
+    "char": "醫",
+    "scenario_evidence": 0
+  },
+  "DC74": {
+    "char": "醬",
+    "scenario_evidence": 0
+  },
+  "DC86": {
+    "char": "他",
+    "scenario_evidence": 0
+  },
+  "DC88": {
+    "char": "釀",
+    "scenario_evidence": 0
+  },
+  "DC89": {
+    "char": "釁",
+    "scenario_evidence": 0
+  },
+  "DC8F": {
+    "char": "採",
+    "scenario_evidence": 0
+  },
+  "DC93": {
+    "char": "釋",
+    "scenario_evidence": 0
+  },
+  "DC94": {
+    "char": "里",
+    "scenario_evidence": 0
+  },
+  "DC95": {
+    "char": "重",
+    "scenario_evidence": 0
+  },
+  "DC96": {
+    "char": "野",
+    "scenario_evidence": 0
+  },
+  "DC97": {
+    "char": "量",
+    "scenario_evidence": 0
+  },
+  "DC98": {
+    "char": "釐",
+    "scenario_evidence": 0
+  },
+  "DC99": {
+    "char": "金",
+    "scenario_evidence": 0
+  },
+  "DCA0": {
+    "char": "釘",
+    "scenario_evidence": 0
+  },
+  "DCA5": {
+    "char": "針",
+    "scenario_evidence": 0
+  },
+  "DCAB": {
+    "char": "釣",
+    "scenario_evidence": 0
+  },
+  "DCD5": {
+    "char": "鈍",
+    "scenario_evidence": 0
+  },
+  "DCDD": {
+    "char": "鈕",
+    "scenario_evidence": 1
+  },
+  "DCE6": {
+    "char": "鈞",
+    "scenario_evidence": 0
+  },
+  "DCEE": {
+    "char": "鈦",
+    "scenario_evidence": 0
+  },
+  "DCFC": {
+    "char": "鈴",
+    "scenario_evidence": 0
+  },
+  "DCFF": {
+    "char": "鈷",
+    "scenario_evidence": 0
+  },
+  "DD5F": {
+    "char": "鉗",
+    "scenario_evidence": 0
+  },
+  "DD63": {
+    "char": "鉛",
+    "scenario_evidence": 0
+  },
+  "DD6C": {
+    "char": "鉤",
+    "scenario_evidence": 0
+  },
+  "DD88": {
+    "char": "銀",
+    "scenario_evidence": 0
+  },
+  "DDBB": {
+    "char": "銳",
+    "scenario_evidence": 0
+  },
+  "DDBF": {
+    "char": "銷",
+    "scenario_evidence": 0
+  },
+  "DDC9": {
+    "char": "鋁",
+    "scenario_evidence": 0
+  },
+  "DDDA": {
+    "char": "鋒",
+    "scenario_evidence": 0
+  },
+  "DDF2": {
+    "char": "鋪",
+    "scenario_evidence": 0
+  },
+  "DE44": {
+    "char": "鋼",
+    "scenario_evidence": 0
+  },
+  "DE4C": {
+    "char": "錄",
+    "scenario_evidence": 0
+  },
+  "DE60": {
+    "char": "錘",
+    "scenario_evidence": 0
+  },
+  "DE68": {
+    "char": "錠",
+    "scenario_evidence": 0
+  },
+  "DE6A": {
+    "char": "錢",
+    "scenario_evidence": 0
+  },
+  "DE6E": {
+    "char": "錦",
+    "scenario_evidence": 0
+  },
+  "DE73": {
+    "char": "錫",
+    "scenario_evidence": 0
+  },
+  "DE77": {
+    "char": "錯",
+    "scenario_evidence": 0
+  },
+  "DE7E": {
+    "char": "錶",
+    "scenario_evidence": 0
+  },
+  "DE92": {
+    "char": "鍊",
+    "scenario_evidence": 0
+  },
+  "DE93": {
+    "char": "鍋",
+    "scenario_evidence": 0
+  },
+  "DE95": {
+    "char": "鍍",
+    "scenario_evidence": 0
+  },
+  "DEA3": {
+    "char": "鍛",
+    "scenario_evidence": 0
+  },
+  "DEBD": {
+    "char": "鍵",
+    "scenario_evidence": 0
+  },
+  "DEDE": {
+    "char": "鎖",
+    "scenario_evidence": 0
+  },
+  "DEDF": {
+    "char": "鎗",
+    "scenario_evidence": 0
+  },
+  "DEEF": {
+    "char": "鎧",
+    "scenario_evidence": 0
+  },
+  "DEF6": {
+    "char": "鎮",
+    "scenario_evidence": 0
+  },
+  "DF50": {
+    "char": "鏈",
+    "scenario_evidence": 0
+  },
+  "DF60": {
+    "char": "鏘",
+    "scenario_evidence": 2
+  },
+  "DF69": {
+    "char": "鏡",
+    "scenario_evidence": 0
+  },
+  "DF6A": {
+    "char": "鏢",
+    "scenario_evidence": 0
+  },
+  "DF85": {
+    "char": "鏽",
+    "scenario_evidence": 0
+  },
+  "DFA0": {
+    "char": "鐘",
+    "scenario_evidence": 0
+  },
+  "DFB6": {
+    "char": "鐮",
+    "scenario_evidence": 0
+  },
+  "DFBA": {
+    "char": "鐲",
+    "scenario_evidence": 0
+  },
+  "DFBB": {
+    "char": "雷",
+    "scenario_evidence": 0
+  },
+  "DFBD": {
+    "char": "鐵",
+    "scenario_evidence": 0
+  },
+  "DFC2": {
+    "char": "鐺",
+    "scenario_evidence": 0
+  },
+  "DFD9": {
+    "char": "鑑",
+    "scenario_evidence": 0
+  },
+  "DFDA": {
+    "char": "鑒",
+    "scenario_evidence": 0
+  },
+  "DFEB": {
+    "char": "鑣",
+    "scenario_evidence": 0
+  },
+  "DFF8": {
+    "char": "鑰",
+    "scenario_evidence": 0
+  },
+  "DFFA": {
+    "char": "鑲",
+    "scenario_evidence": 0
+  },
+  "E045": {
+    "char": "鑽",
+    "scenario_evidence": 0
+  },
+  "E04C": {
+    "char": "長",
+    "scenario_evidence": 0
+  },
+  "E055": {
+    "char": "門",
+    "scenario_evidence": 0
+  },
+  "E058": {
+    "char": "閃",
+    "scenario_evidence": 0
+  },
+  "E05E": {
+    "char": "閉",
+    "scenario_evidence": 0
+  },
+  "E060": {
+    "char": "開",
+    "scenario_evidence": 0
+  },
+  "E066": {
+    "char": "閑",
+    "scenario_evidence": 0
+  },
+  "E067": {
+    "char": "閒",
+    "scenario_evidence": 0
+  },
+  "E068": {
+    "char": "間",
+    "scenario_evidence": 0
+  },
+  "E06D": {
+    "char": "閘",
+    "scenario_evidence": 0
+  },
+  "E078": {
+    "char": "閣",
+    "scenario_evidence": 0
+  },
+  "E086": {
+    "char": "閱",
+    "scenario_evidence": 0
+  },
+  "E090": {
+    "char": "閻",
+    "scenario_evidence": 0
+  },
+  "E09B": {
+    "char": "闆",
+    "scenario_evidence": 0
+  },
+  "E09C": {
+    "char": "闇",
+    "scenario_evidence": 0
+  },
+  "E09F": {
+    "char": "闊",
+    "scenario_evidence": 0
+  },
+  "E0AB": {
+    "char": "闖",
+    "scenario_evidence": 0
+  },
+  "E0B1": {
+    "char": "關",
+    "scenario_evidence": 0
+  },
+  "E0D0": {
+    "char": "阱",
+    "scenario_evidence": 0
+  },
+  "E0D1": {
+    "char": "防",
+    "scenario_evidence": 0
+  },
+  "E0DA": {
+    "char": "阻",
+    "scenario_evidence": 0
+  },
+  "E0DE": {
+    "char": "阿",
+    "scenario_evidence": 0
+  },
+  "E0E3": {
+    "char": "附",
+    "scenario_evidence": 0
+  },
+  "E0EB": {
+    "char": "陌",
+    "scenario_evidence": 0
+  },
+  "E0EC": {
+    "char": "降",
+    "scenario_evidence": 0
+  },
+  "E0EF": {
+    "char": "限",
+    "scenario_evidence": 0
+  },
+  "E141": {
+    "char": "院",
+    "scenario_evidence": 0
+  },
+  "E142": {
+    "char": "陣",
+    "scenario_evidence": 0
+  },
+  "E143": {
+    "char": "除",
+    "scenario_evidence": 0
+  },
+  "E149": {
+    "char": "陪",
+    "scenario_evidence": 0
+  },
+  "E14F": {
+    "char": "陰",
+    "scenario_evidence": 0
+  },
+  "E152": {
+    "char": "陳",
+    "scenario_evidence": 0
+  },
+  "E154": {
+    "char": "陵",
+    "scenario_evidence": 0
+  },
+  "E156": {
+    "char": "陷",
+    "scenario_evidence": 0
+  },
+  "E157": {
+    "char": "陸",
+    "scenario_evidence": 0
+  },
+  "E15C": {
+    "char": "陽",
+    "scenario_evidence": 0
+  },
+  "E164": {
+    "char": "隅",
+    "scenario_evidence": 0
+  },
+  "E165": {
+    "char": "隆",
+    "scenario_evidence": 0
+  },
+  "E169": {
+    "char": "隊",
+    "scenario_evidence": 0
+  },
+  "E16D": {
+    "char": "階",
+    "scenario_evidence": 0
+  },
+  "E173": {
+    "char": "隔",
+    "scenario_evidence": 0
+  },
+  "E174": {
+    "char": "殞",
+    "scenario_evidence": 0
+  },
+  "E177": {
+    "char": "隘",
+    "scenario_evidence": 0
+  },
+  "E178": {
+    "char": "隙",
+    "scenario_evidence": 0
+  },
+  "E17A": {
+    "char": "際",
+    "scenario_evidence": 0
+  },
+  "E17B": {
+    "char": "障",
+    "scenario_evidence": 0
+  },
+  "E186": {
+    "char": "隧",
+    "scenario_evidence": 0
+  },
+  "E187": {
+    "char": "隨",
+    "scenario_evidence": 0
+  },
+  "E189": {
+    "char": "險",
+    "scenario_evidence": 0
+  },
+  "E190": {
+    "char": "隱",
+    "scenario_evidence": 0
+  },
+  "E197": {
+    "char": "隸",
+    "scenario_evidence": 0
+  },
+  "E19A": {
+    "char": "隻",
+    "scenario_evidence": 0
+  },
+  "E19B": {
+    "char": "隼",
+    "scenario_evidence": 0
+  },
+  "E19F": {
+    "char": "雀",
+    "scenario_evidence": 0
+  },
+  "E1A3": {
+    "char": "雄",
+    "scenario_evidence": 0
+  },
+  "E1A4": {
+    "char": "雅",
+    "scenario_evidence": 0
+  },
+  "E1A5": {
+    "char": "集",
+    "scenario_evidence": 0
+  },
+  "E1A6": {
+    "char": "雇",
+    "scenario_evidence": 1
+  },
+  "E1AB": {
+    "char": "雌",
+    "scenario_evidence": 0
+  },
+  "E1B4": {
+    "char": "雕",
+    "scenario_evidence": 0
+  },
+  "E1B5": {
+    "char": "雖",
+    "scenario_evidence": 0
+  },
+  "E1B8": {
+    "char": "雙",
+    "scenario_evidence": 0
+  },
+  "E1BB": {
+    "char": "雜",
+    "scenario_evidence": 0
+  },
+  "E1BD": {
+    "char": "雞",
+    "scenario_evidence": 0
+  },
+  "E1C1": {
+    "char": "離",
+    "scenario_evidence": 0
+  },
+  "E1C2": {
+    "char": "難",
+    "scenario_evidence": 0
+  },
+  "E1C7": {
+    "char": "雨",
+    "scenario_evidence": 0
+  },
+  "E1C9": {
+    "char": "雪",
+    "scenario_evidence": 0
+  },
+  "E1D1": {
+    "char": "雲",
+    "scenario_evidence": 0
+  },
+  "E1D5": {
+    "char": "零",
+    "scenario_evidence": 0
+  },
+  "E1D6": {
+    "char": "雷",
+    "scenario_evidence": 0
+  },
+  "E1DA": {
+    "char": "電",
+    "scenario_evidence": 0
+  },
+  "E1DF": {
+    "char": "需",
+    "scenario_evidence": 0
+  },
+  "E1E3": {
+    "char": "霄",
+    "scenario_evidence": 0
+  },
+  "E1E6": {
+    "char": "震",
+    "scenario_evidence": 0
+  },
+  "E1EC": {
+    "char": "霍",
+    "scenario_evidence": 0
+  },
+  "E1FB": {
+    "char": "霜",
+    "scenario_evidence": 0
+  },
+  "E1FD": {
+    "char": "霞",
+    "scenario_evidence": 0
+  },
+  "E246": {
+    "char": "霧",
+    "scenario_evidence": 0
+  },
+  "E24F": {
+    "char": "散",
+    "scenario_evidence": 0
+  },
+  "E251": {
+    "char": "露",
+    "scenario_evidence": 0
+  },
+  "E257": {
+    "char": "霸",
+    "scenario_evidence": 0
+  },
+  "E25D": {
+    "char": "霾",
+    "scenario_evidence": 2
+  },
+  "E267": {
+    "char": "靈",
+    "scenario_evidence": 0
+  },
+  "E271": {
+    "char": "青",
+    "scenario_evidence": 0
+  },
+  "E27B": {
+    "char": "靜",
+    "scenario_evidence": 0
+  },
+  "E27D": {
+    "char": "非",
+    "scenario_evidence": 0
+  },
+  "E27F": {
+    "char": "靠",
+    "scenario_evidence": 0
+  },
+  "E281": {
+    "char": "面",
+    "scenario_evidence": 0
+  },
+  "E288": {
+    "char": "革",
+    "scenario_evidence": 0
+  },
+  "E293": {
+    "char": "靴",
+    "scenario_evidence": 0
+  },
+  "E2AA": {
+    "char": "鞋",
+    "scenario_evidence": 0
+  },
+  "E2EB": {
+    "char": "韌",
+    "scenario_evidence": 0
+  },
+  "E352": {
+    "char": "音",
+    "scenario_evidence": 0
+  },
+  "E35A": {
+    "char": "韻",
+    "scenario_evidence": 0
+  },
+  "E35E": {
+    "char": "響",
+    "scenario_evidence": 0
+  },
+  "E361": {
+    "char": "頂",
+    "scenario_evidence": 0
+  },
+  "E364": {
+    "char": "項",
+    "scenario_evidence": 0
+  },
+  "E365": {
+    "char": "順",
+    "scenario_evidence": 0
+  },
+  "E367": {
+    "char": "須",
+    "scenario_evidence": 0
+  },
+  "E36F": {
+    "char": "預",
+    "scenario_evidence": 0
+  },
+  "E370": {
+    "char": "頑",
+    "scenario_evidence": 0
+  },
+  "E371": {
+    "char": "頒",
+    "scenario_evidence": 0
+  },
+  "E372": {
+    "char": "頓",
+    "scenario_evidence": 0
+  },
+  "E376": {
+    "char": "頗",
+    "scenario_evidence": 0
+  },
+  "E377": {
+    "char": "領",
+    "scenario_evidence": 0
+  },
+  "E38C": {
+    "char": "頭",
+    "scenario_evidence": 0
+  },
+  "E397": {
+    "char": "頸",
+    "scenario_evidence": 0
+  },
+  "E39A": {
+    "char": "頻",
+    "scenario_evidence": 0
+  },
+  "E3A5": {
+    "char": "顆",
+    "scenario_evidence": 0
+  },
+  "E3AB": {
+    "char": "題",
+    "scenario_evidence": 0
+  },
+  "E3AC": {
+    "char": "額",
+    "scenario_evidence": 0
+  },
+  "E3AE": {
+    "char": "顏",
+    "scenario_evidence": 0
+  },
+  "E3B7": {
+    "char": "願",
+    "scenario_evidence": 0
+  },
+  "E3BA": {
+    "char": "顛",
+    "scenario_evidence": 1
+  },
+  "E3BD": {
+    "char": "類",
+    "scenario_evidence": 0
+  },
+  "E3C6": {
+    "char": "顧",
+    "scenario_evidence": 0
+  },
+  "E3CA": {
+    "char": "顫",
+    "scenario_evidence": 0
+  },
+  "E3CE": {
+    "char": "顯",
+    "scenario_evidence": 0
+  },
+  "E3D4": {
+    "char": "風",
+    "scenario_evidence": 0
+  },
+  "E3E2": {
+    "char": "颶",
+    "scenario_evidence": 0
+  },
+  "E3F0": {
+    "char": "飄",
+    "scenario_evidence": 0
+  },
+  "E3F2": {
+    "char": "飆",
+    "scenario_evidence": 0
+  },
+  "E447": {
+    "char": "飛",
+    "scenario_evidence": 0
+  },
+  "E44B": {
+    "char": "食",
+    "scenario_evidence": 0
+  },
+  "E44E": {
+    "char": "飢",
+    "scenario_evidence": 0
+  },
+  "E456": {
+    "char": "飪",
+    "scenario_evidence": 0
+  },
+  "E45B": {
+    "char": "飯",
+    "scenario_evidence": 0
+  },
+  "E45E": {
+    "char": "飲",
+    "scenario_evidence": 0
+  },
+  "E468": {
+    "char": "飼",
+    "scenario_evidence": 0
+  },
+  "E469": {
+    "char": "飽",
+    "scenario_evidence": 0
+  },
+  "E46A": {
+    "char": "飾",
+    "scenario_evidence": 0
+  },
+  "E470": {
+    "char": "餅",
+    "scenario_evidence": 0
+  },
+  "E475": {
+    "char": "養",
+    "scenario_evidence": 0
+  },
+  "E477": {
+    "char": "餌",
+    "scenario_evidence": 0
+  },
+  "E47B": {
+    "char": "餐",
+    "scenario_evidence": 0
+  },
+  "E47E": {
+    "char": "餓",
+    "scenario_evidence": 0
+  },
+  "E483": {
+    "char": "餘",
+    "scenario_evidence": 0
+  },
+  "E485": {
+    "char": "餚",
+    "scenario_evidence": 0
+  },
+  "E48C": {
+    "char": "餡",
+    "scenario_evidence": 0
+  },
+  "E493": {
+    "char": "館",
+    "scenario_evidence": 0
+  },
+  "E4B0": {
+    "char": "饅",
+    "scenario_evidence": 0
+  },
+  "E4BD": {
+    "char": "饒",
+    "scenario_evidence": 2
+  },
+  "E4C2": {
+    "char": "饗",
+    "scenario_evidence": 0
+  },
+  "E4CD": {
+    "char": "首",
+    "scenario_evidence": 0
+  },
+  "E4D0": {
+    "char": "香",
+    "scenario_evidence": 0
+  },
+  "E4E3": {
+    "char": "馬",
+    "scenario_evidence": 0
+  },
+  "E4E4": {
+    "char": "馭",
+    "scenario_evidence": 0
+  },
+  "E4EA": {
+    "char": "馳",
+    "scenario_evidence": 0
+  },
+  "E4EB": {
+    "char": "馴",
+    "scenario_evidence": 0
+  },
+  "E547": {
+    "char": "駐",
+    "scenario_evidence": 0
+  },
+  "E54C": {
+    "char": "駕",
+    "scenario_evidence": 0
+  },
+  "E552": {
+    "char": "駛",
+    "scenario_evidence": 0
+  },
+  "E564": {
+    "char": "駭",
+    "scenario_evidence": 0
+  },
+  "E577": {
+    "char": "騁",
+    "scenario_evidence": 0
+  },
+  "E584": {
+    "char": "騎",
+    "scenario_evidence": 0
+  },
+  "E58F": {
+    "char": "騙",
+    "scenario_evidence": 0
+  },
+  "E5A6": {
+    "char": "騰",
+    "scenario_evidence": 0
+  },
+  "E5AD": {
+    "char": "騷",
+    "scenario_evidence": 0
+  },
+  "E5BB": {
+    "char": "驅",
+    "scenario_evidence": 0
+  },
+  "E5CB": {
+    "char": "驕",
+    "scenario_evidence": 0
+  },
+  "E5CD": {
+    "char": "驗",
+    "scenario_evidence": 0
+  },
+  "E5D0": {
+    "char": "驚",
+    "scenario_evidence": 0
+  },
+  "E5E2": {
+    "char": "骨",
+    "scenario_evidence": 0
+  },
+  "E5EA": {
+    "char": "骰",
+    "scenario_evidence": 0
+  },
+  "E5F1": {
+    "char": "骷",
+    "scenario_evidence": 0
+  },
+  "E5F2": {
+    "char": "骸",
+    "scenario_evidence": 0
+  },
+  "E649": {
+    "char": "髏",
+    "scenario_evidence": 0
+  },
+  "E64C": {
+    "char": "髒",
+    "scenario_evidence": 0
+  },
+  "E64D": {
+    "char": "髓",
+    "scenario_evidence": 0
+  },
+  "E64E": {
+    "char": "體",
+    "scenario_evidence": 0
+  },
+  "E652": {
+    "char": "高",
+    "scenario_evidence": 0
+  },
+  "E660": {
+    "char": "髦",
+    "scenario_evidence": 0
+  },
+  "E668": {
+    "char": "髮",
+    "scenario_evidence": 0
+  },
+  "E67F": {
+    "char": "鬆",
+    "scenario_evidence": 0
+  },
+  "E686": {
+    "char": "鬍",
+    "scenario_evidence": 0
+  },
+  "E693": {
+    "char": "鬚",
+    "scenario_evidence": 0
+  },
+  "E69E": {
+    "char": "鬥",
+    "scenario_evidence": 0
+  },
+  "E6A0": {
+    "char": "鬧",
+    "scenario_evidence": 0
+  },
+  "E6B5": {
+    "char": "鬼",
+    "scenario_evidence": 0
+  },
+  "E6BA": {
+    "char": "魁",
+    "scenario_evidence": 0
+  },
+  "E6BB": {
+    "char": "魂",
+    "scenario_evidence": 0
+  },
+  "E6BD": {
+    "char": "魄",
+    "scenario_evidence": 0
+  },
+  "E6BE": {
+    "char": "魅",
+    "scenario_evidence": 0
+  },
+  "E6CD": {
+    "char": "魔",
+    "scenario_evidence": 0
+  },
+  "E6D1": {
+    "char": "魘",
+    "scenario_evidence": 0
+  },
+  "E6D3": {
+    "char": "魚",
+    "scenario_evidence": 0
+  },
+  "E6E8": {
+    "char": "魯",
+    "scenario_evidence": 0
+  },
+  "E766": {
+    "char": "鮭",
+    "scenario_evidence": 0
+  },
+  "E767": {
+    "char": "鮮",
+    "scenario_evidence": 0
+  },
+  "E782": {
+    "char": "鯉",
+    "scenario_evidence": 0
+  },
+  "E783": {
+    "char": "鯊",
+    "scenario_evidence": 0
+  },
+  "E79B": {
+    "char": "鯢",
+    "scenario_evidence": 0
+  },
+  "E7A9": {
+    "char": "鯰",
+    "scenario_evidence": 0
+  },
+  "E7B6": {
+    "char": "鯽",
+    "scenario_evidence": 0
+  },
+  "E7E4": {
+    "char": "鰭",
+    "scenario_evidence": 0
+  },
+  "E7F2": {
+    "char": "鰻",
+    "scenario_evidence": 0
+  },
+  "E849": {
+    "char": "鱒",
+    "scenario_evidence": 0
+  },
+  "E84E": {
+    "char": "鱗",
+    "scenario_evidence": 0
+  },
+  "E86E": {
+    "char": "鱷",
+    "scenario_evidence": 0
+  },
+  "E86F": {
+    "char": "鱸",
+    "scenario_evidence": 0
+  },
+  "E872": {
+    "char": "鳥",
+    "scenario_evidence": 0
+  },
+  "E880": {
+    "char": "鳳",
+    "scenario_evidence": 0
+  },
+  "E881": {
+    "char": "鳴",
+    "scenario_evidence": 0
+  },
+  "E896": {
+    "char": "鴉",
+    "scenario_evidence": 0
+  },
+  "E8EA": {
+    "char": "鵝",
+    "scenario_evidence": 0
+  },
+  "E9C6": {
+    "char": "鷹",
+    "scenario_evidence": 0
+  },
+  "E9F0": {
+    "char": "鹹",
+    "scenario_evidence": 0
+  },
+  "E9F4": {
+    "char": "鹽",
+    "scenario_evidence": 0
+  },
+  "EA49": {
+    "char": "麒",
+    "scenario_evidence": 0
+  },
+  "EA4E": {
+    "char": "麗",
+    "scenario_evidence": 0
+  },
+  "EA56": {
+    "char": "麟",
+    "scenario_evidence": 0
+  },
+  "EA5C": {
+    "char": "麥",
+    "scenario_evidence": 0
+  },
+  "EA6C": {
+    "char": "麵",
+    "scenario_evidence": 0
+  },
+  "EA72": {
+    "char": "麻",
+    "scenario_evidence": 0
+  },
+  "EA73": {
+    "char": "麼",
+    "scenario_evidence": 0
+  },
+  "EA7A": {
+    "char": "黃",
+    "scenario_evidence": 0
+  },
+  "EA86": {
+    "char": "黏",
+    "scenario_evidence": 0
+  },
+  "EA88": {
+    "char": "黑",
+    "scenario_evidence": 0
+  },
+  "EA8F": {
+    "char": "默",
+    "scenario_evidence": 0
+  },
+  "EA92": {
+    "char": "黛",
+    "scenario_evidence": 0
+  },
+  "EA95": {
+    "char": "點",
+    "scenario_evidence": 0
+  },
+  "EA9F": {
+    "char": "黨",
+    "scenario_evidence": 0
+  },
+  "EAC5": {
+    "char": "鼎",
+    "scenario_evidence": 0
+  },
+  "EACA": {
+    "char": "鼓",
+    "scenario_evidence": 0
+  },
+  "EAD7": {
+    "char": "鼠",
+    "scenario_evidence": 0
+  },
+  "EAF2": {
+    "char": "鼻",
+    "scenario_evidence": 0
+  },
+  "EB41": {
+    "char": "齊",
+    "scenario_evidence": 0
+  },
+  "EB49": {
+    "char": "齒",
+    "scenario_evidence": 0
+  },
+  "EB84": {
+    "char": "龍",
+    "scenario_evidence": 0
+  },
+  "EB87": {
+    "char": "龐",
+    "scenario_evidence": 1
+  },
+  "EB93": {
+    "char": "龜",
+    "scenario_evidence": 0
+  },
+  "EBDB": {
+    "char": "！",
+    "scenario_evidence": 0
+  },
+  "EBDF": {
+    "char": "％",
+    "scenario_evidence": 0
+  },
+  "EBE0": {
+    "char": "＆",
+    "scenario_evidence": 0
+  },
+  "EBE2": {
+    "char": "（",
+    "scenario_evidence": 0
+  },
+  "EBE3": {
+    "char": "）",
+    "scenario_evidence": 0
+  },
+  "EBE5": {
+    "char": "＋",
+    "scenario_evidence": 0
+  },
+  "EBE6": {
+    "char": "，",
+    "scenario_evidence": 0
+  },
+  "EBE7": {
+    "char": "－",
+    "scenario_evidence": 0
+  },
+  "EBE8": {
+    "char": "．",
+    "scenario_evidence": 0
+  },
+  "EBE9": {
+    "char": "／",
+    "scenario_evidence": 0
+  },
+  "EBEA": {
+    "char": "０",
+    "scenario_evidence": 0
+  },
+  "EBEB": {
+    "char": "１",
+    "scenario_evidence": 0
+  },
+  "EBEC": {
+    "char": "２",
+    "scenario_evidence": 0
+  },
+  "EBED": {
+    "char": "３",
+    "scenario_evidence": 0
+  },
+  "EBEE": {
+    "char": "４",
+    "scenario_evidence": 0
+  },
+  "EBEF": {
+    "char": "５",
+    "scenario_evidence": 0
+  },
+  "EBF0": {
+    "char": "６",
+    "scenario_evidence": 0
+  },
+  "EBF1": {
+    "char": "７",
+    "scenario_evidence": 0
+  },
+  "EBF2": {
+    "char": "８",
+    "scenario_evidence": 0
+  },
+  "EBF3": {
+    "char": "９",
+    "scenario_evidence": 0
+  },
+  "EBF4": {
+    "char": "：",
+    "scenario_evidence": 0
+  },
+  "EBF9": {
+    "char": "？",
+    "scenario_evidence": 0
+  },
+  "EBFB": {
+    "char": "Ａ",
+    "scenario_evidence": 0
+  },
+  "EBFC": {
+    "char": "Ｂ",
+    "scenario_evidence": 0
+  },
+  "EBFD": {
+    "char": "Ｃ",
+    "scenario_evidence": 0
+  },
+  "EBFE": {
+    "char": "Ｄ",
+    "scenario_evidence": 0
+  },
+  "EBFF": {
+    "char": "Ｅ",
+    "scenario_evidence": 0
+  },
+  "EC40": {
+    "char": "Ｆ",
+    "scenario_evidence": 0
+  },
+  "EC41": {
+    "char": "Ｇ",
+    "scenario_evidence": 0
+  },
+  "EC42": {
+    "char": "Ｈ",
+    "scenario_evidence": 0
+  },
+  "EC43": {
+    "char": "Ｉ",
+    "scenario_evidence": 0
+  },
+  "EC44": {
+    "char": "Ｊ",
+    "scenario_evidence": 0
+  },
+  "EC45": {
+    "char": "Ｋ",
+    "scenario_evidence": 0
+  },
+  "EC46": {
+    "char": "Ｌ",
+    "scenario_evidence": 0
+  },
+  "EC47": {
+    "char": "Ｍ",
+    "scenario_evidence": 0
+  },
+  "EC48": {
+    "char": "Ｎ",
+    "scenario_evidence": 0
+  },
+  "EC49": {
+    "char": "Ｏ",
+    "scenario_evidence": 0
+  },
+  "EC4A": {
+    "char": "Ｐ",
+    "scenario_evidence": 0
+  },
+  "EC4C": {
+    "char": "Ｒ",
+    "scenario_evidence": 0
+  },
+  "EC4D": {
+    "char": "Ｓ",
+    "scenario_evidence": 0
+  },
+  "EC4E": {
+    "char": "Ｔ",
+    "scenario_evidence": 0
+  },
+  "EC4F": {
+    "char": "Ｕ",
+    "scenario_evidence": 0
+  },
+  "EC50": {
+    "char": "Ｖ",
+    "scenario_evidence": 0
+  },
+  "EC51": {
+    "char": "Ｗ",
+    "scenario_evidence": 0
+  },
+  "EC52": {
+    "char": "Ｘ",
+    "scenario_evidence": 0
+  },
+  "EC53": {
+    "char": "Ｙ",
+    "scenario_evidence": 0
+  },
+  "EC54": {
+    "char": "Ｚ",
+    "scenario_evidence": 0
+  },
+  "EC5B": {
+    "char": "ａ",
+    "scenario_evidence": 2
+  },
+  "EC5E": {
+    "char": "ｄ",
+    "scenario_evidence": 2
+  },
+  "EC5F": {
+    "char": "ｅ",
+    "scenario_evidence": 0
+  },
+  "EC60": {
+    "char": "ｆ",
+    "scenario_evidence": 0
+  },
+  "EC63": {
+    "char": "ｉ",
+    "scenario_evidence": 0
+  },
+  "EC65": {
+    "char": "ｋ",
+    "scenario_evidence": 2
+  },
+  "EC66": {
+    "char": "ｌ",
+    "scenario_evidence": 0
+  },
+  "EC67": {
+    "char": "ｍ",
+    "scenario_evidence": 0
+  },
+  "EC68": {
+    "char": "ｎ",
+    "scenario_evidence": 0
+  },
+  "EC69": {
+    "char": "ｏ",
+    "scenario_evidence": 0
+  },
+  "EC6C": {
+    "char": "ｒ",
+    "scenario_evidence": 2
+  },
+  "EC6D": {
+    "char": "ｓ",
+    "scenario_evidence": 2
+  },
+  "EC6E": {
+    "char": "ｔ",
+    "scenario_evidence": 2
+  },
+  "EC6F": {
+    "char": "ｕ",
+    "scenario_evidence": 0
+  },
+  "EC73": {
+    "char": "ｙ",
+    "scenario_evidence": 0
+  },
+  "EC78": {
+    "char": "～",
+    "scenario_evidence": 0
+  },
+  "ECA6": {
+    "char": "也",
+    "scenario_evidence": 0
+  },
+  "F9AC": {
+    "char": "丟",
+    "scenario_evidence": 0
+  },
+  "CC53": {
+    "char": "雞",
+    "scenario_evidence": 1
+  },
+  "CBB6": {
+    "char": "尾",
+    "scenario_evidence": 1
+  },
+  "8FD8": {
+    "char": "嗓",
+    "scenario_evidence": 1
+  },
+  "A49F": {
+    "char": "斂",
+    "scenario_evidence": 1
+  },
+  "A271": {
+    "char": "揍",
+    "scenario_evidence": 1
+  },
+  "C3A0": {
+    "char": "累",
+    "scenario_evidence": 1
+  },
+  "D950": {
+    "char": "轍",
+    "scenario_evidence": 1
+  },
+  "ADEC": {
+    "char": "沮",
+    "scenario_evidence": 1
+  },
+  "9F8F": {
+    "char": "憚",
+    "scenario_evidence": 1
+  },
+  "E4B6": {
+    "char": "報",
+    "scenario_evidence": 1
+  },
+  "A4AD": {
+    "char": "斐",
+    "scenario_evidence": 1
+  },
+  "B672": {
+    "char": "緊",
+    "scenario_evidence": 1
+  },
+  "D5F2": {
+    "char": "張",
+    "scenario_evidence": 1
+  },
+  "A14F": {
+    "char": "拼",
+    "scenario_evidence": 1
+  },
+  "E47D": {
+    "char": "餒",
+    "scenario_evidence": 1
+  },
+  "A78A": {
+    "char": "枯",
+    "scenario_evidence": 1
+  },
+  "B4F5": {
+    "char": "闆",
+    "scenario_evidence": 1
+  },
+  "D59E": {
+    "char": "覽",
+    "scenario_evidence": 1
+  },
+  "DBF4": {
+    "char": "酬",
+    "scenario_evidence": 1
+  },
+  "A18E": {
+    "char": "擠",
+    "scenario_evidence": 1
+  },
+  "DAB6": {
+    "char": "遮",
+    "scenario_evidence": 1
+  },
+  "B355": {
+    "char": "麵",
+    "scenario_evidence": 1
+  },
+  "B396": {
+    "char": "包",
+    "scenario_evidence": 1
+  },
+  "B3E2": {
+    "char": "煥",
+    "scenario_evidence": 1
+  },
+  "D851": {
+    "char": "閒",
+    "scenario_evidence": 1
+  },
+  "D880": {
+    "char": "晃",
+    "scenario_evidence": 1
+  },
+  "97DF": {
+    "char": "寡",
+    "scenario_evidence": 1
+  },
+  "A778": {
+    "char": "枝",
+    "scenario_evidence": 1
+  },
+  "D982": {
+    "char": "轄",
+    "scenario_evidence": 1
+  },
+  "AE61": {
+    "char": "泣",
+    "scenario_evidence": 1
+  }
+}

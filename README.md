@@ -4,7 +4,7 @@
 
 本 Fork 在上游 [Kyuuhachi/Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) 的基础上，加入 NISA PC 版《碧之轨迹》简体中文构建路径，用于兼容 zeroTool 汉化及其汉化版 More Portraits。
 
-目前只上传源代码，**尚未发布任何 Release**。本仓库也不包含从游戏或汉化补丁提取的受版权保护数据。
+目前**尚未发布任何 Release**。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
 
 ## 覆盖任务
 
@@ -32,10 +32,10 @@ cargo run --release -- azure `
   --pc <pc-cn-wrapper> `
   --portraits <more-portraits-cn-wrapper> `
   --out <output> `
-  --cn-map <azure_cn_map.json>
+  --cn-map text/cn/cn_map.json
 ```
 
-`--cn-map`、官方繁中 donor 及游戏本体文件均须由使用者在本地准备，不随仓库上传。生成目录中的 `scena`、`text` 应在最终兼容包中分别放入：
+本仓库提供 `text/cn/cn_map.json`；官方繁中 donor 及游戏本体文件仍须由使用者在本地准备。生成目录中的 `scena`、`text` 应在最终兼容包中分别放入：
 
 ```text
 data_cn/scena
@@ -52,10 +52,12 @@ data_cn/text
 - 已建立测试候选包，但尚未完成游戏内全流程、分支、DP、奖励、贴图与崩溃回归测试。
 - 在完成游戏验证前不会发布正式 Release。
 
+五个任务的可读简体中文任务表、构建映射及 35 个完整合并脚本位于 [`text/cn`](text/cn)，并随 Fork 一同维护。
+
 ## 致谢与来源
 
 - 原 MOD 与移植逻辑：[Kyuuhachi](https://github.com/Kyuuhachi/Azure-Vitality)。
 - 中文工具与本体汉化：[zeroTool](https://github.com/J31why/zeroTool)。
-- 本 Fork 所参考的繁体中文汉化补丁由科洛蒂娅公主（KloseRInz）等人基于云豹娱乐（CLE）本地化并发行的 PSV Evolution 亚洲版本提取制作。感谢公主等人制作并保存这份汉化补丁。
+- 繁体中文文本直接取自索尼发行的 PS Vita Evolution 繁体中文版；本次由本项目从用户提供的 NoNpDrm 备份中提取并用于中文兼容制作。
 
 上游原始说明、英文安装信息与完整 Credits 请参阅 [README_EN.md](README_EN.md)。

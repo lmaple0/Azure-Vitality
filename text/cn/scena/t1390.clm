@@ -1,0 +1,2188 @@
+calmare ao_k scena
+scena:
+	name "t1390" "t1390" "t1390"
+	town town[0]
+	bgm bgm[565]
+	flags 8192
+	item_use fn[0,255]
+	unk 255 0
+
+entry:
+	pos (0, 0, -1000)
+	unk1 0
+	cam_from (0, 0, 24000)
+	cam_pers 500
+	unk2 30
+	cam_deg 45deg
+	cam_limit 0deg 360deg
+	cam_at (0, 0, 0)
+	unk3 0
+	unk4 0
+	flags 0x0001
+	town town[1]
+	init fn[0,0]
+	reinit fn[0,1]
+
+npc char[0]:
+	name "壥壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x0185
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[1]:
+	name "壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x0185
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+npc char[2]:
+	name "壥壥壥壥"
+	pos (0, 0, 0)
+	angle 0deg
+	flags 0x0185
+	unk2 0
+	chip chip[0]
+	init fn[255,255]
+	talk fn[255,255]
+	unk4 255
+
+fn[0]:
+	if flag[272]:
+		FlagUnset flag[272]
+		Event fn[0,2]
+	elif flag[273]:
+		FlagUnset flag[273]
+		FlagSet flag[0]
+		Event fn[0,5]
+	elif flag[274]:
+		FlagUnset flag[274]
+		Event fn[0,6]
+	elif flag[275]:
+		FlagUnset flag[275]
+		Event fn[0,7]
+	Return
+
+fn[1]:
+	if flag[0]:
+		BgmVolume 80 50ms
+		FlagUnset flag[0]
+	Return
+
+fn[2]:
+	EventBegin 0
+	BgmVolume 80 1000ms
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance -3080 2600 -370 0ms
+	ED7CamRotate 315deg 20deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 19020 0ms
+	ED7LoadChip "chr/ch10200.itc" chip[30]
+	ED7LoadChip "chr/ch45400.itc" chip[31]
+	ED7LoadChip "chr/ch28100.itc" chip[32]
+	SoundLoad sound[2679]
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	CharSetChipBase name[0] chip[30]
+	CharSetChipPattern name[0] 0
+	CharSetChipBase name[2] chip[31]
+	CharSetChipPattern name[2] 0
+	CharSetChipBase char[0] chip[32]
+	CharFlagsSet char[0] 0x8000
+	CharSetPos name[0] (-4170, 0, 610) 90deg
+	CharSetPos name[1] (-2300, 0, 570) 270deg
+	CharSetPos name[3] (-2550, 0, 1990) 225deg
+	CharSetPos name[8] (-3870, 0, 2290) 180deg
+	CharSetPos name[4] (-3280, 0, -1000) 315deg
+	CharFlagsUnset char[0] 0x0080
+	CharSetPos name[2] (210, 0, -4420) 0deg
+	CharSetPos char[0] (210, 0, -4420) 0deg
+	CharColor name[2] 0x00FFFFFF 0ms
+	CharColor char[0] 0x00FFFFFF 0ms
+	CamSetDistance -3080 1600 -370 3000ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	CamWait 1
+	TextTalk name[0] {
+		{color 10}#05200F……怎、怎么样？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00100F嗯哼，很可爱喔。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10109F对啊，这打扮很适合你喔！{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05206F（全身都被包住，
+		　应该没什么适不适合的吧……？）{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10300F呵呵，穿起来感觉如何？
+		看起来好像很热呢。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05201F是啊……
+		可以感觉到热气
+		闷在里面。{wait}
+	} {
+		#05203F还有，虽然身高刚好，
+		不过服装还蛮大件的，
+		感觉很难活动。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00300F小细节就
+		别在意了啦。{wait}
+	} {
+		#00306F啧！真令人羡慕。
+		可以跟支持者的女孩子们
+		自然地来个亲密接触～{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05211F不、不要说得那么奇怪啦！
+		真是的……{wait}
+	} {
+		#05205F……奇怪？
+		这么说来，缇欧呢？{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00105F这么说来，刚才
+		她向工作人员搭话后，
+		就不知道跑去哪了……{wait}
+	}
+	TextWait
+	TextSetPos 30 120 -1 -1
+	TextSetName "缇欧的声音"
+	TextMessage null {
+		{color 5}──我在这里。{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2300mm 38 38 250ms 1
+	Sleep 50ms
+	Emote name[1] 0mm 2000mm 38 38 250ms 1
+	Sleep 50ms
+	Emote name[3] 0mm 2000mm 38 38 250ms 1
+	Sleep 50ms
+	Emote name[8] 0mm 2000mm 38 38 250ms 1
+	Sleep 50ms
+	Emote name[4] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	CamSetDistance -910 1600 -2190 3000ms
+	ED7CamRotate 289deg 20deg 0deg 3000ms
+	Fork name[0] fork[1]:
+		CharTurnTo self 135deg 500deg/s
+	Sleep 50ms
+	Fork name[1] fork[1]:
+		CharTurnTo self 135deg 500deg/s
+	Sleep 50ms
+	Fork name[3] fork[1]:
+		CharTurnTo self 135deg 500deg/s
+	Sleep 50ms
+	Fork name[8] fork[1]:
+		CharTurnTo self 135deg 500deg/s
+	Sleep 50ms
+	Fork name[4] fork[1]:
+		CharTurnTo self 135deg 500deg/s
+	CamWait 121
+	SoundPlay sound[121] 0 100 0
+	Sleep 500ms
+	ForkFunc name[2] fork[3] fn[0,3]
+	Sleep 500ms
+	ForkFunc char[0] fork[3] fn[0,4]
+	ForkLoop name[0] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[1] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[3] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[8] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[4] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	CamSetDistance -1670 1600 -1050 3000ms
+	ED7CamRotate 305deg 23deg 0deg 3000ms
+	CamPers 500 3000ms
+	CamZoom 17980 3000ms
+	ForkWait name[2] fork[3]
+	ForkWait char[0] fork[3]
+	ForkQuit name[0] fork[1]
+	ForkQuit name[1] fork[1]
+	ForkQuit name[3] fork[1]
+	ForkQuit name[8] fork[1]
+	ForkQuit name[4] fork[1]
+	CamWait 121
+	TextTalk name[0] {
+		{color 10}#05205F咦……
+		你、你是缇欧？{color 0}{wait}
+	}
+	TextWait
+	Sc_C4Set 2147483648
+	TextTalk name[2] {
+		{color 21}#2679V咪嘻嘻，我是咪谢才对哦☆{color 0}{wait}
+	}
+	TextWait
+	SoundStop sound[2679]
+	Sc_C4Unset 2147483648
+	TextTalk name[2] {
+		{color 21}哥哥真是的，
+		忘记人家长什么样子了吗？{color 0}{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00305F哇塞～这还真是……{wait}
+	}
+	TextWait
+	if !flag[258]:
+		FadeOut 300ms 0x00000000 100
+		FadeWait
+		TextSetPos -1 30 -1 -1
+		TextSetName ""
+		TextMessage null {
+			{color 5}{0x06}{0x18}#1K◆是否在幕间遇过咪谢？（测试用）{color 0}{wait}
+		}
+		Menu menu[0] -1 -1 0
+			"【遇过】" // 0
+			"【没有遇过】" // 1
+		MenuWait var[0]
+		MenuClose menu[0]
+		TextClose 0
+		TextSetPos -1 280 60 3
+		FadeIn 300ms 0x00000000
+		FadeWait
+	if QuestFlagsGet quest[127] 0x02:
+		TextTalk name[1] {
+			#00102F好可爱……
+			好可爱喔，缇欧！{wait}
+		} {
+			#00105F而且，
+			这个角色好像是……{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			{color 21}#05522F没错，是咪西的妹妹
+			『咪谢』。{wait}
+		} {
+			#05524F咪谢是位个性很阳光的女孩，
+			总是用温暖的眼神
+			守护着笨手笨脚的哥哥。{color 0}{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			{color 10}#05212F（温、温暖……）{wait}
+		} {
+			#05203F这么说来，
+			之前来ＭＷＬ的时候
+			好像也有遇到过……{color 0}{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[1] {
+			#00102F好可爱……
+			好可爱喔，缇欧！{wait}
+		} {
+			#00105F不过，这个角色
+			究竟是……？{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			{color 21}#05522F没错，是咪西的妹妹
+			『咪谢』。{wait}
+		} {
+			#05524F咪谢是位个性很阳光的女孩，
+			总是用温暖的眼神
+			守护着笨手笨脚的哥哥。{color 0}{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			{color 10}#05212F（温、温暖……）{wait}
+		} {
+			#05203F这么说来，
+			以前好像有听说过
+			咪西有妹妹……{color 0}{wait}
+		}
+		TextWait
+	TextTalk char[0] {
+		哎呀～
+		刚才她突然跑来拜托我们，
+		希望能把咪谢借给她。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		咪谢那边的排班
+		刚好还有空档，
+		就答应她了。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10105F原、原来如此……{wait}
+	} {
+		不过，你突然穿成这样出现，
+		是想要……{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		{color 21}#05524F我会暗中支援
+		罗伊德前辈他扮咪西的演技。{wait}
+	} {
+		#05521F如果他做错了什么，
+		我会毫不留情踹下去。{color 0}{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2300mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[4] {
+		#10309F啊哈哈，这就是妹妹爱的鞭策吗。
+		你还真受到关爱呢，哥哥。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05206F拜托你们饶了我吧……{color 0}{wait}
+	}
+	TextWait
+	CharTurnToChar name[0] char[0] 500deg/s
+	Sleep 300ms
+	TextTalk name[0] {
+		{color 10}#05201F……话说回来，你们没办法
+		先指导我一下演技吗？{color 0}{wait}
+	}
+	TextWait
+	Fork name[1] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 50ms
+	Fork name[2] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 50ms
+	Fork name[3] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 50ms
+	Fork name[8] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 50ms
+	Fork name[4] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 300ms
+	TextTalk char[0] {
+		很抱歉，
+		但现在真的没空教你。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		因为马上就要到咪西的
+		游行时间了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		放心吧，只要记得
+		照印象发挥就没问题了！应该啦！{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05206F（有、有够让人不安的……）{color 0}{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		还有，上午在游行结束后，
+		在主题乐园里的广场
+		有场咪西的跳舞秀。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		唯独这部分，我有自己整理出了
+		演技示范手册。
+		……请你大概看过记下来吧。{wait}
+	}
+	TextWait
+	TextSetName ""
+	TextMessage null {
+		{color 5}看过了
+		舞蹈示范手册。{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	SoundPlay sound[18] 0 100 0
+	FadeOut 300ms 0x00000000 100
+	TextSetPos -1 -1 -1 -1
+	TextSetName ""
+	TextMessage null {
+		{color 5}要够热情，
+		并且跳出花俏的幻想舞步。
+
+		※也别忘了最后
+		　要大喊一下结束台词：
+		　『享乐咪西☆』啰。{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	FadeIn 300ms 0x00000000
+	FadeWait
+	_59
+	TextSetPos -1 280 60 3
+	Emote name[0] 0mm 2300mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[2] 0mm 2300mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[3] {
+		#00306F这、这也实在……{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10112F随便到
+		让人不敢相信啊……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		说实话，
+		咪西的角色形象一直以来
+		都是交给演员负责的。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		所以从主题乐园创设至今，
+		根本没有一本
+		完整的表演手册。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		反正，出问题的话，
+		到时候再想办法就好了。{wait}
+	}
+	TextWait
+	CharTurnToChar name[2] name[0] 500deg/s
+	Sleep 300ms
+	TextTalk name[2] {
+		{color 21}#05524F不过既然由我来监督，
+		我是不会容许失误出现的。{color 0}{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05206F到、到底要我怎么办啦……？{color 0}{wait}
+	}
+	TextWait
+	Emote char[0] 0mm 2000mm 38 38 250ms 1
+	Sleep 1000ms
+	TextTalk char[0] {
+		哎呀……时间差不多了。
+		要请你们准备了。{wait}
+	}
+	TextWait
+	Fork name[1] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	Fork name[3] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	Fork name[8] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 50ms
+	Fork name[4] fork[1]:
+		CharTurnToChar self name[0] 500deg/s
+	Sleep 300ms
+	TextTalk name[1] {
+		#00100F那么我们就
+		边在主题乐园里巡逻，
+		边打发时间啰。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10300F呵呵，祝你好运。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		{color 21}#05520F那么我们走吧，罗伊德前辈。{color 0}{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		{color 10}#05205F是，是的……{wait}
+	} {
+		#05203F（总之……现在只能尽可能地，
+		　把到目前为止
+		　对咪西的印象表现出来了。）{wait}
+	} {
+		#05200F（还有……跳舞时的口号是
+		　『享乐咪西☆』对吧。
+		　我看先记下来比较好。）{color 0}{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		那么，
+		为了小孩子们的梦想，
+		各位加油吧！！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		拜托你们了！
+		咪西、咪谢！！{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	BgmStop 4000ms
+	BgmWait
+	Sleep 10ms
+	BgmVolume 100 0ms
+	QuestTaskSet quest[134] 0
+	FlagSet flag[273]
+	NewScene "scena/t1030.bin" 0 0 0
+	Hcf
+	Return
+
+fn[3]:
+	Fork name[2] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork name[2] fork[1]:
+		CharWalkToPos self (370, 0, -2050) 2000mm/s 0
+	ForkWait name[2] fork[1]
+	CharWalkToPos name[2] (-1210, 0, -1620) 2000mm/s 0
+	CharTurnToChar name[2] name[0] 500deg/s
+	Return
+
+fn[4]:
+	Fork char[0] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork char[0] fork[1]:
+		CharWalkToPos self (370, 0, -2050) 2000mm/s 0
+	ForkWait char[0] fork[1]
+	CharWalkToPos char[0] (-10, 0, -300) 2000mm/s 0
+	CharTurnTo char[0] 270deg 500deg/s
+	Return
+
+fn[5]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	ED7LoadChip "chr/ch10200.itc" chip[30]
+	ED7LoadChip "chr/ch45400.itc" chip[31]
+	ED7LoadChip "apl/ch51403.itc" chip[32]
+	ED7LoadChip "chr/ch47300.itc" chip[34]
+	SoundLoad sound[802]
+	CharSetChipBase name[2] chip[31]
+	CharSetChipPattern name[2] 0
+	CharSetChipBase char[2] chip[32]
+	CharSetChipPattern char[2] 1
+	CharFlagsSet char[2] 0x8000
+	CharSetChipBase char[1] chip[34]
+	CharFlagsSet char[1] 0x8000
+	CamSetDistance 1860 2600 260 0ms
+	ED7CamRotate 320deg 22deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 15130 0ms
+	CharSetPos name[0] (380, 0, 1140) 90deg
+	CharSetPos name[2] (2500, 0, 1020) 270deg
+	CharSetPos char[1] (210, 0, -4420) 0deg
+	CharColor char[1] 0x00FFFFFF 0ms
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	CharFlagsSet name[1] 0x0080
+	CharFlagsSet name[3] 0x0080
+	CharFlagsSet name[8] 0x0080
+	CharFlagsSet name[4] 0x0080
+	CamSetDistance 1860 1600 260 3000ms
+	FadeIn 1000ms 0x00000000
+	CamWait 1
+	FadeWait
+	TextTalk name[2] {
+		{color 21}#05520F……嘿咻。{color 0}{wait}
+	}
+	TextWait
+	CrossFade 500ms
+	CharSetChipBase name[2] chip[32]
+	CharSetChipPattern name[2] 0
+	CharFlagsSet name[2] 0x0020
+	CharFlagsUnset char[2] 0x0080
+	CharSetPos char[2] (1370, 200, 310) 180deg
+	SoundPlay sound[802] 0 100 0
+	FadeWait
+	TextTalk name[2] {
+		#05526F呼……整身都是汗呢。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00009F哈哈……
+		看来你真的很努力呢。{wait}
+	} {
+		#00000F辛苦你了，缇欧。{wait}
+	}
+	TextWait
+	if flag[2997] && flag[2998] && flag[2999] && flag[3000]:
+		TextTalk name[2] {
+			#05522F不，罗伊德前辈扮起咪西的模样
+			也真的非常完美。{wait}
+		} {
+			#05524F……而且，最后跳舞的时候，
+			和你一起跳舞也很开心……{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00009F呃，哈哈……
+			总觉得有点害羞呢。{wait}
+		} {
+			#00003F……好，那么。
+			我想差不多
+			也该去和大家会合了。{wait}
+		} {
+			#00005F原本负责咪西的演员
+			还没来吗……？{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[2] {
+			#05522F罗伊德前辈也是。
+			虽然细节有点粗糙，
+			但还是表演的很棒。{wait}
+		} {
+			#05524F让我监督起来
+			也很有成就感。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00000F哈哈……
+			你真的帮了个大忙。{wait}
+		} {
+			#00003F……好，那么。
+			我想差不多
+			也该去和大家会合了。{wait}
+		} {
+			#00005F原本负责咪西的演员
+			还没来吗……？{wait}
+		}
+		TextWait
+	TextTalk name[2] {
+		#05520F这么说来，他还真是慢──{wait}
+	}
+	TextWait
+	TextSetPos 30 120 -1 -1
+	TextSetName "中年男子的声音"
+	TextMessage null {
+		{color 5}#4S──啊～哈哈哈哈！
+		让你们久等啦！{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 50ms
+	Emote name[2] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	CamSetDistance 1590 1600 -1210 3000ms
+	Fork name[0] fork[1]:
+		CharTurnToChar self char[1] 500deg/s
+	Sleep 50ms
+	Fork name[2] fork[1]:
+		CharTurnToChar self char[1] 500deg/s
+	CamWait 1
+	SoundPlay sound[121] 0 100 0
+	CharFlagsUnset char[1] 0x0080
+	Fork char[1] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork char[1] fork[1]:
+		CharWalkToPos self (370, 0, -2050) 2000mm/s 0
+	ForkWait char[1] fork[1]
+	Sleep 300ms
+	TextTalk name[0] {
+		#00011F咦……？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05521F…………！？{wait}
+	}
+	TextWait
+	CharTurnTo char[1] 315deg 500deg/s
+	Sleep 300ms
+	TextTalk char[1] {
+		嗝……！{wait}
+	}
+	TextWait
+	CharTurnToChar char[1] name[0] 500deg/s
+	Sleep 300ms
+	TextTalk char[1] {
+		啊哈哈，抱歉抱歉！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		医生开的药好像是
+		要饭后才能吃的那种啦！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		刚好早餐也没吃，
+		一不小心就
+		吃得太多了！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		……那么，我的布偶装
+		是放在那边的柜子里吗？{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 24 27 250ms 0
+	Emote name[2] 0mm 2000mm 24 27 250ms 0
+	Sleep 2000ms
+	EmoteStop name[0]
+	EmoteStop name[2]
+	TextTalk char[1] {
+		……怎么？
+		为什么眼睛瞪得那么大？{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		这么说来，我好像在哪里
+		看过你们……{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		哎呀，总之要感谢你们。
+		毕竟奇幻乐园
+		可不能少了咪西啊。{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		真亏你们能填补
+		我不在时的空缺啊。
+		啊哈哈……！{wait}
+	}
+	TextWait
+	TextTalk char[1] {
+		哎呀，没时间在这边聊天了。
+		要快点换装
+		做好下午的准备才行。{wait}
+	}
+	TextWait
+	CamSetDistance -720 1600 -10 3000ms
+	ForkLoop name[0] fork[1]:
+		CharTurnToChar self char[1] 500deg/s
+	ForkLoop name[2] fork[1]:
+		CharTurnToChar self char[1] 500deg/s
+	CharWalkToPos char[1] (-2860, 0, -1350) 2000mm/s 0
+	CharWalkToPos char[1] (-4080, 0, 260) 2000mm/s 0
+	CharTurnTo char[1] 270deg 500deg/s
+	Sleep 1000ms
+	CamWait 1
+	Emote name[0] 0mm 2000mm 24 27 250ms 0
+	Emote name[2] 0mm 2000mm 24 27 250ms 0
+	Sleep 2000ms
+	EmoteStop name[0]
+	EmoteStop name[2]
+	BgmVolume 70 1000ms
+	FadeOut 500ms 0x00000000 255
+	FadeWait
+	CharSetChipBase char[1] chip[30]
+	CharSetChipPattern char[1] 0
+	Sleep 1000ms
+	SoundPlay sound[802] 0 100 0
+	SoundPlay sound[898] 0 100 0
+	Sleep 1000ms
+	SoundPlay sound[1000] 0 100 0
+	Sleep 1000ms
+	FadeIn 500ms 0x00000000
+	FadeWait
+	BgmVolume 80 1000ms
+	CharTurnTo char[1] 90deg 500deg/s
+	TextTalkNamed char[1] "咪西" {
+		{color 10}──变身完成～☆{color 0}{wait}
+	}
+	TextWait
+	TextTalkNamed char[1] "咪西" {
+		{color 10}大哥哥还有姐姐，
+		真的很谢谢你们哦！
+		真的帮了我，好大的忙哦～！{color 0}{wait}
+	}
+	TextWait
+	TextTalkNamed char[1] "咪西" {
+		{color 10}之后就交给我吧～！
+		咪嘻嘻，再见啰。{color 0}{wait}
+	}
+	TextWait
+	CamSetDistance 1590 1600 -1210 3000ms
+	CharWalkToPos char[1] (-2860, 0, -1350) 2000mm/s 0
+	CharWalkToPos char[1] (370, 0, -2050) 2000mm/s 0
+	Fork char[1] fork[1]:
+		CharWalkToPos self (210, 0, -4420) 2000mm/s 0
+	SoundPlay sound[121] 0 100 0
+	Sleep 500ms
+	Fork char[1] fork[2]:
+		CharColor self 0x00FFFFFF 500ms
+	ForkQuit name[0] fork[1]
+	ForkQuit name[2] fork[1]
+	CharTurnTo name[2] 180deg 500deg/s
+	CamWait 1
+	FadeWait
+	Emote name[0] 0mm 2000mm 24 27 250ms 0
+	Emote name[2] 0mm 2000mm 24 27 250ms 0
+	Sleep 1000ms
+	SoundPlay sound[890] 0 100 0
+	Sleep 1000ms
+	EmoteStop name[0]
+	EmoteStop name[2]
+	TextTalk name[0] {
+		#00005F（果、果然专业……
+		　连声音都完全变了……）{wait}
+	} {
+		#00006F（真的是超级完美的咪西……
+		　不过……）{wait}
+	}
+	TextWait
+	Sleep 1000ms
+	Shake 200 0 3000 800ms
+	TextTalk name[0] {
+		#00011F#4S（本人跟印象也
+		　差得太多了吧！！）{wait}
+	}
+	TextWait
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[0] {
+		#00006F……咳咳，呃……{wait}
+	}
+	TextWait
+	CharTurnToChar name[0] name[2] 500deg/s
+	TextTalk name[0] {
+		#00012F总、总之，
+		我们先回大家那里去吧。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05520F………………………………{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	BgmVolume 100 1000ms
+	Sleep 1000ms
+	FlagSet flag[275]
+	NewScene "scena/t1000.bin" 0 0 0
+	Hcf
+	Return
+
+fn[6]:
+	EventBegin 0
+	BgmVolume 80 1000ms
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance -170 2600 2990 0ms
+	ED7CamRotate 0deg 8deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 16700 0ms
+	ED7LoadChip "chr/ch10200.itc" chip[30]
+	ED7LoadChip "chr/ch45400.itc" chip[31]
+	ED7LoadChip "chr/ch28100.itc" chip[32]
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	CharSetChipBase name[0] chip[30]
+	CharSetChipPattern name[0] 0
+	CharSetChipBase name[2] chip[31]
+	CharSetChipPattern name[2] 0
+	CharSetChipBase char[0] chip[32]
+	CharFlagsSet char[0] 0x8000
+	CharSetPos name[0] (-420, 0, 3200) 180deg
+	CharSetPos name[2] (510, 0, 3200) 180deg
+	CharSetPos name[1] (-1950, 0, 1590) 45deg
+	CharSetPos name[3] (-2170, 0, 40) 45deg
+	CharSetPos name[8] (1950, 0, 1590) 315deg
+	CharSetPos name[4] (2170, 0, 40) 315deg
+	CharSetPos char[0] (10, 0, -1550) 0deg
+	CharFlagsUnset char[0] 0x0080
+	CamSetDistance -170 1600 2990 1500ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	CamWait 1
+	Call fn[0,8]
+	CamSetDistance -170 1600 690 1500ms
+	ForkLoop name[1] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[3] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[8] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkLoop name[4] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	ForkFunc char[0] fork[1] fn[0,29]
+	ForkFunc name[0] fork[1] fn[0,27]
+	ForkFunc name[2] fork[1] fn[0,28]
+	ForkWait name[2] fork[1]
+	ForkQuit name[1] fork[1]
+	ForkQuit name[3] fork[1]
+	ForkQuit name[8] fork[1]
+	ForkQuit name[4] fork[1]
+	Fork name[1] fork[1]:
+		CharTurnTo self 180deg 500deg/s
+	Fork name[3] fork[1]:
+		CharTurnTo self 180deg 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnTo self 180deg 500deg/s
+	Fork name[4] fork[1]:
+		CharTurnTo self 180deg 500deg/s
+	ForkWait name[1] fork[1]
+	ForkWait name[3] fork[1]
+	ForkWait name[8] fork[1]
+	ForkWait name[4] fork[1]
+	ForkWait name[0] fork[1]
+	ForkWait char[0] fork[1]
+	CamWait 1
+	Call fn[0,9]
+	var[0] = 0
+	while var[0] != 255:
+		Call fn[0,10]
+		switch var[0]:
+			case 0:
+				Call fn[0,9]
+				break
+			default:
+				var[0] = 255
+				break
+	var[0] = 0
+	Call fn[0,11]
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	BgmVolume 100 0ms
+	FlagSet flag[274]
+	EventEnd 3
+	NewScene "scena/c120d.bin" 0 0 0
+	Hcf
+	Return
+
+fn[7]:
+	EventBegin 0
+	BgmVolume 80 1000ms
+	FadeOut 0ms 0x00000000 255
+	CamSetDistance 1400 2600 40 0ms
+	ED7CamRotate 327deg 14deg 0deg 0ms
+	CamPers 500 0ms
+	CamZoom 13950 0ms
+	ED7LoadChip "chr/ch28100.itc" chip[30]
+	ED7LoadChip "apl/ch51403.itc" chip[31]
+	ED7LoadChip "chr/ch40004.itc" chip[32]
+	SoundLoad sound[802]
+	EffLoad eff[0] "event\\ev15001.eff"
+	EffLoad eff[1] "event\\ev290_03.eff"
+	VisShow vis[0] 0 8 480 264 0 0 512 256 0 0 480 256 0x00FFFFFF 0 "c_vis606.itp"
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	CharSetChipBase char[0] chip[30]
+	CharFlagsSet char[0] 0x8000
+	CharSetChipBase char[2] chip[31]
+	CharSetChipPattern char[2] 1
+	CharFlagsSet char[2] 0x8000
+	CharFlagsUnset char[2] 0x0080
+	CharSetChipBase name[2] chip[32]
+	CharSetChipPattern name[2] 0
+	CharSetPos char[2] (1370, 200, 810) 180deg
+	CharSetPos name[0] (380, 0, 1140) 90deg
+	CharSetPos name[2] (2500, 0, 1020) 270deg
+	CharSetPos name[1] (1030, 0, 2760) 180deg
+	CharSetPos name[3] (-1220, 0, 3220) 135deg
+	CharSetPos name[8] (-590, 0, -610) 45deg
+	CharSetPos name[4] (2320, 0, 3490) 180deg
+	CharSetPos char[0] (210, 0, -4420) 0deg
+	CharFlagsUnset char[0] 0x0080
+	CharColor char[0] 0x00FFFFFF 0ms
+	SoundPlay sound[802] 0 100 0
+	CamSetDistance 1400 1600 40 2000ms
+	FadeIn 1000ms 0x00000000
+	FadeWait
+	CamWait 1
+	Call fn[0,12]
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	BgmVolume 100 0ms
+	FlagSet flag[275]
+	EventEnd 3
+	NewScene "scena/c120d.bin" 0 0 0
+	Hcf
+	Return
+
+fn[8]:
+	TextTalk name[0] {
+		#05200F{color 10}这样就行了。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10309F呵呵，果然还是
+		很适合你啊。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05206F{color 10}（虽然上次也这么想，
+		{} 全身都被包住，
+		{} 应该没什么适不适合的吧……？）{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#5P#00109F缇欧也是，
+		真的好可爱哦！{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#11P#05524F{color 21}谢谢。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		上次你们帮忙时，
+		那个有点酷酷的咪谢
+		很受大家欢迎呢！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		这次我也很期待你们的表现哦。
+		拜托你们了！{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10112F总觉得……比起罗伊德，
+		缇欧好像还比较
+		令他们期待耶……{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00309F我看啊，
+		要不要干脆
+		只让小缇上场就好？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05520F{color 21}不可能。
+		咪谢是咪西的妹妹。{wait}
+	} {
+		#05521F丢下哥哥不管，
+		只让妹妹自己一个人抢锋头，
+		本身就违反角色设定。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10105F原、原来如此……{wait}
+	} {
+		#10112F（缇欧真的
+		　只要说到咪西，
+		　就像变了个人一样呢……）{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05200F{color 10}然后，关于慈善活动的
+		节目内容……{wait}
+	}
+	TextWait
+	Fork name[1] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[3] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[4] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkWait name[1] fork[1]
+	ForkWait name[3] fork[1]
+	ForkWait name[8] fork[1]
+	ForkWait name[4] fork[1]
+	TextTalk char[0] {
+		是的，我有大概做了个行程表。
+		请你大概看过记下来吧。{wait}
+	}
+	TextWait
+	TextSetName ""
+	TextMessage null {
+		{color 5}阅览了行程表。{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	Fork name[1] fork[1]:
+		CharTurnTo self 90deg 500deg/s
+	Fork name[3] fork[1]:
+		CharTurnTo self 90deg 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnTo self 270deg 500deg/s
+	Fork name[4] fork[1]:
+		CharTurnTo self 270deg 500deg/s
+	ForkWait name[1] fork[1]
+	ForkWait name[3] fork[1]
+	ForkWait name[8] fork[1]
+	ForkWait name[4] fork[1]
+	Sleep 500ms
+	Emote name[0] 0mm 2000mm 24 27 250ms 0
+	Emote name[2] 0mm 2000mm 24 27 250ms 0
+	Emote name[1] 0mm 2000mm 24 27 250ms 0
+	Emote name[3] 0mm 2000mm 24 27 250ms 0
+	Emote name[8] 0mm 2000mm 24 27 250ms 0
+	Emote name[4] 0mm 2000mm 24 27 250ms 0
+	Sleep 500ms
+	SoundPlay sound[18] 0 100 0
+	FadeOut 300ms 0x00000000 100
+	TextSetPos -1 -1 -1 -1
+	TextSetName ""
+	TextMessage null {
+		{color 5}丄发饼干
+		丄和孩子们互动
+		丄跳舞{color 0}{wait}
+	}
+	TextWait
+	TextClose 0
+	FadeIn 300ms 0x00000000
+	FadeWait
+	_59
+	TextSetPos 14 280 60 3
+	EmoteStop name[0]
+	EmoteStop name[2]
+	EmoteStop name[1]
+	EmoteStop name[3]
+	EmoteStop name[8]
+	EmoteStop name[4]
+	Sleep 1000ms
+	Emote name[0] 0mm 2300mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[2] 0mm 2300mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1200ms
+	TextTalk name[3] {
+		#00309F这、这也实在……{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10106F与其说是行程表，
+		不如说只是把点子列出来吧……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		毕竟这活动
+		是昨天晚上决定要办的，
+		根本没有准备的时间。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		而且，咪西的演出
+		本来就全权交给演员自由发挥，
+		想指示的更详细也没办法啊。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05212F{color 10}虽然我隐隐约约就觉得
+		会是这样的状况……{color 0}{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		反正，出问题的话，
+		到时候再想办法就好了。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05524F{color 21}不过既然由我来监部，
+		我是不会容许失误出现的。{color 0}{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05206F{color 10}到、到底要我怎么办啦……？{color 0}{wait}
+	}
+	TextWait
+	Fork name[1] fork[1]:
+		CharTurnTo self 45deg 500deg/s
+	Fork name[3] fork[1]:
+		CharTurnTo self 45deg 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnTo self 315deg 500deg/s
+	Fork name[4] fork[1]:
+		CharTurnTo self 315deg 500deg/s
+	ForkWait name[1] fork[1]
+	ForkWait name[3] fork[1]
+	ForkWait name[8] fork[1]
+	ForkWait name[4] fork[1]
+	TextTalk name[4] {
+		#10302F上次已经顺利成功一次了。
+		这次应该也很轻松啦。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00102F发饼干，
+		还有和孩子们互动……{wait}
+	} {
+		#00109F都跟主题乐园那时候是一样的。
+		拿出自信来吧，罗伊德。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10101F不过，还有跳舞不是吗？{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00300F嗯，反正只要
+		讲出那句代表性台词，
+		应该就能混过去了吧？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05204F{color 10}记得好像是……
+		『ＥＮＪＯＹ咪西☆』
+		这样吧？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		哦！原来你还记得啊！
+		这样就很完美了啦。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05524F{color 21}不，只有这样
+		还不够。{wait}
+	} {
+		#05521F这次罗伊德前辈连跳舞也要
+		做到完美才行。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05211F{color 10}咦咦！？{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05524F{color 21}看过上次的表演后，
+		我想到了新的舞蹈动作。
+		这次就来试试看那些动作吧。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00109F那个，缇欧？
+		这次只是慈善活动而已，
+		不需要做到那么……{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05521F{color 21}#4S咪西不论何时都是完美的。#3S{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00306F呃，你表情这么认真，
+		我们也……{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10302F看来她完全没打算让步呢。{wait}
+	} {
+		#10309F反正也没时间了，你就快点让她
+		教你舞蹈的动作吧。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05206F{color 10}（你说得可简单……）{wait}
+	}
+	TextWait
+	Return
+
+fn[9]:
+	TextTalk name[2] {
+		#05520F{color 21}那么就立刻开始吧。
+		请看着我的动作，
+		并好好记下来。{wait}
+	}
+	TextWait
+	CharTurnTo name[2] 180deg 500deg/s
+	BgmPlay bgm[589] 0
+	Sleep 1500ms
+	FlagSet flag[1]
+	CharFlagsUnset name[2] 0x0020
+	ForkFunc name[2] fork[1] fn[0,22]
+	Sleep 3000ms
+	FlagUnset flag[1]
+	ForkWait name[2] fork[1]
+	CharFlagsSet name[2] 0x0020
+	FlagSet flag[2]
+	FlagSet flag[1]
+	ForkFunc name[2] fork[0] fn[0,13]
+	TextTalk name[2] {
+		#05529F{color 21}耶～☆{wait}
+	}
+	TextWait
+	ForkFunc name[2] fork[2] fn[0,16]
+	ForkWait name[2] fork[2]
+	ForkFunc name[2] fork[2] fn[0,20]
+	ForkWait name[2] fork[2]
+	CharFlagsUnset name[2] 0x0020
+	FlagUnset flag[2]
+	CharTurnTo name[2] 180deg 0deg/s
+	Sleep 200ms
+	ForkFunc name[2] fork[1] fn[0,21]
+	Sleep 3000ms
+	FlagUnset flag[1]
+	ForkWait name[2] fork[1]
+	CharTurnTo name[2] 180deg 500deg/s
+	TextTalk name[2] {
+		#05521F{color 21}然后这时候要靠近对方。{wait}
+	}
+	TextWait
+	CharFlagsSet name[2] 0x0020
+	FlagSet flag[2]
+	ForkFunc name[2] fork[0] fn[0,14]
+	ForkFunc name[2] fork[2] fn[0,17]
+	ForkWait name[2] fork[2]
+	CharFlagsUnset name[2] 0x0020
+	CharFlagsSet name[2] 0x0020
+	FlagSet flag[2]
+	FlagSet flag[1]
+	ForkFunc name[2] fork[0] fn[0,13]
+	ForkFunc name[2] fork[2] fn[0,19]
+	Sleep 3000ms
+	ForkWait name[2] fork[2]
+	FlagUnset flag[1]
+	FlagUnset flag[2]
+	FlagSet flag[2]
+	ForkFunc name[2] fork[0] fn[0,14]
+	ForkFunc name[2] fork[2] fn[0,18]
+	ForkWait name[2] fork[2]
+	FlagUnset flag[2]
+	FlagSet flag[2]
+	ForkFunc name[2] fork[0] fn[0,15]
+	TextTalk name[2] {
+		#05529F{color 21}ＥＮＪＯＹ咪西☆{wait}
+	}
+	TextWait
+	BgmStop 4000ms
+	ForkFunc name[2] fork[2] fn[0,23]
+	ForkWait name[2] fork[2]
+	FlagUnset flag[1]
+	FlagUnset flag[2]
+	BgmWait
+	if !flag[3]:
+		Sleep 500ms
+		Emote name[0] 0mm 2000mm 24 27 250ms 0
+		Emote name[1] 0mm 2000mm 24 27 250ms 0
+		Emote name[3] 0mm 2000mm 24 27 250ms 0
+		Emote name[8] 0mm 2000mm 24 27 250ms 0
+		Emote name[4] 0mm 2000mm 24 27 250ms 0
+		Emote char[0] 0mm 2000mm 38 39 250ms 2
+		Sleep 1000ms
+		EmoteStop name[0]
+		EmoteStop name[1]
+		EmoteStop name[3]
+		EmoteStop name[8]
+		EmoteStop name[4]
+		TextTalk name[1] {
+			#00114F该、该怎么说呢……{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#10111F缇欧超级认真的……{wait}
+		}
+		TextWait
+		FlagSet flag[3]
+	CharTurnTo name[2] 270deg 500deg/s
+	TextTalk name[2] {
+		#05524F{color 21}罗伊德前辈，你记起来了吗？
+		如果不确定有没有记住，
+		我可以再表演一次。{wait}
+	}
+	TextWait
+	Return
+
+fn[10]:
+	FadeOut 300ms 0x00000000 100
+	var[0] = 0
+	Menu menu[0] -1 -1 0
+		"再看一次" // 0
+		"没问题了" // 1
+	MenuWait var[0]
+	MenuClose menu[0]
+	FadeIn 300ms 0x00000000
+	_59
+	if var[0] == 0:
+		TextTalk name[0] {
+			#05201F{color 10}不好意思，缇欧。
+			可以麻烦你再做一次吗？{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			#05520F{color 21}了解。请好好看清楚，
+			完整的记下来吧。{wait}
+		}
+		TextWait
+	else:
+		TextTalk name[0] {
+			#05204F{color 10}不用，没关系。
+			已经记起来了。{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			#05520F{color 21}我知道了。
+			这样就准备万全了。{wait}
+		}
+		TextWait
+	Return
+
+fn[11]:
+	TextTalk char[0] {
+		哎呀……时间差不多了。
+		要请你们准备了。{wait}
+	}
+	TextWait
+	TextTalk name[1] {
+		#00100F那么我们会
+		作为便衣警备员
+		待在附近。{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10302F呵呵，虽然这么说，
+		不过这次
+		我们好像也帮不上什么忙。{wait}
+	}
+	TextWait
+	TextTalk name[2] {
+		#05524F{color 21}那么我们走吧，罗伊德前辈。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#05202F{color 10}是，是的……{wait}
+	} {
+		#05208F（舞蹈里有几个
+		{}  重要的动作，
+		{}  还是记起来比较好。）{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		那么，
+		为了小孩子们的梦想，
+		各位加油吧！！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		拜托你们了！
+		咪西、咪谢！！{wait}
+	}
+	TextWait
+	Return
+
+fn[12]:
+	TextTalk name[2] {
+		#00206F呼……整身都是汗呢。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00000F辛苦你了，缇欧。
+		舞蹈的反应很热烈，真是太好了。{wait}
+	}
+	TextWait
+	if !QuestTaskGet quest[157] 3 && !QuestTaskGet quest[157] 5 && !QuestTaskGet quest[157] 7:
+		TextTalk name[2] {
+			#00204F不，罗伊德前辈扮起咪西的模样
+			也真的非常完美。{wait}
+		} {
+			#00202F……最后的舞蹈也是，说实话
+			我觉得我要求的舞步可能太难，
+			不过还是完美成功了……{wait}
+		} {
+			#00214F跟你一起跳舞，我很开心……{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00009F呃，哈哈……
+			总觉得有点害羞呢。{wait}
+		}
+		TextWait
+		QuestTaskSet quest[157] 8
+	elif QuestTaskGet quest[157] 2 | QuestTaskGet quest[157] 4 | QuestTaskGet quest[157] 6:
+		TextTalk name[2] {
+			#00200F嗯嗯，虽然孩子们
+			都觉得很开心，
+			这点很好……{wait}
+		} {
+			#00206F但其中有些失误，
+			实在可惜。
+			我希望能够做到完美。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00006F抱、抱歉……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00109F好、好啦，罗伊德也很努力了啊。
+			不是吗？缇欧。{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#00304F对啊，小鬼们
+			就算看到了失误的地方，
+			也是笑得特别开心不是吗？{wait}
+		}
+		TextWait
+		QuestTaskSet quest[157] 9
+	else:
+		TextTalk name[2] {
+			#00206F……嗯，我真的有够累的。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00012F那个……你还是在生气吗？{wait}
+		}
+		TextWait
+		TextTalk name[2] {
+			#00211F我没有生气。
+			只是，觉得失望而已。{wait}
+		}
+		TextWait
+		TextTalk name[8] {
+			#10111F好、好严格哦……{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#10306F不过说真的，这次
+			我也没办法帮你说话了。{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#00108F缇欧明明
+			都那样示范给你看了，
+			竟然还可以错得那么离谱……{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00006F……是，我在反省了。{wait}
+		}
+		TextWait
+		QuestTaskSet quest[157] 10
+	SoundPlay sound[121] 0 100 0
+	Emote name[0] 0mm 2300mm 38 38 250ms 1
+	Emote name[1] 0mm 2000mm 38 38 250ms 1
+	Emote name[2] 0mm 2000mm 38 38 250ms 1
+	Emote name[3] 0mm 2000mm 38 38 250ms 1
+	Emote name[8] 0mm 2000mm 38 38 250ms 1
+	Emote name[4] 0mm 2000mm 38 38 250ms 1
+	Sleep 500ms
+	ForkFunc char[0] fork[3] fn[0,24]
+	Sleep 200ms
+	ForkLoop name[0] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkLoop name[1] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkLoop name[2] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkLoop name[3] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkLoop name[8] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkLoop name[4] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkWait char[0] fork[3]
+	ForkQuit name[0] fork[1]
+	ForkQuit name[1] fork[1]
+	ForkQuit name[2] fork[1]
+	ForkQuit name[3] fork[1]
+	ForkQuit name[8] fork[1]
+	ForkQuit name[4] fork[1]
+	TextTalk char[0] {
+		哎呀～辛苦你们了！
+		活动很成功呢！{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		这都是托你们的福。
+		真的要感谢，感谢你们！{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10309F呵呵，不用客气。{wait}
+	}
+	TextWait
+	CharTurnToChar name[2] name[4] 500deg/s
+	Sleep 500ms
+	TextTalk name[2] {
+		#00211F……瓦奇先生，
+		我记得你应该
+		什么事都没做吧？{wait}
+	}
+	TextWait
+	CharTurnToChar name[8] name[2] 500deg/s
+	Sleep 300ms
+	TextTalk name[8] {
+		#10112F好啦好啦。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		这算是对你们的感谢，
+		请各位收下这一点小礼物。{wait}
+	}
+	TextWait
+	Emote name[2] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Fork name[2] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	ForkWait name[2] fork[1]
+	ForkQuit name[8] fork[1]
+	TextTalk name[0] {
+		#00005F礼物……吗？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		是的，并不是什么贵重品，
+		请你们收下──{wait}
+	}
+	TextWait
+	CamZoom 13450 1000ms
+	_Char91 name[2] 0 0 -300 2000 0
+	Sleep 500ms
+	TextTalk name[2] {
+		#00201F难不成那是……
+		咪西的周边商品吗！？{wait}
+	}
+	TextWait
+	CamWait 1
+	CharTurnToChar char[0] name[2] 500deg/s
+	Sleep 300ms
+	TextTalk char[0] {
+		咦？不、
+		不是啦……{wait}
+	}
+	TextWait
+	CamZoom 12950 750ms
+	_Char91 name[2] 0 0 -500 2000 0
+	Sleep 500ms
+	Fork name[0] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	Fork name[1] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	Fork name[3] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnToChar self name[2] 500deg/s
+	Sleep 500ms
+	TextTalk name[2] {
+		#00201F不行！{wait}
+	} {
+		#00203F这次我们
+		只不过是来协助办理
+		慈善活动而已。{wait}
+	} {
+		#00200F我认为照理来说，
+		我们是不可以
+		像这样收取报酬的。{wait}
+	}
+	TextWait
+	ForkWait name[0] fork[1]
+	ForkQuit name[1] fork[1]
+	ForkQuit name[3] fork[1]
+	ForkQuit name[8] fork[1]
+	CamWait 1
+	TextTalk name[0] {
+		#00012F……那个，缇欧？{wait}
+	}
+	TextWait
+	CamZoom 12450 500ms
+	_Char91 name[2] 0 0 -700 2000 0
+	Sleep 500ms
+	TextTalk name[2] {
+		#00207F#5S不过呢！#3S{wait}
+	}
+	Emote name[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Emote name[1] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Emote name[3] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Emote name[8] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Emote name[4] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Emote char[0] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	TextWait
+	CamWait 1
+	TextTalk name[2] {
+		#00203F咪西的魅力，
+		是没有人能够抵挡的！{wait}
+	} {
+		#00200F所以，我们应该要
+		老实接受人家的好意才对。{wait}
+	}
+	TextWait
+	TextTalk name[8] {
+		#10111F呃、这样啊……{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	if !flag[258]:
+		FadeOut 300ms 0x00000000 100
+		var[0] = 0
+		Menu menu[0] -1 -1 0
+			"等待输入" // 0
+		MenuWait var[0]
+		MenuClose menu[0]
+		FadeIn 300ms 0x00000000
+		_59
+	VisSet vis[0] 3 0xFFFFFFFF 500ms 0 0
+	VisWait vis[0] 3
+	TextSetPos 14 280 60 3
+	TextMessage name[2] {
+		#00202F那么，您究竟打算送我们
+		什么样的周边商品呢？{wait}
+	} {
+		#00204F是招牌的吊饰吗？
+		还是马克杯？{wait}
+	} {
+		#00201F啊、该不会是……！是最近听说
+		会推出的新商品──
+		咪西的换装布偶吗？{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	TextClose 0
+	_59
+	VisSet vis[0] 3 0x00FFFFFF 500ms 0 0
+	VisWait vis[0] 3
+	VisHide vis[255] 0
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote char[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[2] {
+		#00200F啊，如果是送咪谢的周边商品
+		也没问题。
+		不，应该说我更想要咪谢的……{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		呃──关于这个嘛……
+		其实前几天在一片混乱中，
+		周边商品被水给泼到了。{wait}
+	}
+	TextWait
+	Emote name[2] 0mm 2000mm 2 7 80ms 1
+	SoundPlay sound[28] 0 100 0
+	Sleep 1000ms
+	TextTalk name[2] {
+		#00205F怎、怎么会……！{wait}
+	} {
+		#00201F那么新商品『咪西＆咪谢
+		双人组吊饰』呢！？{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		那个也都泡水了……
+		原订的发售日全都延期了。{wait}
+	}
+	TextWait
+	CamZoom 13450 2000ms
+	SoundPlay sound[185] 0 100 0
+	SystemFlagsSet 0x00000010
+	Fog 0xFF000000 15 23 0
+	EffPlay eff[0] eff_instance[0] null 0 (0, 0, 0) 0 0 0 1000 1000 1000 null (0, 0, 0) 0ms
+	ForkFunc name[2] fork[1] fn[0,25]
+	_94 1 name[2] 180deg 500 1000mm/s 0
+	Sleep 1000ms
+	_94 1 name[2] 180deg 200 1000mm/s 0
+	Sleep 1000ms
+	_94 1 name[2] 180deg 800 1000mm/s 0
+	Sleep 1000ms
+	CharTurnTo name[2] 0deg 500deg/s
+	Sleep 2000ms
+	ForkFunc name[2] fork[2] fn[0,26]
+	TextTalk name[2] {
+		#00208F#60W怎么、这样……
+		我明明就超兴奋，
+		超期待它何时会推出的说……{0x05}{wait}
+	}
+	Sleep 3000ms
+	CamWait 1
+	TextTalk name[2] {
+		#00210F#60W世界啊，你为何对我如此残酷……{0x05}{wait}
+	}
+	Sleep 1500ms
+	ForkWait name[2] fork[2]
+	CrossFade 500ms
+	EffStop eff_instance[0] 0
+	EffStop eff_instance[1] 0
+	ForkQuit name[2] fork[1]
+	Fog 0xFF000000 16 30 0
+	SystemFlagsUnset 0x00000010
+	FadeWait
+	Emote name[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[1] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[3] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[8] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote name[4] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Emote char[0] 0mm 2000mm 16 19 250ms 1
+	SoundPlay sound[23] 0 100 0
+	Sleep 1000ms
+	TextTalk name[3] {
+		#00306F#1P受到的打击也太大了吧……{wait}
+	}
+	TextWait
+	TextTalk name[4] {
+		#10305F没想到平常那么冷静的她，
+		竟然会动摇成这样。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		……那个，不好意思，
+		我可以继续刚刚没说完的话吗？{wait}
+	}
+	TextWait
+	Fork name[0] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[1] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[3] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Fork name[8] fork[1]:
+		CharTurnToChar self char[0] 500deg/s
+	Sleep 500ms
+	ForkWait name[0] fork[1]
+	ForkQuit name[1] fork[1]
+	ForkQuit name[3] fork[1]
+	ForkQuit name[8] fork[1]
+	TextTalk name[1] {
+		#00112F不、不好意思。{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00011F您继续说吧。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		虽然对小姐很抱歉，
+		不是咪西的周边商品，
+		不过我还是要送给你们这些东西。{wait}
+	}
+	TextWait
+	CharTurnTo char[0] 0deg 0deg/s
+	CharTurnTo name[0] 180deg 0deg/s
+	Fork char[0] fork[0]:
+		_Char91 self 0 0 1200 2000 0
+	Sleep 50ms
+	Fork name[0] fork[0]:
+		_Char91 self 0 0 -1200 2000 0
+	ForkWait name[0] fork[0]
+	ForkQuit char[0] fork[0]
+	if !QuestTaskGet quest[157] 3 && !QuestTaskGet quest[157] 5 && !QuestTaskGet quest[157] 7:
+		TextSetPos -1 -1 -1 -1
+		FadeOut 300ms 0x00000000 100
+		SoundPlay sound[17] 0 100 0
+		TextSetName ""
+		TextMessage name[742] {
+			{color 0}已取得６个{item[540]}{color 0}。{wait}
+		}
+		TextWait
+		TextClose 0
+		FadeIn 300ms 0x00000000
+		ItemAdd item[540] 6
+		TextSetPos 14 280 60 3
+	elif QuestTaskGet quest[157] 2 | QuestTaskGet quest[157] 4 | QuestTaskGet quest[157] 6:
+		TextSetPos -1 -1 -1 -1
+		FadeOut 300ms 0x00000000 100
+		SoundPlay sound[17] 0 100 0
+		TextSetName ""
+		TextMessage name[742] {
+			{color 0}已取得４个{item[540]}{color 0}。{wait}
+		}
+		TextWait
+		TextClose 0
+		FadeIn 300ms 0x00000000
+		ItemAdd item[540] 4
+		TextSetPos 14 280 60 3
+	else:
+		TextSetPos -1 -1 -1 -1
+		FadeOut 300ms 0x00000000 100
+		SoundPlay sound[17] 0 100 0
+		TextSetName ""
+		TextMessage name[742] {
+			{color 0}已取得２个{item[540]}{color 0}。{wait}
+		}
+		TextWait
+		TextClose 0
+		FadeIn 300ms 0x00000000
+		ItemAdd item[540] 2
+		TextSetPos 14 280 60 3
+	Fork char[0] fork[1]:
+		_94 1 self 180deg 1200 2000mm/s 0
+	Sleep 50ms
+	Fork name[0] fork[1]:
+		_94 1 self 180deg 1200 2000mm/s 0
+	ForkWait name[0] fork[1]
+	ForkQuit char[0] fork[1]
+	TextTalk name[0] {
+		#00000F谢谢，
+		不过，我们真的可以
+		收下这些吗？{wait}
+	} {
+		#00003F明明大家都是
+		来这边做志工的。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		毕竟我们也希望
+		你们特务支援课
+		继续为了这座城市努力啊。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		这算是我们对你们
+		一点小小的支持，
+		就请收下吧。{wait}
+	}
+	TextWait
+	TextTalk name[3] {
+		#00304F#1P人家都这么说了。{wait}
+	} {
+		#00302F难得人家一番好意，
+		就老老实实收下吧？{wait}
+	}
+	TextWait
+	TextTalk name[0] {
+		#00002F那么就恭敬不如从命。
+		这些我就收下了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		你们愿意收下真是太好了。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		我们也打算尽可能
+		早日修复主题乐园。{wait}
+	}
+	TextWait
+	TextTalk char[0] {
+		到时候请各位
+		一定要再来玩哦！{wait}
+	}
+	TextWait
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	QuestFlagsSet quest[157] 0x10
+	SoundPlay sound[9] 0 100 0
+	TextSetPos -1 -1 -1 -1
+	TextSetName ""
+	TextMessage null {
+		达成{color 2}委托【主题乐园的兼职２】{color 0}了！{wait}
+	}
+	TextWait
+	TextClose 0
+	TextSetPos 14 280 60 3
+	Return
+
+fn[13]:
+	while flag[2]:
+		self.4 += 315
+		Sleep 100ms
+	Return
+
+fn[14]:
+	while flag[2]:
+		self.4 += 315
+		Sleep 50ms
+	Return
+
+fn[15]:
+	while flag[2]:
+		self.4 += 315
+		Sleep 33ms
+	Return
+
+fn[16]:
+	_Char91 self 0 0 -1500 2000 0
+	self.4 += 315
+	CharJump self 0 0 0 1000 3000mm/s
+	CharJump self 0 0 0 1000 3000mm/s
+	_Char91 self 0 0 1500 2000 0
+	Return
+
+fn[17]:
+	_Char91 self 500 0 0 2000 0
+	self.4 += 315
+	CharJump self 0 0 0 1000 3000mm/s
+	CharJump self 0 0 0 1000 3000mm/s
+	_Char91 self -500 0 0 2000 0
+	Return
+
+fn[18]:
+	CharJump self 0 0 0 1000 3000mm/s
+	CharJump self 0 0 0 1000 3000mm/s
+	var[1] = 0
+	while var[1] != 3:
+		_Char91 self 250 0 -250 2000 0
+		_Char91 self 0 0 -250 2000 0
+		_Char91 self -250 0 -250 2000 0
+		_Char91 self -250 0 0 2000 0
+		_Char91 self -250 0 250 2000 0
+		_Char91 self 0 0 250 2000 0
+		_Char91 self 250 0 250 2000 0
+		_Char91 self 250 0 0 2000 0
+		var[1] += 1
+	Return
+
+fn[19]:
+	CharWalkToPos2 self (-2690, 0, -1500) 2000mm/s 0
+	self.4 += 315
+	CharJump self 0 0 0 1000 3000mm/s
+	CharWalkToPos2 self (-1190, 0, -1500) 2000mm/s 0
+	CharWalkToPos2 self (-340, 0, -2650) 2000mm/s 0
+	CharWalkToPos2 self (510, 0, -1500) 2000mm/s 0
+	Return
+
+fn[20]:
+	CharWalkToPos2 self (2009, 0, -1500) 2000mm/s 0
+	self.4 += 315
+	CharJump self 0 0 0 1000 3000mm/s
+	CharWalkToPos2 self (510, 0, -1500) 2000mm/s 0
+	CharWalkToPos2 self (-340, 0, -670) 2000mm/s 0
+	CharWalkToPos2 self (-1190, 0, -1500) 2000mm/s 0
+	Return
+
+fn[21]:
+	while flag[1]:
+		_Char91 self -500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self 500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self 500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self -500 0 0 2000 0
+		Sleep 100ms
+		FlagSet flag[2]
+		ForkFunc self fork[0] fn[0,14]
+		CharJump self 0 0 0 500 3000mm/s
+		FlagUnset flag[2]
+		CharTurnTo self 270deg 0deg/s
+		Sleep 100ms
+		_Char90 self 0 0 -500 2000 0
+		Sleep 500ms
+		_Char90 self 0 0 500 2000 0
+		Sleep 500ms
+		_Char90 self -500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self 500 0 0 2000 0
+		FlagSet flag[2]
+		ForkFunc self fork[0] fn[0,14]
+		CharJump self 0 0 0 500 3000mm/s
+		FlagUnset flag[2]
+	Return
+
+fn[22]:
+	while flag[1]:
+		_Char91 self -500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self 500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self 500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self -500 0 0 2000 0
+		Sleep 100ms
+		FlagSet flag[2]
+		ForkFunc self fork[0] fn[0,14]
+		CharJump self 0 0 0 500 3000mm/s
+		FlagUnset flag[2]
+		CharTurnTo self 90deg 0deg/s
+		Sleep 100ms
+		_Char90 self 0 0 500 2000 0
+		Sleep 500ms
+		_Char90 self 0 0 -500 2000 0
+		Sleep 500ms
+		_Char90 self -500 0 0 2000 0
+		Sleep 500ms
+		_Char91 self 500 0 0 2000 0
+		FlagSet flag[2]
+		ForkFunc self fork[0] fn[0,14]
+		CharJump self 0 0 0 500 3000mm/s
+		FlagUnset flag[2]
+	Return
+
+fn[23]:
+	SoundPlay sound[809] 0 80 0
+	CharJump self 0 0 0 2000 3000mm/s
+	CharTurnTo self 180deg 0deg/s
+	Return
+
+fn[24]:
+	Fork char[0] fork[2]:
+		CharColor self 0xFFFFFFFF 500ms
+	Fork char[0] fork[1]:
+		CharWalkToPos self (370, 0, -2350) 2000mm/s 0
+	ForkWait char[0] fork[1]
+	Return
+
+fn[25]:
+	while 1:
+		EffPlay eff[1] eff_instance[255] self 1 (0, 0, 0) 0 0 0 500 1000 500 null (0, 0, 0) 0ms
+		Sleep 800ms
+	Return
+
+fn[26]:
+	_Char91 name[2] 0 0 400 600 0
+	Sleep 500ms
+	_Char91 name[2] 400 0 700 400 0
+	Sleep 300ms
+	_Char91 name[2] 100 0 500 700 0
+	Sleep 600ms
+	_Char91 name[2] 500 0 700 500 0
+	Return
+
+fn[27]:
+	CharWalkToPos self (-420, 0, -1500) 2000mm/s 0
+	CharTurnTo self 115deg 500deg/s
+	_94 1 self 180deg 3500 2000mm/s 0
+	CharTurnTo self 135deg 100deg/s
+	Return
+
+fn[28]:
+	CharWalkToPos self (510, 0, -1500) 2000mm/s 0
+	Sleep 100ms
+	CharTurnTo self 270deg 500deg/s
+	Return
+
+fn[29]:
+	CharWalkToPos self (3500, 0, -100) 2000mm/s 0
+	CharTurnTo self 225deg 500deg/s
+	Return

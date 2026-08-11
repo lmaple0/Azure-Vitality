@@ -1,0 +1,697 @@
+calmare ao_k scena
+scena:
+	name "c1100_1" "c1100_1" "c1100_1"
+	town town[22]
+	bgm bgm[150]
+	flags 8192
+	item_use fn[0,255]
+	unk 6 0
+
+entry:
+	pos (0, 0, -1000)
+	unk1 0
+	cam_from (0, 0, 24000)
+	cam_pers 500
+	unk2 30
+	cam_deg 45deg
+	cam_limit 0deg 360deg
+	cam_at (4210, 2500, 8930)
+	unk3 0
+	unk4 0
+	flags 0x0001
+	town town[22]
+	init fn[0,7]
+	reinit fn[0,8]
+
+fn[0]:
+	EventBegin 0
+	FadeOut 0ms 0x00000000 255
+	CharFlagsSet char[0] 0x8000
+	CharFlagsSet char[4] 0x8000
+	CharFlagsSet char[26] 0x8000
+	CharFlagsSet char[27] 0x8000
+	CharFlagsSet char[28] 0x8000
+	CharFlagsSet char[5] 0x8000
+	CharFlagsSet char[6] 0x8000
+	CharFlagsSet char[7] 0x8000
+	CharFlagsSet char[8] 0x8000
+	CharFlagsSet char[3] 0x8000
+	CharFlagsSet char[20] 0x8000
+	CharFlagsSet char[21] 0x8000
+	CharFlagsSet char[22] 0x8000
+	CharFlagsSet char[23] 0x8000
+	CharFlagsSet char[24] 0x8000
+	CharFlagsSet char[25] 0x8000
+	ED7LoadChip "chr/ch11000.itc" chip[30]
+	ED7LoadChip "chr/ch11200.itc" chip[31]
+	ED7LoadChip "chr/ch20802.itc" chip[32]
+	_Char4A char[1] 255
+	CharSetChipBase char[1] chip[32]
+	CharSetChipPattern char[1] 0
+	CharSetPos char[1] (800, 2500, -8000) 90deg
+	ObjFlagsUnset object[13] 0x0004
+	ObjFlagsSet object[13] 0x1000
+	CharSetChipBase char[63] chip[30]
+	CharSetChipPattern char[63] 0
+	CharFlagsUnset char[63] 0x0080
+	CharFlagsSet char[63] 0x8000
+	CharSetChipBase char[64] chip[31]
+	CharSetChipPattern char[64] 0
+	CharFlagsUnset char[64] 0x0080
+	CharFlagsSet char[64] 0x8000
+	CharSetPos char[63] (-7800, 2500, -13500) 90deg
+	CharSetPos char[64] (-7800, 2500, -14500) 90deg
+	CharSetPos name[0] (-7800, 2500, -15500) 90deg
+	CharSetPos name[8] (-9800, 2500, -13500) 90deg
+	CharSetPos name[1] (-9800, 2500, -14500) 90deg
+	CharSetPos name[2] (-9800, 2500, -15500) 90deg
+	CharSetPos name[3] (-10800, 2500, -13800) 90deg
+	CharSetPos name[4] (-10800, 2500, -14800) 90deg
+	CharFlagsUnset field_party[4] 0x0080
+	CharFlags2Unset field_party[4] 0x8000
+	CharFlagsUnset field_party[5] 0x0080
+	CharFlags2Unset field_party[5] 0x8000
+	FadeIn 500ms 0x00000000
+	CamSetDistance -15620 1080 41770 0ms
+	ED7CamRotate 36deg 22deg 0deg 0ms
+	CamPers 820 0ms
+	CamZoom 30020 0ms
+	ED7CamRotate 224deg -182deg 0deg 4000ms
+	CamSetDistance -15990 1080 40660 4000ms
+	ED7CamRotate 9deg 22deg 0deg 4000ms
+	FadeWait
+	CamWait 121
+	CrossFade 500ms
+	CamSetDistance 34050 2980 -10000 0ms
+	ED7CamRotate 68deg 19deg 0deg 0ms
+	CamPers 820 0ms
+	CamZoom 24880 0ms
+	CamSetDistance 34060 2980 -11000 4000ms
+	ED7CamRotate 90deg 19deg 0deg 4000ms
+	FadeWait
+	CamWait 121
+	CrossFade 500ms
+	CamSetDistance -14160 4780 -2050 0ms
+	ED7CamRotate 89deg 26deg 0deg 0ms
+	CamPers 820 0ms
+	CamZoom 10350 0ms
+	Fork char[63] fork[0]:
+		_94 0 char[63] 0deg 12000 2000mm/s 0
+	Sleep 50ms
+	Fork char[64] fork[0]:
+		_94 0 char[64] 0deg 12000 2000mm/s 0
+	Sleep 50ms
+	Fork name[0] fork[0]:
+		_94 0 name[0] 0deg 12000 2000mm/s 0
+	Sleep 50ms
+	Fork name[8] fork[0]:
+		_94 0 name[8] 0deg 13000 2000mm/s 0
+	Sleep 50ms
+	Fork name[1] fork[0]:
+		_94 0 name[1] 0deg 13000 2000mm/s 0
+	Sleep 50ms
+	Fork name[2] fork[0]:
+		_94 0 name[2] 0deg 13000 2000mm/s 0
+	Sleep 50ms
+	Fork name[4] fork[0]:
+		_94 0 name[4] 0deg 13000 2000mm/s 0
+	Sleep 50ms
+	Fork name[3] fork[0]:
+		_94 0 name[3] 0deg 13000 2000mm/s 0
+	Sleep 50ms
+	CamSetDistance 2190 4780 -10470 5000ms
+	CamZoom 10350 5000ms
+	FadeWait
+	CamWait 64
+	ED7CamRotate 89deg 26deg 0deg 5000ms
+	ForkWait char[64] fork[0]
+	Fork name[0] fork[0]:
+		CharTurnTo name[0] 45deg 500deg/s
+	Sleep 50ms
+	Fork char[63] fork[0]:
+		CharTurnTo char[63] 45deg 500deg/s
+	Sleep 50ms
+	Fork char[64] fork[0]:
+		CharTurnTo char[64] 45deg 500deg/s
+	Sleep 50ms
+	ForkWait name[0] fork[0]
+	ForkWait char[63] fork[0]
+	ForkWait char[64] fork[0]
+	ForkWait name[3] fork[0]
+	Fork name[8] fork[0]:
+		CharTurnTo name[8] 45deg 500deg/s
+	Sleep 50ms
+	Fork name[1] fork[0]:
+		CharTurnTo name[1] 45deg 500deg/s
+	Sleep 50ms
+	Fork name[2] fork[0]:
+		CharTurnTo name[2] 45deg 500deg/s
+	Sleep 50ms
+	Fork name[4] fork[0]:
+		CharTurnTo name[4] 45deg 500deg/s
+	Sleep 50ms
+	Fork name[3] fork[0]:
+		CharTurnTo name[3] 45deg 500deg/s
+	Sleep 50ms
+	ForkWait name[8] fork[0]
+	ForkWait name[1] fork[0]
+	ForkWait name[2] fork[0]
+	ForkWait name[4] fork[0]
+	ForkWait name[3] fork[0]
+	CamWait 121
+	TextTalk name[0] {
+		#00002F所谓在克洛斯贝尔的生活……{wait}
+	} {
+		或许就是行政广场的摊贩等等。{wait}
+	}
+	TextWait
+	if QuestTaskGet quest[158] 13 | QuestTaskGet quest[158] 21:
+		TextTalk char[63] {
+			#07000F……这跟东侧大道的摊贩
+			感觉有点像呢。{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#3P#00306F让她逛差不多的东西，
+			感觉没什么意义耶？{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00005F这、这样啊……{wait}
+		}
+		TextWait
+		TextTalk char[63] {
+			#07005F啊！不会的！{wait}
+		} {
+			#07002F这边也有
+			不同的风情啊。{wait}
+		}
+		TextWait
+		TextTalk name[4] {
+			#3P#10302F罗伊德也习惯当
+			护花使者了吗？{wait}
+		}
+		TextWait
+	else:
+		TextTalk char[63] {
+			#07009F摊贩！？
+			我很喜欢这类的哦！{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00005F是这样吗？这样讲有点没礼貌，
+			但真令人意外……{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#3P#00105F的确，和原本的印象不太一样。{wait}
+		}
+		TextWait
+		TextTalk char[63] {
+			#07000F我还是杰尼丝王立学院的学生时，
+			有逛过学院祭的
+			摊贩哦。{wait}
+		} {
+			#07004F那时真的很开心。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00000F原来如此。{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#3P#00300F她的个性这么积极，
+			在国内有看过摊贩也不奇怪啊。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00012F是不是让你失望了……？{wait}
+		}
+		TextWait
+		TextTalk char[63] {
+			#07000F哎呀呀，没这回事。
+			每个地方的摊位感觉都不一样啊。{wait}
+		} {
+			#07004F重要的是，这样可以亲身感受到
+			克洛斯贝尔人民的生活。{wait}
+		}
+		TextWait
+		TextTalk char[64] {
+			#07100F公主，请别太兴奋
+			而引人注目。{wait}
+		}
+		TextWait
+		TextTalk char[63] {
+			#07005F啊，对、对不起。{wait}
+		}
+		TextWait
+		CrossFade 500ms
+		CamSetDistance -6250 5340 -6590 0ms
+		ED7CamRotate 35deg 19deg 0deg 0ms
+		CamPers 700 0ms
+		CamZoom 27010 0ms
+		CamSetDistance -12420 5340 -4190 30000ms
+		ED7CamRotate 69deg 25deg 0deg 30000ms
+		FadeWait
+		TextMessage name[0] {
+			#00000F像这样在喷水池旁坐着，
+			轻松地聊聊天……{wait}
+		} {
+			#00002F偶尔也会在摊贩那边
+			买些饮料或点心之类。{wait}
+		}
+		TextWait
+		TextMessage char[63] {
+			#07004F自由真好呢。
+			感觉好和平哦。{wait}
+		}
+		TextWait
+		TextMessage name[0] {
+			#00009F说的也是。
+			我想广场已经变成人们
+			休闲的场所了。{wait}
+		}
+		TextWait
+		CrossFade 500ms
+		CamSetDistance 2190 4780 -10470 0ms
+		ED7CamRotate 89deg 26deg 0deg 0ms
+		CamPers 820 0ms
+		CamZoom 10350 0ms
+		Fork char[63] fork[0]:
+			_94 0 self 0deg 2000 3000mm/s 0
+		FadeWait
+		ForkWait char[63] fork[0]
+		CharTurnTo char[63] 235deg 500deg/s
+		Sleep 500ms
+		TextTalk char[63] {
+			#07002F我可以买个东西吗？{wait}
+		}
+		TextWait
+		TextTalk name[1] {
+			#3P#00102F可以吧，我想店里的人
+			也想不到你真的是
+			公主本人吧？{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#3P#00304F打扮时髦的外国客人
+			其实也没那么稀奇。{wait}
+		}
+		TextWait
+		TextTalk char[63] {
+			#07000F说的也是。{wait}
+		} {
+			#07009F尤莉亚，我们一起去
+			摊贩买东西吧。{wait}
+		}
+		TextWait
+		TextTalk char[64] {
+			#07105F我也一起吗！？{wait}
+		}
+		TextWait
+		CharTurnTo char[63] 90deg 500deg/s
+		Sleep 500ms
+		TextTalk char[63] {
+			#07008F……你不愿意吗？{wait}
+		}
+		TextWait
+		Emote char[64] 0mm 2000mm 40 43 100ms 3
+		Sleep 1000ms
+		TextTalk char[64] {
+			#07108F啊，没有……{wait}
+		}
+		TextWait
+		Fork char[64] fork[0]:
+			_94 0 self 0deg 2000 3000mm/s 0
+		CharTurnTo char[63] 180deg 500deg/s
+		ForkWait char[64] fork[0]
+		CharTurnTo char[64] 0deg 0deg/s
+		TextTalk char[64] {
+			#07107F谨遵公主吩咐！{wait}
+		}
+		TextWait
+		TextTalk name[3] {
+			#3P#00309F感觉事情变有趣了呢。{wait}
+		}
+		TextWait
+		CharTurnTo char[63] 30deg 500deg/s
+		CharTurnTo char[64] 30deg 0deg/s
+		Fork char[63] fork[0]:
+			_94 0 char[63] 0deg 2000 2000mm/s 0
+		Sleep 150ms
+		Fork char[64] fork[0]:
+			_94 0 char[64] 0deg 2000 2000mm/s 0
+		Sleep 150ms
+		ForkWait char[63] fork[0]
+		ForkWait char[64] fork[0]
+		TextTalk char[63] {
+			#07009F尤莉亚！你看那个冰淇淋！
+			看起来好好吃哦。
+			啊，还是圣代比较好？{wait}
+		}
+		TextWait
+		TextTalk char[64] {
+			#07105F啊……
+			不，我对甜食比较……{wait}
+		}
+		TextWait
+		CharTurnTo char[63] 270deg 500deg/s
+		Sleep 500ms
+		TextTalk char[63] {
+			#07008F……这样啊。{wait}
+		}
+		TextWait
+		Emote char[64] 0mm 2000mm 40 43 100ms 3
+		CharTurnTo char[64] 0deg 0deg/s
+		Sleep 1000ms
+		TextTalk char[64] {
+			#07104F啊，不……
+			看起来的确很好吃呢，公主。{wait}
+		}
+		TextWait
+		TextTalk name[0] {
+			#00012F哈哈……
+			这样真的好吗？{wait}
+		}
+		TextWait
+		CharTurnTo name[1] 30deg 0deg/s
+		Fork name[1] fork[0]:
+			_94 0 self 0deg 3000 2000mm/s 0
+		Emote name[1] 0mm 2000mm 40 43 100ms 3
+		ForkWait name[1] fork[0]
+		TextTalk name[1] {
+			#3P#00112F呃……
+			请让我也一起逛吧。{wait}
+		}
+		TextWait
+		CharTurnTo name[8] 25deg 0deg/s
+		Fork name[8] fork[0]:
+			_94 0 self 0deg 2000 3000mm/s 0
+		Emote name[8] 0mm 2000mm 40 43 100ms 3
+		ForkWait name[8] fork[0]
+		TextTalk name[8] {
+			#3P#10105F啊，我、我也要！{wait}
+		}
+		TextWait
+		CharTurnTo char[63] 235deg 500deg/s
+		Sleep 500ms
+		TextTalk char[63] {
+			#07009F嗯，那当然。
+			就买大家的份吧。{wait}
+		}
+		TextWait
+		CharTurnTo char[63] 30deg 500deg/s
+		CharTurnTo char[64] 30deg 0deg/s
+		Fork char[63] fork[0]:
+			_94 0 char[63] 0deg 2000 2000mm/s 0
+		Sleep 50ms
+		Fork char[64] fork[0]:
+			_94 0 char[64] 0deg 2000 2000mm/s 0
+		Sleep 50ms
+		Fork name[1] fork[0]:
+			_94 0 name[1] 0deg 3500 2000mm/s 0
+		Sleep 50ms
+		Fork name[8] fork[0]:
+			_94 0 name[8] 0deg 3500 2000mm/s 0
+		Sleep 50ms
+		Sleep 1500ms
+		CrossFade 500ms
+		CamSetDistance 8230 1080 -7110 0ms
+		ED7CamRotate 42deg 16deg 0deg 0ms
+		CamPers 820 0ms
+		CamZoom 19250 0ms
+		ForkFunc char[63] fork[1] fn[1,2]
+		ForkFunc char[64] fork[1] fn[1,2]
+		ForkFunc name[1] fork[1] fn[1,2]
+		ForkFunc name[8] fork[1] fn[1,2]
+		FadeWait
+		ForkWait name[8] fork[0]
+		TextTalk name[4] {
+			#3P#10304F呵呵……
+			看来她还蛮开心的嘛。{wait}
+		} {
+			#10309F女生对甜食真的
+			很没抵抗力呢。{wait}
+		}
+		TextWait
+	TextClose 0
+	_59
+	BgmStop 1000ms
+	FadeOut 1000ms 0x00000000 255
+	SoundStop sound[123]
+	VisShow vis[0] 0 8 480 264 0 0 512 256 0 0 480 256 0x00FFFFFF 0 "c_vis600.itp"
+	FadeWait
+	ED7CamRotate 53deg 16deg 0deg 0ms
+	VisSet vis[0] 3 0xFFFFFFFF 1000ms 0 0
+	VisWait vis[0] 3
+	Sleep 1000ms
+	TextSetPos -1 0 -1 -1
+	if flag[3820]:
+		Call fn[1,1]
+	elif flag[3819]:
+		TextMessage name[4] {
+			#10300F罗伊德，最后要去哪里？
+			我觉得最好
+			避开类似的地方哦。{wait}
+		}
+		TextWait
+	else:
+		TextMessage name[4] {
+			#10300F罗伊德，接下来要去哪里？
+			我觉得最好
+			避开类似的地方哦。{wait}
+		}
+		TextWait
+	TextSetPos -1 230 -1 -1
+	if !flag[3818]:
+		TextMessage name[0] {
+			#00003F我想想……
+			第一站是……{wait}
+		}
+		TextWait
+	elif !flag[3819]:
+		TextMessage name[0] {
+			#00003F接下来要去的是……{wait}
+		}
+		TextWait
+	else:
+		TextMessage name[0] {
+			#00003F最后一个地方是……{wait}
+		}
+		TextWait
+	VisSet vis[0] 3 0x88FFFFFF 300ms 0 0
+	VisWait vis[0] 3
+	var[0] = 0
+	var[1] = 0
+	ED7MenuNew menu[1]
+	if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7 && !QuestTaskGet quest[158] 13 && !QuestTaskGet quest[158] 15 && !QuestTaskGet quest[158] 21:
+		ED7MenuAdd menu[1] "行政区的摊贩"
+	if !QuestTaskGet quest[158] 2 && !QuestTaskGet quest[158] 8 && !QuestTaskGet quest[158] 16:
+		ED7MenuAdd menu[1] "中央广场的百货"
+	if !QuestTaskGet quest[158] 3 && !QuestTaskGet quest[158] 9 && !QuestTaskGet quest[158] 17:
+		ED7MenuAdd menu[1] "面包咖啡馆丄摩尔吉 "
+	if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10 && !QuestTaskGet quest[158] 14 && !QuestTaskGet quest[158] 18 && !QuestTaskGet quest[158] 22:
+		ED7MenuAdd menu[1] "东侧大道的摊贩"
+	if !QuestTaskGet quest[158] 5 && !QuestTaskGet quest[158] 11 && !QuestTaskGet quest[158] 19:
+		ED7MenuAdd menu[1] "旧市街"
+	if !QuestTaskGet quest[158] 6 && !QuestTaskGet quest[158] 12 && !QuestTaskGet quest[158] 20:
+		ED7MenuAdd menu[1] "彩虹剧团"
+	ED7MenuShow menu[1] 65535 65535 0
+	MenuWait var[0]
+	MenuClose menu[1]
+	TextClose 0
+	_59
+	Sleep 1000ms
+	VisSet vis[0] 3 0x00FFFFFF 1000ms 0 0
+	VisWait vis[0] 3
+	VisSet vis[0] 3 0x00FFFFFF 0ms 0 0
+	VisHide vis[255] 0
+	var[1] = 0
+	if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7 && !QuestTaskGet quest[158] 13 && !QuestTaskGet quest[158] 15 && !QuestTaskGet quest[158] 21:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 1
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				if !QuestTaskGet quest[158] 4:
+					QuestTaskSet quest[158] 7
+				else:
+					QuestTaskSet quest[158] 13
+			else:
+				FlagSet flag[3820]
+				if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10:
+					QuestTaskSet quest[158] 15
+				else:
+					QuestTaskSet quest[158] 21
+			FlagSet flag[276]
+			NewScene "scena/c1100.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 2 && !QuestTaskGet quest[158] 8 && !QuestTaskGet quest[158] 16:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 2
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 8
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 16
+			FlagSet flag[273]
+			NewScene "scena/c0170.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 3 && !QuestTaskGet quest[158] 9 && !QuestTaskGet quest[158] 17:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 3
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 9
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 17
+			FlagSet flag[275]
+			NewScene "scena/c0200.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 4 && !QuestTaskGet quest[158] 10 && !QuestTaskGet quest[158] 14 && !QuestTaskGet quest[158] 18 && !QuestTaskGet quest[158] 22:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 4
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				if !QuestTaskGet quest[158] 1:
+					QuestTaskSet quest[158] 10
+				else:
+					QuestTaskSet quest[158] 14
+			else:
+				FlagSet flag[3820]
+				if !QuestTaskGet quest[158] 1 && !QuestTaskGet quest[158] 7:
+					QuestTaskSet quest[158] 18
+				else:
+					QuestTaskSet quest[158] 22
+			FlagSet flag[282]
+			NewScene "scena/c1000.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 5 && !QuestTaskGet quest[158] 11 && !QuestTaskGet quest[158] 19:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 5
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 11
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 19
+			FlagSet flag[276]
+			NewScene "scena/c1400.bin" 0 0 0
+			Hcf
+		var[1] += 1
+	if !QuestTaskGet quest[158] 6 && !QuestTaskGet quest[158] 12 && !QuestTaskGet quest[158] 20:
+		if var[0] == var[1]:
+			if !flag[3818]:
+				FlagSet flag[3818]
+				QuestTaskSet quest[158] 6
+			elif !flag[3819]:
+				FlagSet flag[3819]
+				QuestTaskSet quest[158] 12
+			else:
+				FlagSet flag[3820]
+				QuestTaskSet quest[158] 20
+			FlagSet flag[280]
+			NewScene "scena/c0400.bin" 0 0 0
+			Hcf
+	Return
+
+fn[1]:
+	TextSetPos -1 230 -1 -1
+	TextMessage char[64] {
+		#07103F嗯……
+		时间差不多了。{wait}
+	}
+	TextWait
+	TextSetPos -1 0 -1 -1
+	TextMessage char[63] {
+		#07005F咦？时间已经
+		这么晚了吗？{wait}
+	}
+	TextWait
+	TextSetPos -1 230 -1 -1
+	TextMessage char[64] {
+		#07103F虽然有点可惜，不过……
+		但公务行程可是，
+		万万不能迟到。{wait}
+	}
+	TextWait
+	TextSetPos -1 0 -1 -1
+	TextMessage char[63] {
+		#07003F嗯，那当然。{wait}
+	} {
+		#07001F我就是为了
+		那件事而来到
+		克洛斯贝尔的。{wait}
+	}
+	TextWait
+	TextSetPos -1 230 -1 -1
+	TextMessage char[64] {
+		#07100F我们先回
+		埃尔赛尤吧。{wait}
+	}
+	TextWait
+	TextSetPos 0 -1 -1 -1
+	TextMessage name[0] {
+		#00000F我明白了。{wait}
+	}
+	TextWait
+	TextClose 0
+	_59
+	FadeOut 1000ms 0x00000000 255
+	FadeWait
+	FlagSet flag[274]
+	NewScene "scena/e3210.bin" 0 0 0
+	Hcf
+	Return
+
+fn[2]:
+	while 1:
+		switch random % 8:
+			case 0:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 1500ms
+				break
+			case 1:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 2000ms
+				break
+			case 2:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 3000ms
+				break
+			case 3:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 1500ms
+				break
+			case 4:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 1800ms
+				break
+			case 5:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 1000ms
+				break
+			case 6:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 1500ms
+				break
+			default:
+				Emote self 0mm 2000mm 38 39 250ms 2
+				Sleep 1500ms
+				break
+	Return
