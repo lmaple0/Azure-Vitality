@@ -1,6 +1,7 @@
 use std::fs;
 use std::path::{Path, PathBuf};
 use std::collections::HashMap;
+use std::sync::Arc;
 
 use themelios::scena::ed7::Scena;
 use themelios::scena::code::{Expr, Code, FlatInsn};
@@ -34,6 +35,7 @@ pub struct Context<'a> {
 
 	pub is_en: bool,
 	pub has_portraits: bool,
+	pub cn: Option<Arc<HashMap<String, String>>>,
 
 	pub scena: HashMap<String, AScena>,
 	pub text: HashMap<String, Vec<u8>>,
@@ -57,6 +59,7 @@ impl<'a> Context<'a> {
 		evo_text: impl AsRef<Path>,
 		is_en: bool,
 		has_portraits: bool,
+		cn: Option<Arc<HashMap<String, String>>>,
 	) -> Self {
 		Self {
 			pc_scena: Box::new(pc_scena),
@@ -65,13 +68,14 @@ impl<'a> Context<'a> {
 			evo_text: evo_text.as_ref().to_owned(),
 			is_en,
 			has_portraits,
+			cn,
 			scena: HashMap::new(),
 			text: HashMap::new(),
 		}
 	}
 
 	pub fn load_tl(&self, data: &str) -> translate::Translate {
-		translate::Translate::load(data, self.is_en, self.has_portraits)
+		translate::Translate::load(data, self.is_en, self.has_portraits, self.cn.clone())
 	}
 
 	pub fn scena(&mut self, name: &str) -> &mut AScena {

@@ -2,6 +2,8 @@
 
 use std::path::PathBuf;
 use std::fs;
+use std::collections::HashMap;
+use std::sync::Arc;
 
 use clap::Parser;
 
@@ -35,6 +37,8 @@ struct Cli {
 	out: PathBuf,
 	#[clap(long, short, value_hint = clap::ValueHint::DirPath)]
 	dump: Option<PathBuf>,
+	#[clap(long, value_hint = clap::ValueHint::FilePath)]
+	cn_map: Option<PathBuf>,
 }
 
 #[derive(Debug, Clone, Copy, PartialEq, Eq, clap::ValueEnum)]
@@ -44,6 +48,9 @@ enum CliGame {
 
 fn main() -> anyhow::Result<()> {
 	let cli = Cli::parse();
+	let cn_map: Option<Arc<HashMap<String, String>>> = cli.cn_map.as_ref().map(|path| -> anyhow::Result<_> {
+		Ok(Arc::new(serde_json::from_slice(&fs::read(path)?)?))
+	}).transpose()?;
 
 	if cli.out.exists() {
 		fs::remove_dir_all(&cli.out)?;
@@ -64,6 +71,7 @@ fn main() -> anyhow::Result<()> {
 			cli.evo.join("data/text"),
 			false,
 			cli.portraits.is_some(),
+			cn_map.clone(),
 		);
 
 		timing(&mut ctx);
@@ -89,7 +97,9 @@ fn main() -> anyhow::Result<()> {
 		}
 	}
 
-	let scenas = { // En
+	let scenas = if cn_map.is_some() {
+		HashMap::new()
+	} else { // En
 		let mut ctx = Context::new(
 			|s| {
 				let pc = load_scena(cli.pc.join("data/scena_us"), s).unwrap();
@@ -104,6 +114,7 @@ fn main() -> anyhow::Result<()> {
 			cli.evo.join("data/text"),
 			true,
 			cli.portraits.is_some(),
+			None,
 		);
 
 		timing(&mut ctx);

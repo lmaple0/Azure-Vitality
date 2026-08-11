@@ -1,4 +1,5 @@
-use std::collections::VecDeque;
+use std::collections::{HashMap, VecDeque};
+use std::sync::Arc;
 
 use regex::Regex;
 use themelios::scena::code::{FlatInsn, Insn, Expr};
@@ -48,10 +49,11 @@ pub struct Translate {
 	lines: VecDeque<(String, String)>,
 	translate: bool,
 	portraits: bool,
+	cn: Option<Arc<HashMap<String, String>>>,
 }
 
 impl Translate {
-	pub fn load(i: &str, translate: bool, portraits: bool) -> Translate {
+	pub fn load(i: &str, translate: bool, portraits: bool, cn: Option<Arc<HashMap<String, String>>>) -> Translate {
 		let mut lines = Vec::<(String, String)>::new();
 		#[derive(PartialEq)]
 		enum State { None, Raw, Tl }
@@ -93,12 +95,19 @@ impl Translate {
 			lines: lines.into(),
 			translate,
 			portraits,
+			cn,
 		}
 	}
 
 	fn translate(&mut self, s: &str) -> String {
 		if s.is_empty() {
 			return String::new();
+		}
+		if let Some(cn) = &self.cn {
+			return cn.get(s).unwrap_or_else(|| {
+				let hex = s.chars().map(|c| format!("{:02X}", c as u32)).collect::<Vec<_>>().join(" ");
+				panic!("missing Chinese mapping for {s:?} [{hex}]")
+			}).clone();
 		}
 
 		// println!("{:?}", s);
@@ -144,7 +153,7 @@ impl Translator for Translate {
 				if let Some(face) = &face {
 					t = t[face[0].len()..].to_owned()
 				}
-				if !self.translate {
+				if !self.translate && self.cn.is_none() {
 					t = orig;
 				}
 				if let Some(face) = &face && self.portraits {

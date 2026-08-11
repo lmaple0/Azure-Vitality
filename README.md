@@ -1,71 +1,61 @@
-# Azure Vitality
+# Azure Vitality 简体中文兼容 Fork
 
-A mod for *Trails to Azure* that ports over the exclusive quests from the *Evolution* (PS Vita) version.
-For the *Trails from Zero* counterpart, see [Inevitable Zero](https://github.com/Kyuuhachi/Inevitable-Zero).
+[English README](README_EN.md)
 
-<details><summary>Illicit Trade Stakeout</summary>
+本 Fork 在上游 [Kyuuhachi/Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) 的基础上，加入 NISA PC 版《碧之轨迹》简体中文构建路径，用于兼容 zeroTool 汉化及其汉化版 More Portraits。
 
-Talk to Grace outside the IBC in chapter 2, day 2.
+目前只上传源代码，**尚未发布任何 Release**。本仓库也不包含从游戏或汉化补丁提取的受版权保护数据。
 
-</details>
-<details><summary>Introduction to Crossbell</summary>
+## 覆盖任务
 
-Talk to the guardsman outside the SSS in chapter 2, day 3.
+- 埋伏不当交易（ID 125）
+- 面包店的叫卖（ID 138）
+- 主题乐园的兼职2（ID 157）
+- 克洛斯贝尔的导览（ID 158）
+- 森林道的搜索（ID 159）
 
-**NOTE**: missable if you visit the graveyard.
+## 中文构建的主要变化
 
-</details>
-<details><summary>Searching the Forest</summary>
+- 新增 `--cn-map`，使用外部的“PSV 原始文本 → GBK 简体中文”精确映射构建中文脚本。
+- 传入中文映射时只生成中文脚本分支，不再同时构建英文分支。
+- 以 zeroTool 汉化与汉化版 More Portraits 的中文脚本作为 PC 合并基线。
+- 使用 `CALMARE_RAW_BYTES=1` 无损读取 PSV 自定义编码及 PC GBK 字节。
+- Aureole 依赖锁定到 [lmaple0/Aureole](https://github.com/lmaple0/Aureole/commit/f91ecdba224d61db2ae4e46b1fcddaf98f8c7577) 的 raw-byte 支持提交，公开检出后可复现构建。
 
-Talk to Commander Sonya in Bellguard Gate after finishing *Runaway Vehicle
-Pursuit* in chapter 3.
+## 构建示例
 
-</details>
-<details><summary>Temporary Theme Park Job, part 2</summary>
+```powershell
+$env:CALMARE_RAW_BYTES = '1'
 
-From the computer at start of chapter 4.
+cargo run --release -- azure `
+  --evo <evo-donor-wrapper> `
+  --pc <pc-cn-wrapper> `
+  --portraits <more-portraits-cn-wrapper> `
+  --out <output> `
+  --cn-map <azure_cn_map.json>
+```
 
-</details>
-<details><summary>Bringing Home the Bakery</summary>
+`--cn-map`、官方繁中 donor 及游戏本体文件均须由使用者在本地准备，不随仓库上传。生成目录中的 `scena`、`text` 应在最终兼容包中分别放入：
 
-From the computer at start of chapter 4.
+```text
+data_cn/scena
+data_cn/text
+```
 
-</details>
+语言无关的 BGM、SE、角色和场景资源仍放在 `data/` 下。中文兼容包使用松散文件覆盖，不使用 P3A 或 `order.txt`。
 
-## Installation
-Download the `vitality.zip` file from the latest [release](https://github.com/Kyuuhachi/Azure-Vitality/releases)
-and extract `data/` directory into the game's directory.
-This is normally at
-`C:\Program Files (x86)\Steam\steamapps\common\The Legend of Heroes Trails to Azure`,
-or it can be found by right-clicking the game in Steam and choosing Manage » Browse local files.
+## 当前状态
 
-If using ShinKiseki's [More Portraits in Azure](https://github.com/shinkiseki/MorePortraitsInAzure),
-install that one first, and then install `vitality-portraits.zip` on top of
-that. The base `vitality.zip` is not necessary.
+- 35 个任务相关脚本均已成功生成并可由 AoKai 解析器读取。
+- 任务表中的五个简体中文任务名已按攻略官方译名核对。
+- 14 个重叠脚本保留汉化版 More Portraits 的头像控制码。
+- 已建立测试候选包，但尚未完成游戏内全流程、分支、DP、奖励、贴图与崩溃回归测试。
+- 在完成游戏验证前不会发布正式 Release。
 
-## FAQ
+## 致谢与来源
 
-**Can I install this mid-playthrough?** Yes. But I can't guarantee stability if
-you are in an area with added NPCs, so I would recommend saving on one of the
-highways.
+- 原 MOD 与移植逻辑：[Kyuuhachi](https://github.com/Kyuuhachi/Azure-Vitality)。
+- 中文工具与本体汉化：[zeroTool](https://github.com/J31why/zeroTool)。
+- 本 Fork 所参考的繁体中文汉化补丁由科洛蒂娅公主（KloseRInz）等人基于云豹娱乐（CLE）本地化并发行的 PSV Evolution 亚洲版本提取制作。感谢公主等人制作并保存这份汉化补丁。
 
-**Do these support English/Japanese?** Yes, both languages are fully supported.
-
-**Are they voiced?** No. They're not voiced in Evolution, so there are no voice
-clips for them.
-
-**Do you receive any DP?/Does this affect achievements?** Yes, it does make
-detective ranks easier to attain since there are more DP in total. I believe
-adjusting the rank thresholds would require modding the exe, which is beyond
-the scope of this mod.
-
-## Credits
-Nihon Falcom: for creating the game.
-
-[GeofrontTeam](https://github.com/GeofrontTeam) and NIS America: for bringing it to the west.
-
-[Ouroboros](https://github.com/Ouroboros): for creating [EDDecompiler](https://github.com/Ouroboros/EDDecompiler). While I do not use it directly, it was invaluable as documentation for creating my own.
-
-[ShinKiseki](https://github.com/ShinKiseki): some proofreading, and adding portraits to quest dialogue.
-
-Discord members: for help with upscaling a couple of images
+上游原始说明、英文安装信息与完整 Credits 请参阅 [README_EN.md](README_EN.md)。
