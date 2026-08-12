@@ -6059,12 +6059,10 @@ fn[56]:
 	Sleep 10ms
 	BgmVolume 100 3000ms
 	var[0] = 0
-	Fork field_party[0] fork[3] flat:  // 0..5 > could not find label L1 in 2..5
-		@L0
-		Unless 1 L1
-		var[0] += 1
-		Sleep 33ms
-		Goto L0
+	Fork field_party[0] fork[3]:
+		while 1:
+			var[0] += 1
+			Sleep 33ms
 	TextTalk name[4] {
 		#25A#25W#10309F不是啦，其实我还不讨厌
 		看别人唱歌啊。

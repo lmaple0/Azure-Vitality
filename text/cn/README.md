@@ -11,4 +11,6 @@
 
 `cn_map.json` 为了无损写回 GBK 字节，键和值使用 Latin-1 作为逐字节容器，因此不适合作为直接阅读稿；可阅读内容请查看各 `quest*.json`。
 
-`c0200.clm` 可以正常读取与反编译，但其中一个上游既存的 `Fork flat` 标签结构目前无法由 Calmare 源码级重新编译；最终二进制由 Azure Vitality 的结构化合并器直接生成。
+`c0200.clm` 中上游反编译器留下的缺失标签 `Fork flat` 已恢复为等价的结构化
+`Fork + while 1`。35 个场景均可由 Kreuzen 以显式 `--enc gbk
+--legacy-layout themelios` 编译；工具不会自动猜测编码或布局。
