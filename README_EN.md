@@ -1,6 +1,6 @@
 # Azure Vitality
 
-> Fork note: this fork adds a Simplified Chinese build path for the zeroTool localization and its More Portraits baseline. No Chinese binary release has been published yet. See the [Chinese README](README.md) for scope and build notes.
+> Fork note: this fork adds a Simplified Chinese build path for the zeroTool localization and its More Portraits baseline. A Chinese compatibility test build is available as the [v0.1.0-rc1 pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.1.0-rc1). It has passed static build and byte-roundtrip checks but not complete in-game quest testing. See the [Chinese README](README.md) for scope and build notes.
 
 A mod for *Trails to Azure* that ports over the exclusive quests from the *Evolution* (PS Vita) version.
 For the *Trails from Zero* counterpart, see [Inevitable Zero](https://github.com/Kyuuhachi/Inevitable-Zero).
