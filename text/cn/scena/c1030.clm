@@ -62,7 +62,7 @@ chip[35] "chr/ch47902.itc"
 chip[36] "chr/ch05202.itc"
 
 npc char[0]:
-	name "壥壥"
+	name "强霍"
 	pos (16000, 0, 15990)
 	angle 0deg
 	flags 0x0105
@@ -73,7 +73,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "斐恩"
 	pos (12330, 0, 15990)
 	angle 0deg
 	flags 0x0105
@@ -84,7 +84,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "珊珊"
 	pos (12310, 0, -1990)
 	angle 225deg
 	flags 0x0105
@@ -95,7 +95,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥"
+	name "帕克"
 	pos (16030, 0, 6050)
 	angle 270deg
 	flags 0x0105
@@ -106,7 +106,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "鲁斯"
 	pos (17910, 0, 8400)
 	angle 90deg
 	flags 0x0105
@@ -117,7 +117,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥"
+	name "古瑞德"
 	pos (7130, 150, -1480)
 	angle 180deg
 	flags 0x0145
@@ -128,7 +128,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥"
+	name "邦德"
 	pos (10550, 100, 3140)
 	angle 270deg
 	flags 0x01C5
@@ -139,7 +139,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥"
+	name "克蕾优"
 	pos (8850, 0, 4840)
 	angle 180deg
 	flags 0x01C5
@@ -150,7 +150,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "桑妮塔"
 	pos (7150, 100, 3140)
 	angle 90deg
 	flags 0x01C5
@@ -161,7 +161,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥"
+	name "玛莉"
 	pos (7330, 30, 4590)
 	angle 165deg
 	flags 0x0185
@@ -172,7 +172,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥"
+	name "观光客"
 	pos (10690, 150, 3200)
 	angle 270deg
 	flags 0x01C5
@@ -183,7 +183,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥"
+	name "观光客"
 	pos (7160, 30, 3200)
 	angle 90deg
 	flags 0x01C5
@@ -194,7 +194,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥壥"
+	name "观光客"
 	pos (4940, 150, 7130)
 	angle 270deg
 	flags 0x01C5
@@ -205,7 +205,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥壥"
+	name "观光客"
 	pos (1620, 150, 7320)
 	angle 90deg
 	flags 0x01C5
@@ -216,7 +216,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥壥壥壥壥"
+	name "记者诺蒂西亚"
 	pos (14090, 0, -120)
 	angle 90deg
 	flags 0x01C5
@@ -227,7 +227,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥壥"
+	name "格蕾丝"
 	pos (10690, 150, 3200)
 	angle 270deg
 	flags 0x0185
@@ -238,7 +238,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥壥"
+	name "雷因兹"
 	pos (7160, 100, 3200)
 	angle 90deg
 	flags 0x0185
@@ -249,7 +249,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥"
+	name "夫人"
 	pos (10690, 150, 3200)
 	angle 270deg
 	flags 0x01C5
@@ -260,7 +260,7 @@ npc char[17]:
 	unk4 255
 
 npc char[18]:
-	name "壥壥"
+	name "男孩"
 	pos (7160, 150, 3200)
 	angle 90deg
 	flags 0x01C5
@@ -271,7 +271,7 @@ npc char[18]:
 	unk4 255
 
 npc char[19]:
-	name "壥壥"
+	name "市民"
 	pos (10690, 150, 3200)
 	angle 270deg
 	flags 0x01C5
@@ -282,7 +282,7 @@ npc char[19]:
 	unk4 255
 
 npc char[20]:
-	name "壥壥"
+	name "莉夏"
 	pos (14000, 50, 0)
 	angle 90deg
 	flags 0x01C5
@@ -293,7 +293,7 @@ npc char[20]:
 	unk4 255
 
 npc char[21]:
-	name "壥壥壥壥"
+	name "莉丝修女"
 	pos (14090, 0, -120)
 	angle 90deg
 	flags 0x01C5
@@ -304,7 +304,7 @@ npc char[21]:
 	unk4 255
 
 npc char[22]:
-	name "壥壥壥"
+	name "阿鲁姆"
 	pos (-100800, 30, -55490)
 	angle 90deg
 	flags 0x0185
@@ -315,7 +315,7 @@ npc char[22]:
 	unk4 255
 
 npc char[23]:
-	name "壥壥壥"
+	name "艾雅莉"
 	pos (-99600, 30, -55490)
 	angle 270deg
 	flags 0x0185
@@ -326,7 +326,7 @@ npc char[23]:
 	unk4 255
 
 npc char[24]:
-	name "壥壥壥壥壥壥"
+	name "阿雷库瑟队员"
 	pos (13950, 150, 2900)
 	angle 90deg
 	flags 0x01C5
@@ -337,7 +337,7 @@ npc char[24]:
 	unk4 255
 
 npc char[25]:
-	name "壥壥壥"
+	name "库隆克"
 	pos (8820, 0, 8770)
 	angle 225deg
 	flags 0x0185
@@ -348,7 +348,7 @@ npc char[25]:
 	unk4 255
 
 npc char[26]:
-	name "壥壥壥"
+	name "迪因兹"
 	pos (8930, 0, 6710)
 	angle 90deg
 	flags 0x0185
@@ -359,7 +359,7 @@ npc char[26]:
 	unk4 255
 
 npc char[27]:
-	name "壥壥"
+	name "莉莉"
 	pos (9940, 0, 6710)
 	angle 270deg
 	flags 0x0185
@@ -370,7 +370,7 @@ npc char[27]:
 	unk4 255
 
 npc char[28]:
-	name "壥壥壥"
+	name "玛尔提"
 	pos (7600, 0, 8910)
 	angle 225deg
 	flags 0x0185
@@ -381,7 +381,7 @@ npc char[28]:
 	unk4 255
 
 npc char[29]:
-	name "壥"
+	name "曹"
 	pos (10690, 150, 3200)
 	angle 270deg
 	flags 0x0185
@@ -392,7 +392,7 @@ npc char[29]:
 	unk4 255
 
 npc char[30]:
-	name "壥"
+	name "刘"
 	pos (9030, 150, 5060)
 	angle 180deg
 	flags 0x0185
@@ -403,7 +403,7 @@ npc char[30]:
 	unk4 255
 
 npc char[31]:
-	name "壥壥壥"
+	name "尼尔森"
 	pos (-46520, 200, -52250)
 	angle 180deg
 	flags 0x01C5
@@ -414,7 +414,7 @@ npc char[31]:
 	unk4 255
 
 npc char[32]:
-	name "壥壥壥"
+	name "雷克多"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -425,7 +425,7 @@ npc char[32]:
 	unk4 255
 
 npc char[33]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -436,7 +436,7 @@ npc char[33]:
 	unk4 255
 
 npc char[34]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -447,7 +447,7 @@ npc char[34]:
 	unk4 255
 
 npc char[35]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -458,7 +458,7 @@ npc char[35]:
 	unk4 255
 
 npc char[36]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -469,7 +469,7 @@ npc char[36]:
 	unk4 255
 
 npc char[37]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -480,7 +480,7 @@ npc char[37]:
 	unk4 255
 
 npc char[38]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -499,6 +499,10 @@ look_point[0]:
 	function fn[0,5]
 	unk3 0
 	unk4 0
+
+anim[0] 1652ms
+
+sepith[0] 0 0 0 0 0 0 0 0
 
 fn[0]:
 	var[1] = random % 8
@@ -4928,7 +4932,7 @@ fn[42]:
 		if !flag[3286]:
 			Call fn[0,54]
 			Return
-		elif flag[3286]:
+		if flag[3286]:
 			TextTalk self {
 				啊，这样我应该
 				就有机会跟爸爸重逢了！{wait}
@@ -4955,7 +4959,7 @@ fn[43]:
 		if !flag[3286]:
 			Call fn[0,54]
 			Return
-		elif flag[3286]:
+		if flag[3286]:
 			TextTalk self {
 				我们一定可以跟
 				阿鲁姆的父亲见面的。{wait}

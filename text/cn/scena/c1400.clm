@@ -42,7 +42,7 @@ chip[13] "chr/ch26200.itc"
 chip[14] "chr/ch30000.itc"
 
 npc char[0]:
-	name "壥壥"
+	name "迪诺"
 	pos (44880, -2500, -20090)
 	angle 225deg
 	flags 0x0105
@@ -53,7 +53,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥"
+	name "宝拉婆婆"
 	pos (15450, 100, -20)
 	angle 270deg
 	flags 0x0105
@@ -64,7 +64,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥"
+	name "王"
 	pos (9640, 0, 850)
 	angle 180deg
 	flags 0x0105
@@ -75,7 +75,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥"
+	name "露茜"
 	pos (10280, 0, -550)
 	angle 315deg
 	flags 0x0105
@@ -86,7 +86,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "卡农"
 	pos (34080, -6500, -38270)
 	angle 45deg
 	flags 0x0105
@@ -97,7 +97,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥"
+	name "修伊"
 	pos (2370, 0, -2210)
 	angle 315deg
 	flags 0x0185
@@ -108,7 +108,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "斯拉修"
 	pos (3700, 0, -1070)
 	angle 315deg
 	flags 0x0185
@@ -119,7 +119,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥"
+	name "琴兹"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -130,7 +130,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "贝赛"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -141,7 +141,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥"
+	name "阿巴斯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -152,7 +152,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥壥"
+	name "莉丝修女"
 	pos (11460, 0, -6910)
 	angle 135deg
 	flags 0x0185
@@ -163,7 +163,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥"
+	name "巴卡斯"
 	pos (32800, -6500, -36950)
 	angle 315deg
 	flags 0x0185
@@ -174,7 +174,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥"
+	name "利玛"
 	pos (10270, 3500, 11050)
 	angle 135deg
 	flags 0x0185
@@ -185,7 +185,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥壥"
+	name "梅尔斯"
 	pos (9610, 3500, 13870)
 	angle 135deg
 	flags 0x0185
@@ -196,7 +196,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥"
+	name "警官"
 	pos (4940, 0, 5250)
 	angle 180deg
 	flags 0x0185
@@ -207,7 +207,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥壥"
+	name "瓦鲁多"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -218,7 +218,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥壥壥"
+	name "奥利维尔"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -229,7 +229,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥"
+	name "晶歌"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -358,97 +358,97 @@ look_point[1]:
 	unk4 0
 
 label[0]:
-	name "壥壥壥壥"
+	name "中央广场"
 	pos (-110690.0, 0.0, 106950.0)
 	unk1 0
 	unk2 0
 
 label[1]:
-	name "壥壥壥壥"
+	name "西侧大道"
 	pos (-186300.0, 0.0, 112130.0)
 	unk1 0
 	unk2 0
 
 label[2]:
-	name "壥壥壥"
+	name "行政区"
 	pos (-79640.0, 0.0, 209300.0)
 	unk1 0
 	unk2 0
 
 label[3]:
-	name "壥壥壥"
+	name "住宅区"
 	pos (-256450.02, 0.0, 197800.0)
 	unk1 0
 	unk2 0
 
 label[4]:
-	name "壥壥壥"
+	name "欢乐街"
 	pos (-172500.0, 0.0, 188600.0)
 	unk1 0
 	unk2 0
 
 label[5]:
-	name "壥壥壥壥"
+	name "东侧大道"
 	pos (-17250.0, 0.0, 80500.0)
 	unk1 0
 	unk2 0
 
 label[6]:
-	name "壥壥壥"
+	name "旧市街"
 	pos (23580.0, 0.0, 17250.0)
 	unk1 0
 	unk2 0
 
 label[7]:
-	name "壥壥壥"
+	name "港湾区"
 	pos (14950.0, 0.0, 156400.0)
 	unk1 0
 	unk2 0
 
 label[8]:
-	name "壥壥壥"
+	name "ＩＢＣ"
 	pos (-14950.0, 0.0, 264500.0)
 	unk1 0
 	unk2 0
 
 label[9]:
-	name "壥壥壥壥"
+	name "站前大道"
 	pos (-97750.0, 0.0, 27600.0)
 	unk1 0
 	unk2 0
 
 label[10]:
-	name "壥壥"
+	name "小巷"
 	pos (-151800.0, 0.0, 147200.0)
 	unk1 0
 	unk2 0
 
 label[11]:
-	name "壥壥壥壥壥壥"
+	name "乌尔斯拉小径"
 	pos (-101200.0, 0.0, -8050.0)
 	unk1 0
 	unk2 0
 
 label[12]:
-	name "壥壥壥壥壥壥壥壥"
+	name "东克洛斯贝尔街道"
 	pos (44850.0, 0.0, 96600.0)
 	unk1 0
 	unk2 0
 
 label[13]:
-	name "壥壥壥壥壥壥壥壥"
+	name "西克洛斯贝尔街道"
 	pos (-244950.0, 0.0, 110400.0)
 	unk1 0
 	unk2 0
 
 label[14]:
-	name "壥壥壥壥壥"
+	name "玛因兹山道"
 	pos (-238050.0, 0.0, 225400.0)
 	unk1 0
 	unk2 0
 
 label[15]:
-	name "壥壥壥"
+	name "兰花塔"
 	pos (-88000.0, 0.0, 360000.0)
 	unk1 0
 	unk2 0
@@ -537,70 +537,13 @@ label[29]:
 	unk1 0
 	unk2 83
 
-// NB: the first five sepith sets are seemingly junk data.
-sepith[0] 100 1 2 3 70 89 99 0
-sepith[1] 100 5 1 5 1 5 1 0
-sepith[2] 100 5 1 5 1 5 1 0
-sepith[3] 100 5 0 5 0 5 0 0
-sepith[4] 100 5 0 5 0 5 0 0
+anim[0] 2324ms
+
+sepith[0] 0 0 0 0 0 0 0 0
 
 at_roll[0]: none 100
-at_roll[1]: none 100; hp10 5; hp50 1; ep10 5; ep50 1; cp10 5; cp50 1; unk1 5; unk2 5; unk6 1
-at_roll[2]: none 100; hp10 5; hp50 1; ep10 5; ep50 1; cp10 5; cp50 1; unk1 5; unk2 5; unk3 5; unk4 5; unk5 5; unk6 5
-at_roll[3]: none 100; hp10 5; ep10 5; cp10 5; unk1 2; unk2 5; unk6 2
-at_roll[4]: none 100; hp10 5; ep10 5; cp10 5; unk2 5
 
 placement[0]:
-	pos 7 9 180deg
-	pos 11 10 180deg
-	pos 10 13 180deg
-	pos 5 11 180deg
-	pos 12 12 180deg
-	pos 4 14 180deg
-	pos 14 14 180deg
-	pos 2 13 180deg
-
-placement[1]:
-	pos 8 8 180deg
-	pos 5 9 180deg
-	pos 11 10 180deg
-	pos 6 12 180deg
-	pos 10 12 180deg
-	pos 13 13 180deg
-	pos 4 14 180deg
-	pos 8 14 180deg
-
-placement[2]:
-	pos 7 8 180deg
-	pos 9 9 180deg
-	pos 6 10 180deg
-	pos 10 11 180deg
-	pos 6 12 180deg
-	pos 10 13 180deg
-	pos 7 14 180deg
-	pos 9 15 180deg
-
-placement[3]:
-	pos 8 8 180deg
-	pos 6 9 180deg
-	pos 10 10 180deg
-	pos 7 11 180deg
-	pos 10 12 180deg
-	pos 8 14 180deg
-	pos 10 14 180deg
-	pos 6 15 180deg
-
-placement[4]:
-	pos 7 4 0deg
-	pos 10 11 225deg
-	pos 4 7 90deg
-	pos 12 7 270deg
-	pos 4 11 135deg
-	pos 11 4 315deg
-	pos 7 12 180deg
-	pos 5 5 45deg
-
-placement[5]:
 	pos 8 11 180deg
 	pos 0 0 180deg
 	pos 0 0 180deg
@@ -623,7 +566,7 @@ battle[0]:
 	sepith null
 	setup 100:
 		enemies "ms02102.dat" null null null null null null null
-		placement placement[5] placement[5]
+		placement placement[0] placement[0]
 		bgm bgm[452] bgm[453]
 		at_roll at_roll[0]
 
@@ -5426,7 +5369,7 @@ fn[50]:
 	}
 	TextWait
 	TextTalk char[17] {
-		#2S……看来还活着──{wait}
+		#15600F#2S……看来还活着──{wait}
 	}
 	TextWait
 	CharFlagsSet char[17] 0x0080

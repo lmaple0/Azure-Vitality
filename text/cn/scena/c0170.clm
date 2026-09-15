@@ -52,7 +52,7 @@ chip[25] "chr/ch27800.itc"
 chip[26] "chr/ch25700.itc"
 
 npc char[0]:
-	name "壥壥壥壥壥壥"
+	name "接待小姐帕露"
 	pos (7480, 0, 10080)
 	angle 225deg
 	flags 0x0101
@@ -63,7 +63,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥壥壥"
+	name "接待小姐辛西亚"
 	pos (5880, 0, 11680)
 	angle 225deg
 	flags 0x0101
@@ -74,7 +74,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "汉森"
 	pos (60, 8000, 30040)
 	angle 180deg
 	flags 0x0101
@@ -85,7 +85,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥"
+	name "瑞琼"
 	pos (15980, 0, 9520)
 	angle 180deg
 	flags 0x0101
@@ -96,7 +96,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥"
+	name "普拉达"
 	pos (18110, 8000, 12220)
 	angle 270deg
 	flags 0x0101
@@ -107,7 +107,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥"
+	name "贝可"
 	pos (-11530, 8000, 8510)
 	angle 225deg
 	flags 0x0101
@@ -118,7 +118,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "撒札克"
 	pos (-15990, 0, 25740)
 	angle 180deg
 	flags 0x0101
@@ -129,7 +129,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥"
+	name "瑞娜莉"
 	pos (-9120, 0, 2870)
 	angle 90deg
 	flags 0x0195
@@ -140,7 +140,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "普露娜"
 	pos (-7520, 0, 2870)
 	angle 270deg
 	flags 0x0195
@@ -151,7 +151,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥壥壥"
+	name "奈斯顿经理"
 	pos (-2660, 0, 9830)
 	angle 180deg
 	flags 0x0101
@@ -162,7 +162,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥"
+	name "珍妮塔"
 	pos (-6660, 8000, 28870)
 	angle 0deg
 	flags 0x0101
@@ -173,7 +173,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥"
+	name "巴乔"
 	pos (14930, 0, 2590)
 	angle 90deg
 	flags 0x0101
@@ -184,7 +184,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥壥"
+	name "德罗缇"
 	pos (13800, 8000, 6200)
 	angle 225deg
 	flags 0x0101
@@ -195,7 +195,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "肯恩"
 	pos (8020, 8000, 17270)
 	angle 180deg
 	flags 0x0101
@@ -206,7 +206,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥壥壥壥壥壥"
+	name "欧奈斯特老先生"
 	pos (-14450, 8000, 14420)
 	angle 90deg
 	flags 0x0101
@@ -217,7 +217,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥"
+	name "尤利"
 	pos (6660, 8200, 6300)
 	angle 180deg
 	flags 0x0185
@@ -228,7 +228,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥壥"
+	name "赛库斯"
 	pos (5050, 8000, 5130)
 	angle 90deg
 	flags 0x0185
@@ -239,7 +239,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥"
+	name "瑞吉"
 	pos (7250, 8000, 4730)
 	angle 0deg
 	flags 0x0185
@@ -250,7 +250,7 @@ npc char[17]:
 	unk4 255
 
 npc char[18]:
-	name "壥壥壥"
+	name "普莉耶"
 	pos (8750, 0, 1880)
 	angle 90deg
 	flags 0x0185
@@ -261,7 +261,7 @@ npc char[18]:
 	unk4 255
 
 npc char[19]:
-	name "壥壥壥"
+	name "格蕾丝"
 	pos (-15840, 0, 15980)
 	angle 0deg
 	flags 0x0185
@@ -272,7 +272,7 @@ npc char[19]:
 	unk4 255
 
 npc char[20]:
-	name "壥壥壥"
+	name "雷因兹"
 	pos (-14830, 0, 14740)
 	angle 315deg
 	flags 0x0185
@@ -283,7 +283,7 @@ npc char[20]:
 	unk4 255
 
 npc char[21]:
-	name "壥壥"
+	name "市民"
 	pos (-14650, 0, 10310)
 	angle 0deg
 	flags 0x0185
@@ -294,7 +294,7 @@ npc char[21]:
 	unk4 255
 
 npc char[22]:
-	name "壥壥壥"
+	name "观光客"
 	pos (-13470, 8200, 21430)
 	angle 270deg
 	flags 0x0185
@@ -305,7 +305,7 @@ npc char[22]:
 	unk4 255
 
 npc char[23]:
-	name "壥壥壥"
+	name "观光客"
 	pos (-13470, 8200, 20630)
 	angle 270deg
 	flags 0x0185
@@ -316,7 +316,7 @@ npc char[23]:
 	unk4 255
 
 npc char[24]:
-	name "壥壥壥壥壥壥"
+	name "雷蒙德搜查官"
 	pos (-5600, 8000, 5700)
 	angle 0deg
 	flags 0x0185
@@ -327,7 +327,7 @@ npc char[24]:
 	unk4 255
 
 npc char[25]:
-	name "壥壥壥壥壥壥"
+	name "达德利搜查官"
 	pos (900, 8029, 27730)
 	angle 315deg
 	flags 0x0185
@@ -338,7 +338,7 @@ npc char[25]:
 	unk4 255
 
 npc char[26]:
-	name "壥壥壥"
+	name "费南特"
 	pos (-13470, 0, 6510)
 	angle 315deg
 	flags 0x0185
@@ -349,7 +349,7 @@ npc char[26]:
 	unk4 255
 
 npc char[27]:
-	name "壥壥壥"
+	name "琼安娜"
 	pos (8750, 0, 1880)
 	angle 90deg
 	flags 0x0181
@@ -480,6 +480,11 @@ look_point[9]:
 	function fn[0,50]
 	unk3 0
 	unk4 0
+
+anim[0] 1616ms
+
+sepith[0] 0 0 0 0 0 0 0 0
+sepith[1] 0 0 0 0 0 0 0 0
 
 fn[0]:
 	switch random % 8:
@@ -2790,7 +2795,7 @@ fn[20]:
 				TextWait
 			TextEnd char[6]
 			Return
-		elif flag[3631] && !flag[3632]:
+		if flag[3631] && !flag[3632]:
 			if !flag[21]:
 				TextSetName ""
 				TextMessage null {
@@ -2885,19 +2890,18 @@ fn[20]:
 				TextWait
 			TextEnd char[6]
 			Return
-		else:
-			TextTalk char[6] {
-				看样子，
-				他好像很喜欢你的礼物。{wait}
-			}
-			TextWait
-			TextTalk char[6] {
-				嗯，话说回来，
-				咪西真的很厉害耶～{wait}
-			}
-			TextWait
-			TextEnd char[6]
-			Return
+		TextTalk char[6] {
+			看样子，
+			他好像很喜欢你的礼物。{wait}
+		}
+		TextWait
+		TextTalk char[6] {
+			嗯，话说回来，
+			咪西真的很厉害耶～{wait}
+		}
+		TextWait
+		TextEnd char[6]
+		Return
 	var[0] = 99
 	while var[0] == 99:
 		FadeOut 300ms 0x00000000 100
@@ -5425,12 +5429,10 @@ fn[44]:
 	TextStart self
 	if flag[2573]:
 		TextTalk self {
-			听说恐怖分子很有可能
+			#15401F听说恐怖分子很有可能
 			在会议正式开始的时候发动攻击耶～{wait}
-		}
-		TextWait
-		TextTalk self {
-			唉，伤脑筋……
+		} {
+			#15406F唉，伤脑筋……
 			万一遇上攻击，不知道
 			有没有办法控制局面呢～？{wait}
 		}
@@ -5438,12 +5440,10 @@ fn[44]:
 	elif flag[2564]:
 		if !flag[18]:
 			TextTalk self {
-				呼，今天的人潮
+				#15406F呼，今天的人潮
 				还真是多啊～{wait}
-			}
-			TextWait
-			TextTalk self {
-				工作太忙，没时间
+			} {
+				#15408F工作太忙，没时间
 				计算有多少美女呢～{wait}
 			}
 			TextWait
@@ -5455,19 +5455,17 @@ fn[44]:
 			FlagSet flag[18]
 		else:
 			TextTalk self {
-				呼，今天的人潮
+				#15406F呼，今天的人潮
 				还真是多啊～{wait}
-			}
-			TextWait
-			TextTalk self {
-				工作太忙，没时间
+			} {
+				#15408F工作太忙，没时间
 				计算有多少美女呢～{wait}
 			}
 			TextWait
 	elif QuestFlagsGet quest[115] 0x02 && !QuestFlagsGet quest[115] 0x10 && !QuestFlagsGet quest[115] 0x40 && flag[2723]:
 		if !flag[18]:
 			TextTalk self {
-				哎呀，那个小朋友是……
+				#15402F哎呀，那个小朋友是……
 				该不会是迷路了
 				要找爸妈吧？{wait}
 			}
@@ -5486,12 +5484,12 @@ fn[44]:
 			TextWait
 			CharTurnToChar self name[161] 500deg/s
 			TextTalk self {
-				哦，参观克洛斯贝尔啊～？{wait}
+				#15400F哦，参观克洛斯贝尔啊～？{wait}
 			}
 			TextWait
 			CharTurnToChar self field_party[0] 500deg/s
 			TextTalk self {
-				这也是支援请求吗？
+				#15409F这也是支援请求吗？
 				支援课的工作真辛苦啊。{wait}
 			}
 			TextWait
@@ -5502,19 +5500,17 @@ fn[44]:
 			FlagSet flag[18]
 		else:
 			TextTalk self {
-				嗯，总之，
+				#15400F嗯，总之，
 				警戒状态才刚实施第一天。{wait}
-			}
-			TextWait
-			TextTalk self {
-				不用太拼命，
+			} {
+				#15402F不用太拼命，
 				只要随便努力一下
 				就好了吧～{wait}
 			}
 			TextWait
 	elif !flag[18]:
 		TextTalk self {
-			啊，是你们几个啊～
+			#15406F啊，是你们几个啊～
 			彼此都很辛苦呢～{wait}
 		}
 		TextWait
@@ -5529,12 +5525,10 @@ fn[44]:
 		}
 		TextWait
 		TextTalk self {
-			嗯，严格来说是负责中央广场的
+			#15400F嗯，严格来说是负责中央广场的
 			全部的商业设施啦～{wait}
-		}
-		TextWait
-		TextTalk self {
-			这里也能看到不少美女，
+		} {
+			#15409F这里也能看到不少美女，
 			所以巡逻起来也很有干劲喔～{wait}
 		}
 		TextWait
@@ -5556,12 +5550,10 @@ fn[44]:
 		FlagSet flag[18]
 	else:
 		TextTalk self {
-			巡逻行动虽然很辛苦啦～
+			#15402F巡逻行动虽然很辛苦啦～
 			但只要看到美女，疲劳就一扫而空啰～{wait}
-		}
-		TextWait
-		TextTalk self {
-			目前看到的美女共三十一位……
+		} {
+			#15404F目前看到的美女共三十一位……
 			唔呵呵～看样子还能看到更多呢。{wait}
 		}
 		TextWait

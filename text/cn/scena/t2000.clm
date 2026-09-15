@@ -31,7 +31,7 @@ chip[4] "chr/ch41400.itc"
 chip[5] "chr/ch41500.itc"
 
 npc char[0]:
-	name "壥壥壥壥"
+	name "队员卡塔"
 	pos (22430, 0, 4730)
 	angle 90deg
 	flags 0x0105
@@ -42,7 +42,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥"
+	name "队员罗金斯"
 	pos (22240, 0, -5490)
 	angle 90deg
 	flags 0x0105
@@ -53,7 +53,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥"
+	name "队员罗梅奥"
 	pos (13550, 0, 26560)
 	angle 270deg
 	flags 0x0185
@@ -64,7 +64,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥"
+	name "观光客"
 	pos (24790, 200, -19390)
 	angle 180deg
 	flags 0x0185
@@ -75,7 +75,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "巴士"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5
@@ -86,7 +86,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥壥壥"
+	name "特务支援车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5
@@ -97,7 +97,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥壥"
+	name "狂飙车辆"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5
@@ -108,7 +108,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥壥壥"
+	name "米蕾优三尉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -119,7 +119,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "旅客"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -130,7 +130,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥"
+	name "旅客"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -141,7 +141,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥"
+	name "旅客"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -152,7 +152,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥"
+	name "旅客"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -163,7 +163,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥"
+	name "旅客"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -174,7 +174,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "旅客"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -185,7 +185,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -196,7 +196,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -207,7 +207,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -218,7 +218,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -229,7 +229,7 @@ npc char[17]:
 	unk4 255
 
 npc char[18]:
-	name "壥壥壥壥壥"
+	name "新型装甲车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5
@@ -290,7 +290,7 @@ look_point[4]:
 	unk4 0
 
 label[0]:
-	name "壥壥壥壥壥壥壥壥"
+	name "西克洛斯贝尔街道"
 	pos (73000.0, 0.0, -4000.0)
 	unk1 0
 	unk2 0

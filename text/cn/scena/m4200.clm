@@ -51,7 +51,7 @@ chip[24] "monster/ch86850.itc"
 chip[25] "monster/ch86850.itc"
 
 npc char[0]:
-	name "壥壥壥"
+	name "诺艾儿"
 	pos (16000, 0, 31000)
 	angle 225deg
 	flags 0x0185
@@ -62,7 +62,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "瓦奇"
 	pos (16000, 0, 31000)
 	angle 225deg
 	flags 0x0185
@@ -73,7 +73,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥"
+	name "银"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -84,7 +84,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥"
+	name "小船"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -95,7 +95,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "SE壥壥"
+	name "SE控制"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5

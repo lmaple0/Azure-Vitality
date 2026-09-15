@@ -4,7 +4,7 @@
 
 本 Fork 在上游 [Kyuuhachi/Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) 的基础上，加入 NISA PC 版《碧之轨迹》简体中文构建路径，用于兼容 zeroTool 汉化及其汉化版 More Portraits。
 
-首个中文兼容测试版已作为 [v0.1.0-rc1 Pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.1.0-rc1) 发布。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
+最新中文兼容测试版为 [v0.2.0-rc1 Pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.2.0-rc1)，基于 NISA Steam 1.2.5（build 24743041）、zeroTool 碧轨汉化 1.8 与 More Portraits in Azure 1.5.0 刷新。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
 
 ## 覆盖任务
 
@@ -19,6 +19,7 @@
 - 新增 `--cn-map`，使用外部的“PSV 原始文本 → GBK 简体中文”精确映射构建中文脚本。
 - 传入中文映射时只生成中文脚本分支，不再同时构建英文分支。
 - 以 zeroTool 汉化与汉化版 More Portraits 的中文脚本作为 PC 合并基线。
+- 将 More Portraits in Azure 1.5.0 对 `c1030` 新增的珊珊头像结构精确迁移到当前简体中文对白。
 - 使用 `CALMARE_RAW_BYTES=1` 无损读取 PSV 自定义编码及 PC GBK 字节。
 - Aureole 依赖锁定到 [lmaple0/Aureole](https://github.com/lmaple0/Aureole/commit/a9f27073d2c439d6d56b08865babb71cc9e8694e)，并保留本构建所需的 raw-byte 兼容入口；公开检出后可复现构建。
 
@@ -46,11 +47,11 @@ data_cn/text
 
 ## 当前状态
 
-- 35 个任务相关脚本均已成功生成并可由 AoKai 解析器读取。
+- 35 个任务相关脚本已从当前本机汉化与 More Portraits 1.5.0 基线重新合并，并可由 AoKai 解析器读取。
 - 35 个中文 `.clm` 已使用 Kreuzen 的显式 `--enc gbk --legacy-layout themelios`
   完成编译、反编译、重编译，35/35 个输出字节一致；不会自动猜测或切换编码和布局。
 - 任务表中的五个简体中文任务名已按攻略官方译名核对。
-- 14 个重叠脚本保留汉化版 More Portraits 的头像控制码。
+- 14 个重叠脚本保留最新版汉化 More Portraits 的头像控制码；`c1030` 的 100 个 `#150xxF` 头像标记与 1.5.0 基线一致。
 - 已建立测试候选包，但尚未完成游戏内全流程、分支、DP、奖励、贴图与崩溃回归测试。
 - 当前仅发布 Pre-release；完成游戏内验证前不会发布稳定版 Release。
 

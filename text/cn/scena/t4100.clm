@@ -36,7 +36,7 @@ chip[9] "chr/ch45100.itc"
 chip[10] "chr/ch11500.itc"
 
 npc char[0]:
-	name "壥壥壥壥"
+	name "妙夏夫人"
 	pos (8580, 2000, 25380)
 	angle 0deg
 	flags 0x0101
@@ -47,7 +47,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥"
+	name "昆特老先生"
 	pos (-8870, 0, 11800)
 	angle 0deg
 	flags 0x0181
@@ -58,7 +58,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥"
+	name "莉丝修女"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -69,7 +69,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥壥"
+	name "亲卫队队员"
 	pos (-1690, 0, 10510)
 	angle 180deg
 	flags 0x0185
@@ -80,7 +80,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥壥壥"
+	name "亲卫队队员"
 	pos (1720, 0, 10880)
 	angle 180deg
 	flags 0x0185
@@ -91,7 +91,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥壥"
+	name "克拉莉丝"
 	pos (-7600, 2000, 25330)
 	angle 0deg
 	flags 0x0185
@@ -102,7 +102,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "尼尔森"
 	pos (-6470, 0, 12180)
 	angle 135deg
 	flags 0x0185
@@ -113,7 +113,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥壥"
+	name "亚里欧斯"
 	pos (20830, 0, 32300)
 	angle 0deg
 	flags 0x0185
@@ -124,7 +124,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥壥壥"
+	name "盖墓前的花"
 	pos (-23000, 0, 25500)
 	angle 0deg
 	flags 0x01F6
@@ -135,7 +135,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥壥壥壥壥壥壥"
+	name "亚里欧斯家墓前的花"
 	pos (20600, 0, 34000)
 	angle 0deg
 	flags 0x01F6
@@ -146,7 +146,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥壥壥壥"
+	name "克萝蒂雅公主"
 	pos (350, 4000, 42570)
 	angle 0deg
 	flags 0x01C1
@@ -157,7 +157,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥壥壥"
+	name "尤莉亚准校"
 	pos (2230, 4000, 42750)
 	angle 180deg
 	flags 0x01C1

@@ -48,7 +48,7 @@ chip[18] "chr/ch27600.itc"
 chip[19] "chr/ch24200.itc"
 
 npc char[0]:
-	name "壥壥壥"
+	name "库隆克"
 	pos (-24410, -3000, 5240)
 	angle 180deg
 	flags 0x0105
@@ -59,7 +59,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥"
+	name "迪因兹"
 	pos (-13040, -3000, -810)
 	angle 225deg
 	flags 0x0105
@@ -70,7 +70,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "莉莉"
 	pos (-16500, -3000, 2920)
 	angle 45deg
 	flags 0x0105
@@ -81,7 +81,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥"
+	name "玛尔提"
 	pos (-4560, -3000, -8950)
 	angle 180deg
 	flags 0x0105
@@ -92,7 +92,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "戴纳"
 	pos (-5560, -3000, -8950)
 	angle 180deg
 	flags 0x0185
@@ -103,7 +103,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥"
+	name "安奈"
 	pos (26200, -300, -1050)
 	angle 270deg
 	flags 0x0105
@@ -114,7 +114,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥壥"
+	name "卢诺爷爷"
 	pos (-40490, -300, 15850)
 	angle 90deg
 	flags 0x0105
@@ -125,7 +125,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥"
+	name "洛伊"
 	pos (-18200, -300, 18140)
 	angle 270deg
 	flags 0x0105
@@ -136,7 +136,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "梅琳"
 	pos (-22280, -300, 18370)
 	angle 225deg
 	flags 0x0105
@@ -147,7 +147,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥"
+	name "斯赞"
 	pos (-8470, -3000, -7350)
 	angle 45deg
 	flags 0x0105
@@ -158,7 +158,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥"
+	name "基雷"
 	pos (-7420, -3000, -8600)
 	angle 45deg
 	flags 0x0105
@@ -169,7 +169,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥"
+	name "库塔"
 	pos (-15940, -3000, -600)
 	angle 45deg
 	flags 0x0105
@@ -180,7 +180,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥壥壥壥壥"
+	name "摩尔斯老先生"
 	pos (-18200, -300, 18140)
 	angle 270deg
 	flags 0x0185
@@ -191,7 +191,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥壥"
+	name "搜查官"
 	pos (-3050, -3000, -13780)
 	angle 315deg
 	flags 0x0181
@@ -202,7 +202,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥"
+	name "车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -213,7 +213,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥壥壥"
+	name "狂飙车辆"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -224,7 +224,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥"
+	name "警车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -235,7 +235,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥壥壥壥壥"
+	name "塞尔当分部长"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -246,7 +246,7 @@ npc char[17]:
 	unk4 255
 
 npc char[18]:
-	name "壥壥"
+	name "寇潘"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -257,7 +257,7 @@ npc char[18]:
 	unk4 255
 
 npc char[19]:
-	name "壥壥"
+	name "彼得"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -268,7 +268,7 @@ npc char[19]:
 	unk4 255
 
 npc char[20]:
-	name "壥壥"
+	name "谢莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -279,7 +279,7 @@ npc char[20]:
 	unk4 255
 
 npc char[21]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -290,7 +290,7 @@ npc char[21]:
 	unk4 255
 
 npc char[22]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -301,7 +301,7 @@ npc char[22]:
 	unk4 255
 
 npc char[23]:
-	name "壥壥壥"
+	name "市民１"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -312,7 +312,7 @@ npc char[23]:
 	unk4 255
 
 npc char[24]:
-	name "壥壥壥"
+	name "市民２"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -323,7 +323,7 @@ npc char[24]:
 	unk4 255
 
 npc char[25]:
-	name "壥壥壥"
+	name "市民３"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -334,7 +334,7 @@ npc char[25]:
 	unk4 255
 
 npc char[26]:
-	name "壥壥壥"
+	name "市民４"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -345,7 +345,7 @@ npc char[26]:
 	unk4 255
 
 npc char[27]:
-	name "壥壥壥"
+	name "市民５"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -356,7 +356,7 @@ npc char[27]:
 	unk4 255
 
 npc char[28]:
-	name "壥壥壥"
+	name "市民６"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -367,7 +367,7 @@ npc char[28]:
 	unk4 255
 
 npc char[29]:
-	name "壥壥壥"
+	name "市民７"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -378,7 +378,7 @@ npc char[29]:
 	unk4 255
 
 npc char[30]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -389,7 +389,7 @@ npc char[30]:
 	unk4 255
 
 npc char[31]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -400,7 +400,7 @@ npc char[31]:
 	unk4 255
 
 npc char[32]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -411,7 +411,7 @@ npc char[32]:
 	unk4 255
 
 npc char[33]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -422,7 +422,7 @@ npc char[33]:
 	unk4 255
 
 npc char[34]:
-	name "壥壥壥壥"
+	name "宝拉婆婆"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -595,97 +595,97 @@ look_point[7]:
 	unk4 0
 
 label[0]:
-	name "壥壥壥壥"
+	name "中央广场"
 	pos (-111260.0, 0.0, 15240.0)
 	unk1 0
 	unk2 0
 
 label[1]:
-	name "壥壥壥壥"
+	name "西侧大道"
 	pos (-186880.0, 0.0, 20410.0)
 	unk1 0
 	unk2 0
 
 label[2]:
-	name "壥壥壥"
+	name "行政区"
 	pos (-80210.0, 0.0, 117590.0)
 	unk1 0
 	unk2 0
 
 label[3]:
-	name "壥壥壥"
+	name "住宅区"
 	pos (-257030.0, 0.0, 106090.0)
 	unk1 0
 	unk2 0
 
 label[4]:
-	name "壥壥壥"
+	name "欢乐街"
 	pos (-173080.0, 0.0, 96890.0)
 	unk1 0
 	unk2 0
 
 label[5]:
-	name "壥壥壥壥"
+	name "东侧大道"
 	pos (-17830.0, 0.0, -11210.0)
 	unk1 0
 	unk2 0
 
 label[6]:
-	name "壥壥壥"
+	name "旧市街"
 	pos (23000.0, 0.0, -74460.0)
 	unk1 0
 	unk2 0
 
 label[7]:
-	name "壥壥壥"
+	name "港湾区"
 	pos (14380.0, 0.0, 64690.004)
 	unk1 0
 	unk2 0
 
 label[8]:
-	name "壥壥壥"
+	name "ＩＢＣ"
 	pos (-15530.0, 0.0, 172790.0)
 	unk1 0
 	unk2 0
 
 label[9]:
-	name "壥壥壥壥"
+	name "站前大道"
 	pos (-98330.0, 0.0, -64110.0)
 	unk1 0
 	unk2 0
 
 label[10]:
-	name "壥壥"
+	name "小巷"
 	pos (-152380.0, 0.0, 55490.0)
 	unk1 0
 	unk2 0
 
 label[11]:
-	name "壥壥壥壥壥壥"
+	name "乌尔斯拉小径"
 	pos (-101780.0, 0.0, -99760.0)
 	unk1 0
 	unk2 0
 
 label[12]:
-	name "壥壥壥壥壥壥壥壥"
+	name "东克洛斯贝尔街道"
 	pos (44280.0, 0.0, 4890.0)
 	unk1 0
 	unk2 0
 
 label[13]:
-	name "壥壥壥壥壥壥壥壥"
+	name "西克洛斯贝尔街道"
 	pos (-245530.0, 0.0, 18690.0)
 	unk1 0
 	unk2 0
 
 label[14]:
-	name "壥壥壥壥壥"
+	name "玛因兹山道"
 	pos (-238630.0, 0.0, 133690.0)
 	unk1 0
 	unk2 0
 
 label[15]:
-	name "壥壥壥"
+	name "兰花塔"
 	pos (-88000.0, 0.0, 269000.0)
 	unk1 0
 	unk2 0

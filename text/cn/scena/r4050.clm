@@ -49,7 +49,7 @@ chip[22] "monster/ch86750.itc"
 chip[23] "monster/ch86750.itc"
 
 npc char[0]:
-	name "壥壥"
+	name "军犬"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -60,7 +60,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -71,7 +71,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -93,7 +93,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥壥壥"
+	name "变色龙士兵"
 	pos (54710, 6750, -26420)
 	angle 0deg
 	flags 0x01E4
@@ -104,7 +104,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "SE壥壥"
+	name "SE控制"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5

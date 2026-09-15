@@ -55,7 +55,7 @@ chip[28] null
 chip[29] null
 
 npc char[0]:
-	name "壥壥壥壥壥"
+	name "赛尔盖课长"
 	pos (64000, 200, 11400)
 	angle 180deg
 	flags 0x0105
@@ -66,7 +66,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "琪雅"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -77,7 +77,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "赛特"
 	pos (2710, 0, 2510)
 	angle 225deg
 	flags 0x0195
@@ -88,7 +88,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥"
+	name "赛西儿"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -99,7 +99,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "柯贝"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -110,7 +110,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥"
+	name "猫食"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01B6
@@ -121,7 +121,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥壥壥壥"
+	name "格蕾丝的声音"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5
@@ -132,7 +132,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -143,7 +143,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -154,7 +154,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -165,7 +165,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -176,7 +176,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -187,7 +187,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -198,7 +198,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -209,7 +209,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -220,7 +220,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -231,7 +231,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -242,7 +242,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -253,7 +253,7 @@ npc char[17]:
 	unk4 255
 
 npc char[18]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -264,7 +264,7 @@ npc char[18]:
 	unk4 255
 
 npc char[19]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -275,7 +275,7 @@ npc char[19]:
 	unk4 255
 
 npc char[20]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -286,7 +286,7 @@ npc char[20]:
 	unk4 255
 
 npc char[21]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -297,7 +297,7 @@ npc char[21]:
 	unk4 255
 
 npc char[22]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -308,7 +308,7 @@ npc char[22]:
 	unk4 255
 
 npc char[23]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -319,7 +319,7 @@ npc char[23]:
 	unk4 255
 
 npc char[24]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -330,7 +330,7 @@ npc char[24]:
 	unk4 255
 
 npc char[25]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -341,7 +341,7 @@ npc char[25]:
 	unk4 255
 
 npc char[26]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -352,7 +352,7 @@ npc char[26]:
 	unk4 255
 
 npc char[27]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -363,7 +363,7 @@ npc char[27]:
 	unk4 255
 
 npc char[28]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -374,7 +374,7 @@ npc char[28]:
 	unk4 255
 
 npc char[29]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -385,7 +385,7 @@ npc char[29]:
 	unk4 255
 
 npc char[30]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -396,7 +396,7 @@ npc char[30]:
 	unk4 255
 
 npc char[31]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -407,7 +407,7 @@ npc char[31]:
 	unk4 255
 
 npc char[32]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -418,7 +418,7 @@ npc char[32]:
 	unk4 255
 
 npc char[33]:
-	name "壥壥"
+	name "椅子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -429,7 +429,7 @@ npc char[33]:
 	unk4 255
 
 npc char[34]:
-	name "壥壥壥壥壥壥"
+	name "幻兽调查报告"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00F6
@@ -451,7 +451,7 @@ npc char[35]:
 	unk4 255
 
 npc char[36]:
-	name "壥壥"
+	name "人偶"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6

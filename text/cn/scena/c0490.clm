@@ -24,7 +24,7 @@ entry:
 	reinit fn[0,2]
 
 npc char[0]:
-	name "壥壥壥壥"
+	name "西格蒙特"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -35,7 +35,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "谢莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -46,7 +46,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥"
+	name "猎兵加雷斯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -57,7 +57,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥"
+	name "总管"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -68,7 +68,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -79,7 +79,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -90,7 +90,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -101,7 +101,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -112,7 +112,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "餐具"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01F6
@@ -123,7 +123,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥"
+	name "克莱德"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -134,7 +134,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥壥壥壥"
+	name "玛格莉特夫人"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -145,7 +145,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥壥壥壥"
+	name "皮埃尔副局长"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -156,7 +156,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥壥壥壥"
+	name "猎兵扎克斯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -167,7 +167,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "店员"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -178,7 +178,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥"
+	name "店员"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -189,7 +189,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥壥壥"
+	name "公关小姐"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -200,7 +200,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥壥壥"
+	name "公关小姐"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -211,7 +211,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥"
+	name "客人"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -297,6 +297,8 @@ npc char[24]:
 	init fn[255,255]
 	talk fn[255,255]
 	unk4 255
+
+anim[0] 712ms
 
 fn[0]:
 	switch random % 8:

@@ -24,7 +24,7 @@ entry:
 	reinit fn[0,2]
 
 npc char[0]:
-	name "壥壥壥壥壥壥"
+	name "克萝蒂雅公主"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -35,7 +35,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥"
+	name "尤莉亚准校"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -46,7 +46,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥壥"
+	name "奥利巴特皇子"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -57,7 +57,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥"
+	name "穆拉少校"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -68,7 +68,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "吉克"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -79,7 +79,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥"
+	name "亲卫队"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -90,7 +90,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "亲卫队"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -101,7 +101,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥"
+	name "亲卫队"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5

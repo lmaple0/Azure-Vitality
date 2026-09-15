@@ -24,7 +24,7 @@ entry:
 	reinit fn[0,2]
 
 npc char[0]:
-	name "壥壥壥壥壥壥"
+	name "克萝蒂雅公主"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -35,7 +35,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥"
+	name "尤莉亚准校"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -46,7 +46,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥壥"
+	name "阿尔伯特大公"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -57,7 +57,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥壥壥"
+	name "战鬼西格蒙特"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -68,7 +68,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "谢莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -79,7 +79,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥壥壥"
+	name "猎兵加雷斯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -90,7 +90,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "亲卫队"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -101,7 +101,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥"
+	name "亲卫队"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -112,7 +112,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "维修员"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -123,7 +123,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥"
+	name "维修员"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -134,7 +134,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥"
+	name "维修员"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -145,7 +145,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥"
+	name "维修员"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -156,7 +156,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥壥壥"
+	name "埃尔赛尤"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -167,7 +167,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "地盘"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -178,7 +178,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥"
+	name "仆人"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -189,7 +189,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥壥"
+	name "仆人"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -200,7 +200,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥壥"
+	name "仆人"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -211,7 +211,7 @@ npc char[16]:
 	unk4 255
 
 npc char[17]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -222,7 +222,7 @@ npc char[17]:
 	unk4 255
 
 npc char[18]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -233,7 +233,7 @@ npc char[18]:
 	unk4 255
 
 npc char[19]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -244,7 +244,7 @@ npc char[19]:
 	unk4 255
 
 npc char[20]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -255,7 +255,7 @@ npc char[20]:
 	unk4 255
 
 npc char[21]:
-	name "壥壥"
+	name "警官"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -266,7 +266,7 @@ npc char[21]:
 	unk4 255
 
 npc char[22]:
-	name "SE壥壥"
+	name "SE控制"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5
@@ -286,6 +286,10 @@ npc char[23]:
 	init fn[255,255]
 	talk fn[255,255]
 	unk4 255
+
+anim[0] 932ms
+
+sepith[0] 0 0 0 0 0 0 0 0
 
 fn[0]:
 	switch random % 8:

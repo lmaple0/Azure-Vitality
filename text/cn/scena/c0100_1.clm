@@ -23,6 +23,10 @@ entry:
 	init fn[0,7]
 	reinit fn[0,8]
 
+anim[0] 256ms
+
+sepith[0] 0 0 0 0 0 0 0 0
+
 fn[0]:
 	TextStart self
 	if flag[3385]:
@@ -2208,7 +2212,7 @@ fn[11]:
 		if !flag[2511]:
 			Call fn[1,23]
 			Return
-		elif !flag[9]:
+		if !flag[9]:
 			TextTalk char[9] {
 				#01203F吼喔喔喔……{wait}
 			}

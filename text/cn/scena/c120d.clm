@@ -57,7 +57,7 @@ chip[28] null
 chip[29] null
 
 npc char[0]:
-	name "壥壥"
+	name "约纳"
 	pos (75500, -2500, 20000)
 	angle 270deg
 	flags 0x0185
@@ -68,7 +68,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "警官"
 	pos (22080, 0, 15050)
 	angle 180deg
 	flags 0x0185
@@ -79,7 +79,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥"
+	name "警备队员"
 	pos (3130, 2000, 25150)
 	angle 180deg
 	flags 0x0185
@@ -90,7 +90,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥"
+	name "警备队员"
 	pos (5530, 2000, 25000)
 	angle 180deg
 	flags 0x0185
@@ -101,7 +101,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥"
+	name "库妮雅"
 	pos (-13200, 0, 11500)
 	angle 90deg
 	flags 0x0181
@@ -112,7 +112,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥"
+	name "欧赛尔"
 	pos (-10470, 0, 13340)
 	angle 180deg
 	flags 0x0181
@@ -123,7 +123,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "毕修普"
 	pos (-52470, 2000, 21150)
 	angle 90deg
 	flags 0x0181
@@ -134,7 +134,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥壥壥"
+	name "奎因老先生"
 	pos (39670, -2500, -19380)
 	angle 135deg
 	flags 0x0181
@@ -145,7 +145,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "亚米萨"
 	pos (40920, -2500, -18990)
 	angle 135deg
 	flags 0x0181
@@ -156,7 +156,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥"
+	name "警官"
 	pos (-17800, 0, 13370)
 	angle 180deg
 	flags 0x0185
@@ -167,7 +167,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥壥壥"
+	name "国防军士兵"
 	pos (-18480, 0, 12000)
 	angle 180deg
 	flags 0x0185
@@ -178,7 +178,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥"
+	name "装甲车"
 	pos (-21240, 0, 14350)
 	angle 90deg
 	flags 0x00C4
@@ -189,7 +189,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥壥"
+	name "尼尔森"
 	pos (7820, -400, 3200)
 	angle 180deg
 	flags 0x0185
@@ -200,7 +200,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥壥壥壥"
+	name "玛利亚贝尔"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -211,7 +211,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥壥壥壥壥"
+	name "警备员比尔斯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -222,7 +222,7 @@ npc char[14]:
 	unk4 255
 
 npc char[15]:
-	name "壥"
+	name "车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -233,7 +233,7 @@ npc char[15]:
 	unk4 255
 
 npc char[16]:
-	name "壥"
+	name "车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -448,97 +448,97 @@ look_point[4]:
 	unk4 0
 
 label[0]:
-	name "壥壥壥壥"
+	name "中央广场"
 	pos (-123140.0, 0.0, -85150.0)
 	unk1 0
 	unk2 0
 
 label[1]:
-	name "壥壥壥壥"
+	name "西侧大道"
 	pos (-209270.0, 0.0, -79260.0)
 	unk1 0
 	unk2 0
 
 label[2]:
-	name "壥壥壥"
+	name "行政区"
 	pos (-87770.0, 0.0, 31440.0)
 	unk1 0
 	unk2 0
 
 label[3]:
-	name "壥壥壥"
+	name "住宅区"
 	pos (-289180.0, 0.0, 18340.0)
 	unk1 0
 	unk2 0
 
 label[4]:
-	name "壥壥壥"
+	name "欢乐街"
 	pos (-193550.0, 0.0, 7860.0)
 	unk1 0
 	unk2 0
 
 label[5]:
-	name "壥壥壥壥"
+	name "东侧大道"
 	pos (-16700.0, 0.0, -115280.0)
 	unk1 0
 	unk2 0
 
 label[6]:
-	name "壥壥壥"
+	name "旧市街"
 	pos (29800.0, 0.0, -187330.0)
 	unk1 0
 	unk2 0
 
 label[7]:
-	name "壥壥壥"
+	name "港湾区"
 	pos (19980.0, 0.0, -28820.0)
 	unk1 0
 	unk2 0
 
 label[8]:
-	name "壥壥壥"
+	name "ＩＢＣ"
 	pos (-14080.0, 0.0, 94320.0)
 	unk1 0
 	unk2 0
 
 label[9]:
-	name "壥壥壥壥"
+	name "站前大道"
 	pos (-108400.0, 0.0, -175540.0)
 	unk1 0
 	unk2 0
 
 label[10]:
-	name "壥壥"
+	name "小巷"
 	pos (-169970.0, 0.0, -39300.0)
 	unk1 0
 	unk2 0
 
 label[11]:
-	name "壥壥壥壥壥壥"
+	name "乌尔斯拉小径"
 	pos (-112330.0, 0.0, -216150.0)
 	unk1 0
 	unk2 0
 
 label[12]:
-	name "壥壥壥壥壥壥壥壥"
+	name "东克洛斯贝尔街道"
 	pos (54040.0, 0.0, -96940.0)
 	unk1 0
 	unk2 0
 
 label[13]:
-	name "壥壥壥壥壥壥壥壥"
+	name "西克洛斯贝尔街道"
 	pos (-276080.0, 0.0, -81220.0)
 	unk1 0
 	unk2 0
 
 label[14]:
-	name "壥壥壥壥壥"
+	name "玛因兹山道"
 	pos (-268220.0, 0.0, 49780.0)
 	unk1 0
 	unk2 0
 
 label[15]:
-	name "壥壥壥"
+	name "兰花塔"
 	pos (-96500.0, 0.0, 203750.0)
 	unk1 0
 	unk2 0

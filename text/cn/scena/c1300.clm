@@ -30,7 +30,7 @@ chip[1] "chr/ch30000.itc"
 chip[2] "chr/ch06000.itc"
 
 npc char[0]:
-	name "壥壥壥壥壥壥"
+	name "警备员比尔斯"
 	pos (3910, 0, 5050)
 	angle 180deg
 	flags 0x0101
@@ -41,7 +41,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥"
+	name "警备员"
 	pos (1500, 0, 500)
 	angle 270deg
 	flags 0x0185
@@ -52,7 +52,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "警官"
 	pos (1500, 0, 3000)
 	angle 270deg
 	flags 0x0185
@@ -63,7 +63,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥"
+	name "警备员"
 	pos (-3500, 0, 500)
 	angle 90deg
 	flags 0x0185
@@ -74,7 +74,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "警官"
 	pos (-3500, 0, 3000)
 	angle 90deg
 	flags 0x0185
@@ -85,7 +85,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥"
+	name "银"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -96,7 +96,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥"
+	name "曹"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -107,7 +107,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥"
+	name "刘"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -118,7 +118,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "礼车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -191,97 +191,97 @@ look_point[0]:
 	unk4 0
 
 label[0]:
-	name "壥壥壥壥"
+	name "中央广场"
 	pos (-133720.0, 0.0, -187480.0)
 	unk1 0
 	unk2 0
 
 label[1]:
-	name "壥壥壥壥"
+	name "西侧大道"
 	pos (-223200.0, 0.0, -181350.0)
 	unk1 0
 	unk2 0
 
 label[2]:
-	name "壥壥壥"
+	name "行政区"
 	pos (-96970.0, 0.0, -66350.0)
 	unk1 0
 	unk2 0
 
 label[3]:
-	name "壥壥壥"
+	name "住宅区"
 	pos (-306230.0, 0.0, -79960.0)
 	unk1 0
 	unk2 0
 
 label[4]:
-	name "壥壥壥"
+	name "欢乐街"
 	pos (-206870.0, 0.0, -90850.0)
 	unk1 0
 	unk2 0
 
 label[5]:
-	name "壥壥壥壥"
+	name "东侧大道"
 	pos (-23140.0, 0.0, -218780.0)
 	unk1 0
 	unk2 0
 
 label[6]:
-	name "壥壥壥"
+	name "旧市街"
 	pos (25180.0, 0.0, -293640.0)
 	unk1 0
 	unk2 0
 
 label[7]:
-	name "壥壥壥"
+	name "港湾区"
 	pos (14970.0, 0.0, -128950.0)
 	unk1 0
 	unk2 0
 
 label[8]:
-	name "壥壥壥"
+	name "ＩＢＣ"
 	pos (-20420.0, 0.0, -1020.0)
 	unk1 0
 	unk2 0
 
 label[9]:
-	name "壥壥壥壥"
+	name "站前大道"
 	pos (-118410.0, 0.0, -281390.0)
 	unk1 0
 	unk2 0
 
 label[10]:
-	name "壥壥"
+	name "小巷"
 	pos (-182370.0, 0.0, -139840.0)
 	unk1 0
 	unk2 0
 
 label[11]:
-	name "壥壥壥壥壥壥"
+	name "乌尔斯拉小径"
 	pos (-122490.0, 0.0, -323580.0)
 	unk1 0
 	unk2 0
 
 label[12]:
-	name "壥壥壥壥壥壥壥壥"
+	name "东克洛斯贝尔街道"
 	pos (50360.0, 0.0, -199730.0)
 	unk1 0
 	unk2 0
 
 label[13]:
-	name "壥壥壥壥壥壥壥壥"
+	name "西克洛斯贝尔街道"
 	pos (-292620.0, 0.0, -183390.0)
 	unk1 0
 	unk2 0
 
 label[14]:
-	name "壥壥壥壥壥"
+	name "玛因兹山道"
 	pos (-284450.0, 0.0, -47290.0)
 	unk1 0
 	unk2 0
 
 label[15]:
-	name "壥壥壥"
+	name "兰花塔"
 	pos (-107000.0, 0.0, 114000.0)
 	unk1 0
 	unk2 0

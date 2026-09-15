@@ -28,14 +28,14 @@ chip[1] "chr/ch25000.itc"
 chip[2] "chr/ch34300.itc"
 chip[3] "chr/ch24500.itc"
 chip[4] "chr/ch20500.itc"
-chip[5] null
+chip[5] "chr/ch00000.itc"
 chip[6] "chr/ch24800.itc"
 chip[7] "chr/ch10400.itc"
 chip[8] "chr/ch20700.itc"
 chip[9] "chr/ch22200.itc"
 
 npc char[0]:
-	name "壥壥壥"
+	name "奥斯卡"
 	pos (56290, 0, 2020)
 	angle 270deg
 	flags 0x0105
@@ -46,7 +46,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥"
+	name "摩尔吉"
 	pos (119120, 0, -660)
 	angle 275deg
 	flags 0x0105
@@ -57,7 +57,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥"
+	name "贝奈特"
 	pos (51280, 1000, 12870)
 	angle 90deg
 	flags 0x0105
@@ -68,7 +68,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥"
+	name "凯特莉娜"
 	pos (58540, 0, -2330)
 	angle 0deg
 	flags 0x0105
@@ -79,7 +79,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥"
+	name "奇露露"
 	pos (57800, 0, -2200)
 	angle 0deg
 	flags 0x0185
@@ -90,7 +90,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥"
+	name "塔里兹"
 	pos (200, 0, 8500)
 	angle 180deg
 	flags 0x0105
@@ -101,7 +101,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "艾尔莎"
 	pos (3090, 0, 4200)
 	angle 90deg
 	flags 0x0105
@@ -112,7 +112,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥"
+	name "桃"
 	pos (3090, 0, 4200)
 	angle 90deg
 	flags 0x0105
@@ -123,7 +123,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥"
+	name "彼特"
 	pos (2590, 0, 1830)
 	angle 90deg
 	flags 0x0185
@@ -184,6 +184,11 @@ look_point[2]:
 	function fn[0,4]
 	unk3 0
 	unk4 0
+
+anim[0] 668ms
+
+sepith[0] 0 0 0 0 0 0 0 0
+sepith[1] 0 0 0 0 0 0 0 0
 
 fn[0]:
 	switch random % 8:
@@ -1555,219 +1560,220 @@ fn[15]:
 				也于事无补。{wait}
 			}
 			TextWait
-	elif flag[3074]:
-		TextEnd self
-		Call fn[0,13]
-		Return
-	elif flag[2861]:
-		if !flag[2]:
-			TextTalk self {
-				#14804F……对了，我在下次的新面包里
-				加入那个香草……{wait}
-			}
-			TextWait
-			Emote self 0mm 2000mm 38 38 250ms 1
-			Sleep 1000ms
-			CharTurnToChar self field_party[0] 500deg/s
-			TextTalk self {
-				#14814F哇、对不起！
-				我正在想事情。{wait}
-			}
-			TextWait
-			CharFlagsUnset self 0x0010
-			FlagSet flag[2]
-		else:
-			TextTalk self {
-				#14800F我刚才在脑中构思
-				下次的新面包。{wait}
-			} {
-				#14804F我想想喔，我记得
-				那种香草应该还有库存……{wait}
-			}
-			TextWait
-	elif flag[2848]:
-		Call fn[0,16]
-	elif flag[2837]:
-		if !flag[2]:
-			TextTalk self {
-				#14801F……唔，臭奥斯卡……{wait}
-			} {
-				#14807F以为贴几张酸痛贴布
-				就可以讨好我的话，
-				那可是大错特错！{wait}
-			} {
-				#14813F……哼！{wait}
-			}
-			TextWait
-			FlagSet flag[2]
-		else:
-			TextTalk self {
-				#14801F臭奥斯卡……{wait}
-			} {
-				#14807F以为贴几张酸痛贴布
-				就可以讨好我的话，
-				那可是大错特错！{wait}
-			}
-			TextWait
-	elif flag[2832]:
-		if !flag[2]:
-			TextTalk self {
-				#14813F可恶啊，臭奥斯卡……
-				他还一副从容的模样……！{wait}
-			} {
-				#14808F……不过他吃面包的表情看起来，
-				好像真的很好吃呢……{wait}
-			} {
-				#14814F……才、才没有呢！
-				我一点也不觉得开心！{wait}
-			}
-			TextWait
-			FlagSet flag[2]
-		else:
-			TextTalk self {
-				#14813F邪丄念丄退丄散……！
-				（揉揉揉揉揉揉……）{wait}
-			} {
-				#14815F奥斯卡……
-				我下次绝──对
-				会让你尝到输的滋味！{wait}
-			}
-			TextWait
-	elif flag[2816]:
-		if !flag[2]:
-			TextTalk self {
-				#14808F难得我做出
-				可以赢得了奥斯卡的面包，
-				他竟然那么开心……{wait}
-			} {
-				#14815F不对、不对！
-				我想看的，
-				是奥斯卡不甘心的表情啊……！{wait}
-			} {
-				#14813F呜呜呜、臭奥斯卡……！{wait}
-			}
-			TextWait
-			FlagSet flag[2]
-		else:
-			TextTalk self {
-				#14808F臭奥斯卡……
-				为什么他吃了我的面包，
-				还露出那么开心的表情……{wait}
-			} {
-				#14815F他怎么就不会不甘心啊，讨厌！{wait}
-			}
-			TextWait
-	elif flag[2573]:
-		if !flag[2]:
-			TextTalk self {
-				#14801F如果把我和奥斯卡的面包
-				摆在一起，客人通常都会
-				选择奥斯卡的面包。{wait}
-			} {
-				#14807F呜呜，到底有什么不同啊……！{wait}
-			}
-			TextWait
-			FlagSet flag[2]
-		else:
-			TextTalk self {
-				#14801F可恶，既然如此，
-				我也只能做那个了。{wait}
-			} {
-				#14807F超越《贝奈特特制》的
-				最顶极面包……！{wait}
-			}
-			TextWait
-	elif flag[2568]:
-		TextTalk self {
-			#14815F我做的面包
-			卖得不如奥斯卡的
-			面包好……！？{wait}
-		} {
-			#14813F唔唔唔，明天一定要赢……！{wait}
-		}
-		TextWait
-	elif flag[2564]:
-		if !flag[2]:
-			TextTalk self {
-				#14801F奥斯卡上次
-				好像收到什么奇怪的信。{wait}
-			} {
-				#14814F难道说，
-				那就是情书吗……？{wait}
-			} {
-				#14815F只不过是做面包技巧
-				比我好那么一点点，
-				就自以为了不起！{wait}
-			}
-			TextWait
-			FlagSet flag[2]
-		else:
-			TextTalk self {
-				#14815F竟然写情书
-				给奥斯卡，
-				她到底是什么人……！？{wait}
-			} {
-				#14813F……啊，咦？不对不对。
-				竟、竟然还收到情书，
-				臭奥斯卡……！{wait}
-			}
-			TextWait
-	elif flag[2560]:
-		TextTalk self {
-			#14813F（揉揉揉、揉揉揉）{wait}
-		} {
-			#14813F嘀咕嘀咕……
-			我一定不会
-			输给奥斯卡……！{wait}
-		}
-		TextWait
-	elif flag[2369]:
-		if QuestFlagsGet quest[107] 0x02 && flag[2451]:
-			if !QuestFlagsGet quest[107] 0x10:
-				TextTalk char[2] {
-					#14800F雨伞的事交给你们了。
-					这孩子就由我来照顾。{wait}
-				}
-				TextWait
-			elif !flag[8]:
-				Call fn[0,16]
-				FlagSet flag[8]
-			else:
-				TextTalk char[2] {
-					#14806F真是的，找人麻烦……{wait}
-				}
-				TextWait
+	else:
+		if flag[3074]:
 			TextEnd self
+			Call fn[0,13]
 			Return
-		TextTalk char[2] {
-			#14802F好啦，别哭了。{wait}
-		} {
-			#14809F一定会找到的，好吧？{wait}
-		}
-		TextWait
-	elif flag[2353]:
-		if !flag[2]:
+		if flag[2861]:
+			if !flag[2]:
+				TextTalk self {
+					#14804F……对了，我在下次的新面包里
+					加入那个香草……{wait}
+				}
+				TextWait
+				Emote self 0mm 2000mm 38 38 250ms 1
+				Sleep 1000ms
+				CharTurnToChar self field_party[0] 500deg/s
+				TextTalk self {
+					#14814F哇、对不起！
+					我正在想事情。{wait}
+				}
+				TextWait
+				CharFlagsUnset self 0x0010
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14800F我刚才在脑中构思
+					下次的新面包。{wait}
+				} {
+					#14804F我想想喔，我记得
+					那种香草应该还有库存……{wait}
+				}
+				TextWait
+		elif flag[2848]:
+			Call fn[0,16]
+		elif flag[2837]:
+			if !flag[2]:
+				TextTalk self {
+					#14801F……唔，臭奥斯卡……{wait}
+				} {
+					#14807F以为贴几张酸痛贴布
+					就可以讨好我的话，
+					那可是大错特错！{wait}
+				} {
+					#14813F……哼！{wait}
+				}
+				TextWait
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14801F臭奥斯卡……{wait}
+				} {
+					#14807F以为贴几张酸痛贴布
+					就可以讨好我的话，
+					那可是大错特错！{wait}
+				}
+				TextWait
+		elif flag[2832]:
+			if !flag[2]:
+				TextTalk self {
+					#14813F可恶啊，臭奥斯卡……
+					他还一副从容的模样……！{wait}
+				} {
+					#14808F……不过他吃面包的表情看起来，
+					好像真的很好吃呢……{wait}
+				} {
+					#14814F……才、才没有呢！
+					我一点也不觉得开心！{wait}
+				}
+				TextWait
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14813F邪丄念丄退丄散……！
+					（揉揉揉揉揉揉……）{wait}
+				} {
+					#14815F奥斯卡……
+					我下次绝──对
+					会让你尝到输的滋味！{wait}
+				}
+				TextWait
+		elif flag[2816]:
+			if !flag[2]:
+				TextTalk self {
+					#14808F难得我做出
+					可以赢得了奥斯卡的面包，
+					他竟然那么开心……{wait}
+				} {
+					#14815F不对、不对！
+					我想看的，
+					是奥斯卡不甘心的表情啊……！{wait}
+				} {
+					#14813F呜呜呜、臭奥斯卡……！{wait}
+				}
+				TextWait
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14808F臭奥斯卡……
+					为什么他吃了我的面包，
+					还露出那么开心的表情……{wait}
+				} {
+					#14815F他怎么就不会不甘心啊，讨厌！{wait}
+				}
+				TextWait
+		elif flag[2573]:
+			if !flag[2]:
+				TextTalk self {
+					#14801F如果把我和奥斯卡的面包
+					摆在一起，客人通常都会
+					选择奥斯卡的面包。{wait}
+				} {
+					#14807F呜呜，到底有什么不同啊……！{wait}
+				}
+				TextWait
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14801F可恶，既然如此，
+					我也只能做那个了。{wait}
+				} {
+					#14807F超越《贝奈特特制》的
+					最顶极面包……！{wait}
+				}
+				TextWait
+		elif flag[2568]:
 			TextTalk self {
-				#14800F欢迎光临，
-				这里有刚出炉的面包喔！{wait}
+				#14815F我做的面包
+				卖得不如奥斯卡的
+				面包好……！？{wait}
 			} {
-				#14806F……不过几乎都是奥斯卡做的面包，
-				实在让我很不甘心。{wait}
-			} {
-				#14807F臭奥斯卡，终有一天
-				我会赢过你的……！{wait}
+				#14813F唔唔唔，明天一定要赢……！{wait}
 			}
 			TextWait
-			FlagSet flag[2]
-		else:
+		elif flag[2564]:
+			if !flag[2]:
+				TextTalk self {
+					#14801F奥斯卡上次
+					好像收到什么奇怪的信。{wait}
+				} {
+					#14814F难道说，
+					那就是情书吗……？{wait}
+				} {
+					#14815F只不过是做面包技巧
+					比我好那么一点点，
+					就自以为了不起！{wait}
+				}
+				TextWait
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14815F竟然写情书
+					给奥斯卡，
+					她到底是什么人……！？{wait}
+				} {
+					#14813F……啊，咦？不对不对。
+					竟、竟然还收到情书，
+					臭奥斯卡……！{wait}
+				}
+				TextWait
+		elif flag[2560]:
 			TextTalk self {
-				#14803F臭奥斯卡，
-				不过那是他的实力，没办法……{wait}
+				#14813F（揉揉揉、揉揉揉）{wait}
 			} {
-				#14807F你给我记住，我绝对
-				会赢过你的……！{wait}
+				#14813F嘀咕嘀咕……
+				我一定不会
+				输给奥斯卡……！{wait}
 			}
 			TextWait
+		elif flag[2369]:
+			if QuestFlagsGet quest[107] 0x02 && flag[2451]:
+				if !QuestFlagsGet quest[107] 0x10:
+					TextTalk char[2] {
+						#14800F雨伞的事交给你们了。
+						这孩子就由我来照顾。{wait}
+					}
+					TextWait
+				elif !flag[8]:
+					Call fn[0,16]
+					FlagSet flag[8]
+				else:
+					TextTalk char[2] {
+						#14806F真是的，找人麻烦……{wait}
+					}
+					TextWait
+				TextEnd self
+				Return
+			TextTalk char[2] {
+				#14802F好啦，别哭了。{wait}
+			} {
+				#14809F一定会找到的，好吧？{wait}
+			}
+			TextWait
+		elif flag[2353]:
+			if !flag[2]:
+				TextTalk self {
+					#14800F欢迎光临，
+					这里有刚出炉的面包喔！{wait}
+				} {
+					#14806F……不过几乎都是奥斯卡做的面包，
+					实在让我很不甘心。{wait}
+				} {
+					#14807F臭奥斯卡，终有一天
+					我会赢过你的……！{wait}
+				}
+				TextWait
+				FlagSet flag[2]
+			else:
+				TextTalk self {
+					#14803F臭奥斯卡，
+					不过那是他的实力，没办法……{wait}
+				} {
+					#14807F你给我记住，我绝对
+					会赢过你的……！{wait}
+				}
+				TextWait
 	TextEnd self
 	Return
 

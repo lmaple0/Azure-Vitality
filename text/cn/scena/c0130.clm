@@ -28,7 +28,7 @@ chip[1] "chr/ch08202.itc"
 chip[2] "chr/ch02707.itc"
 
 npc char[0]:
-	name "壥壥"
+	name "琪雅"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -39,7 +39,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "琪雅"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -50,7 +50,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "赛特"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0195
@@ -61,7 +61,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "SE壥壥"
+	name "SE控制"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C5

@@ -41,7 +41,7 @@ chip[12] "chr/ch48900.itc"
 chip[13] "chr/ch30000.itc"
 
 npc char[0]:
-	name "壥壥壥"
+	name "宝莉榭"
 	pos (380, 1770, 28050)
 	angle 315deg
 	flags 0x0105
@@ -52,7 +52,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "塔普"
 	pos (1830, 1770, 27900)
 	angle 315deg
 	flags 0x0105
@@ -63,7 +63,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "特裘"
 	pos (15440, 0, 10340)
 	angle 45deg
 	flags 0x0105
@@ -74,7 +74,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥壥壥"
+	name "揽客人员皮姆"
 	pos (4360, 0, -10960)
 	angle 310deg
 	flags 0x0105
@@ -85,7 +85,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥"
+	name "苏菲尤"
 	pos (-10750, 1760, 24470)
 	angle 175deg
 	flags 0x0105
@@ -96,7 +96,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥"
+	name "拉曼妲"
 	pos (-50000, 10, 12070)
 	angle 220deg
 	flags 0x0101
@@ -107,7 +107,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥"
+	name "兔女郎"
 	pos (-22050, 0, 12490)
 	angle 175deg
 	flags 0x0105
@@ -118,7 +118,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥"
+	name "观光客"
 	pos (-1840, 1990, 19210)
 	angle 0deg
 	flags 0x0181
@@ -129,7 +129,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "观光客"
 	pos (-3240, 1990, 19010)
 	angle 0deg
 	flags 0x0181
@@ -140,7 +140,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥壥"
+	name "凯特巡警"
 	pos (13630, 0, 1000)
 	angle 270deg
 	flags 0x0185
@@ -151,7 +151,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥"
+	name "警官"
 	pos (-10570, 1760, 15760)
 	angle 180deg
 	flags 0x0185
@@ -162,7 +162,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥"
+	name "警车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -173,7 +173,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥"
+	name "玛莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -184,7 +184,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥"
+	name "车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -195,7 +195,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥壥壥壥"
+	name "黑色运输车"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4
@@ -247,97 +247,97 @@ trigger[0]:
 	unk6 0
 
 label[0]:
-	name "壥壥壥壥"
+	name "中央广场"
 	pos (90600.0, 0.0, -111890.0)
 	unk1 0
 	unk2 0
 
 label[1]:
-	name "壥壥壥壥"
+	name "西侧大道"
 	pos (-19210.0, 0.0, -104380.0)
 	unk1 0
 	unk2 0
 
 label[2]:
-	name "壥壥壥"
+	name "行政区"
 	pos (135690.0, 0.0, 36740.0)
 	unk1 0
 	unk2 0
 
 label[3]:
-	name "壥壥壥"
+	name "住宅区"
 	pos (-121080.0, 0.0, 20040.0)
 	unk1 0
 	unk2 0
 
 label[4]:
-	name "壥壥壥"
+	name "欢乐街"
 	pos (840.0, 0.0, 6680.0)
 	unk1 0
 	unk2 0
 
 label[5]:
-	name "壥壥壥壥"
+	name "东侧大道"
 	pos (226290.0, 0.0, -150300.0)
 	unk1 0
 	unk2 0
 
 label[6]:
-	name "壥壥壥"
+	name "旧市街"
 	pos (285570.0, 0.0, -242150.0)
 	unk1 0
 	unk2 0
 
 label[7]:
-	name "壥壥壥"
+	name "港湾区"
 	pos (273050.0, 0.0, -40080.0)
 	unk1 0
 	unk2 0
 
 label[8]:
-	name "壥壥壥"
+	name "ＩＢＣ"
 	pos (229630.0, 0.0, 116900.0)
 	unk1 0
 	unk2 0
 
 label[9]:
-	name "壥壥壥壥"
+	name "站前大道"
 	pos (109390.0, 0.0, -227120.0)
 	unk1 0
 	unk2 0
 
 label[10]:
-	name "壥壥"
+	name "小巷"
 	pos (30900.0, 0.0, -53440.0)
 	unk1 0
 	unk2 0
 
 label[11]:
-	name "壥壥壥壥壥壥"
+	name "乌尔斯拉小径"
 	pos (104380.0, 0.0, -278890.0)
 	unk1 0
 	unk2 0
 
 label[12]:
-	name "壥壥壥壥壥壥壥壥"
+	name "东克洛斯贝尔街道"
 	pos (316470.0, 0.0, -126920.0)
 	unk1 0
 	unk2 0
 
 label[13]:
-	name "壥壥壥壥壥壥壥壥"
+	name "西克洛斯贝尔街道"
 	pos (-104380.0, 0.0, -106880.0)
 	unk1 0
 	unk2 0
 
 label[14]:
-	name "壥壥壥壥壥"
+	name "玛因兹山道"
 	pos (-94360.0, 0.0, 60120.0)
 	unk1 0
 	unk2 0
 
 label[15]:
-	name "壥壥壥"
+	name "兰花塔"
 	pos (124000.0, 0.0, 255000.0)
 	unk1 0
 	unk2 0
@@ -425,6 +425,10 @@ label[29]:
 	pos (232970.0, 0.0, -270540.0)
 	unk1 0
 	unk2 83
+
+anim[0] 1488ms
+
+sepith[0] 0 0 0 0 0 0 0 0
 
 fn[0]:
 	switch random % 8:
@@ -731,11 +735,11 @@ fn[7]:
 		Emote self 0mm 2000mm 38 38 250ms 1
 		Sleep 1000ms
 		TextTalk self {
-			哎呀呀，是罗伊德你们……{wait}
+			#15205F哎呀呀，是罗伊德你们……{wait}
 		}
 		TextWait
 		TextTalk self {
-			我是有听到传闻了，
+			#15200F我是有听到传闻了，
 			看来特务支援课真的重新开始活动啦。{wait}
 		}
 		TextWait
@@ -754,19 +758,19 @@ fn[7]:
 		}
 		TextWait
 		TextTalk self {
-			嗯，其实我最近
+			#15203F嗯，其实我最近
 			盯上了一辆导力车，
 			目前正在这里进行监视。{wait}
 		}
 		TextWait
 		TextTalk self {
-			先不说这个了，
+			#15202F先不说这个了，
 			我可是越来越期待
 			你们的表现了喔。{wait}
 		}
 		TextWait
 		TextTalk self {
-			以后我们彼此
+			#15209F以后我们彼此
 			都要好好努力！{wait}
 		}
 		TextWait
@@ -777,12 +781,12 @@ fn[7]:
 		FlagSet flag[2548]
 	else:
 		TextTalk self {
-			呵呵，我是有听到传闻了，
+			#15202F呵呵，我是有听到传闻了，
 			看来特务支援课真的重新开始活动啦。{wait}
 		}
 		TextWait
 		TextTalk self {
-			以后我们彼此
+			#15209F以后我们彼此
 			都要好好努力！{wait}
 		}
 		TextWait
@@ -3461,18 +3465,18 @@ fn[34]:
 		}
 		TextWait
 		TextTalk char[9] {
-			好的，
+			#15200F好的，
 			我马上开始说明。{wait}
 		}
 		TextWait
 		TextTalk char[9] {
-			最近危险驾驶的车辆……
+			#15203F最近危险驾驶的车辆……
 			也就是所谓的『狂飙车辆』，
 			在市内四处横冲直撞。{wait}
 		}
 		TextWait
 		TextTalk char[9] {
-			驾驶者似乎很享受
+			#15201F驾驶者似乎很享受
 			差点撞到人或物的刺激感，
 			许多民众不堪其扰，对我们陈情。{wait}
 		}
@@ -3496,29 +3500,29 @@ fn[34]:
 		}
 		TextWait
 		TextTalk char[9] {
-			嗯，这个问题我们公共安全课
+			#15203F嗯，这个问题我们公共安全课
 			也很希望尽早解决。{wait}
 		}
 		TextWait
 		TextTalk char[9] {
-			因此，
+			#15201F因此，
 			我想请你们支援课
 			来帮忙取缔那台狂飙车辆。{wait}
 		}
 		TextWait
 		TextTalk char[9] {
-			可以麻烦你们帮这个忙吗？{wait}
+			#15200F可以麻烦你们帮这个忙吗？{wait}
 		}
 		TextWait
 	else:
 		TextTalk char[9] {
-			我希望
+			#15201F我希望
 			你们支援课能帮忙
 			取缔那台狂飙车辆。{wait}
 		}
 		TextWait
 		TextTalk char[9] {
-			可以麻烦你们帮这个忙吗？{wait}
+			#15200F可以麻烦你们帮这个忙吗？{wait}
 		}
 		TextWait
 	Call fn[0,35]
@@ -3552,12 +3556,12 @@ fn[35]:
 		}
 		TextWait
 		TextTalk char[9] {
-			嗯，这样啊。
+			#15203F嗯，这样啊。
 			毕竟你们也有自己的工作嘛。{wait}
 		}
 		TextWait
 		TextTalk char[9] {
-			谢谢你们愿意听我说。
+			#15200F谢谢你们愿意听我说。
 			我先想办法用我们
 			自己的人手解决看看好了。{wait}
 		}
@@ -3577,7 +3581,7 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		谢谢你们，真是太感谢了！{wait}
+		#15209F谢谢你们，真是太感谢了！{wait}
 	}
 	TextWait
 	FadeOut 300ms 0x00000000 100
@@ -3595,27 +3599,27 @@ fn[36]:
 	TextSetPos -1 280 60 3
 	QuestFlagsSet quest[105] 0x02
 	TextTalk char[9] {
-		嗯哼，那我先说明一下
+		#15203F嗯哼，那我先说明一下
 		犯人的相关情报。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		那台狂飙车辆的驾驶者
+		#15201F那台狂飙车辆的驾驶者
 		据信是来自共和国的三个年轻人……{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		是最近才开始有人
+		#15203F是最近才开始有人
 		在克洛斯贝尔市内目击到他们的。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		他们以港湾区的公园为据点，
+		#15201F他们以港湾区的公园为据点，
 		平时横行整个自治州内。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		最近似乎甚至连玛因兹山道
+		#15201F最近似乎甚至连玛因兹山道
 		也被纳入他们的行车路线了。{wait}
 	}
 	TextWait
@@ -3642,18 +3646,18 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		嗯，可惜事情
+		#15201F嗯，可惜事情
 		没办法这么顺利解决。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		要是把他们逼入绝境，
+		#15203F要是把他们逼入绝境，
 		他们肯定会急得跳脚，
 		拼命想办法突围吧。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		这样反而会逼得他们开始硬闯，
+		#15201F这样反而会逼得他们开始硬闯，
 		若引起车祸
 		那也绝不是我们乐见的。{wait}
 	}
@@ -3666,12 +3670,12 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		所以，我希望你们能
+		#15203F所以，我希望你们能
 		帮忙想想办法。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		既不会造成市民困扰，
+		#15201F既不会造成市民困扰，
 		又能顺利逮到狂飙车辆的办法……
 		希望你们能一起集思广益。{wait}
 	}
@@ -3716,13 +3720,13 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		嗯，那当然。
+		#15201F嗯，那当然。
 		我希望能尽量不要
 		影响到市民。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		以此为前提的话，应该多少能
+		#15201F以此为前提的话，应该多少能
 		筛选出一些可行『方法』……
 		大家有什么好点子吗？{wait}
 	}
@@ -3816,7 +3820,7 @@ fn[36]:
 		}
 		TextWait
 	TextTalk char[9] {
-		原来如此……
+		#15202F原来如此……
 		用这个方法，应该就能
 		安全地让狂飙车辆停下来！{wait}
 	}
@@ -3852,11 +3856,11 @@ fn[36]:
 	Emote char[9] 0mm 2000mm 38 38 250ms 1
 	Sleep 1000ms
 	TextTalk char[9] {
-		嗯，这主意不错！{wait}
+		#15209F嗯，这主意不错！{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		用这个方法，
+		#15202F用这个方法，
 		就可以在任何地方制造死路！{wait}
 	}
 	TextWait
@@ -3875,17 +3879,17 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		嗯，我们当然都掌握清楚了。{wait}
+		#15200F嗯，我们当然都掌握清楚了。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		狂飙车辆有在走的路线
+		#15204F狂飙车辆有在走的路线
 		基本上似乎环绕
 		克洛斯贝尔市一大圈。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		欢乐街→行政区→港湾区→
+		#15200F欢乐街→行政区→港湾区→
 		东侧大道→中央广场→小巷……
 		然后再回到欢乐街，差不多是这样。{wait}
 	}
@@ -3897,13 +3901,13 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		选个人潮比较少，
+		#15204F选个人潮比较少，
 		不容易影响市民的
 		地方应该比较理想。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		狂飙车辆的行驶路线上，
+		#15200F狂飙车辆的行驶路线上，
 		有没有这样的地点呢？{wait}
 	}
 	TextWait
@@ -3970,17 +3974,17 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		再加上警察总部就在附近，
+		#15204F再加上警察总部就在附近，
 		用来执行计划简直再适合不过了！{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		……嗯，这样安排
+		#15202F……嗯，这样安排
 		感觉应该可行！{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		呵呵！真不愧是特务支援课！
+		#15209F呵呵！真不愧是特务支援课！
 		一下子就把计划拟定好了。{wait}
 	}
 	TextWait
@@ -3989,19 +3993,19 @@ fn[36]:
 	}
 	TextWait
 	TextTalk char[9] {
-		最后要考虑的就是，
+		#15204F最后要考虑的就是，
 		要把狂飙车辆引进死路，
 		应该还需要几台警车。{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		好！那我这就去转告
+		#15202F好！那我这就去转告
 		公共安全课的警员们，
 		马上开始执行计划吧！{wait}
 	}
 	TextWait
 	TextTalk char[9] {
-		罗伊德，就麻烦你们
+		#15209F罗伊德，就麻烦你们
 		去准备路障了！{wait}
 	}
 	TextWait

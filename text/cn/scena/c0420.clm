@@ -46,7 +46,7 @@ chip[19] "chr/ch21900.itc"
 chip[20] "chr/ch10100.itc"
 
 npc char[0]:
-	name "壥壥壥"
+	name "伊莉雅"
 	pos (0, 0, 15550)
 	angle 180deg
 	flags 0x0105
@@ -57,7 +57,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥"
+	name "莉夏"
 	pos (1000, 0, 13820)
 	angle 0deg
 	flags 0x0105
@@ -68,7 +68,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥"
+	name "修莉"
 	pos (-1000, 0, 13820)
 	angle 0deg
 	flags 0x0105
@@ -79,7 +79,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥壥"
+	name "亚班剧团长"
 	pos (-1880, 10, 15240)
 	angle 135deg
 	flags 0x0105
@@ -90,7 +90,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "汉斯"
 	pos (-66490, 0, 7330)
 	angle 0deg
 	flags 0x0105
@@ -101,7 +101,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥"
+	name "尤金"
 	pos (64750, 0, 3480)
 	angle 135deg
 	flags 0x0185
@@ -112,7 +112,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥壥壥"
+	name "缇奥多尔"
 	pos (-2550, 1250, 19700)
 	angle 0deg
 	flags 0x0185
@@ -123,7 +123,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥"
+	name "尼可"
 	pos (64750, 0, 3480)
 	angle 135deg
 	flags 0x0105
@@ -134,7 +134,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "普莉耶"
 	pos (2250, 0, 14750)
 	angle 270deg
 	flags 0x0185
@@ -145,7 +145,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥"
+	name "瑟蕾奴"
 	pos (-68130, 0, 2140)
 	angle 270deg
 	flags 0x0185
@@ -156,7 +156,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥壥壥"
+	name "卡蕾莉亚"
 	pos (-123800, 0, -2290)
 	angle 180deg
 	flags 0x0105
@@ -167,7 +167,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥"
+	name "玛莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -178,7 +178,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥"
+	name "艾莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -189,7 +189,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "瓦奇"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -200,7 +200,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥"
+	name "吊灯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x00C4

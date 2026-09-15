@@ -50,7 +50,7 @@ chip[23] "chr/ch14100.itc"
 chip[24] "chr/ch37000.itc"
 
 npc char[0]:
-	name "壥壥壥壥"
+	name "卡蕾莉亚"
 	pos (-123800, 0, -2290)
 	angle 180deg
 	flags 0x0105
@@ -61,7 +61,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥壥"
+	name "巴尔萨摩总管"
 	pos (-2250, 2500, 15000)
 	angle 180deg
 	flags 0x0105
@@ -72,7 +72,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥壥"
+	name "接待员罗兰多"
 	pos (6970, 0, 3480)
 	angle 270deg
 	flags 0x0105
@@ -83,7 +83,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥壥"
+	name "亚邦剧团长"
 	pos (-42090, 5600, 102570)
 	angle 135deg
 	flags 0x0185
@@ -94,7 +94,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥"
+	name "尤金"
 	pos (-125210, 0, -480)
 	angle 270deg
 	flags 0x0105
@@ -105,7 +105,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥壥"
+	name "缇奥多尔"
 	pos (-87310, 0, -1980)
 	angle 90deg
 	flags 0x0105
@@ -116,7 +116,7 @@ npc char[5]:
 	unk4 255
 
 npc char[6]:
-	name "壥壥"
+	name "尼可"
 	pos (-49940, 0, 13040)
 	angle 90deg
 	flags 0x0185
@@ -127,7 +127,7 @@ npc char[6]:
 	unk4 255
 
 npc char[7]:
-	name "壥壥壥"
+	name "普莉耶"
 	pos (-93360, 0, -2000)
 	angle 180deg
 	flags 0x0105
@@ -138,7 +138,7 @@ npc char[7]:
 	unk4 255
 
 npc char[8]:
-	name "壥壥壥"
+	name "瑟蕾奴"
 	pos (-125250, 0, -460)
 	angle 270deg
 	flags 0x0105
@@ -149,7 +149,7 @@ npc char[8]:
 	unk4 255
 
 npc char[9]:
-	name "壥壥壥壥壥壥"
+	name "记者诺蒂西亚"
 	pos (-3920, 0, -650)
 	angle 0deg
 	flags 0x0185
@@ -160,7 +160,7 @@ npc char[9]:
 	unk4 255
 
 npc char[10]:
-	name "壥壥"
+	name "修莉"
 	pos (-122160, 0, 1000)
 	angle 270deg
 	flags 0x0185
@@ -171,7 +171,7 @@ npc char[10]:
 	unk4 255
 
 npc char[11]:
-	name "壥壥壥"
+	name "伊莉雅"
 	pos (-87540, 50, -30)
 	angle 90deg
 	flags 0x0185
@@ -182,7 +182,7 @@ npc char[11]:
 	unk4 255
 
 npc char[12]:
-	name "壥壥"
+	name "玛莉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -193,7 +193,7 @@ npc char[12]:
 	unk4 255
 
 npc char[13]:
-	name "壥壥"
+	name "莉夏"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -204,7 +204,7 @@ npc char[13]:
 	unk4 255
 
 npc char[14]:
-	name "壥壥"
+	name "汉斯"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5

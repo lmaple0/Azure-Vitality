@@ -28,7 +28,7 @@ chip[1] "chr/ch05702.itc"
 chip[2] "chr/ch41400.itc"
 
 npc char[0]:
-	name "壥壥壥壥壥"
+	name "米蕾优准尉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -39,7 +39,7 @@ npc char[0]:
 	unk4 255
 
 npc char[1]:
-	name "壥壥壥壥壥"
+	name "米蕾优三尉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x0185
@@ -50,7 +50,7 @@ npc char[1]:
 	unk4 255
 
 npc char[2]:
-	name "壥壥壥壥壥"
+	name "索妮亚司令"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -61,7 +61,7 @@ npc char[2]:
 	unk4 255
 
 npc char[3]:
-	name "壥壥壥壥壥"
+	name "士兵罗梅奥"
 	pos (-250, 0, 1410)
 	angle 0deg
 	flags 0x0185
@@ -72,7 +72,7 @@ npc char[3]:
 	unk4 255
 
 npc char[4]:
-	name "壥壥壥壥壥"
+	name "诺艾儿少尉"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -83,7 +83,7 @@ npc char[4]:
 	unk4 255
 
 npc char[5]:
-	name "壥壥壥壥壥壥壥"
+	name "道格拉斯副司令"
 	pos (0, 0, 0)
 	angle 0deg
 	flags 0x01C5
@@ -122,6 +122,10 @@ look_point[2]:
 	function fn[0,7]
 	unk3 0
 	unk4 0
+
+anim[0] 496ms
+
+sepith[0] 0 0 0 0 0 0 0 0
 
 fn[0]:
 	switch random % 8:
