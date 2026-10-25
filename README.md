@@ -4,7 +4,7 @@
 
 本 Fork 在上游 [Kyuuhachi/Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) 的基础上，加入 NISA PC 版《碧之轨迹》简体中文构建路径，用于兼容 zeroTool 汉化及其汉化版 More Portraits。
 
-最新中文兼容测试版为 [v0.2.0-rc1 Pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.2.0-rc1)，基于 NISA Steam 1.2.5（build 24743041）、zeroTool 碧轨汉化 1.8 与 More Portraits in Azure 1.5.0 刷新。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
+最新中文兼容测试版为 [v0.2.1-rc1 Pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.2.1-rc1)，基于 NISA Steam 1.2.5（build 24743041）、zeroTool 碧轨汉化 1.8 与 More Portraits in Azure 1.5.0。此版补齐新增任务中的 19 处头像表情调用；[更新说明](RELEASE_NOTES_v0.2.1-rc1.md)。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
 
 ## 覆盖任务
 
@@ -47,6 +47,8 @@ data_cn/text
 
 ## 当前状态
 
+- v0.2.1-rc1 在 `c0210.clm` 补齐奥斯卡、贝奈特的 15 处表情，在 `c120d_1.clm` 补齐罗伊德、诺艾尔玩偶装扮的 4 处表情。
+- 两个改动场景均通过编译、反编译一致性和字节往返校验；正文、任务逻辑与原有头像不变。本次修正后的 `.clm` 是头像修正版的源码复现路径。
 - 35 个任务相关脚本已从当前本机汉化与 More Portraits 1.5.0 基线重新合并，并可由 AoKai 解析器读取。
 - 35 个中文 `.clm` 已使用 Kreuzen 的显式 `--enc gbk --legacy-layout themelios`
   完成编译、反编译、重编译，35/35 个输出字节一致；不会自动猜测或切换编码和布局。

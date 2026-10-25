@@ -4690,7 +4690,7 @@ fn[31]:
 	FadeIn 1000ms 0x00000000
 	FadeWait
 	TextTalk char[2] {
-		……唱歌来招揽客人？
+		#14802F……唱歌来招揽客人？
 		我是觉得还不错啦……{wait}
 	}
 	TextWait
@@ -5158,11 +5158,11 @@ fn[33]:
 	}
 	TextWait
 	TextTalk char[0] {
-		嗨，罗伊德。{wait}
+		#14700F嗨，罗伊德。{wait}
 	}
 	TextWait
 	TextTalk char[2] {
-		欢迎光临。{wait}
+		#14800F欢迎光临。{wait}
 	}
 	TextWait
 	TextTalk name[0] {
@@ -5170,7 +5170,7 @@ fn[33]:
 	}
 	TextWait
 	TextTalk char[0] {
-		你还带着几位生面孔呢。{wait}
+		#14702F你还带着几位生面孔呢。{wait}
 	}
 	TextWait
 	TextTalk name[0] {
@@ -5179,24 +5179,24 @@ fn[33]:
 	}
 	TextWait
 	TextTalk char[0] {
-		哦，原来是外国人啊？
+		#14702F哦，原来是外国人啊？
 		街上也有许多观光客呢。{wait}
 	}
 	TextWait
 	TextTalk char[2] {
-		……不知道外国流行的
+		#14804F……不知道外国流行的
 		是什么样的面包？{wait}
 	}
 	TextWait
 	TextTalk char[0] {
-		哦！这的确有机会成为
+		#14705F哦！这的确有机会成为
 		新面包的点子呢。{wait}
 	}
 	TextWait
 	CharTurnToChar char[0] char[10] 500deg/s
 	Sleep 500ms
 	TextTalk char[0] {
-		可以打扰一下吗？{wait}
+		#14700F可以打扰一下吗？{wait}
 	}
 	TextWait
 	Emote char[9] 0mm 2000mm 38 38 250ms 1
@@ -5208,7 +5208,7 @@ fn[33]:
 	}
 	TextWait
 	TextTalk char[0] {
-		#2P你方便告诉我，
+		#14702F#2P你方便告诉我，
 		你们国家那里
 		流行什么样的面包吗？{wait}
 	}
@@ -5227,20 +5227,20 @@ fn[33]:
 	}
 	TextWait
 	TextTalk char[0] {
-		苦番茄吗……{wait}
+		#14705F苦番茄吗……{wait}
 	}
 	TextWait
 	CharTurnToChar char[2] char[0] 500deg/s
 	Sleep 500ms
 	TextTalk char[2] {
-		把它特殊的风味
+		#14802F把它特殊的风味
 		用在调理面包上不知道怎么样？{wait}
 	}
 	TextWait
 	CharTurnToChar char[0] char[2] 500deg/s
 	Sleep 500ms
 	TextTalk char[0] {
-		#2P撒上砂糖，
+		#14704F#2P撒上砂糖，
 		做成类似蔬菜蛋糕的口味，
 		说不定挺不错的。{wait}
 	}
@@ -5248,7 +5248,7 @@ fn[33]:
 	Emote char[2] 0mm 2000mm 24 27 250ms 1
 	Sleep 2500ms
 	TextTalk char[2] {
-		#5S……我不会输的。#3S{wait}
+		#14803F#5S……我不会输的。#3S{wait}
 	}
 	TextWait
 	Emote char[0] 0mm 2000mm 0 1 250ms 2
@@ -5257,7 +5257,7 @@ fn[33]:
 	CharTurnToChar char[0] char[10] 500deg/s
 	Sleep 500ms
 	TextTalk char[0] {
-		谢谢你了，这位客人。
+		#14709F谢谢你了，这位客人。
 		你的建议挺有意思的哦。{wait}
 	}
 	TextWait
@@ -5271,7 +5271,7 @@ fn[33]:
 	CharTurnTo char[2] 180deg 500deg/s
 	Sleep 1000ms
 	TextTalk char[0] {
-		#2P对了……
+		#14702F#2P对了……
 		客人，有没有人说你
 		长得很像什么人？{wait}
 	}

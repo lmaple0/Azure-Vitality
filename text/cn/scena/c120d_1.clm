@@ -361,7 +361,7 @@ fn[2]:
 	SoundPlay sound[612] 0 100 0
 	CharJump name[0] 0 0 0 400 2000mm/s
 	TextTalk name[0] {
-		{color 10}咪嘻嘻！因为我
+		#05204F{color 10}咪嘻嘻！因为我
 		很想跟大家见面，
 		就从游乐园里跑出来了！{wait}
 	}
@@ -399,7 +399,7 @@ fn[2]:
 	_Char91 name[2] -800 0 -500 2000 0
 	CharSetChipPattern name[2] 0
 	TextTalk name[2] {
-		{color 21}来，给你饼干☆{wait}
+		#05529F{color 21}来，给你饼干☆{wait}
 	}
 	TextWait
 	SoundPlay sound[822] 0 100 0
@@ -426,7 +426,7 @@ fn[2]:
 	EmoteStop char[20]
 	CharTurnToChar char[20] name[0] 500deg/s
 	TextTalk name[0] {
-		{color 10}锵～！
+		#05204F{color 10}锵～！
 		也给你饼干☆{wait}
 	}
 	TextWait
@@ -1196,7 +1196,7 @@ fn[2]:
 	ForkFunc name[0] fork[0] fn[1,5]
 	ForkFunc name[2] fork[0] fn[1,5]
 	TextTalk name[0] {
-		{color 10}#4SＥＮＪＯＹ咪西☆{color 0}{wait}
+		#05204F{color 10}#4SＥＮＪＯＹ咪西☆{color 0}{wait}
 	}
 	TextWait
 	BgmStop 4000ms
