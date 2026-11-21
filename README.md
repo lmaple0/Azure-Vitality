@@ -4,7 +4,7 @@
 
 本 Fork 在上游 [Kyuuhachi/Azure-Vitality](https://github.com/Kyuuhachi/Azure-Vitality) 的基础上，加入 NISA PC 版《碧之轨迹》简体中文构建路径，用于兼容 zeroTool 汉化及其汉化版 More Portraits。
 
-最新中文兼容测试版为 [v0.2.1-rc1 Pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.2.1-rc1)，基于 NISA Steam 1.2.5（build 24743041）、zeroTool 碧轨汉化 1.8 与 More Portraits in Azure 1.5.0。此版补齐新增任务中的 19 处头像表情调用；[更新说明](RELEASE_NOTES_v0.2.1-rc1.md)。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
+最新中文兼容测试版为 [v0.2.1-rc2 Pre-release](https://github.com/lmaple0/Azure-Vitality/releases/tag/v0.2.1-rc2)，基于 NISA Steam 1.2.5（build 24743041）、zeroTool 碧轨汉化 1.8 与 More Portraits in Azure 1.5.0。此版补齐新增任务中的 19 处头像表情调用；[更新说明](RELEASE_NOTES_v0.2.1-rc2.md)。仓库公开内容限于本 MOD 涉及的任务记录、完整合并脚本和构建所需映射，不是整个游戏的数据镜像。
 
 ## 覆盖任务
 
